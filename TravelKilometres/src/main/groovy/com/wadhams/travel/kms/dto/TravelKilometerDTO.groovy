@@ -7,7 +7,7 @@ import groovy.transform.ToString
 class TravelKilometerDTO {
 	Activity activity
 	
-	Date transactionDate
+	Date activityDate
 	BigDecimal odometer
 	
 	//Fuel

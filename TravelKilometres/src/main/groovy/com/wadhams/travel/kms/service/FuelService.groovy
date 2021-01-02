@@ -12,8 +12,8 @@ class FuelService {
 		List<TravelKilometerDTO> tkList = []
 		
 		File fuelFile = new File('C:/Mongo/TravelKilometres_XML_Data/Fuel.xml')
-		def financials = new XmlSlurper().parse(fuelFile)
-		def transactions = financials.data
+		def fuel = new XmlSlurper().parse(fuelFile)
+		def transactions = fuel.data
 
 		TravelKilometerDTO dto = build(transactions[0])
 		dto.activity = Activity.InitialFuel
@@ -34,10 +34,10 @@ class FuelService {
 	TravelKilometerDTO build(txn) {
 			TravelKilometerDTO dto = new TravelKilometerDTO()
 			
-			//transactionDate
+			//activityDate
 			Date d = sdf.parse(txn.dt.text())
 //			println d
-			dto.transactionDate = d
+			dto.activityDate = d
 			
 			//odometer
 			BigDecimal odometer = new BigDecimal(txn.odometer.text())

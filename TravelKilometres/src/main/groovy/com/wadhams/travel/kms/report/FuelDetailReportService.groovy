@@ -33,7 +33,7 @@ class FuelDetailReportService {
 		nf3.setMaximumFractionDigits(3)
 
 		TravelKilometerDTO previousDTO = tkList[0]
-		pw.println "${sdf.format(previousDTO.transactionDate)}  Starting Odometer: ${nf.format(previousDTO.odometer)}"
+		pw.println "${sdf.format(previousDTO.activityDate)}  Starting Odometer: ${nf.format(previousDTO.odometer)}"
 		pw.println ''
 		
 		pw.println "                       Dollars                         Litres"
@@ -46,7 +46,7 @@ class FuelDetailReportService {
 			totalKms = totalKms.add(kilometres)
 			totalLitres = totalLitres.add(dto.litres)
 			
-			String s1 = sdf.format(dto.transactionDate).padRight(13, ' ')
+			String s1 = sdf.format(dto.activityDate).padRight(13, ' ')
 			
 			String s2 = nf.format(dto.odometer).padRight(10, ' ')
 			

@@ -54,9 +54,15 @@ class TravelReportService {
 			//vehicle kilometers when a previous DepartureArrivalPair exists
 			if (previous) {
 				BigDecimal vehicleOnlyKms = departure.odometer.subtract(previous.arrival.odometer)
-				pw.println "Vehicle kilometers around ${previous.arrival.location}: ${nf.format(vehicleOnlyKms)}"
-				pw.println ''
-				totalVehicleOnlyKms = totalVehicleOnlyKms.add(vehicleOnlyKms)
+				if (vehicleOnlyKms == 0) {
+					pw.println "Overnight in ${previous.arrival.location}"
+					pw.println ''
+				}
+				else {
+					pw.println "Vehicle kilometers around ${previous.arrival.location}: ${nf.format(vehicleOnlyKms)}"
+					pw.println ''
+					totalVehicleOnlyKms = totalVehicleOnlyKms.add(vehicleOnlyKms)
+				}
 			}
 			
 			BigDecimal caravanKms = arrival.odometer.subtract(departure.odometer)

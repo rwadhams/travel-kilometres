@@ -14,4 +14,7 @@ class TravelKilometerDTO {
 	BigDecimal dollarsPerLitre
 	BigDecimal litres
 	
+	//Travel
+	String location
+	String campsite
 }

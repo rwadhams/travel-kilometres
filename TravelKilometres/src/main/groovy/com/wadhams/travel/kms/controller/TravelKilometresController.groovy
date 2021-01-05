@@ -9,11 +9,11 @@ import com.wadhams.travel.kms.service.TravelService
 class TravelKilometresController {
 	
 	def execute() {
-//		FuelService fuelService = new FuelService()
-//		List<TravelKilometerDTO> fuelList = fuelService.loadFuelData()
-//		
-//		FuelDetailReportService fuelDetail = new FuelDetailReportService()
-//		fuelDetail.execute(fuelList)
+		FuelService fuelService = new FuelService()
+		List<TravelKilometerDTO> fuelList = fuelService.loadFuelData()
+		
+		FuelDetailReportService fuelDetail = new FuelDetailReportService()
+		fuelDetail.execute(fuelList)
 		
 		TravelService travelService = new TravelService()
 		List<TravelKilometerDTO> travelList = travelService.loadTravelData()

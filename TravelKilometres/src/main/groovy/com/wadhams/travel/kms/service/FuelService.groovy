@@ -17,14 +17,14 @@ class FuelService {
 
 		TravelKilometerDTO dto = build(transactions[0])
 		dto.activity = Activity.InitialFuel
-		println dto
+		//println dto
 		tkList << dto
 
 		transactions[1..-1].each {txn ->
 			//println txn
 			dto = build(txn)
 			dto.activity = Activity.FuelFillUp
-			println dto
+			//println dto
 			tkList << dto
 		}
 

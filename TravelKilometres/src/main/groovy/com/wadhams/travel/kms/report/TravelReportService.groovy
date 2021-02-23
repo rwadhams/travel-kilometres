@@ -71,8 +71,8 @@ class TravelReportService {
 			}
 			
 			BigDecimal caravanKms = arrival.odometer.subtract(departure.odometer)
-			String departureLocation = departure.location.padRight(maxDepartureLocationSize, ' ')
-			String arrivalLocation = arrival.location.padRight(maxArrivalLocationSize, ' ')
+			String departureLocation = departure.location.padRight(maxDepartureLocationSize+2, ' ')
+			String arrivalLocation = arrival.location.padRight(maxArrivalLocationSize+2, ' ')
 			pw.println "${sdf.format(departure.activityDate)}  $departureLocation$arrivalLocation  ${nf.format(departure.odometer).padLeft(9, ' ')}   ${nf.format(arrival.odometer).padLeft(9, ' ')}   ${nf.format(caravanKms).padLeft(7, ' ')}   ${arrival.campsite}"
 			
 			totalCaravanKms = totalCaravanKms.add(caravanKms)

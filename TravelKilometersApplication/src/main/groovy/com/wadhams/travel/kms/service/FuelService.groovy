@@ -11,7 +11,7 @@ class FuelService {
 	List<TravelKilometerDTO> loadFuelData() {
 		List<TravelKilometerDTO> tkList = []
 		
-		File fuelFile = new File('C:/Mongo/TravelKilometres_XML_Data/Fuel.xml')
+		File fuelFile = new File('Fuel.xml')
 		def fuel = new XmlSlurper().parse(fuelFile)
 		def transactions = fuel.data
 

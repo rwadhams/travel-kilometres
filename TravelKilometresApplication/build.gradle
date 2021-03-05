@@ -26,3 +26,8 @@ application {
     // Define the main class for the application.
     mainClassName = 'com.wadhams.travel.kms.app.TravelKilometresApp'
 }
+
+applicationDistribution.from("bat") {
+	into "$executableDir"
+	include "*.bat"
+}

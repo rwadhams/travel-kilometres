@@ -7,6 +7,7 @@ import com.wadhams.travel.kms.report.TravelReportService
 import com.wadhams.travel.kms.service.FuelEconomyService
 import com.wadhams.travel.kms.service.FuelService
 import com.wadhams.travel.kms.service.TravelService
+import com.wadhams.travel.kms.dto.DepartureArrivalPair
 
 class FuelEconomyController {
 	
@@ -20,34 +21,42 @@ class FuelEconomyController {
 //		println ''
 		
 		FuelEconomyService feService = new FuelEconomyService()
-		List<FuelEconomyDTO> feList = feService.build(fuelList, '01/01/2021')	//include, if after this date
+		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '01/01/2021')	//include, if after this date
 //		feList.each {fe ->
 //			//println fe
 //			println "Date: ${fe.fuelStart.activityDate}\tKms: ${fe.fuelEnd.odometer.subtract(fe.fuelStart.odometer)}"
 //		}
+//		println ''
 		
 		TravelService travelService = new TravelService()
 		List<TravelKilometerDTO> travelList = travelService.loadTravelData()
 		
-		feService.augmentFuelEconomyList(feList, travelList)
-		println ''
+		List<DepartureArrivalPair> dapList = feService.buildDepartureArrivalPairList(travelList)
+		
+//		println "dapList size(): ${dapList.size()}"
+//		println ''
+		
+		
+		
+		feService.addCaravanTripsFuelEconomyList(feList, dapList)
+		feService.calculateCaravanVehicleKilometres(feList)
+		
+		List<BigDecimal> caravanLitresPerHundredList = feService.buildCaravanLitrePerHundredList()
+		
 		feList.each {fe ->
-			println "Date: ${fe.fuelStart.activityDate}\tKms: ${fe.fuelEnd.odometer.subtract(fe.fuelStart.odometer)}\tTravels: ${fe.travelList.size()}"
-			println "Start: ${fe.fuelStart.odometer}\tEnd: ${fe.fuelEnd.odometer}"
-			fe.travelList.each {t ->
-				println "\t${t.odometer}"
+			println "Date: ${fe.fuelStart.activityDate}\tKms: ${fe.fuelEnd.odometer.subtract(fe.fuelStart.odometer)}\tTravels: ${fe.dapList.size()}"
+			println "Start: ${fe.fuelStart.odometer}\tEnd: ${fe.fuelEnd.odometer}\tLitres: ${fe.fuelEnd.litres}"
+			println "Caravan Kms: ${fe.caravanKilometres}\tVehicle Kms: ${fe.vehicleKilometres}"
+			fe.dapList.each {dap ->
+				println "\tDeparted: ${dap.departure.odometer}\tArrived: ${dap.arrival.odometer}"
 			}
+			println ''
+			List<String> reportList = feService.report(fe, caravanLitresPerHundredList)
+			reportList.each {r ->
+				println "\t$r"
+			}
+			println ''
 		}
 
-		
-//		FuelDetailReportService fuelDetail = new FuelDetailReportService()
-//		fuelDetail.execute(fuelList)
-//		
-//		TravelService travelService = new TravelService()
-//		List<TravelKilometerDTO> travelList = travelService.loadTravelData()
-//		
-//		TravelReportService travel = new TravelReportService()
-//		travel.execute(travelList)
-		
 	}
 }

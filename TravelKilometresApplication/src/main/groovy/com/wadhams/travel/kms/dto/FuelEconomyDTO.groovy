@@ -7,5 +7,9 @@ class FuelEconomyDTO {
 	TravelKilometerDTO fuelStart
 	TravelKilometerDTO fuelEnd
 
-	List<TravelKilometerDTO> travelList = []
+	List<DepartureArrivalPair> dapList = []
+	
+	BigDecimal caravanKilometres = new BigDecimal(0)
+	BigDecimal vehicleKilometres = new BigDecimal(0)
+	
 }

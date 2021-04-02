@@ -21,10 +21,12 @@ class FuelEconomyController {
 //		println ''
 		
 		FuelEconomyService feService = new FuelEconomyService()
-		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '01/01/2021')	//include, if after this date
+		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '29/09/2019')	//include, if after this date
+//		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '30/06/2020')	//include, if after this date
+//		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '25/12/2020')	//include, if after this date
+//		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '01/01/2021')	//include, if after this date
 //		feList.each {fe ->
-//			//println fe
-//			println "Date: ${fe.fuelStart.activityDate}\tKms: ${fe.fuelEnd.odometer.subtract(fe.fuelStart.odometer)}"
+//			println fe
 //		}
 //		println ''
 		
@@ -37,14 +39,26 @@ class FuelEconomyController {
 //		println ''
 		
 		feService.addCaravanTripsFuelEconomyList(feList, dapList)
+		
 		feService.calculateCaravanVehicleKilometres(feList)
 		
-		List<BigDecimal> caravanLitresPerHundredList = feService.buildCaravanLitrePerHundredList()
+//		feList.each {fe ->
+//			println fe
+//		}
+//		println ''
 
 		List<String> reportList = feService.buildReport(feList)
 		reportList.each {r ->
 			println r
 		}
 
+		Map<BigDecimal, List<BigDecimal>> map = feService.buildPivotData(feList)
+		List<String> pivotList = feService.buildPivotReport(map)
+		pivotList.each {r ->
+			println r
+		}
+		
+		
+		
 	}
 }

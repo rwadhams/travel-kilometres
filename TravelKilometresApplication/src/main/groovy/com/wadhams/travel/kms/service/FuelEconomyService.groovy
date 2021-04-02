@@ -67,7 +67,7 @@ class FuelEconomyService {
 		}
 	}
 	
-	List<String> report(FuelEconomyDTO fe, List<BigDecimal> clphList) {
+/*	List<String> report(FuelEconomyDTO fe, List<BigDecimal> clphList) {
 		List<String> reportList = []
 		reportList << "Caravan\t\tVehicle"
 		reportList << "ltrs/100\tltrs/100"
@@ -81,6 +81,38 @@ class FuelEconomyService {
 			BigDecimal vlph = vehicleLitres.multiply(oneHundred).divide(fe.vehicleKilometres,2)	//vehicleLitresPerHundred
 			//reportList << "$clph\t$caravanLitres\t$vehicleLitres\t$vehicleLitresPerHundred"
 			reportList << "$clph\t\t$vlph"
+		}
+		
+		return reportList
+	}
+*/	
+	List<String> buildReport(List<FuelEconomyDTO> feList) {
+		List<String> reportList = []
+
+		List<BigDecimal> clphList = buildCaravanLitrePerHundredList()
+		
+		feList.each {fe ->
+			BigDecimal caravanHundreds = fe.caravanKilometres.divide(oneHundred)
+			//println caravanHundreds
+			
+			reportList << "${sdf.format(fe.fuelStart.activityDate)} (${fe.fuelStart.odometer}kms) - ${sdf.format(fe.fuelEnd.activityDate)} (${fe.fuelEnd.odometer}kms) - ${fe.fuelEnd.litres} litres - Caravan: ${fe.caravanKilometres}kms - Vehicle: ${fe.vehicleKilometres}kms (${fe.fuelEnd.odometer.subtract(fe.fuelStart.odometer)}kms)"
+
+			String travels = "Caravan travels: ${fe.dapList.size()}  "
+			fe.dapList.each {dap ->
+				travels += "(${dap.departure.odometer}-${dap.arrival.odometer}) "
+			}
+			reportList << travels
+
+			String fuelEconomy = "Caravan - Vehicle Fuel Economy: "	
+			clphList.each {clph ->
+				BigDecimal caravanLitres = caravanHundreds.multiply(clph)
+				BigDecimal vehicleLitres = fe.fuelEnd.litres.subtract(caravanLitres)
+				BigDecimal vlph = vehicleLitres.multiply(oneHundred).divide(fe.vehicleKilometres,2)	//vehicleLitresPerHundred
+				//reportList << "$clph\t$caravanLitres\t$vehicleLitres\t$vehicleLitresPerHundred"
+				fuelEconomy += "($clph - $vlph) "
+			}
+			reportList << fuelEconomy
+			reportList << ''
 		}
 		
 		return reportList

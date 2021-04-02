@@ -36,26 +36,14 @@ class FuelEconomyController {
 //		println "dapList size(): ${dapList.size()}"
 //		println ''
 		
-		
-		
 		feService.addCaravanTripsFuelEconomyList(feList, dapList)
 		feService.calculateCaravanVehicleKilometres(feList)
 		
 		List<BigDecimal> caravanLitresPerHundredList = feService.buildCaravanLitrePerHundredList()
-		
-		feList.each {fe ->
-			println "Date: ${fe.fuelStart.activityDate}\tKms: ${fe.fuelEnd.odometer.subtract(fe.fuelStart.odometer)}\tTravels: ${fe.dapList.size()}"
-			println "Start: ${fe.fuelStart.odometer}\tEnd: ${fe.fuelEnd.odometer}\tLitres: ${fe.fuelEnd.litres}"
-			println "Caravan Kms: ${fe.caravanKilometres}\tVehicle Kms: ${fe.vehicleKilometres}"
-			fe.dapList.each {dap ->
-				println "\tDeparted: ${dap.departure.odometer}\tArrived: ${dap.arrival.odometer}"
-			}
-			println ''
-			List<String> reportList = feService.report(fe, caravanLitresPerHundredList)
-			reportList.each {r ->
-				println "\t$r"
-			}
-			println ''
+
+		List<String> reportList = feService.buildReport(feList)
+		reportList.each {r ->
+			println r
 		}
 
 	}

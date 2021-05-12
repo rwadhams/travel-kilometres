@@ -11,7 +11,15 @@ class TravelService {
 	List<TravelKilometerDTO> loadTravelData() {
 		List<TravelKilometerDTO> tkList = []
 		
-		File travelFile = new File('Travel.xml')
+		File travelFile
+		URL resource = getClass().getClassLoader().getResource("Travel.xml")
+		if (resource == null) {
+			throw new IllegalArgumentException("file not found!")
+		} 
+		else {
+			travelFile = new File(resource.toURI())
+		}
+		
 		def travel = new XmlSlurper().parse(travelFile)
 		def transactions = travel.data
 

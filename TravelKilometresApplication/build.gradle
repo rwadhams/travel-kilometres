@@ -27,6 +27,14 @@ application {
     mainClassName = 'com.wadhams.travel.kms.app.TravelKilometresApp'
 }
 
+startScripts {
+	doLast {
+		def windowsScriptFile = file getWindowsScript()
+		//Add base directory to classpath so the Appliaction can locate file resources
+		windowsScriptFile.text = windowsScriptFile.text.replace('CLASSPATH=', 'CLASSPATH=.;')
+	}
+}
+
 applicationDistribution.from("bat") {
 	into "$executableDir"
 	include "*.bat"

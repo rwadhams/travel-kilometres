@@ -11,7 +11,15 @@ class FuelService {
 	List<TravelKilometerDTO> loadFuelData() {
 		List<TravelKilometerDTO> tkList = []
 		
-		File fuelFile = new File('Fuel.xml')
+		File fuelFile
+		URL resource = getClass().getClassLoader().getResource("Fuel.xml")
+		if (resource == null) {
+			throw new IllegalArgumentException("file not found!")
+		} 
+		else {
+			fuelFile = new File(resource.toURI())
+		}
+		
 		def fuel = new XmlSlurper().parse(fuelFile)
 		def transactions = fuel.data
 

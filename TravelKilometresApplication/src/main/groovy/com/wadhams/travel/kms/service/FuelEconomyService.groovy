@@ -133,7 +133,11 @@ class FuelEconomyService {
 		clphList << new BigDecimal(23.5)
 		clphList << new BigDecimal(24.0)
 		clphList << new BigDecimal(24.5)
-		
+		clphList << new BigDecimal(25.0)
+		clphList << new BigDecimal(25.5)
+		clphList << new BigDecimal(26.0)
+		clphList << new BigDecimal(26.5)
+
 //		clphList.each {clph ->
 //			println clph
 //		}

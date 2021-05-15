@@ -1118,4 +1118,277 @@
     <odometer>122336</odometer>
     <campsite>Old Macs Farm</campsite>
   </data>
+  <data>
+    <dt>16/03/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Launceston</location>
+    <odometer>122439</odometer>
+  </data>
+  <data>
+    <dt>16/03/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Sorell</location>
+    <odometer>122618</odometer>
+    <campsite>Sorell Council Camp Area</campsite>
+  </data>
+  <data>
+    <dt>22/03/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Sorell</location>
+    <odometer>122782</odometer>
+  </data>
+  <data>
+    <dt>22/03/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Dunalley</location>
+    <odometer>122814</odometer>
+    <campsite>Dunalley Golf Club Camp Area</campsite>
+  </data>
+  <data>
+    <dt>24/03/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Dunalley</location>
+    <odometer>123032</odometer>
+  </data>
+  <data>
+    <dt>24/03/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Triabunna</location>
+    <odometer>123121</odometer>
+    <campsite>Spring Bay Hotel Camp Area</campsite>
+  </data>
+  <data>
+    <dt>26/03/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Triabunna</location>
+    <odometer>123121</odometer>
+  </data>
+  <data>
+    <dt>26/03/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Freycinet</location>
+    <odometer>123202</odometer>
+    <campsite>Pondering Frog Camp Area</campsite>
+  </data>
+  <data>
+    <dt>27/03/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Freycinet</location>
+    <odometer>123286</odometer>
+  </data>
+  <data>
+    <dt>27/03/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Four Mile Creek</location>
+    <odometer>123337</odometer>
+    <campsite>White Sands &amp; Ironhouse Brewery</campsite>
+  </data>
+  <data>
+    <dt>29/03/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Four Mile Creek</location>
+    <odometer>123466</odometer>
+  </data>
+  <data>
+    <dt>29/03/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Fingal</location>
+    <odometer>123510</odometer>
+    <campsite>Fingal Park Camp Area</campsite>
+  </data>
+  <data>
+    <dt>29/03/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Fingal</location>
+    <odometer>123591</odometer>
+  </data>
+  <data>
+    <dt>29/03/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Chudleigh</location>
+    <odometer>123741</odometer>
+    <campsite>Chudleigh Showgrounds</campsite>
+  </data>
+  <data>
+    <dt>31/03/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Chudleigh</location>
+    <odometer>123784</odometer>
+  </data>
+  <data>
+    <dt>31/03/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Moina</location>
+    <odometer>123855</odometer>
+    <campsite>Lake Gairdner Camp Area</campsite>
+  </data>
+  <data>
+    <dt>02/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Moina</location>
+    <odometer>123930</odometer>
+  </data>
+  <data>
+    <dt>02/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Latrobe</location>
+    <odometer>123988</odometer>
+    <campsite>Latrobe Town Camp Area</campsite>
+  </data>
+  <data>
+    <dt>03/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Latrobe</location>
+    <odometer>124075</odometer>
+  </data>
+  <data>
+    <dt>03/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Launceston</location>
+    <odometer>124169</odometer>
+    <campsite>Old Macs Farm</campsite>
+  </data>
+  <data>
+    <dt>06/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Launceston</location>
+    <odometer>124396</odometer>
+  </data>
+  <data>
+    <dt>06/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Deloraine</location>
+    <odometer>124450</odometer>
+    <campsite>Deloraine Rest Stop</campsite>
+  </data>
+  <data>
+    <dt>08/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Deloraine</location>
+    <odometer>124530</odometer>
+  </data>
+  <data>
+    <dt>08/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Ulverstone</location>
+    <odometer>124608</odometer>
+    <campsite>Blue Wren Cafe &amp; Camping</campsite>
+  </data>
+  <data>
+    <dt>10/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Ulverstone</location>
+    <odometer>124725</odometer>
+  </data>
+  <data>
+    <dt>10/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Melbourne</location>
+    <odometer>124769</odometer>
+    <campsite>Discovery Park, Braybrook</campsite>
+  </data>
+  <data>
+    <dt>12/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Melbourne</location>
+    <odometer>124769</odometer>
+  </data>
+  <data>
+    <dt>12/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Wallan</location>
+    <odometer>124880</odometer>
+    <campsite>Wallan Truck Stop</campsite>
+  </data>
+  <data>
+    <dt>13/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Wallan</location>
+    <odometer>124880</odometer>
+  </data>
+  <data>
+    <dt>13/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Campbellfield</location>
+    <odometer>124931</odometer>
+    <campsite>ARV Service Centre</campsite>
+  </data>
+  <data>
+    <dt>13/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Campbellfield</location>
+    <odometer>125014</odometer>
+  </data>
+  <data>
+    <dt>13/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Broadford</location>
+    <odometer>125076</odometer>
+    <campsite>Broadford Bowls Club</campsite>
+  </data>
+  <data>
+    <dt>14/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Broadford</location>
+    <odometer>125076</odometer>
+  </data>
+  <data>
+    <dt>14/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Gunning</location>
+    <odometer>125609</odometer>
+    <campsite>Gunning Showgrounds</campsite>
+  </data>
+  <data>
+    <dt>15/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Gunning</location>
+    <odometer>125609</odometer>
+  </data>
+  <data>
+    <dt>15/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Buheldelah</location>
+    <odometer>126071</odometer>
+    <campsite>Buheldelah Golf Club</campsite>
+  </data>
+  <data>
+    <dt>16/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Buheldelah</location>
+    <odometer>126071</odometer>
+  </data>
+  <data>
+    <dt>16/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Tabbimoble</location>
+    <odometer>126497</odometer>
+    <campsite>New Italy Rest Area</campsite>
+  </data>
+  <data>
+    <dt>17/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Tabbimoble</location>
+    <odometer>126497</odometer>
+  </data>
+  <data>
+    <dt>17/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Cleveland</location>
+    <odometer>126717</odometer>
+    <campsite>Cleveland Gardens</campsite>
+  </data>
+  <data>
+    <dt>21/04/2021</dt>
+    <activity>DEPARTURE</activity>
+    <location>Cleveland</location>
+    <odometer>126717</odometer>
+  </data>
+  <data>
+    <dt>21/04/2021</dt>
+    <activity>ARRIVAL</activity>
+    <location>Brisbane</location>
+    <odometer>126743</odometer>
+    <campsite>Car &amp; Caravan Storage</campsite>
+  </data>
 </travel>

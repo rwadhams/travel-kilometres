@@ -1,1394 +1,859 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <travel>
   <data>
     <dt>28/03/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Melbourne</location>
-    <odometer>97579</odometer>
-  </data>
-  <data>
-    <dt>28/03/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Finley</location>
-    <odometer>97835</odometer>
-    <campsite>Finley Caravan Park</campsite>
+    <departureLocation>Melbourne</departureLocation>
+    <departureOdometer>97579</departureOdometer>
+    <arrivalLocation>Finley</arrivalLocation>
+    <arrivalOdometer>97835</arrivalOdometer>
+    <arrivalCampsite>Finley Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>29/03/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Finley</location>
-    <odometer>97835</odometer>
-  </data>
-  <data>
-    <dt>29/03/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Dubbo</location>
-    <odometer>98377</odometer>
-    <campsite>Discovery Park, Dubbo</campsite>
+    <departureLocation>Finley</departureLocation>
+    <departureOdometer>97835</departureOdometer>
+    <arrivalLocation>Dubbo</arrivalLocation>
+    <arrivalOdometer>98377</arrivalOdometer>
+    <arrivalCampsite>Discovery Park, Dubbo</arrivalCampsite>
   </data>
   <data>
     <dt>30/03/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Dubbo</location>
-    <odometer>98377</odometer>
-  </data>
-  <data>
-    <dt>30/03/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Goondiwindi</location>
-    <odometer>98862</odometer>
-    <campsite>Discovery Park, Goondiwindi</campsite>
+    <departureLocation>Dubbo</departureLocation>
+    <departureOdometer>98377</departureOdometer>
+    <arrivalLocation>Goondiwindi</arrivalLocation>
+    <arrivalOdometer>98862</arrivalOdometer>
+    <arrivalCampsite>Discovery Park, Goondiwindi</arrivalCampsite>
   </data>
   <data>
     <dt>31/03/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Goondiwindi</location>
-    <odometer>98862</odometer>
+    <departureLocation>Goondiwindi</departureLocation>
+    <departureOdometer>98862</departureOdometer>
+    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalOdometer>99206</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
-    <dt>31/03/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Brisbane</location>
-    <odometer>99206</odometer>
-    <campsite>Car &amp; Caravan Storage</campsite>
+    <dt>01/06/2020</dt>
+    <departureLocation>Brisbane</departureLocation>
+    <departureOdometer>101052</departureOdometer>
+    <arrivalLocation>Austinville</arrivalLocation>
+    <arrivalOdometer>101135</arrivalOdometer>
+    <arrivalCampsite>Mt Nimmel Lodge Campground</arrivalCampsite>
   </data>
   <data>
-    <dt>1/06/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Brisbane</location>
-    <odometer>101052</odometer>
-  </data>
-  <data>
-    <dt>1/06/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Austinville</location>
-    <odometer>101135</odometer>
-    <campsite>Mt Nimmel Lodge Campground</campsite>
-  </data>
-  <data>
-    <dt>5/06/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Austinville</location>
-    <odometer>101269</odometer>
-  </data>
-  <data>
-    <dt>5/06/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Advancetown</location>
-    <odometer>101297</odometer>
-    <campsite>Advancetown Caravan Park</campsite>
+    <dt>05/06/2020</dt>
+    <departureLocation>Austinville</departureLocation>
+    <departureOdometer>101269</departureOdometer>
+    <arrivalLocation>Advancetown</arrivalLocation>
+    <arrivalOdometer>101297</arrivalOdometer>
+    <arrivalCampsite>Advancetown Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>12/06/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Advancetown</location>
-    <odometer>101681</odometer>
-  </data>
-  <data>
-    <dt>12/06/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Brisbane</location>
-    <odometer>101761</odometer>
-    <campsite>Car &amp; Caravan Storage</campsite>
+    <departureLocation>Advancetown</departureLocation>
+    <departureOdometer>101681</departureOdometer>
+    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalOdometer>101761</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>17/06/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Brisbane</location>
-    <odometer>102198</odometer>
-  </data>
-  <data>
-    <dt>17/06/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Rathdowney</location>
-    <odometer>102295</odometer>
-    <campsite>Flanagan Reserve</campsite>
+    <departureLocation>Brisbane</departureLocation>
+    <departureOdometer>102198</departureOdometer>
+    <arrivalLocation>Rathdowney</arrivalLocation>
+    <arrivalOdometer>102295</arrivalOdometer>
+    <arrivalCampsite>Flanagan Reserve</arrivalCampsite>
   </data>
   <data>
     <dt>22/06/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Rathdowney</location>
-    <odometer>102583</odometer>
-  </data>
-  <data>
-    <dt>22/06/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Moogerah</location>
-    <odometer>102658</odometer>
-    <campsite>Moogerah Lakeside Bush Retreat</campsite>
+    <departureLocation>Rathdowney</departureLocation>
+    <departureOdometer>102583</departureOdometer>
+    <arrivalLocation>Moogerah</arrivalLocation>
+    <arrivalOdometer>102658</arrivalOdometer>
+    <arrivalCampsite>Moogerah Lakeside Bush Retreat</arrivalCampsite>
   </data>
   <data>
     <dt>26/06/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Moogerah</location>
-    <odometer>102957</odometer>
+    <departureLocation>Moogerah</departureLocation>
+    <departureOdometer>102957</departureOdometer>
+    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalOdometer>103088</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
-    <dt>26/06/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Brisbane</location>
-    <odometer>103088</odometer>
-    <campsite>Car &amp; Caravan Storage</campsite>
-  </data>
-  <data>
-    <dt>1/07/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Brisbane</location>
-    <odometer>103088</odometer>
-  </data>
-  <data>
-    <dt>1/07/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Deception Bay</location>
-    <odometer>103108</odometer>
-    <campsite>House sitting (Carlos)</campsite>
+    <dt>01/07/2020</dt>
+    <departureLocation>Brisbane</departureLocation>
+    <departureOdometer>103088</departureOdometer>
+    <arrivalLocation>Deception Bay</arrivalLocation>
+    <arrivalOdometer>103108</arrivalOdometer>
+    <arrivalCampsite>House sitting (Carlos)</arrivalCampsite>
   </data>
   <data>
     <dt>13/07/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Deception Bay</location>
-    <odometer>104084</odometer>
-  </data>
-  <data>
-    <dt>13/07/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Nanango</location>
-    <odometer>104273</odometer>
-    <campsite>Nanango RV Park</campsite>
+    <departureLocation>Deception Bay</departureLocation>
+    <departureOdometer>104084</departureOdometer>
+    <arrivalLocation>Nanango</arrivalLocation>
+    <arrivalOdometer>104273</arrivalOdometer>
+    <arrivalCampsite>Nanango RV Park</arrivalCampsite>
   </data>
   <data>
     <dt>17/07/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Nanango</location>
-    <odometer>104652</odometer>
-  </data>
-  <data>
-    <dt>17/07/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Maidenwell</location>
-    <odometer>104679</odometer>
-    <campsite>Behind Maidenwell Pub</campsite>
+    <departureLocation>Nanango</departureLocation>
+    <departureOdometer>104652</departureOdometer>
+    <arrivalLocation>Maidenwell</arrivalLocation>
+    <arrivalOdometer>104679</arrivalOdometer>
+    <arrivalCampsite>Behind Maidenwell Pub</arrivalCampsite>
   </data>
   <data>
     <dt>21/07/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Maidenwell</location>
-    <odometer>104904</odometer>
-  </data>
-  <data>
-    <dt>21/07/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Chinchilla</location>
-    <odometer>105071</odometer>
-    <campsite>Chinchilla Showgrounds</campsite>
+    <departureLocation>Maidenwell</departureLocation>
+    <departureOdometer>104904</departureOdometer>
+    <arrivalLocation>Chinchilla</arrivalLocation>
+    <arrivalOdometer>105071</arrivalOdometer>
+    <arrivalCampsite>Chinchilla Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>22/07/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Chinchilla</location>
-    <odometer>105080</odometer>
-  </data>
-  <data>
-    <dt>22/07/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Miles</location>
-    <odometer>105153</odometer>
-    <campsite>Ben &amp; Gillian's property</campsite>
+    <departureLocation>Chinchilla</departureLocation>
+    <departureOdometer>105080</departureOdometer>
+    <arrivalLocation>Miles</arrivalLocation>
+    <arrivalOdometer>105153</arrivalOdometer>
+    <arrivalCampsite>Ben &amp; Gillian's property</arrivalCampsite>
   </data>
   <data>
     <dt>24/07/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Miles</location>
-    <odometer>105189</odometer>
-  </data>
-  <data>
-    <dt>24/07/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Roma</location>
-    <odometer>105352</odometer>
-    <campsite>Roma Gun Club</campsite>
+    <departureLocation>Miles</departureLocation>
+    <departureOdometer>105189</departureOdometer>
+    <arrivalLocation>Roma</arrivalLocation>
+    <arrivalOdometer>105352</arrivalOdometer>
+    <arrivalCampsite>Roma Gun Club</arrivalCampsite>
   </data>
   <data>
     <dt>27/07/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Roma</location>
-    <odometer>105388</odometer>
+    <departureLocation>Roma</departureLocation>
+    <departureOdometer>105388</departureOdometer>
+    <arrivalLocation>Carnavon Gorge</arrivalLocation>
+    <arrivalOdometer>105628</arrivalOdometer>
+    <arrivalCampsite>Sandstone Park</arrivalCampsite>
   </data>
   <data>
-    <dt>27/07/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Carnavon Gorge</location>
-    <odometer>105628</odometer>
-    <campsite>Sandstone Park</campsite>
+    <dt>01/08/2020</dt>
+    <departureLocation>Carnavon Gorge</departureLocation>
+    <departureOdometer>105679</departureOdometer>
+    <arrivalLocation>Springsure</arrivalLocation>
+    <arrivalOdometer>105851</arrivalOdometer>
+    <arrivalCampsite>Springsure Rest Area</arrivalCampsite>
   </data>
   <data>
-    <dt>1/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Carnavon Gorge</location>
-    <odometer>105679</odometer>
+    <dt>02/08/2020</dt>
+    <departureLocation>Carnavon Gorge</departureLocation>
+    <departureOdometer>105851</departureOdometer>
+    <arrivalLocation>Sapphire</arrivalLocation>
+    <arrivalOdometer>105966</arrivalOdometer>
+    <arrivalCampsite>Blue Gem Caravan Park</arrivalCampsite>
   </data>
   <data>
-    <dt>1/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Springsure</location>
-    <odometer>105851</odometer>
-    <campsite>Springsure Rest Area</campsite>
-  </data>
-  <data>
-    <dt>2/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Carnavon Gorge</location>
-    <odometer>105851</odometer>
-  </data>
-  <data>
-    <dt>2/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Sapphire</location>
-    <odometer>105966</odometer>
-    <campsite>Blue Gem Caravan Park</campsite>
-  </data>
-  <data>
-    <dt>8/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Sapphire</location>
-    <odometer>106132</odometer>
-  </data>
-  <data>
-    <dt>8/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Bluff</location>
-    <odometer>106277</odometer>
-    <campsite>Bluff Pub</campsite>
+    <dt>08/08/2020</dt>
+    <departureLocation>Sapphire</departureLocation>
+    <departureOdometer>106132</departureOdometer>
+    <arrivalLocation>Bluff</arrivalLocation>
+    <arrivalOdometer>106277</arrivalOdometer>
+    <arrivalCampsite>Bluff Pub</arrivalCampsite>
   </data>
   <data>
     <dt>10/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Bluff</location>
-    <odometer>106378</odometer>
-  </data>
-  <data>
-    <dt>10/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Rockhampton</location>
-    <odometer>106551</odometer>
-    <campsite>Kershaw Free Campground</campsite>
+    <departureLocation>Bluff</departureLocation>
+    <departureOdometer>106378</departureOdometer>
+    <arrivalLocation>Rockhampton</arrivalLocation>
+    <arrivalOdometer>106551</arrivalOdometer>
+    <arrivalCampsite>Kershaw Free Campground</arrivalCampsite>
   </data>
   <data>
     <dt>12/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Rockhampton</location>
-    <odometer>106677</odometer>
-  </data>
-  <data>
-    <dt>12/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Yeppoon</location>
-    <odometer>106726</odometer>
-    <campsite>NRMA Capricorn Yeppoon Holiday Park</campsite>
+    <departureLocation>Rockhampton</departureLocation>
+    <departureOdometer>106677</departureOdometer>
+    <arrivalLocation>Yeppoon</arrivalLocation>
+    <arrivalOdometer>106726</arrivalOdometer>
+    <arrivalCampsite>NRMA Capricorn Yeppoon Holiday Park</arrivalCampsite>
   </data>
   <data>
     <dt>16/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Yeppoon</location>
-    <odometer>106807</odometer>
-  </data>
-  <data>
-    <dt>16/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Benaraby</location>
-    <odometer>106972</odometer>
-    <campsite>Benaraby Public Campgrounds</campsite>
+    <departureLocation>Yeppoon</departureLocation>
+    <departureOdometer>106807</departureOdometer>
+    <arrivalLocation>Benaraby</arrivalLocation>
+    <arrivalOdometer>106972</arrivalOdometer>
+    <arrivalCampsite>Benaraby Public Campgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>17/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Benaraby</location>
-    <odometer>106972</odometer>
-  </data>
-  <data>
-    <dt>17/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Town of 1770</location>
-    <odometer>107079</odometer>
-    <campsite>Captain Cook Holiday Village</campsite>
+    <departureLocation>Benaraby</departureLocation>
+    <departureOdometer>106972</departureOdometer>
+    <arrivalLocation>Town of 1770</arrivalLocation>
+    <arrivalOdometer>107079</arrivalOdometer>
+    <arrivalCampsite>Captain Cook Holiday Village</arrivalCampsite>
   </data>
   <data>
     <dt>20/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Town of 1770</location>
-    <odometer>107169</odometer>
-  </data>
-  <data>
-    <dt>20/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Bargara</location>
-    <odometer>107308</odometer>
-    <campsite>Bargara Beach Caravan Park</campsite>
+    <departureLocation>Town of 1770</departureLocation>
+    <departureOdometer>107169</departureOdometer>
+    <arrivalLocation>Bargara</arrivalLocation>
+    <arrivalOdometer>107308</arrivalOdometer>
+    <arrivalCampsite>Bargara Beach Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>23/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Bargara</location>
-    <odometer>107380</odometer>
-  </data>
-  <data>
-    <dt>23/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>WoodGate Beach</location>
-    <odometer>107447</odometer>
-    <campsite>Woodgate Beach Hotel / Caravan Park</campsite>
+    <departureLocation>Bargara</departureLocation>
+    <departureOdometer>107380</departureOdometer>
+    <arrivalLocation>WoodGate Beach</arrivalLocation>
+    <arrivalOdometer>107447</arrivalOdometer>
+    <arrivalCampsite>Woodgate Beach Hotel / Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>25/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>WoodGate Beach</location>
-    <odometer>107490</odometer>
+    <departureLocation>WoodGate Beach</departureLocation>
+    <departureOdometer>107490</departureOdometer>
+    <arrivalLocation>Hervey Bay</arrivalLocation>
+    <arrivalOdometer>107598</arrivalOdometer>
+    <arrivalCampsite>Boat Harbour Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>25/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Hervey Bay</location>
-    <odometer>107598</odometer>
-    <campsite>Boat Harbour Caravan Park</campsite>
+    <departureLocation>Hervey Bay</departureLocation>
+    <departureOdometer>107661</departureOdometer>
+    <arrivalLocation>Kenilworth</arrivalLocation>
+    <arrivalOdometer>107832</arrivalOdometer>
+    <arrivalCampsite>Kenilworth Showgrounds</arrivalCampsite>
   </data>
   <data>
-    <dt>25/08/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Hervey Bay</location>
-    <odometer>107661</odometer>
-  </data>
-  <data>
-    <dt>25/08/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Kenilworth</location>
-    <odometer>107832</odometer>
-    <campsite>Kenilworth Showgrounds</campsite>
-  </data>
-  <data>
-    <dt>1/09/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Kenilworth</location>
-    <odometer>108053</odometer>
-  </data>
-  <data>
-    <dt>1/09/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Brisbane</location>
-    <odometer>108224</odometer>
-    <campsite>Car &amp; Caravan Storage</campsite>
+    <dt>01/09/2020</dt>
+    <departureLocation>Kenilworth</departureLocation>
+    <departureOdometer>108053</departureOdometer>
+    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalOdometer>108224</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>12/10/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Brisbane</location>
-    <odometer>109976</odometer>
-  </data>
-  <data>
-    <dt>12/10/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Warwick</location>
-    <odometer>110125</odometer>
-    <campsite>DJs Caravan Park, Warwick</campsite>
+    <departureLocation>Brisbane</departureLocation>
+    <departureOdometer>109976</departureOdometer>
+    <arrivalLocation>Warwick</arrivalLocation>
+    <arrivalOdometer>110125</arrivalOdometer>
+    <arrivalCampsite>DJs Caravan Park, Warwick</arrivalCampsite>
   </data>
   <data>
     <dt>14/10/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Warwick</location>
-    <odometer>110125</odometer>
-  </data>
-  <data>
-    <dt>14/10/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Woodenbong</location>
-    <odometer>110215</odometer>
-    <campsite>Woodenbong Campground</campsite>
+    <departureLocation>Warwick</departureLocation>
+    <departureOdometer>110125</departureOdometer>
+    <arrivalLocation>Woodenbong</arrivalLocation>
+    <arrivalOdometer>110215</arrivalOdometer>
+    <arrivalCampsite>Woodenbong Campground</arrivalCampsite>
   </data>
   <data>
     <dt>19/10/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Woodenbong</location>
-    <odometer>110558</odometer>
-  </data>
-  <data>
-    <dt>19/10/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Kyogle</location>
-    <odometer>110616</odometer>
-    <campsite>Kyogle Showground</campsite>
+    <departureLocation>Woodenbong</departureLocation>
+    <departureOdometer>110558</departureOdometer>
+    <arrivalLocation>Kyogle</arrivalLocation>
+    <arrivalOdometer>110616</arrivalOdometer>
+    <arrivalCampsite>Kyogle Showground</arrivalCampsite>
   </data>
   <data>
     <dt>22/10/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Kyogle</location>
-    <odometer>110734</odometer>
-  </data>
-  <data>
-    <dt>22/10/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Crooked Creek</location>
-    <odometer>110850</odometer>
-    <campsite>Crooked Creek Rest Area</campsite>
+    <departureLocation>Kyogle</departureLocation>
+    <departureOdometer>110734</departureOdometer>
+    <arrivalLocation>Crooked Creek</arrivalLocation>
+    <arrivalOdometer>110850</arrivalOdometer>
+    <arrivalCampsite>Crooked Creek Rest Area</arrivalCampsite>
   </data>
   <data>
     <dt>23/10/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Crooked Creek</location>
-    <odometer>110850</odometer>
-  </data>
-  <data>
-    <dt>23/10/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Tenterfield</location>
-    <odometer>110890</odometer>
-    <campsite>Tenterfield Showground</campsite>
+    <departureLocation>Crooked Creek</departureLocation>
+    <departureOdometer>110850</departureOdometer>
+    <arrivalLocation>Tenterfield</arrivalLocation>
+    <arrivalOdometer>110890</arrivalOdometer>
+    <arrivalCampsite>Tenterfield Showground</arrivalCampsite>
   </data>
   <data>
     <dt>29/10/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Tenterfield</location>
-    <odometer>111391</odometer>
+    <departureLocation>Tenterfield</departureLocation>
+    <departureOdometer>111391</departureOdometer>
+    <arrivalLocation>Stanthorpe</arrivalLocation>
+    <arrivalOdometer>111453</arrivalOdometer>
+    <arrivalCampsite>Top of the Town Caravan Park</arrivalCampsite>
   </data>
   <data>
-    <dt>29/10/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Stanthorpe</location>
-    <odometer>111453</odometer>
-    <campsite>Top of the Town Caravan Park</campsite>
+    <dt>01/11/2020</dt>
+    <departureLocation>Stanthorpe</departureLocation>
+    <departureOdometer>111590</departureOdometer>
+    <arrivalLocation>Texas</arrivalLocation>
+    <arrivalOdometer>111695</arrivalOdometer>
+    <arrivalCampsite>Texas Freecamp</arrivalCampsite>
   </data>
   <data>
-    <dt>1/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Stanthorpe</location>
-    <odometer>111590</odometer>
-  </data>
-  <data>
-    <dt>1/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Texas</location>
-    <odometer>111695</odometer>
-    <campsite>Texas Freecamp</campsite>
-  </data>
-  <data>
-    <dt>5/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Texas</location>
-    <odometer>111703</odometer>
-  </data>
-  <data>
-    <dt>5/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Bingara</location>
-    <odometer>111871</odometer>
-    <campsite>Bingara Freecamp</campsite>
+    <dt>05/11/2020</dt>
+    <departureLocation>Texas</departureLocation>
+    <departureOdometer>111703</departureOdometer>
+    <arrivalLocation>Bingara</arrivalLocation>
+    <arrivalOdometer>111871</arrivalOdometer>
+    <arrivalCampsite>Bingara Freecamp</arrivalCampsite>
   </data>
   <data>
     <dt>13/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Bingara</location>
-    <odometer>112274</odometer>
-  </data>
-  <data>
-    <dt>13/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Inverell</location>
-    <odometer>112364</odometer>
-    <campsite>Inverell KUI Caravan Park</campsite>
+    <departureLocation>Bingara</departureLocation>
+    <departureOdometer>112274</departureOdometer>
+    <arrivalLocation>Inverell</arrivalLocation>
+    <arrivalOdometer>112364</arrivalOdometer>
+    <arrivalCampsite>Inverell KUI Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>17/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Inverell</location>
-    <odometer>112432</odometer>
-  </data>
-  <data>
-    <dt>17/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Glen Innes</location>
-    <odometer>112500</odometer>
-    <campsite>Glen Innes Showgrounds</campsite>
+    <departureLocation>Inverell</departureLocation>
+    <departureOdometer>112432</departureOdometer>
+    <arrivalLocation>Glen Innes</arrivalLocation>
+    <arrivalOdometer>112500</arrivalOdometer>
+    <arrivalCampsite>Glen Innes Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>19/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Glen Innes</location>
-    <odometer>112521</odometer>
-  </data>
-  <data>
-    <dt>19/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Armidale</location>
-    <odometer>112617</odometer>
-    <campsite>Armidale Showgrounds</campsite>
+    <departureLocation>Glen Innes</departureLocation>
+    <departureOdometer>112521</departureOdometer>
+    <arrivalLocation>Armidale</arrivalLocation>
+    <arrivalOdometer>112617</arrivalOdometer>
+    <arrivalCampsite>Armidale Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>20/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Armidale</location>
-    <odometer>112655</odometer>
-  </data>
-  <data>
-    <dt>20/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Wollomombi</location>
-    <odometer>112695</odometer>
-    <campsite>General Store, Wollomombi</campsite>
+    <departureLocation>Armidale</departureLocation>
+    <departureOdometer>112655</departureOdometer>
+    <arrivalLocation>Wollomombi</arrivalLocation>
+    <arrivalOdometer>112695</arrivalOdometer>
+    <arrivalCampsite>General Store, Wollomombi</arrivalCampsite>
   </data>
   <data>
     <dt>21/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Wollomombi</location>
-    <odometer>112706</odometer>
-  </data>
-  <data>
-    <dt>21/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Ebor</location>
-    <odometer>112745</odometer>
-    <campsite>Ebor Hotel/Motel</campsite>
+    <departureLocation>Wollomombi</departureLocation>
+    <departureOdometer>112706</departureOdometer>
+    <arrivalLocation>Ebor</arrivalLocation>
+    <arrivalOdometer>112745</arrivalOdometer>
+    <arrivalCampsite>Ebor Hotel/Motel</arrivalCampsite>
   </data>
   <data>
     <dt>23/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Ebor</location>
-    <odometer>112826</odometer>
-  </data>
-  <data>
-    <dt>23/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Dorrigo</location>
-    <odometer>112874</odometer>
-    <campsite>Dorrigo Showgrounds</campsite>
+    <departureLocation>Ebor</departureLocation>
+    <departureOdometer>112826</departureOdometer>
+    <arrivalLocation>Dorrigo</arrivalLocation>
+    <arrivalOdometer>112874</arrivalOdometer>
+    <arrivalCampsite>Dorrigo Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>28/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Dorrigo</location>
-    <odometer>113000</odometer>
-  </data>
-  <data>
-    <dt>28/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Bellingin</location>
-    <odometer>113030</odometer>
-    <campsite>Bellingin Showgrounds</campsite>
+    <departureLocation>Dorrigo</departureLocation>
+    <departureOdometer>113000</departureOdometer>
+    <arrivalLocation>Bellingin</arrivalLocation>
+    <arrivalOdometer>113030</arrivalOdometer>
+    <arrivalCampsite>Bellingin Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>29/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Bellingin</location>
-    <odometer>113030</odometer>
-  </data>
-  <data>
-    <dt>29/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Urunga</location>
-    <odometer>113044</odometer>
-    <campsite>Urunga Waters Tourist Park</campsite>
+    <departureLocation>Bellingin</departureLocation>
+    <departureOdometer>113030</departureOdometer>
+    <arrivalLocation>Urunga</arrivalLocation>
+    <arrivalOdometer>113044</arrivalOdometer>
+    <arrivalCampsite>Urunga Waters Tourist Park</arrivalCampsite>
   </data>
   <data>
     <dt>30/11/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Urunga</location>
-    <odometer>113122</odometer>
+    <departureLocation>Urunga</departureLocation>
+    <departureOdometer>113122</departureOdometer>
+    <arrivalLocation>Moonee Beach</arrivalLocation>
+    <arrivalOdometer>113161</arrivalOdometer>
+    <arrivalCampsite>Reflections Moonee Beach</arrivalCampsite>
   </data>
   <data>
-    <dt>30/11/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Moonee Beach</location>
-    <odometer>113161</odometer>
-    <campsite>Reflections Moonee Beach</campsite>
+    <dt>05/12/2020</dt>
+    <departureLocation>Moonee Beach</departureLocation>
+    <departureOdometer>113282</departureOdometer>
+    <arrivalLocation>Minnie Water</arrivalLocation>
+    <arrivalOdometer>113371</arrivalOdometer>
+    <arrivalCampsite>Minnie Water Holiday Park</arrivalCampsite>
   </data>
   <data>
-    <dt>5/12/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Moonee Beach</location>
-    <odometer>113282</odometer>
-  </data>
-  <data>
-    <dt>5/12/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Minnie Water</location>
-    <odometer>113371</odometer>
-    <campsite>Minnie Water Holiday Park</campsite>
-  </data>
-  <data>
-    <dt>8/12/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Minnie Water</location>
-    <odometer>113455</odometer>
-  </data>
-  <data>
-    <dt>8/12/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Alstonville</location>
-    <odometer>113604</odometer>
-    <campsite>Alstonville Showgrounds</campsite>
+    <dt>08/12/2020</dt>
+    <departureLocation>Minnie Water</departureLocation>
+    <departureOdometer>113455</departureOdometer>
+    <arrivalLocation>Alstonville</arrivalLocation>
+    <arrivalOdometer>113604</arrivalOdometer>
+    <arrivalCampsite>Alstonville Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>11/12/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Alstonville</location>
-    <odometer>113844</odometer>
-  </data>
-  <data>
-    <dt>11/12/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Mullumbimby</location>
-    <odometer>113892</odometer>
-    <campsite>Mullumbimby Leagues Club</campsite>
+    <departureLocation>Alstonville</departureLocation>
+    <departureOdometer>113844</departureOdometer>
+    <arrivalLocation>Mullumbimby</arrivalLocation>
+    <arrivalOdometer>113892</arrivalOdometer>
+    <arrivalCampsite>Mullumbimby Leagues Club</arrivalCampsite>
   </data>
   <data>
     <dt>13/12/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Mullumbimby</location>
-    <odometer>114128</odometer>
-  </data>
-  <data>
-    <dt>13/12/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Brisbane</location>
-    <odometer>114275</odometer>
-    <campsite>Car &amp; Caravan Storage</campsite>
+    <departureLocation>Mullumbimby</departureLocation>
+    <departureOdometer>114128</departureOdometer>
+    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalOdometer>114275</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>30/12/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Brisbane</location>
-    <odometer>115149</odometer>
-  </data>
-  <data>
-    <dt>30/12/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Inglewood</location>
-    <odometer>115384</odometer>
-    <campsite>Lake Coolmunda Caravan Park</campsite>
+    <departureLocation>Brisbane</departureLocation>
+    <departureOdometer>115149</departureOdometer>
+    <arrivalLocation>Inglewood</arrivalLocation>
+    <arrivalOdometer>115384</arrivalOdometer>
+    <arrivalCampsite>Lake Coolmunda Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>31/12/2020</dt>
-    <activity>DEPARTURE</activity>
-    <location>Inglewood</location>
-    <odometer>115384</odometer>
-  </data>
-  <data>
-    <dt>31/12/2020</dt>
-    <activity>ARRIVAL</activity>
-    <location>Moree</location>
-    <odometer>115606</odometer>
-    <campsite>Gwydir Thermal Pools Motel &amp; Caravanpark</campsite>
+    <departureLocation>Inglewood</departureLocation>
+    <departureOdometer>115384</departureOdometer>
+    <arrivalLocation>Moree</arrivalLocation>
+    <arrivalOdometer>115606</arrivalOdometer>
+    <arrivalCampsite>Gwydir Thermal Pools Motel &amp; Caravanpark</arrivalCampsite>
   </data>
   <data>
     <dt>01/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Moree</location>
-    <odometer>115606</odometer>
-  </data>
-  <data>
-    <dt>01/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Strathmerton</location>
-    <odometer>116519</odometer>
-    <campsite>Strathmerton Freecamp</campsite>
+    <departureLocation>Moree</departureLocation>
+    <departureOdometer>115606</departureOdometer>
+    <arrivalLocation>Strathmerton</arrivalLocation>
+    <arrivalOdometer>116519</arrivalOdometer>
+    <arrivalCampsite>Strathmerton Freecamp</arrivalCampsite>
   </data>
   <data>
     <dt>02/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Strathmerton</location>
-    <odometer>116519</odometer>
-  </data>
-  <data>
-    <dt>02/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Melbourne</location>
-    <odometer>116755</odometer>
-    <campsite>Discovery Park, Braybrook</campsite>
+    <departureLocation>Strathmerton</departureLocation>
+    <departureOdometer>116519</departureOdometer>
+    <arrivalLocation>Melbourne</arrivalLocation>
+    <arrivalOdometer>116755</arrivalOdometer>
+    <arrivalCampsite>Discovery Park, Braybrook</arrivalCampsite>
   </data>
   <data>
     <dt>04/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Melbourne</location>
-    <odometer>116781</odometer>
-  </data>
-  <data>
-    <dt>04/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Devonport</location>
-    <odometer>116797</odometer>
-    <campsite>Able Tasman Caravan Park</campsite>
+    <departureLocation>Melbourne</departureLocation>
+    <departureOdometer>116781</departureOdometer>
+    <arrivalLocation>Devonport</arrivalLocation>
+    <arrivalOdometer>116797</arrivalOdometer>
+    <arrivalCampsite>Able Tasman Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>06/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Devonport</location>
-    <odometer>116895</odometer>
-  </data>
-  <data>
-    <dt>06/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Ulverstone</location>
-    <odometer>116924</odometer>
-    <campsite>Blue Wren Cafe &amp; Camping</campsite>
+    <departureLocation>Devonport</departureLocation>
+    <departureOdometer>116895</departureOdometer>
+    <arrivalLocation>Ulverstone</arrivalLocation>
+    <arrivalOdometer>116924</arrivalOdometer>
+    <arrivalCampsite>Blue Wren Cafe &amp; Camping</arrivalCampsite>
   </data>
   <data>
     <dt>11/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Ulverstone</location>
-    <odometer>117404</odometer>
-  </data>
-  <data>
-    <dt>11/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Rocky Cape</location>
-    <odometer>117566</odometer>
-    <campsite>Rocky Cape Tavern</campsite>
+    <departureLocation>Ulverstone</departureLocation>
+    <departureOdometer>117404</departureOdometer>
+    <arrivalLocation>Rocky Cape</arrivalLocation>
+    <arrivalOdometer>117566</arrivalOdometer>
+    <arrivalCampsite>Rocky Cape Tavern</arrivalCampsite>
   </data>
   <data>
     <dt>13/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>RockyCape</location>
-    <odometer>117667</odometer>
-  </data>
-  <data>
-    <dt>13/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Stanley</location>
-    <odometer>117695</odometer>
-    <campsite>Stanley Recreation Area</campsite>
+    <departureLocation>RockyCape</departureLocation>
+    <departureOdometer>117667</departureOdometer>
+    <arrivalLocation>Stanley</arrivalLocation>
+    <arrivalOdometer>117695</arrivalOdometer>
+    <arrivalCampsite>Stanley Recreation Area</arrivalCampsite>
   </data>
   <data>
     <dt>15/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Stanley</location>
-    <odometer>117728</odometer>
-  </data>
-  <data>
-    <dt>15/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Smithton</location>
-    <odometer>117749</odometer>
-    <campsite>Tall Timbers Free RV Site</campsite>
+    <departureLocation>Stanley</departureLocation>
+    <departureOdometer>117728</departureOdometer>
+    <arrivalLocation>Smithton</arrivalLocation>
+    <arrivalOdometer>117749</arrivalOdometer>
+    <arrivalCampsite>Tall Timbers Free RV Site</arrivalCampsite>
   </data>
   <data>
     <dt>18/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Smithton</location>
-    <odometer>117955</odometer>
-  </data>
-  <data>
-    <dt>18/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Arthur River</location>
-    <odometer>118019</odometer>
-    <campsite>Manuka NP Campground</campsite>
+    <departureLocation>Smithton</departureLocation>
+    <departureOdometer>117955</departureOdometer>
+    <arrivalLocation>Arthur River</arrivalLocation>
+    <arrivalOdometer>118019</arrivalOdometer>
+    <arrivalCampsite>Manuka NP Campground</arrivalCampsite>
   </data>
   <data>
     <dt>21/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Arthur River</location>
-    <odometer>118255</odometer>
-  </data>
-  <data>
-    <dt>21/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Waratah</location>
-    <odometer>118422</odometer>
-    <campsite>Waratah Council Park</campsite>
+    <departureLocation>Arthur River</departureLocation>
+    <departureOdometer>118255</departureOdometer>
+    <arrivalLocation>Waratah</arrivalLocation>
+    <arrivalOdometer>118422</arrivalOdometer>
+    <arrivalCampsite>Waratah Council Park</arrivalCampsite>
   </data>
   <data>
     <dt>22/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Waratah</location>
-    <odometer>118443</odometer>
-  </data>
-  <data>
-    <dt>22/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Rosebery</location>
-    <odometer>118509</odometer>
-    <campsite>Rosebery Golf Course</campsite>
+    <departureLocation>Waratah</departureLocation>
+    <departureOdometer>118443</departureOdometer>
+    <arrivalLocation>Rosebery</arrivalLocation>
+    <arrivalOdometer>118509</arrivalOdometer>
+    <arrivalCampsite>Rosebery Golf Course</arrivalCampsite>
   </data>
   <data>
     <dt>24/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Rosebery</location>
-    <odometer>118539</odometer>
+    <departureLocation>Rosebery</departureLocation>
+    <departureOdometer>118539</departureOdometer>
+    <arrivalLocation>Zeehan</arrivalLocation>
+    <arrivalOdometer>118565</arrivalOdometer>
+    <arrivalCampsite>Zeehan Golf Course</arrivalCampsite>
   </data>
   <data>
     <dt>24/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Zeehan</location>
-    <odometer>118565</odometer>
-    <campsite>Zeehan Golf Course</campsite>
+    <departureLocation>Zeehan</departureLocation>
+    <departureOdometer>118621</departureOdometer>
+    <arrivalLocation>Strahan</arrivalLocation>
+    <arrivalOdometer>118665</arrivalOdometer>
+    <arrivalCampsite>Strahan Golf Course</arrivalCampsite>
   </data>
   <data>
     <dt>24/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Zeehan</location>
-    <odometer>118621</odometer>
-  </data>
-  <data>
-    <dt>24/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Strahan</location>
-    <odometer>118665</odometer>
-    <campsite>Strahan Golf Course</campsite>
-  </data>
-  <data>
-    <dt>24/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Strahan</location>
-    <odometer>118758</odometer>
-  </data>
-  <data>
-    <dt>24/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Queenstown</location>
-    <odometer>118798</odometer>
-    <campsite>Queenstown Sports Oval</campsite>
+    <departureLocation>Strahan</departureLocation>
+    <departureOdometer>118758</departureOdometer>
+    <arrivalLocation>Queenstown</arrivalLocation>
+    <arrivalOdometer>118798</arrivalOdometer>
+    <arrivalCampsite>Queenstown Sports Oval</arrivalCampsite>
   </data>
   <data>
     <dt>31/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Queenstown</location>
-    <odometer>118837</odometer>
+    <departureLocation>Queenstown</departureLocation>
+    <departureOdometer>118837</departureOdometer>
+    <arrivalLocation>Lake Burbury</arrivalLocation>
+    <arrivalOdometer>118858</arrivalOdometer>
+    <arrivalCampsite>Lake Burbury Campground (unhitch-only)</arrivalCampsite>
   </data>
   <data>
     <dt>31/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Lake Burbury</location>
-    <odometer>118858</odometer>
-    <campsite>Lake Burbury Campground (unhitch-only)</campsite>
-  </data>
-  <data>
-    <dt>31/01/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Lake Burbury</location>
-    <odometer>118873</odometer>
-  </data>
-  <data>
-    <dt>31/01/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Derwent Bridge</location>
-    <odometer>118937</odometer>
-    <campsite>Derwent Bridge Wilderness Hotel</campsite>
+    <departureLocation>Lake Burbury</departureLocation>
+    <departureOdometer>118873</departureOdometer>
+    <arrivalLocation>Derwent Bridge</arrivalLocation>
+    <arrivalOdometer>118937</arrivalOdometer>
+    <arrivalCampsite>Derwent Bridge Wilderness Hotel</arrivalCampsite>
   </data>
   <data>
     <dt>01/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Derwent Bridge</location>
-    <odometer>118967</odometer>
-  </data>
-  <data>
-    <dt>01/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Mount Field NP</location>
-    <odometer>119112</odometer>
-    <campsite>Mount Field NP Campground</campsite>
+    <departureLocation>Derwent Bridge</departureLocation>
+    <departureOdometer>118967</departureOdometer>
+    <arrivalLocation>Mount Field NP</arrivalLocation>
+    <arrivalOdometer>119112</arrivalOdometer>
+    <arrivalCampsite>Mount Field NP Campground</arrivalCampsite>
   </data>
   <data>
     <dt>04/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Mount Field NP</location>
-    <odometer>119345</odometer>
-  </data>
-  <data>
-    <dt>04/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Hobart</location>
-    <odometer>119406</odometer>
-    <campsite>Phil's Place</campsite>
+    <departureLocation>Mount Field NP</departureLocation>
+    <departureOdometer>119345</departureOdometer>
+    <arrivalLocation>Hobart</arrivalLocation>
+    <arrivalOdometer>119406</arrivalOdometer>
+    <arrivalCampsite>Phil's Place</arrivalCampsite>
   </data>
   <data>
     <dt>08/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Hobart</location>
-    <odometer>119641</odometer>
-  </data>
-  <data>
-    <dt>08/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Bruny Island</location>
-    <odometer>119707</odometer>
-    <campsite>Bruny Island Landscape Supplies</campsite>
+    <departureLocation>Hobart</departureLocation>
+    <departureOdometer>119641</departureOdometer>
+    <arrivalLocation>Bruny Island</arrivalLocation>
+    <arrivalOdometer>119707</arrivalOdometer>
+    <arrivalCampsite>Bruny Island Landscape Supplies</arrivalCampsite>
   </data>
   <data>
     <dt>12/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Bruny Island</location>
-    <odometer>120002</odometer>
-  </data>
-  <data>
-    <dt>12/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Huonville</location>
-    <odometer>120054</odometer>
-    <campsite>Huon Valley Caravan Park</campsite>
+    <departureLocation>Bruny Island</departureLocation>
+    <departureOdometer>120002</departureOdometer>
+    <arrivalLocation>Huonville</arrivalLocation>
+    <arrivalOdometer>120054</arrivalOdometer>
+    <arrivalCampsite>Huon Valley Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>14/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Huonville</location>
-    <odometer>120103</odometer>
-  </data>
-  <data>
-    <dt>14/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Cockle Creek</location>
-    <odometer>120195</odometer>
-    <campsite>Cockle Creek Freecamp</campsite>
+    <departureLocation>Huonville</departureLocation>
+    <departureOdometer>120103</departureOdometer>
+    <arrivalLocation>Cockle Creek</arrivalLocation>
+    <arrivalOdometer>120195</arrivalOdometer>
+    <arrivalCampsite>Cockle Creek Freecamp</arrivalCampsite>
   </data>
   <data>
     <dt>22/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Geevston</location>
-    <odometer>120441</odometer>
-  </data>
-  <data>
-    <dt>22/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Hobart</location>
-    <odometer>120508</odometer>
-    <campsite>Hobart Showgrounds</campsite>
+    <departureLocation>Geevston</departureLocation>
+    <departureOdometer>120441</departureOdometer>
+    <arrivalLocation>Hobart</arrivalLocation>
+    <arrivalOdometer>120508</arrivalOdometer>
+    <arrivalCampsite>Hobart Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>23/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Hobart</location>
-    <odometer>120539</odometer>
-  </data>
-  <data>
-    <dt>23/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Sorell</location>
-    <odometer>120567</odometer>
-    <campsite>Sorell Council Camp Area</campsite>
+    <departureLocation>Hobart</departureLocation>
+    <departureOdometer>120539</departureOdometer>
+    <arrivalLocation>Sorell</arrivalLocation>
+    <arrivalOdometer>120567</arrivalOdometer>
+    <arrivalCampsite>Sorell Council Camp Area</arrivalCampsite>
   </data>
   <data>
     <dt>25/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Sorell</location>
-    <odometer>120655</odometer>
-  </data>
-  <data>
-    <dt>25/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Nubeena</location>
-    <odometer>120727</odometer>
-    <campsite>Nubeena RSL</campsite>
+    <departureLocation>Sorell</departureLocation>
+    <departureOdometer>120655</departureOdometer>
+    <arrivalLocation>Nubeena</arrivalLocation>
+    <arrivalOdometer>120727</arrivalOdometer>
+    <arrivalCampsite>Nubeena RSL</arrivalCampsite>
   </data>
   <data>
     <dt>28/02/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Nubeena</location>
-    <odometer>120925</odometer>
-  </data>
-  <data>
-    <dt>28/02/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Dunalley</location>
-    <odometer>120977</odometer>
-    <campsite>Dunalley Pub</campsite>
+    <departureLocation>Nubeena</departureLocation>
+    <departureOdometer>120925</departureOdometer>
+    <arrivalLocation>Dunalley</arrivalLocation>
+    <arrivalOdometer>120977</arrivalOdometer>
+    <arrivalCampsite>Dunalley Pub</arrivalCampsite>
   </data>
   <data>
     <dt>01/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Dunalley</location>
-    <odometer>120977</odometer>
-  </data>
-  <data>
-    <dt>01/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Triabunna</location>
-    <odometer>121067</odometer>
-    <campsite>Spring Bay Pub</campsite>
+    <departureLocation>Dunalley</departureLocation>
+    <departureOdometer>120977</departureOdometer>
+    <arrivalLocation>Triabunna</arrivalLocation>
+    <arrivalOdometer>121067</arrivalOdometer>
+    <arrivalCampsite>Spring Bay Pub</arrivalCampsite>
   </data>
   <data>
     <dt>03/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Triabunna</location>
-    <odometer>121145</odometer>
-  </data>
-  <data>
-    <dt>03/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Swansea</location>
-    <odometer>121194</odometer>
-    <campsite>Swansea Caravan Park</campsite>
+    <departureLocation>Triabunna</departureLocation>
+    <departureOdometer>121145</departureOdometer>
+    <arrivalLocation>Swansea</arrivalLocation>
+    <arrivalOdometer>121194</arrivalOdometer>
+    <arrivalCampsite>Swansea Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>04/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Swansea</location>
-    <odometer>121214</odometer>
-  </data>
-  <data>
-    <dt>04/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Freycinet</location>
-    <odometer>121266</odometer>
-    <campsite>Swanwick Golf Club</campsite>
+    <departureLocation>Swansea</departureLocation>
+    <departureOdometer>121214</departureOdometer>
+    <arrivalLocation>Freycinet</arrivalLocation>
+    <arrivalOdometer>121266</arrivalOdometer>
+    <arrivalCampsite>Swanwick Golf Club</arrivalCampsite>
   </data>
   <data>
     <dt>06/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Freycinet</location>
-    <odometer>121407</odometer>
-  </data>
-  <data>
-    <dt>06/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Four Mile Creek</location>
-    <odometer>121476</odometer>
-    <campsite>White Sands &amp; Ironhouse Brewery</campsite>
+    <departureLocation>Freycinet</departureLocation>
+    <departureOdometer>121407</departureOdometer>
+    <arrivalLocation>Four Mile Creek</arrivalLocation>
+    <arrivalOdometer>121476</arrivalOdometer>
+    <arrivalCampsite>White Sands &amp; Ironhouse Brewery</arrivalCampsite>
   </data>
   <data>
     <dt>08/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Four Mile Creek</location>
-    <odometer>121532</odometer>
-  </data>
-  <data>
-    <dt>08/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>St Helens</location>
-    <odometer>121570</odometer>
-    <campsite>St Helens council camp area</campsite>
+    <departureLocation>Four Mile Creek</departureLocation>
+    <departureOdometer>121532</departureOdometer>
+    <arrivalLocation>St Helens</arrivalLocation>
+    <arrivalOdometer>121570</arrivalOdometer>
+    <arrivalCampsite>St Helens council camp area</arrivalCampsite>
   </data>
   <data>
     <dt>11/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>St Helens</location>
-    <odometer>121799</odometer>
-  </data>
-  <data>
-    <dt>11/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Pyengana</location>
-    <odometer>121827</odometer>
-    <campsite>Pyengana Recreational Grounds</campsite>
+    <departureLocation>St Helens</departureLocation>
+    <departureOdometer>121799</departureOdometer>
+    <arrivalLocation>Pyengana</arrivalLocation>
+    <arrivalOdometer>121827</arrivalOdometer>
+    <arrivalCampsite>Pyengana Recreational Grounds</arrivalCampsite>
   </data>
   <data>
     <dt>12/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Pyengana</location>
-    <odometer>121890</odometer>
+    <departureLocation>Pyengana</departureLocation>
+    <departureOdometer>121890</departureOdometer>
+    <arrivalLocation>Gladstone</arrivalLocation>
+    <arrivalOdometer>121946</arrivalOdometer>
+    <arrivalCampsite>Gradstone Memorial Hall Grounds</arrivalCampsite>
   </data>
   <data>
     <dt>12/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Gladstone</location>
-    <odometer>121946</odometer>
-    <campsite>Gradstone Memorial Hall Grounds</campsite>
-  </data>
-  <data>
-    <dt>12/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Gladstone</location>
-    <odometer>122003</odometer>
-  </data>
-  <data>
-    <dt>12/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Bridport</location>
-    <odometer>122061</odometer>
-    <campsite>Bridport Caravan Park</campsite>
+    <departureLocation>Gladstone</departureLocation>
+    <departureOdometer>122003</departureOdometer>
+    <arrivalLocation>Bridport</arrivalLocation>
+    <arrivalOdometer>122061</arrivalOdometer>
+    <arrivalCampsite>Bridport Caravan Park</arrivalCampsite>
   </data>
   <data>
     <dt>14/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Bridport</location>
-    <odometer>122106</odometer>
-  </data>
-  <data>
-    <dt>14/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Low Head</location>
-    <odometer>122165</odometer>
-    <campsite>East Beach Tourist Park</campsite>
+    <departureLocation>Bridport</departureLocation>
+    <departureOdometer>122106</departureOdometer>
+    <arrivalLocation>Low Head</arrivalLocation>
+    <arrivalOdometer>122165</arrivalOdometer>
+    <arrivalCampsite>East Beach Tourist Park</arrivalCampsite>
   </data>
   <data>
     <dt>16/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Low Head</location>
-    <odometer>122278</odometer>
+    <departureLocation>Low Head</departureLocation>
+    <departureOdometer>122278</departureOdometer>
+    <arrivalLocation>Launceston</arrivalLocation>
+    <arrivalOdometer>122336</arrivalOdometer>
+    <arrivalCampsite>Old Macs Farm</arrivalCampsite>
   </data>
   <data>
     <dt>16/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Launceston</location>
-    <odometer>122336</odometer>
-    <campsite>Old Macs Farm</campsite>
-  </data>
-  <data>
-    <dt>16/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Launceston</location>
-    <odometer>122439</odometer>
-  </data>
-  <data>
-    <dt>16/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Sorell</location>
-    <odometer>122618</odometer>
-    <campsite>Sorell Council Camp Area</campsite>
+    <departureLocation>Launceston</departureLocation>
+    <departureOdometer>122439</departureOdometer>
+    <arrivalLocation>Sorell</arrivalLocation>
+    <arrivalOdometer>122618</arrivalOdometer>
+    <arrivalCampsite>Sorell Council Camp Area</arrivalCampsite>
   </data>
   <data>
     <dt>22/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Sorell</location>
-    <odometer>122782</odometer>
-  </data>
-  <data>
-    <dt>22/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Dunalley</location>
-    <odometer>122814</odometer>
-    <campsite>Dunalley Golf Club Camp Area</campsite>
+    <departureLocation>Sorell</departureLocation>
+    <departureOdometer>122782</departureOdometer>
+    <arrivalLocation>Dunalley</arrivalLocation>
+    <arrivalOdometer>122814</arrivalOdometer>
+    <arrivalCampsite>Dunalley Golf Club Camp Area</arrivalCampsite>
   </data>
   <data>
     <dt>24/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Dunalley</location>
-    <odometer>123032</odometer>
-  </data>
-  <data>
-    <dt>24/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Triabunna</location>
-    <odometer>123121</odometer>
-    <campsite>Spring Bay Hotel Camp Area</campsite>
+    <departureLocation>Dunalley</departureLocation>
+    <departureOdometer>123032</departureOdometer>
+    <arrivalLocation>Triabunna</arrivalLocation>
+    <arrivalOdometer>123121</arrivalOdometer>
+    <arrivalCampsite>Spring Bay Hotel Camp Area</arrivalCampsite>
   </data>
   <data>
     <dt>26/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Triabunna</location>
-    <odometer>123121</odometer>
-  </data>
-  <data>
-    <dt>26/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Freycinet</location>
-    <odometer>123202</odometer>
-    <campsite>Pondering Frog Camp Area</campsite>
+    <departureLocation>Triabunna</departureLocation>
+    <departureOdometer>123121</departureOdometer>
+    <arrivalLocation>Freycinet</arrivalLocation>
+    <arrivalOdometer>123202</arrivalOdometer>
+    <arrivalCampsite>Pondering Frog Camp Area</arrivalCampsite>
   </data>
   <data>
     <dt>27/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Freycinet</location>
-    <odometer>123286</odometer>
-  </data>
-  <data>
-    <dt>27/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Four Mile Creek</location>
-    <odometer>123337</odometer>
-    <campsite>White Sands &amp; Ironhouse Brewery</campsite>
+    <departureLocation>Freycinet</departureLocation>
+    <departureOdometer>123286</departureOdometer>
+    <arrivalLocation>Four Mile Creek</arrivalLocation>
+    <arrivalOdometer>123337</arrivalOdometer>
+    <arrivalCampsite>White Sands &amp; Ironhouse Brewery</arrivalCampsite>
   </data>
   <data>
     <dt>29/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Four Mile Creek</location>
-    <odometer>123466</odometer>
+    <departureLocation>Four Mile Creek</departureLocation>
+    <departureOdometer>123466</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>123510</arrivalOdometer>
+    <arrivalCampsite>Fingal Park Camp Area</arrivalCampsite>
   </data>
   <data>
     <dt>29/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Fingal</location>
-    <odometer>123510</odometer>
-    <campsite>Fingal Park Camp Area</campsite>
-  </data>
-  <data>
-    <dt>29/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Fingal</location>
-    <odometer>123591</odometer>
-  </data>
-  <data>
-    <dt>29/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Chudleigh</location>
-    <odometer>123741</odometer>
-    <campsite>Chudleigh Showgrounds</campsite>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>123591</departureOdometer>
+    <arrivalLocation>Chudleigh</arrivalLocation>
+    <arrivalOdometer>123741</arrivalOdometer>
+    <arrivalCampsite>Chudleigh Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>31/03/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Chudleigh</location>
-    <odometer>123784</odometer>
-  </data>
-  <data>
-    <dt>31/03/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Moina</location>
-    <odometer>123855</odometer>
-    <campsite>Lake Gairdner Camp Area</campsite>
+    <departureLocation>Chudleigh</departureLocation>
+    <departureOdometer>123784</departureOdometer>
+    <arrivalLocation>Moina</arrivalLocation>
+    <arrivalOdometer>123855</arrivalOdometer>
+    <arrivalCampsite>Lake Gairdner Camp Area</arrivalCampsite>
   </data>
   <data>
     <dt>02/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Moina</location>
-    <odometer>123930</odometer>
-  </data>
-  <data>
-    <dt>02/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Latrobe</location>
-    <odometer>123988</odometer>
-    <campsite>Latrobe Town Camp Area</campsite>
+    <departureLocation>Moina</departureLocation>
+    <departureOdometer>123930</departureOdometer>
+    <arrivalLocation>Latrobe</arrivalLocation>
+    <arrivalOdometer>123988</arrivalOdometer>
+    <arrivalCampsite>Latrobe Town Camp Area</arrivalCampsite>
   </data>
   <data>
     <dt>03/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Latrobe</location>
-    <odometer>124075</odometer>
-  </data>
-  <data>
-    <dt>03/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Launceston</location>
-    <odometer>124169</odometer>
-    <campsite>Old Macs Farm</campsite>
+    <departureLocation>Latrobe</departureLocation>
+    <departureOdometer>124075</departureOdometer>
+    <arrivalLocation>Launceston</arrivalLocation>
+    <arrivalOdometer>124169</arrivalOdometer>
+    <arrivalCampsite>Old Macs Farm</arrivalCampsite>
   </data>
   <data>
     <dt>06/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Launceston</location>
-    <odometer>124396</odometer>
-  </data>
-  <data>
-    <dt>06/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Deloraine</location>
-    <odometer>124450</odometer>
-    <campsite>Deloraine Rest Stop</campsite>
+    <departureLocation>Launceston</departureLocation>
+    <departureOdometer>124396</departureOdometer>
+    <arrivalLocation>Deloraine</arrivalLocation>
+    <arrivalOdometer>124450</arrivalOdometer>
+    <arrivalCampsite>Deloraine Rest Stop</arrivalCampsite>
   </data>
   <data>
     <dt>08/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Deloraine</location>
-    <odometer>124530</odometer>
-  </data>
-  <data>
-    <dt>08/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Ulverstone</location>
-    <odometer>124608</odometer>
-    <campsite>Blue Wren Cafe &amp; Camping</campsite>
+    <departureLocation>Deloraine</departureLocation>
+    <departureOdometer>124530</departureOdometer>
+    <arrivalLocation>Ulverstone</arrivalLocation>
+    <arrivalOdometer>124608</arrivalOdometer>
+    <arrivalCampsite>Blue Wren Cafe &amp; Camping</arrivalCampsite>
   </data>
   <data>
     <dt>10/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Ulverstone</location>
-    <odometer>124725</odometer>
-  </data>
-  <data>
-    <dt>10/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Melbourne</location>
-    <odometer>124769</odometer>
-    <campsite>Discovery Park, Braybrook</campsite>
+    <departureLocation>Ulverstone</departureLocation>
+    <departureOdometer>124725</departureOdometer>
+    <arrivalLocation>Melbourne</arrivalLocation>
+    <arrivalOdometer>124769</arrivalOdometer>
+    <arrivalCampsite>Discovery Park, Braybrook</arrivalCampsite>
   </data>
   <data>
     <dt>12/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Melbourne</location>
-    <odometer>124769</odometer>
-  </data>
-  <data>
-    <dt>12/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Wallan</location>
-    <odometer>124880</odometer>
-    <campsite>Wallan Truck Stop</campsite>
+    <departureLocation>Melbourne</departureLocation>
+    <departureOdometer>124769</departureOdometer>
+    <arrivalLocation>Wallan</arrivalLocation>
+    <arrivalOdometer>124880</arrivalOdometer>
+    <arrivalCampsite>Wallan Truck Stop</arrivalCampsite>
   </data>
   <data>
     <dt>13/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Wallan</location>
-    <odometer>124880</odometer>
+    <departureLocation>Wallan</departureLocation>
+    <departureOdometer>124880</departureOdometer>
+    <arrivalLocation>Campbellfield</arrivalLocation>
+    <arrivalOdometer>124931</arrivalOdometer>
+    <arrivalCampsite>ARV Service Centre</arrivalCampsite>
   </data>
   <data>
     <dt>13/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Campbellfield</location>
-    <odometer>124931</odometer>
-    <campsite>ARV Service Centre</campsite>
-  </data>
-  <data>
-    <dt>13/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Campbellfield</location>
-    <odometer>125014</odometer>
-  </data>
-  <data>
-    <dt>13/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Broadford</location>
-    <odometer>125076</odometer>
-    <campsite>Broadford Bowls Club</campsite>
+    <departureLocation>Campbellfield</departureLocation>
+    <departureOdometer>125014</departureOdometer>
+    <arrivalLocation>Broadford</arrivalLocation>
+    <arrivalOdometer>125076</arrivalOdometer>
+    <arrivalCampsite>Broadford Bowls Club</arrivalCampsite>
   </data>
   <data>
     <dt>14/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Broadford</location>
-    <odometer>125076</odometer>
-  </data>
-  <data>
-    <dt>14/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Gunning</location>
-    <odometer>125609</odometer>
-    <campsite>Gunning Showgrounds</campsite>
+    <departureLocation>Broadford</departureLocation>
+    <departureOdometer>125076</departureOdometer>
+    <arrivalLocation>Gunning</arrivalLocation>
+    <arrivalOdometer>125609</arrivalOdometer>
+    <arrivalCampsite>Gunning Showgrounds</arrivalCampsite>
   </data>
   <data>
     <dt>15/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Gunning</location>
-    <odometer>125609</odometer>
-  </data>
-  <data>
-    <dt>15/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Buheldelah</location>
-    <odometer>126071</odometer>
-    <campsite>Buheldelah Golf Club</campsite>
+    <departureLocation>Gunning</departureLocation>
+    <departureOdometer>125609</departureOdometer>
+    <arrivalLocation>Buheldelah</arrivalLocation>
+    <arrivalOdometer>126071</arrivalOdometer>
+    <arrivalCampsite>Buheldelah Golf Club</arrivalCampsite>
   </data>
   <data>
     <dt>16/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Buheldelah</location>
-    <odometer>126071</odometer>
-  </data>
-  <data>
-    <dt>16/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Tabbimoble</location>
-    <odometer>126497</odometer>
-    <campsite>New Italy Rest Area</campsite>
+    <departureLocation>Buheldelah</departureLocation>
+    <departureOdometer>126071</departureOdometer>
+    <arrivalLocation>Tabbimoble</arrivalLocation>
+    <arrivalOdometer>126497</arrivalOdometer>
+    <arrivalCampsite>New Italy Rest Area</arrivalCampsite>
   </data>
   <data>
     <dt>17/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Tabbimoble</location>
-    <odometer>126497</odometer>
-  </data>
-  <data>
-    <dt>17/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Cleveland</location>
-    <odometer>126717</odometer>
-    <campsite>Cleveland Gardens</campsite>
+    <departureLocation>Tabbimoble</departureLocation>
+    <departureOdometer>126497</departureOdometer>
+    <arrivalLocation>Cleveland</arrivalLocation>
+    <arrivalOdometer>126717</arrivalOdometer>
+    <arrivalCampsite>Cleveland Gardens</arrivalCampsite>
   </data>
   <data>
     <dt>21/04/2021</dt>
-    <activity>DEPARTURE</activity>
-    <location>Cleveland</location>
-    <odometer>126717</odometer>
-  </data>
-  <data>
-    <dt>21/04/2021</dt>
-    <activity>ARRIVAL</activity>
-    <location>Brisbane</location>
-    <odometer>126743</odometer>
-    <campsite>Car &amp; Caravan Storage</campsite>
+    <departureLocation>Cleveland</departureLocation>
+    <departureOdometer>126717</departureOdometer>
+    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalOdometer>126743</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
 </travel>

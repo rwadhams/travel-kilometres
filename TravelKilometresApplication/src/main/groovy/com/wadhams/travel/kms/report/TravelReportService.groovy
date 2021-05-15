@@ -1,46 +1,35 @@
 package com.wadhams.travel.kms.report
 
+import java.math.MathContext
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 
-import com.wadhams.travel.kms.dto.DepartureArrivalPair
-import com.wadhams.travel.kms.dto.TravelKilometerDTO
-import com.wadhams.travel.kms.type.Activity
-import java.math.MathContext
+import com.wadhams.travel.kms.dto.TravelDTO
 
 class TravelReportService {
-	def execute(List<TravelKilometerDTO> tkList) {
+	def execute(List<TravelDTO> travelList) {
 		File f = new File("out/travel-report.txt")
 		
 		f.withPrintWriter {pw ->
 			pw.println 'TRAVEL REPORT'
 			pw.println '-------------'
 	
-			report(tkList, pw)
+			report(travelList, pw)
 		}
 	}
 	
-	def report(List<TravelKilometerDTO> tkList, PrintWriter pw) {
-		List<DepartureArrivalPair> list = []
-				
-		for (int i; i<tkList.size();i+=2) {
-			DepartureArrivalPair dap = new DepartureArrivalPair()
-			dap.departure = tkList[i]
-			dap.arrival = tkList[i+1]
-			list << dap
-		}
+	def report(List<TravelDTO> travelList, PrintWriter pw) {
+		Date startingDate = travelList[0].travelDate
 		
-		Date startingDate = tkList[0].activityDate
-		
-		int maxDepartureLocationSize = maxLocationSize(tkList, Activity.Departure)
+		int maxDepartureLocationSize = maxDepartureLocationSize(travelList)
 		//println "maxDepartureLocationSize...: $maxDepartureLocationSize"
-		int maxArrivalLocationSize = maxLocationSize(tkList, Activity.Arrival)
+		int maxArrivalLocationSize = maxArrivalLocationSize(travelList)
 		//println "maxArrivalLocationSize.....: $maxArrivalLocationSize"
 
-		report(list, startingDate, maxDepartureLocationSize, maxArrivalLocationSize, pw)
+		report(travelList, startingDate, maxDepartureLocationSize, maxArrivalLocationSize, pw)
 	}
 	
-	def report(List<DepartureArrivalPair> dapList, Date startingDate, int maxDepartureLocationSize, int maxArrivalLocationSize, PrintWriter pw) {
+	def report(List<TravelDTO> travelList, Date startingDate, int maxDepartureLocationSize, int maxArrivalLocationSize, PrintWriter pw) {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
 		NumberFormat nf = NumberFormat.getNumberInstance()
 		nf.setMaximumFractionDigits(0)
@@ -50,34 +39,31 @@ class TravelReportService {
 		BigDecimal totalCaravanKms = new BigDecimal(0.0)
 		BigDecimal totalVehicleOnlyKms = new BigDecimal(0.0)
 		
-		DepartureArrivalPair previous = null
+		TravelDTO previous = null
 
-		dapList.each {dap ->
-			TravelKilometerDTO departure = dap.departure
-			TravelKilometerDTO arrival = dap.arrival
-			
-			//vehicle kilometers when a previous DepartureArrivalPair exists
+		travelList.each {t ->
+			//vehicle kilometers when a previous TravelDTO exists
 			if (previous) {
-				BigDecimal vehicleOnlyKms = departure.odometer.subtract(previous.arrival.odometer)
+				BigDecimal vehicleOnlyKms = t.departureOdometer.subtract(previous.arrivalOdometer)
 				if (vehicleOnlyKms == 0) {
-					pw.println "Overnight in ${previous.arrival.location}"
+					pw.println "Overnight in ${previous.arrivalLocation}"
 					pw.println ''
 				}
 				else {
-					pw.println "Vehicle kilometers around ${previous.arrival.location}: ${nf.format(vehicleOnlyKms)}"
+					pw.println "Vehicle kilometers around ${previous.arrivalLocation}: ${nf.format(vehicleOnlyKms)}"
 					pw.println ''
 					totalVehicleOnlyKms = totalVehicleOnlyKms.add(vehicleOnlyKms)
 				}
 			}
 			
-			BigDecimal caravanKms = arrival.odometer.subtract(departure.odometer)
-			String departureLocation = departure.location.padRight(maxDepartureLocationSize+2, ' ')
-			String arrivalLocation = arrival.location.padRight(maxArrivalLocationSize+2, ' ')
-			pw.println "${sdf.format(departure.activityDate)}  $departureLocation$arrivalLocation  ${nf.format(departure.odometer).padLeft(9, ' ')}   ${nf.format(arrival.odometer).padLeft(9, ' ')}   ${nf.format(caravanKms).padLeft(7, ' ')}   ${arrival.campsite}"
+			BigDecimal caravanKms = t.arrivalOdometer.subtract(t.departureOdometer)
+			String departureLocation = t.departureLocation.padRight(maxDepartureLocationSize+2, ' ')
+			String arrivalLocation = t.arrivalLocation.padRight(maxArrivalLocationSize+2, ' ')
+			pw.println "${sdf.format(t.travelDate)}  $departureLocation$arrivalLocation  ${nf.format(t.departureOdometer).padLeft(9, ' ')}   ${nf.format(t.arrivalOdometer).padLeft(9, ' ')}   ${nf.format(caravanKms).padLeft(7, ' ')}   ${t.arrivalCampsite}"
 			
 			totalCaravanKms = totalCaravanKms.add(caravanKms)
 			
-			previous = dap
+			previous = t
 		}
 		
 		BigDecimal combinedKilometers = totalCaravanKms.add(totalVehicleOnlyKms)
@@ -92,11 +78,21 @@ class TravelReportService {
 		pw.println "${nf.format(combinedKilometers)} Kms (combined caravan and vehicle) since: ${sdf.format(startingDate)}  (i.e. Caravan pickup in Melbourne)"
 	}
 
-	int maxLocationSize(List<TravelKilometerDTO> tkList, Activity activity) {
+	int maxDepartureLocationSize(List<TravelDTO> travelList) {
 		int maxLocationSize = 0
-		tkList.each {tk ->
-			if (tk.activity == activity && tk.location.size() > maxLocationSize) {
-				maxLocationSize = tk.location.size()
+		travelList.each {t ->
+			if (t.departureLocation.size() > maxLocationSize) {
+				maxLocationSize = t.departureLocation.size()
+			}
+		}
+		return maxLocationSize
+	}
+
+	int maxArrivalLocationSize(List<TravelDTO> travelList) {
+		int maxLocationSize = 0
+		travelList.each {t ->
+			if (t.arrivalLocation.size() > maxLocationSize) {
+				maxLocationSize = t.arrivalLocation.size()
 			}
 		}
 		return maxLocationSize

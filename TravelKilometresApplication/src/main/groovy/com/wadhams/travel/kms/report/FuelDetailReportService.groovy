@@ -3,21 +3,21 @@ package com.wadhams.travel.kms.report
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 
-import com.wadhams.travel.kms.dto.TravelKilometerDTO
+import com.wadhams.travel.kms.dto.FuelDTO
 
 class FuelDetailReportService {
-	def execute(List<TravelKilometerDTO> tkList) {
+	def execute(List<FuelDTO> fuelList) {
 		File f = new File("out/fuel-detail-report.txt")
 		
 		f.withPrintWriter {pw ->
 			pw.println 'FUEL DETAIL REPORT'
 			pw.println '------------------'
 	
-			report(tkList, pw)
+			report(fuelList, pw)
 		}
 	}
 	
-	def report(List<TravelKilometerDTO> tkList, PrintWriter pw) {
+	def report(List<FuelDTO> fuelList, PrintWriter pw) {
 		BigDecimal totalKms = new BigDecimal(0.0)
 		BigDecimal totalLitres = new BigDecimal(0.0)
 		BigDecimal totalDollars = new BigDecimal(0.0)
@@ -32,8 +32,8 @@ class FuelDetailReportService {
 		NumberFormat nf3 = NumberFormat.getNumberInstance()
 		nf3.setMaximumFractionDigits(3)
 
-		TravelKilometerDTO previousDTO = tkList[0]
-		pw.println "${sdf.format(previousDTO.activityDate)}  Starting Odometer: ${nf.format(previousDTO.odometer)}"
+		FuelDTO previousDTO = fuelList[0]
+		pw.println "${sdf.format(previousDTO.fuelDate)}  Starting Odometer: ${nf.format(previousDTO.odometer)}"
 		pw.println ''
 		
 		pw.println "                       Dollars                         Litres"
@@ -41,12 +41,12 @@ class FuelDetailReportService {
 		pw.println "Date         Odometer  Litre    Dollars  Litres  Km's  100km "
 		pw.println "-----------  --------  -------  -------  ------  ----  ------"
 		
-		tkList[1..-1].each {dto ->
+		fuelList[1..-1].each {dto ->
 			BigDecimal kilometres = dto.odometer.subtract(previousDTO.odometer)
 			totalKms = totalKms.add(kilometres)
 			totalLitres = totalLitres.add(dto.litres)
 			
-			String s1 = sdf.format(dto.activityDate).padRight(13, ' ')
+			String s1 = sdf.format(dto.fuelDate).padRight(13, ' ')
 			
 			String s2 = nf.format(dto.odometer).padRight(10, ' ')
 			

@@ -2,14 +2,13 @@ package com.wadhams.travel.kms.service
 
 import java.text.SimpleDateFormat
 
-import com.wadhams.travel.kms.dto.TravelKilometerDTO
-import com.wadhams.travel.kms.type.Activity
+import com.wadhams.travel.kms.dto.FuelDTO
 
 class FuelService {
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
 	
-	List<TravelKilometerDTO> loadFuelData() {
-		List<TravelKilometerDTO> tkList = []
+	List<FuelDTO> loadFuelData() {
+		List<FuelDTO> fuelList = []
 		
 		File fuelFile
 		URL resource = getClass().getClassLoader().getResource("Fuel.xml")
@@ -23,29 +22,21 @@ class FuelService {
 		def fuel = new XmlSlurper().parse(fuelFile)
 		def transactions = fuel.data
 
-		TravelKilometerDTO dto = build(transactions[0])
-		dto.activity = Activity.InitialFuel
-		//println dto
-		tkList << dto
-
-		transactions[1..-1].each {txn ->
+		transactions.each {txn ->
 			//println txn
-			dto = build(txn)
-			dto.activity = Activity.FuelFillUp
-			//println dto
-			tkList << dto
+			fuelList << build(txn)
 		}
 
-		return tkList
+		return fuelList
 	}
 	
-	TravelKilometerDTO build(txn) {
-			TravelKilometerDTO dto = new TravelKilometerDTO()
+	FuelDTO build(txn) {
+			FuelDTO dto = new FuelDTO()
 			
 			//activityDate
 			Date d = sdf.parse(txn.dt.text())
 //			println d
-			dto.activityDate = d
+			dto.fuelDate = d
 			
 			//odometer
 			BigDecimal odometer = new BigDecimal(txn.odometer.text())

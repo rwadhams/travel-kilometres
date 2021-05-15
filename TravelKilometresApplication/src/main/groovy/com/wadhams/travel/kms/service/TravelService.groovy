@@ -2,14 +2,13 @@ package com.wadhams.travel.kms.service
 
 import java.text.SimpleDateFormat
 
-import com.wadhams.travel.kms.dto.TravelKilometerDTO
-import com.wadhams.travel.kms.type.Activity
+import com.wadhams.travel.kms.dto.TravelDTO
 
 class TravelService {
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
 	
-	List<TravelKilometerDTO> loadTravelData() {
-		List<TravelKilometerDTO> tkList = []
+	List<TravelDTO> loadTravelData() {
+		List<TravelDTO> travelList = []
 		
 		File travelFile
 		URL resource = getClass().getClassLoader().getResource("Travel.xml")
@@ -25,48 +24,44 @@ class TravelService {
 
 		transactions.each {txn ->
 			//println txn
-			TravelKilometerDTO dto = build(txn)
-			//println dto
-			tkList << dto
+			travelList << build(txn)
 		}
 
-		return tkList
+		return travelList
 	}
 	
-	TravelKilometerDTO build(txn) {
-			TravelKilometerDTO dto = new TravelKilometerDTO()
+	TravelDTO build(txn) {
+			TravelDTO dto = new TravelDTO()
 			
 			//activityDate
 			Date d = sdf.parse(txn.dt.text())
 //			println d
-			dto.activityDate = d
+			dto.travelDate = d
 			
-			//activity
-			String activity = txn.activity.text()
-			//println activity
-			switch (activity) {
-				case 'DEPARTURE' :
-					dto.activity = Activity.Departure
-					break
-				case 'ARRIVAL' :
-					dto.activity = Activity.Arrival
-					//campsite
-					String campsite = txn.campsite.text()
-					dto.campsite = campsite
-					break
-				default : 
-					dto.activity = Activity.Unknown
-			}
+			//departureLocation
+			String departureLocation = txn.departureLocation.text()
+//			println departureLocation
+			dto.departureLocation = departureLocation
 			
-			//location
-			String location = txn.location.text()
-//			println location
-			dto.location = location
+			//departureOdometer
+			BigDecimal departureOdometer = new BigDecimal(txn.departureOdometer.text())
+//			println departureOdometer
+			dto.departureOdometer = departureOdometer
 			
-			//odometer
-			BigDecimal odometer = new BigDecimal(txn.odometer.text())
-//			println odometer
-			dto.odometer = odometer
+			//arrivalLocation
+			String arrivalLocation = txn.arrivalLocation.text()
+//			println arrivalLocation
+			dto.arrivalLocation = arrivalLocation
+			
+			//arrivalOdometer
+			BigDecimal arrivalOdometer = new BigDecimal(txn.arrivalOdometer.text())
+//			println arrivalOdometer
+			dto.arrivalOdometer = arrivalOdometer
+			
+			//arrivalCampsite
+			String arrivalCampsite = txn.arrivalCampsite.text()
+//			println arrivalCampsite
+			dto.arrivalCampsite = arrivalCampsite
 			
 			return dto
 	}

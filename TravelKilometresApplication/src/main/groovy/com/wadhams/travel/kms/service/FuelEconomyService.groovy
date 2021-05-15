@@ -2,29 +2,29 @@ package com.wadhams.travel.kms.service
 
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
-import com.wadhams.travel.kms.dto.DepartureArrivalPair
+
+import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.FuelEconomyDTO
-import com.wadhams.travel.kms.dto.TravelKilometerDTO
-import com.wadhams.travel.kms.type.Activity
+import com.wadhams.travel.kms.dto.TravelDTO
 
 class FuelEconomyService {
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
 
 	BigDecimal oneHundred = new BigDecimal(100)
 	
-	List<FuelEconomyDTO> buildFuelEconomyList(List<TravelKilometerDTO> tkList, String afterDate ) {
+	List<FuelEconomyDTO> buildFuelEconomyList(List<FuelDTO> fuelList, String afterDate ) {
 		Date d = sdf.parse(afterDate)
 		
 		List<FuelEconomyDTO> feList = []
 		
-		assert tkList.size() >= 2
+		assert fuelList.size() >= 2
 		
-		for (int i; i < tkList.size()-1; i++) {
-			if (tkList[i].activityDate.after(d)) {
+		for (int i; i < fuelList.size()-1; i++) {
+			if (fuelList[i].fuelDate.after(d)) {
 				FuelEconomyDTO dto = new FuelEconomyDTO()
 				
-				dto.fuelStart = tkList[i]
-				dto.fuelEnd = tkList[i+1]
+				dto.fuelStart = fuelList[i]
+				dto.fuelEnd = fuelList[i+1]
 				
 				feList << dto
 			}
@@ -33,31 +33,17 @@ class FuelEconomyService {
 		return feList
 	}
 	
-	List<DepartureArrivalPair> buildDepartureArrivalPairList(List<TravelKilometerDTO> tkList) {
-		
-		List<DepartureArrivalPair> dapList = []
-			
-		for (int i; i<tkList.size();i+=2) {
-			DepartureArrivalPair dap = new DepartureArrivalPair()
-			dap.departure = tkList[i]
-			dap.arrival = tkList[i+1]
-			dapList << dap
-		}
-		
-		return dapList
-	}
-
-	def addCaravanTripsFuelEconomyList(List<FuelEconomyDTO> feList, List<DepartureArrivalPair> dapList) {
+	def addCaravanTripsFuelEconomyList(List<FuelEconomyDTO> feList, List<TravelDTO> travelList) {
 //		println "feList size(): ${feList.size()}"
 //		println ''
 		
 		feList.each {fe->
-			dapList.each {dap ->
-				if (fe.fuelStart.odometer > dap.departure.odometer && fe.fuelStart.odometer < dap.arrival.odometer ||
-					dap.departure.odometer > fe.fuelStart.odometer && dap.arrival.odometer < fe.fuelEnd.odometer ||
-					fe.fuelEnd.odometer > dap.departure.odometer && fe.fuelEnd.odometer < dap.arrival.odometer
+			travelList.each {t ->
+				if (fe.fuelStart.odometer > t.departureOdometer && fe.fuelStart.odometer < t.arrivalOdometer ||
+					t.departureOdometer > fe.fuelStart.odometer && t.arrivalOdometer < fe.fuelEnd.odometer ||
+					fe.fuelEnd.odometer > t.departureOdometer && fe.fuelEnd.odometer < t.arrivalOdometer
 					) {
-					fe.dapList << dap
+					fe.travelList << t
 				}
 			}
 		}
@@ -65,9 +51,9 @@ class FuelEconomyService {
 	
 	def calculateCaravanVehicleKilometres(List<FuelEconomyDTO> feList) {
 		feList.each {fe->
-			fe.dapList.each {dap ->
-				BigDecimal departureOdometer = Math.max(fe.fuelStart.odometer ,dap.departure.odometer)
-				BigDecimal arrivalOdometer = Math.min(fe.fuelEnd.odometer ,dap.arrival.odometer)
+			fe.travelList.each {t ->
+				BigDecimal departureOdometer = Math.max(fe.fuelStart.odometer, t.departureOdometer)
+				BigDecimal arrivalOdometer = Math.min(fe.fuelEnd.odometer, t.arrivalOdometer)
 				fe.caravanKilometres = fe.caravanKilometres.add(arrivalOdometer.subtract(departureOdometer))
 			}
 			fe.vehicleKilometres = fe.vehicleKilometres.add(fe.fuelEnd.odometer).subtract(fe.fuelStart.odometer).subtract(fe.caravanKilometres)
@@ -83,11 +69,11 @@ class FuelEconomyService {
 			BigDecimal caravanHundreds = fe.caravanKilometres.divide(oneHundred)
 			//println caravanHundreds
 			
-			reportList << "${sdf.format(fe.fuelStart.activityDate)} (${fe.fuelStart.odometer}kms) - ${sdf.format(fe.fuelEnd.activityDate)} (${fe.fuelEnd.odometer}kms) - ${fe.fuelEnd.litres} litres - Caravan: ${fe.caravanKilometres}kms - Vehicle: ${fe.vehicleKilometres}kms (${fe.fuelEnd.odometer.subtract(fe.fuelStart.odometer)}kms)"
+			reportList << "${sdf.format(fe.fuelStart.fuelDate)} (${fe.fuelStart.odometer}kms) - ${sdf.format(fe.fuelEnd.fuelDate)} (${fe.fuelEnd.odometer}kms) - ${fe.fuelEnd.litres} litres - Caravan: ${fe.caravanKilometres}kms - Vehicle: ${fe.vehicleKilometres}kms (${fe.fuelEnd.odometer.subtract(fe.fuelStart.odometer)}kms)"
 
-			String travels = "Caravan travels: ${fe.dapList.size()} "
-			fe.dapList.each {dap ->
-				travels += "(${dap.departure.odometer}-${dap.arrival.odometer}) "
+			String travels = "Caravan travels: ${fe.travelList.size()} "
+			fe.travelList.each {t ->
+				travels += "(${t.departureOdometer}-${t.arrivalOdometer}) "
 			}
 			reportList << travels
 

@@ -856,4 +856,148 @@
     <arrivalOdometer>126743</arrivalOdometer>
     <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
+  <data>
+    <dt>18/05/2021</dt>
+    <departureLocation>Brisbane</departureLocation>
+    <departureOdometer>127535</departureOdometer>
+    <arrivalLocation>Redland Bay</arrivalLocation>
+    <arrivalOdometer>127595</arrivalOdometer>
+    <arrivalCampsite>House sit in Redland Bay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/06/2021</dt>
+    <departureLocation>Redland Bay</departureLocation>
+    <departureOdometer>128425</departureOdometer>
+    <arrivalLocation>Stanmore</arrivalLocation>
+    <arrivalOdometer>128568</arrivalOdometer>
+    <arrivalCampsite>Running Creek Parklands</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/06/2021</dt>
+    <departureLocation>Stanmore</departureLocation>
+    <departureOdometer>128771</departureOdometer>
+    <arrivalLocation>Caboolture</arrivalLocation>
+    <arrivalOdometer>128809</arrivalOdometer>
+    <arrivalCampsite>Caboolture Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/06/2021</dt>
+    <departureLocation>Caboolture</departureLocation>
+    <departureOdometer>128809</departureOdometer>
+    <arrivalLocation>Toowoomba</arrivalLocation>
+    <arrivalOdometer>129015</arrivalOdometer>
+    <arrivalCampsite>Toowoomba Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/06/2021</dt>
+    <departureLocation>Toowoomba</departureLocation>
+    <departureOdometer>129165</departureOdometer>
+    <arrivalLocation>Chinchilla</arrivalLocation>
+    <arrivalOdometer>129331</arrivalOdometer>
+    <arrivalCampsite>Chinchilla Weir</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/06/2021</dt>
+    <departureLocation>Chinchilla</departureLocation>
+    <departureOdometer>129362</departureOdometer>
+    <arrivalLocation>Bungeworgorai</arrivalLocation>
+    <arrivalOdometer>129567</arrivalOdometer>
+    <arrivalCampsite>Bungil Rest Stop</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/06/2021</dt>
+    <departureLocation>Bungeworgorai</departureLocation>
+    <departureOdometer>129567</departureOdometer>
+    <arrivalLocation>Roma</arrivalLocation>
+    <arrivalOdometer>129578</arrivalOdometer>
+    <arrivalCampsite>Roma Gun Club</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/06/2021</dt>
+    <departureLocation>Roma</departureLocation>
+    <departureOdometer>129611</departureOdometer>
+    <arrivalLocation>Mitchell</arrivalLocation>
+    <arrivalOdometer>129701</arrivalOdometer>
+    <arrivalCampsite>Neil Turner Weir</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/06/2021</dt>
+    <departureLocation>Mitchell</departureLocation>
+    <departureOdometer>129711</departureOdometer>
+    <arrivalLocation>Charleville</arrivalLocation>
+    <arrivalOdometer>129894</arrivalOdometer>
+    <arrivalCampsite>CMCA Bush Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/06/2021</dt>
+    <departureLocation>Charleville</departureLocation>
+    <departureOdometer>130035</departureOdometer>
+    <arrivalLocation>Tambo</arrivalLocation>
+    <arrivalOdometer>130233</arrivalOdometer>
+    <arrivalCampsite>Stubby Bend Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/07/2021</dt>
+    <departureLocation>Tambo</departureLocation>
+    <departureOdometer>130246</departureOdometer>
+    <arrivalLocation>Longreach</arrivalLocation>
+    <arrivalOdometer>130566</arrivalOdometer>
+    <arrivalCampsite>Apex Riverside Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/07/2021</dt>
+    <departureLocation>Longreach</departureLocation>
+    <departureOdometer>130726</departureOdometer>
+    <arrivalLocation>Winton</arrivalLocation>
+    <arrivalOdometer>130907</arrivalOdometer>
+    <arrivalCampsite>Mistake Creek Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/07/2021</dt>
+    <departureLocation>Winton</departureLocation>
+    <departureOdometer>130989</departureOdometer>
+    <arrivalLocation>Opalton</arrivalLocation>
+    <arrivalOdometer>131201</arrivalOdometer>
+    <arrivalCampsite>Opalton Bush Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/07/2021</dt>
+    <departureLocation>Opalton</departureLocation>
+    <departureOdometer>131213</departureOdometer>
+    <arrivalLocation>Winton</arrivalLocation>
+    <arrivalOdometer>131337</arrivalOdometer>
+    <arrivalCampsite>Mistake Creek Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/07/2021</dt>
+    <departureLocation>Winton</departureLocation>
+    <departureOdometer>131352</departureOdometer>
+    <arrivalLocation>Richmond</arrivalLocation>
+    <arrivalOdometer>131577</arrivalOdometer>
+    <arrivalCampsite>Richmond RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/07/2021</dt>
+    <departureLocation>Richmond</departureLocation>
+    <departureOdometer>131611</departureOdometer>
+    <arrivalLocation>Hughenden</arrivalLocation>
+    <arrivalOdometer>131725</arrivalOdometer>
+    <arrivalCampsite>Hughenden RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/07/2021</dt>
+    <departureLocation>Hughenden</departureLocation>
+    <departureOdometer>131755</departureOdometer>
+    <arrivalLocation>Porcupine Gorge</arrivalLocation>
+    <arrivalOdometer>131830</arrivalOdometer>
+    <arrivalCampsite>Porcupine Gorge NP</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/07/2021</dt>
+    <departureLocation>Porcupine Gorge</departureLocation>
+    <departureOdometer>131830</departureOdometer>
+    <arrivalLocation>Pentland</arrivalLocation>
+    <arrivalOdometer>132038</arrivalOdometer>
+    <arrivalCampsite>Pentland Hotel</arrivalCampsite>
+  </data>
 </travel>

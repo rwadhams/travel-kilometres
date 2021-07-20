@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <!-- Transmission -->
+  <transmission>
+    <frequency>40000</frequency>
+    <data>
+      <dt>06/05/2021</dt>
+      <location>Deans Automatic Transmissions, Brisbane</location>
+      <cost>566.50</cost>
+      <schedule>120000</schedule>
+      <odometer>127107</odometer>
+    </data>
+  </transmission>
+  
+  <!-- Caravan -->
+  <caravan>
+    <frequency>10000</frequency>
+    <data>
+      <dt>13/04/2021</dt>
+      <location>ARV, Melbourne</location>
+      <cost>407.00</cost>
+      <schedule>10000</schedule>
+      <odometer>11000</odometer>
+    </data>
+  </caravan>
+  
+  <!-- Car -->
+  <car>
+    <frequency>10000</frequency>
+    <data>
+      <dt>25/11/2019</dt>
+      <location>OldMac Toyota, Brisbane</location>
+      <cost>465.05</cost>
+      <schedule>90000</schedule>
+      <odometer>89027</odometer>
+    </data>
+    <data>
+      <dt>08/05/2020</dt>
+      <location>OldMac Toyota, Brisbane</location>
+      <cost>479.60</cost>
+      <schedule>100000</schedule>
+      <odometer>100134</odometer>
+    </data>
+    <data>
+      <dt>06/10/2020</dt>
+      <location>OldMac Toyota, Brisbane</location>
+      <cost>266.10</cost>
+      <schedule>110000</schedule>
+      <odometer>109827</odometer>
+    </data>
+    <data>
+      <dt>18/03/2021</dt>
+      <location>Launceston Toyota, Launceston</location>
+      <cost>887.33</cost>
+      <schedule>120000</schedule>
+      <odometer>122397</odometer>
+    </data>
+  </car>
+</service>

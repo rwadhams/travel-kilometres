@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat
 
 import com.wadhams.travel.kms.dto.TravelDTO
 
-class TravelService {
+class TravelXMLService {
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
 	
 	List<TravelDTO> loadTravelData() {

@@ -6,14 +6,14 @@ import com.wadhams.travel.kms.dto.TravelDTO
 import com.wadhams.travel.kms.report.FuelDetailReportService
 import com.wadhams.travel.kms.report.TravelReportService
 import com.wadhams.travel.kms.service.FuelEconomyService
-import com.wadhams.travel.kms.service.FuelService
-import com.wadhams.travel.kms.service.TravelService
+import com.wadhams.travel.kms.service.FuelXMLService
+import com.wadhams.travel.kms.service.TravelXMLService
 
 class FuelEconomyController {
 	
 	def execute() {
-		FuelService fuelService = new FuelService()
-		List<FuelDTO> fuelList = fuelService.loadFuelData()
+		FuelXMLService fuelXMLService = new FuelXMLService()
+		List<FuelDTO> fuelList = fuelXMLService.loadFuelData()
 		
 //		fuelList.each {f ->
 //			println f
@@ -30,8 +30,8 @@ class FuelEconomyController {
 //		}
 //		println ''
 		
-		TravelService travelService = new TravelService()
-		List<TravelDTO> travelList = travelService.loadTravelData()
+		TravelXMLService travelXMLService = new TravelXMLService()
+		List<TravelDTO> travelList = travelXMLService.loadTravelData()
 		
 		feService.addCaravanTripsFuelEconomyList(feList, travelList)
 		

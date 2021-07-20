@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat
 
 import com.wadhams.travel.kms.dto.FuelDTO
 
-class FuelService {
+class FuelXMLService {
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
 	
 	List<FuelDTO> loadFuelData() {

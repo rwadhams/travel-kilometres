@@ -43,9 +43,9 @@ class ServiceReportService {
 		}
 		
 		ServiceEventDTO lastTransmission = serviceDTO.transmissionList[-1]
-		BigDecimal nextServiceOdometer = lastTransmission.serviceEventOdometer.add(serviceDTO.transmissionFrequency)
-		BigDecimal nextServiceRemaining = nextServiceOdometer.subtract(carOdometerKms)
-		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} car Kms. At ${nf.format(nextServiceOdometer)}"
+		BigDecimal nextServiceSchedule = lastTransmission.serviceEventSchedule.add(serviceDTO.transmissionFrequency)
+		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(carOdometerKms)
+		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} car Kms. At ${nf.format(nextServiceSchedule)}."
 	}
 
 	def caravanReport(ServiceDTO serviceDTO, BigDecimal totalCaravanKms, PrintWriter pw) {
@@ -62,8 +62,8 @@ class ServiceReportService {
 		}
 		
 		ServiceEventDTO lastCaravan = serviceDTO.caravanList[-1]
-		BigDecimal nextServiceOdometer = lastCaravan.serviceEventOdometer.add(serviceDTO.caravanFrequency)
-		BigDecimal nextServiceRemaining = nextServiceOdometer.subtract(totalCaravanKms)
+		BigDecimal nextServiceSchedule = lastCaravan.serviceEventSchedule.add(serviceDTO.caravanFrequency)
+		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(totalCaravanKms)
 		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} caravan Kms."
 	}
 
@@ -81,9 +81,9 @@ class ServiceReportService {
 		}
 		
 		ServiceEventDTO lastCar = serviceDTO.carList[-1]
-		BigDecimal nextServiceOdometer = lastCar.serviceEventOdometer.add(serviceDTO.carFrequency)
-		BigDecimal nextServiceRemaining = nextServiceOdometer.subtract(carOdometerKms)
-		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} car Kms. At ${nf.format(nextServiceOdometer)}"
+		BigDecimal nextServiceSchedule = lastCar.serviceEventSchedule.add(serviceDTO.carFrequency)
+		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(carOdometerKms)
+		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} car Kms. At ${nf.format(nextServiceSchedule)}."
 	}
 
 }

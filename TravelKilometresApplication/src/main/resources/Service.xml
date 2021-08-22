@@ -17,7 +17,7 @@
     <frequency>10000</frequency>
     <data>
       <dt>13/04/2021</dt>
-      <location>ARV, Melbourne</location>
+      <location>ARV Chassis, Melbourne</location>
       <cost>407.00</cost>
       <schedule>10000</schedule>
       <odometer>11000</odometer>
@@ -50,10 +50,17 @@
     </data>
     <data>
       <dt>18/03/2021</dt>
-      <location>Launceston Toyota, Launceston</location>
+      <location>Launceston Toyota</location>
       <cost>887.33</cost>
       <schedule>120000</schedule>
       <odometer>122397</odometer>
+    </data>
+    <data>
+      <dt>22/07/2021</dt>
+      <location>Charters Towers Toyota</location>
+      <cost>366.44</cost>
+      <schedule>130000</schedule>
+      <odometer>132159</odometer>
     </data>
   </car>
 </service>

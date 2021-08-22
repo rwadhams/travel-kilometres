@@ -2,7 +2,8 @@ package com.wadhams.travel.kms.service
 
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
-
+import com.wadhams.travel.kms.comparator.FuelEconomyDateComparator
+import com.wadhams.travel.kms.comparator.FuelEconomyPerformanceComparator
 import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.FuelEconomyDTO
 import com.wadhams.travel.kms.dto.TravelDTO
@@ -12,7 +13,7 @@ class FuelEconomyService {
 
 	BigDecimal oneHundred = new BigDecimal(100)
 	
-	List<FuelEconomyDTO> buildFuelEconomyList(List<FuelDTO> fuelList, String afterDate ) {
+	List<FuelEconomyDTO> buildFuelEconomyList(List<FuelDTO> fuelList, String afterDate) {
 		Date d = sdf.parse(afterDate)
 		
 		List<FuelEconomyDTO> feList = []
@@ -33,7 +34,24 @@ class FuelEconomyService {
 		return feList
 	}
 	
-	def addCaravanTripsFuelEconomyList(List<FuelEconomyDTO> feList, List<TravelDTO> travelList) {
+	List<FuelEconomyDTO> buildFuelEconomyList(List<FuelDTO> fuelList) {
+		List<FuelEconomyDTO> feList = []
+		
+		assert fuelList.size() >= 2
+		
+		for (int i; i < fuelList.size()-1; i++) {
+			FuelEconomyDTO dto = new FuelEconomyDTO()
+			
+			dto.fuelStart = fuelList[i]
+			dto.fuelEnd = fuelList[i+1]
+			
+			feList << dto
+		}
+
+		return feList
+	}
+	
+	def addCaravanTripsToFuelEconomyList(List<FuelEconomyDTO> feList, List<TravelDTO> travelList) {
 //		println "feList size(): ${feList.size()}"
 //		println ''
 		
@@ -49,7 +67,7 @@ class FuelEconomyService {
 		}
 	}
 	
-	def calculateCaravanVehicleKilometres(List<FuelEconomyDTO> feList) {
+	def calculateAdditionalValues(List<FuelEconomyDTO> feList) {
 		feList.each {fe->
 			fe.travelList.each {t ->
 				BigDecimal departureOdometer = Math.max(fe.fuelStart.odometer, t.departureOdometer)
@@ -57,6 +75,55 @@ class FuelEconomyService {
 				fe.caravanKilometres = fe.caravanKilometres.add(arrivalOdometer.subtract(departureOdometer))
 			}
 			fe.vehicleKilometres = fe.vehicleKilometres.add(fe.fuelEnd.odometer).subtract(fe.fuelStart.odometer).subtract(fe.caravanKilometres)
+			fe.totalKilometres = fe.vehicleKilometres.add(fe.caravanKilometres)
+			fe.fuelEconomy = fe.fuelEnd.litres.multiply(100).divide(fe.totalKilometres, 2)
+		}
+	}
+	
+	def reportByDate(List<FuelEconomyDTO> feList) {
+		File f = new File("out/fuel-economy-date-report.txt")
+		
+		f.withPrintWriter {pw ->
+			pw.println 'FUEL ECONOMY REPORT (sorted by Date)'
+			pw.println '------------------------------------'
+			
+			Collections.sort(feList, new FuelEconomyDateComparator())
+	
+			report(feList, pw)
+		}
+	}
+
+	def reportByPerformance(List<FuelEconomyDTO> feList) {
+		File f = new File("out/fuel-economy-performance-report.txt")
+		
+		f.withPrintWriter {pw ->
+			pw.println 'FUEL ECONOMY REPORT (sorted by Performance)'
+			pw.println '-------------------------------------------'
+			
+			Collections.sort(feList, new FuelEconomyPerformanceComparator())
+	
+			report(feList, pw)
+		}
+	}
+
+	def report(List<FuelEconomyDTO> feList, PrintWriter pw) {
+		NumberFormat nf = NumberFormat.getNumberInstance()
+		nf.setMaximumFractionDigits(0)
+		nf.setGroupingUsed(false)
+		NumberFormat nf2 = NumberFormat.getNumberInstance()
+		nf2.setMaximumFractionDigits(2)
+		nf2.setMinimumFractionDigits(2)
+		
+		feList.each {fe ->
+			String s1 = sdf.format(fe.fuelStart.fuelDate)
+			String s2 = nf2.format(fe.fuelEnd.litres).padRight(6, ' ')
+			String s3 = nf.format(fe.caravanKilometres).padLeft(3, ' ')
+			String s4 = nf.format(fe.vehicleKilometres).padLeft(4, ' ')
+			String s5 = nf.format(fe.totalKilometres).padLeft(4, ' ')
+			String s6 = nf2.format(fe.fuelEconomy)
+
+			
+			pw.println "$s1 $s2 litres, Caravan: ${s3}kms, Vehicle: ${s4}kms, Total: ${s5}kms litres/100km: $s6"
 		}
 	}
 	

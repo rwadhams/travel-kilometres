@@ -10,6 +10,9 @@ class FuelEconomyDTO {
 	
 	BigDecimal caravanKilometres = new BigDecimal(0)
 	BigDecimal vehicleKilometres = new BigDecimal(0)
+	BigDecimal totalKilometres = new BigDecimal(0)
+	
+	BigDecimal fuelEconomy = new BigDecimal(0)
 	
 	@Override
 	public String toString() {

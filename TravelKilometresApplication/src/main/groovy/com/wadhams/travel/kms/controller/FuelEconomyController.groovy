@@ -1,5 +1,6 @@
 package com.wadhams.travel.kms.controller
 
+import com.wadhams.travel.kms.comparator.FuelEconomyPerformanceComparator
 import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.FuelEconomyDTO
 import com.wadhams.travel.kms.dto.TravelDTO
@@ -21,7 +22,8 @@ class FuelEconomyController {
 //		println ''
 		
 		FuelEconomyService feService = new FuelEconomyService()
-		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '29/09/2019')	//include, if after this date
+		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList)
+//		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '29/09/2019')	//include, if after this date
 //		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '30/06/2020')	//include, if after this date
 //		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '25/12/2020')	//include, if after this date
 //		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '01/01/2021')	//include, if after this date
@@ -33,9 +35,13 @@ class FuelEconomyController {
 		TravelXMLService travelXMLService = new TravelXMLService()
 		List<TravelDTO> travelList = travelXMLService.loadTravelData()
 		
-		feService.addCaravanTripsFuelEconomyList(feList, travelList)
+		feService.addCaravanTripsToFuelEconomyList(feList, travelList)
 		
-		feService.calculateCaravanVehicleKilometres(feList)
+		feService.calculateAdditionalValues(feList)
+		
+		feService.reportByDate(feList)
+		
+		feService.reportByPerformance(feList)
 		
 //		feList.each {fe ->
 //			println fe

@@ -17,17 +17,8 @@ class FuelEconomyController {
 		FuelXMLService fuelXMLService = new FuelXMLService()
 		List<FuelDTO> fuelList = fuelXMLService.loadFuelData()
 		
-//		fuelList.each {f ->
-//			println f
-//		}
-//		println ''
-		
 		FuelEconomyService feService = new FuelEconomyService()
 		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList)
-//		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '29/09/2019')	//include, if after this date
-//		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '30/06/2020')	//include, if after this date
-//		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '25/12/2020')	//include, if after this date
-//		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList, '01/01/2021')	//include, if after this date
 //		feList.each {fe ->
 //			println fe
 //		}
@@ -46,20 +37,5 @@ class FuelEconomyController {
 		
 		ferService.reportByPerformance(feList)
 		
-//		feList.each {fe ->
-//			println fe
-//		}
-//		println ''
-
-		List<String> reportList = feService.buildReport(feList)
-		reportList.each {r ->
-			println r
-		}
-
-		Map<BigDecimal, List<BigDecimal>> map = feService.buildPivotData(feList)
-		List<String> pivotList = feService.buildPivotReport(map)
-		pivotList.each {r ->
-			println r
-		}
 	}
 }

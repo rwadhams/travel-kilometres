@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <travel>
   <data>
     <dt>28/03/2020</dt>
@@ -999,5 +999,117 @@
     <arrivalLocation>Pentland</arrivalLocation>
     <arrivalOdometer>132038</arrivalOdometer>
     <arrivalCampsite>Pentland Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/07/2021</dt>
+    <departureLocation>Pentland</departureLocation>
+    <departureOdometer>132038</departureOdometer>
+    <arrivalLocation>Charters Towers</arrivalLocation>
+    <arrivalOdometer>132140</arrivalOdometer>
+    <arrivalCampsite>Charters Towers Discovery Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/07/2021</dt>
+    <departureLocation>Charters Towers</departureLocation>
+    <departureOdometer>132174</departureOdometer>
+    <arrivalLocation>Bluewater</arrivalLocation>
+    <arrivalOdometer>132337</arrivalOdometer>
+    <arrivalCampsite>Bluewater Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/07/2021</dt>
+    <departureLocation>Bluewater</departureLocation>
+    <departureOdometer>132478</departureOdometer>
+    <arrivalLocation>Lucinda</arrivalLocation>
+    <arrivalOdometer>132582</arrivalOdometer>
+    <arrivalCampsite>Lucinda Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/07/2021</dt>
+    <departureLocation>Lucinda</departureLocation>
+    <departureOdometer>132641</departureOdometer>
+    <arrivalLocation>Ingham</arrivalLocation>
+    <arrivalOdometer>132669</arrivalOdometer>
+    <arrivalCampsite>Ingham RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/08/2021</dt>
+    <departureLocation>Ingham</departureLocation>
+    <departureOdometer>132782</departureOdometer>
+    <arrivalLocation>Djiru NP, Mission Beach</arrivalLocation>
+    <arrivalOdometer>132902</arrivalOdometer>
+    <arrivalCampsite>Warrick Losper RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/08/2021</dt>
+    <departureLocation>Djiru NP, Mission Beach</departureLocation>
+    <departureOdometer>133148</departureOdometer>
+    <arrivalLocation>Innisfail</arrivalLocation>
+    <arrivalOdometer>133190</arrivalOdometer>
+    <arrivalCampsite>Innisfail CMCA</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/08/2021</dt>
+    <departureLocation>Innisfail</departureLocation>
+    <departureOdometer>133289</departureOdometer>
+    <arrivalLocation>Wooroonooran</arrivalLocation>
+    <arrivalOdometer>133331</arrivalOdometer>
+    <arrivalCampsite>Henrietta Creek Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/08/2021</dt>
+    <departureLocation>Wooroonooran</departureLocation>
+    <departureOdometer>133454</departureOdometer>
+    <arrivalLocation>Ravenshoe</arrivalLocation>
+    <arrivalOdometer>133504</arrivalOdometer>
+    <arrivalCampsite>Ravenshoe Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/08/2021</dt>
+    <departureLocation>Ravenshoe</departureLocation>
+    <departureOdometer>133688</departureOdometer>
+    <arrivalLocation>Yungaburra</arrivalLocation>
+    <arrivalOdometer>133749</arrivalOdometer>
+    <arrivalCampsite>Tinaburra Lakeside Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/08/2021</dt>
+    <departureLocation>Yungaburra</departureLocation>
+    <departureOdometer>133982</departureOdometer>
+    <arrivalLocation>Chewko</arrivalLocation>
+    <arrivalOdometer>134030</arrivalOdometer>
+    <arrivalCampsite>Granite Gorge Nature Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/08/2021</dt>
+    <departureLocation>Chewko</departureLocation>
+    <departureOdometer>134030</departureOdometer>
+    <arrivalLocation>Mareeba</arrivalLocation>
+    <arrivalOdometer>134050</arrivalOdometer>
+    <arrivalCampsite>Ringers RV Rest</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/08/2021</dt>
+    <departureLocation>Mareeba</departureLocation>
+    <departureOdometer>134078</departureOdometer>
+    <arrivalLocation>Lakeland</arrivalLocation>
+    <arrivalOdometer>134267</arrivalOdometer>
+    <arrivalCampsite>Lakeland Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/08/2021</dt>
+    <departureLocation>Lakeland</departureLocation>
+    <departureOdometer>134267</departureOdometer>
+    <arrivalLocation>Cooktown</arrivalLocation>
+    <arrivalOdometer>134343</arrivalOdometer>
+    <arrivalCampsite>Cooktown Racecourse</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/08/2021</dt>
+    <departureLocation>Cooktown</departureLocation>
+    <departureOdometer>134463</departureOdometer>
+    <arrivalLocation>Mount Molloy</arrivalLocation>
+    <arrivalOdometer>134678</arrivalOdometer>
+    <arrivalCampsite>Rifle Creek Rest Area</arrivalCampsite>
   </data>
 </travel>

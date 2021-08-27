@@ -438,4 +438,35 @@
     <dollarsPerLitre>1.529</dollarsPerLitre>
     <litres>71.95</litres>
   </data>
+  <data>
+    <dt>21/07/2021</dt>
+    <odometer>132138</odometer>
+    <dollarsPerLitre>1.442</dollarsPerLitre>
+    <litres>176.91</litres>
+  </data>
+  <data>
+    <dt>31/07/2021</dt>
+    <odometer>132780</odometer>
+    <dollarsPerLitre>1.397</dollarsPerLitre>
+    <litres>102.34</litres>
+  </data>
+  <data>
+    <dt>09/08/2021</dt>
+    <odometer>133508</odometer>
+    <dollarsPerLitre>1.519</dollarsPerLitre>
+    <litres>97.42</litres>
+    <!-- <litres>117.17</litres> -->
+  </data>
+  <data>
+    <dt>17/08/2021</dt>
+    <odometer>134068</odometer>
+    <dollarsPerLitre>1.489</dollarsPerLitre>
+    <litres>78.47</litres>
+  </data>
+  <data>
+    <dt>21/08/2021</dt>
+    <odometer>134540</odometer>
+    <dollarsPerLitre>1.560</dollarsPerLitre>
+    <litres>85.55</litres>
+  </data>
 </fuel>

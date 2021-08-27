@@ -80,7 +80,7 @@ class FuelEconomyService {
 		}
 	}
 	
-	def reportByDate(List<FuelEconomyDTO> feList) {
+/*	def reportByDate(List<FuelEconomyDTO> feList) {
 		File f = new File("out/fuel-economy-date-report.txt")
 		
 		f.withPrintWriter {pw ->
@@ -115,7 +115,7 @@ class FuelEconomyService {
 		nf2.setMinimumFractionDigits(2)
 		
 		feList.each {fe ->
-			String s1 = sdf.format(fe.fuelStart.fuelDate)
+			String s1 = sdf.format(fe.fuelEnd.fuelDate)
 			String s2 = nf2.format(fe.fuelEnd.litres).padRight(6, ' ')
 			String s3 = nf.format(fe.caravanKilometres).padLeft(3, ' ')
 			String s4 = nf.format(fe.vehicleKilometres).padLeft(4, ' ')
@@ -126,7 +126,7 @@ class FuelEconomyService {
 			pw.println "$s1 $s2 litres, Caravan: ${s3}kms, Vehicle: ${s4}kms, Total: ${s5}kms litres/100km: $s6"
 		}
 	}
-	
+*/	
 	List<String> buildReport(List<FuelEconomyDTO> feList) {
 		List<String> reportList = []
 

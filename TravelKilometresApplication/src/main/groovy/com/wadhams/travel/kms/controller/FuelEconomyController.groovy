@@ -5,6 +5,7 @@ import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.FuelEconomyDTO
 import com.wadhams.travel.kms.dto.TravelDTO
 import com.wadhams.travel.kms.report.FuelDetailReportService
+import com.wadhams.travel.kms.report.FuelEconomyReportService
 import com.wadhams.travel.kms.report.TravelReportService
 import com.wadhams.travel.kms.service.FuelEconomyService
 import com.wadhams.travel.kms.service.FuelXMLService
@@ -39,9 +40,11 @@ class FuelEconomyController {
 		
 		feService.calculateAdditionalValues(feList)
 		
-		feService.reportByDate(feList)
+		FuelEconomyReportService ferService = new FuelEconomyReportService()
 		
-		feService.reportByPerformance(feList)
+		ferService.reportByDate(feList)
+		
+		ferService.reportByPerformance(feList)
 		
 //		feList.each {fe ->
 //			println fe

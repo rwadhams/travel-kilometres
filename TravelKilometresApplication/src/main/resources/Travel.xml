@@ -1030,7 +1030,7 @@
     <departureOdometer>132641</departureOdometer>
     <arrivalLocation>Ingham</arrivalLocation>
     <arrivalOdometer>132669</arrivalOdometer>
-    <arrivalCampsite>Ingham RV Area</arrivalCampsite>
+    <arrivalCampsite>Tyto Wetlands RV Area</arrivalCampsite>
   </data>
   <data>
     <dt>01/08/2021</dt>
@@ -1111,5 +1111,53 @@
     <arrivalLocation>Mount Molloy</arrivalLocation>
     <arrivalOdometer>134678</arrivalOdometer>
     <arrivalCampsite>Rifle Creek Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/08/2021</dt>
+    <departureLocation>Mount Molloy</departureLocation>
+    <departureOdometer>134678</departureOdometer>
+    <arrivalLocation>Wonga Beach</arrivalLocation>
+    <arrivalOdometer>134728</arrivalOdometer>
+    <arrivalCampsite>Wonga Beach Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/08/2021</dt>
+    <departureLocation>Wonga Beach</departureLocation>
+    <departureOdometer>134965</departureOdometer>
+    <arrivalLocation>Cairns</arrivalLocation>
+    <arrivalOdometer>135049</arrivalOdometer>
+    <arrivalCampsite>Lake Placid Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/08/2021</dt>
+    <departureLocation>Cairns</departureLocation>
+    <departureOdometer>135175</departureOdometer>
+    <arrivalLocation>Ingham</arrivalLocation>
+    <arrivalOdometer>135418</arrivalOdometer>
+    <arrivalCampsite>Tyto Wetlands RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/08/2021</dt>
+    <departureLocation>Ingham</departureLocation>
+    <departureOdometer>135418</departureOdometer>
+    <arrivalLocation>Dotswoods</arrivalLocation>
+    <arrivalOdometer>135634</arrivalOdometer>
+    <arrivalCampsite>Macrossan Park RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/08/2021</dt>
+    <departureLocation>Dotswoods</departureLocation>
+    <departureOdometer>135634</departureOdometer>
+    <arrivalLocation>Clermont</arrivalLocation>
+    <arrivalOdometer>136017</arrivalOdometer>
+    <arrivalCampsite>Clermont Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/09/2021</dt>
+    <departureLocation>Clermont</departureLocation>
+    <departureOdometer>136051</departureOdometer>
+    <arrivalLocation>Sapphire</arrivalLocation>
+    <arrivalOdometer>136172</arrivalOdometer>
+    <arrivalCampsite>Blue Gem Caravan Park</arrivalCampsite>
   </data>
 </travel>

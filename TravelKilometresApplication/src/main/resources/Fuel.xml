@@ -469,4 +469,22 @@
     <dollarsPerLitre>1.560</dollarsPerLitre>
     <litres>85.55</litres>
   </data>
+  <data>
+    <dt>28/08/2021</dt>
+    <odometer>135165</odometer>
+    <dollarsPerLitre>1.417</dollarsPerLitre>
+    <litres>100.85</litres>
+  </data>
+  <data>
+    <dt>31/08/2021</dt>
+    <odometer>135659</odometer>
+    <dollarsPerLitre>1.427</dollarsPerLitre>
+    <litres>103</litres>
+  </data>
+  <data>
+    <dt>01/09/2021</dt>
+    <odometer>136048</odometer>
+    <dollarsPerLitre>1.417</dollarsPerLitre>
+    <litres>81</litres>
+  </data>
 </fuel>

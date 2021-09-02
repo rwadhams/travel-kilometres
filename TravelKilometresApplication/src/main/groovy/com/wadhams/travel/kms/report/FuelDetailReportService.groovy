@@ -1,5 +1,6 @@
 package com.wadhams.travel.kms.report
 
+import java.math.MathContext
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 
@@ -31,7 +32,10 @@ class FuelDetailReportService {
 		nf2.setMinimumFractionDigits(2)
 		NumberFormat nf3 = NumberFormat.getNumberInstance()
 		nf3.setMaximumFractionDigits(3)
-
+		
+		BigDecimal oneHundred = new BigDecimal(100)
+		MathContext mc = new MathContext(8)
+		
 		FuelDTO previousDTO = fuelList[0]
 		pw.println "${sdf.format(previousDTO.fuelDate)}  Starting Odometer: ${nf.format(previousDTO.odometer)}"
 		pw.println ''
@@ -60,7 +64,7 @@ class FuelDetailReportService {
 			
 			String s6 = nf.format(kilometres).padRight(6, ' ')
 			
-			BigDecimal economy = dto.litres.multiply(100).divide(kilometres, 2)
+			BigDecimal economy = dto.litres.multiply(oneHundred, mc).divide(kilometres, mc)
 			String s7 = nf2.format(economy)
 			
 			pw.println "$s1$s2$s3$s4$s5$s6$s7"

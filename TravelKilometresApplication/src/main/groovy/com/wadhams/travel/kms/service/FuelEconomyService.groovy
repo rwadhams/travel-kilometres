@@ -1,5 +1,6 @@
 package com.wadhams.travel.kms.service
 
+import java.math.MathContext
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 import com.wadhams.travel.kms.comparator.FuelEconomyDateComparator
@@ -43,6 +44,9 @@ class FuelEconomyService {
 	}
 	
 	def calculateAdditionalValues(List<FuelEconomyDTO> feList) {
+		BigDecimal oneHundred = new BigDecimal(100)
+		MathContext mc = new MathContext(8)
+		
 		feList.each {fe->
 			fe.travelList.each {t ->
 				BigDecimal departureOdometer = Math.max(fe.fuelStart.odometer, t.departureOdometer)
@@ -51,7 +55,7 @@ class FuelEconomyService {
 			}
 			fe.vehicleKilometres = fe.vehicleKilometres.add(fe.fuelEnd.odometer).subtract(fe.fuelStart.odometer).subtract(fe.caravanKilometres)
 			fe.totalKilometres = fe.vehicleKilometres.add(fe.caravanKilometres)
-			fe.fuelEconomy = fe.fuelEnd.litres.multiply(100).divide(fe.totalKilometres, 2)
+			fe.fuelEconomy = fe.fuelEnd.litres.multiply(oneHundred, mc).divide(fe.totalKilometres, mc)
 		}
 	}
 	

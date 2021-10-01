@@ -53,7 +53,7 @@ class FuelEconomyReportService {
 			String s6 = nf2.format(fe.fuelEconomy)
 
 			
-			pw.println "$s1 $s2 litres, Caravan: ${s3}kms, Vehicle: ${s4}kms, Total: ${s5}kms litres/100km: $s6"
+			pw.println "$s1 $s2 litres, Caravan: ${s3}kms, Vehicle: ${s4}kms, Total: ${s5}kms = $s6 litres/100km"
 		}
 	}
 }

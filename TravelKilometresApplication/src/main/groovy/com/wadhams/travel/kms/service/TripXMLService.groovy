@@ -33,19 +33,19 @@ class TripXMLService {
 			
 			//tripName
 			String tripName = txn.name.text()
-			println tripName
+			//println tripName
 			dto.tripName = tripName
 			
 			//start odometer
 			BigDecimal startOdometer = new BigDecimal(txn.odometer.start.text())
-			println startOdometer
+			//println startOdometer
 			dto.startOdometer = startOdometer
 			
 			//end odometer
 			String s1 = txn.odometer.end.text()
 			if (s1) {
 				BigDecimal endOdometer = new BigDecimal(s1)
-				println endOdometer
+				//println endOdometer
 				dto.endOdometer = endOdometer
 			}
 			else {

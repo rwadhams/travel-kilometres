@@ -31,8 +31,8 @@ class TripReportService {
 		tripList.each {trip ->
 			TravelDTO startTravelDTO = findTravelDTO(trip.startOdometer, travelList)
 			TravelDTO endTravelDTO = findTravelDTO(trip.endOdometer, travelList)
-			println startTravelDTO
-			println endTravelDTO
+			//println startTravelDTO
+			//println endTravelDTO
 			
 			if (previousDate) {
 				int gap

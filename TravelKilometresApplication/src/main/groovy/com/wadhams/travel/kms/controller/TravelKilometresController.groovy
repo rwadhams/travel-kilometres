@@ -1,20 +1,22 @@
 package com.wadhams.travel.kms.controller
 
-import java.math.BigDecimal
-
 import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.FuelEconomyDTO
 import com.wadhams.travel.kms.dto.ServiceDTO
 import com.wadhams.travel.kms.dto.TravelDTO
+import com.wadhams.travel.kms.dto.TripDTO
 import com.wadhams.travel.kms.report.FuelDetailReportService
 import com.wadhams.travel.kms.report.FuelEconomyReportService
 import com.wadhams.travel.kms.report.ServiceReportService
 import com.wadhams.travel.kms.report.TravelReportService
-import com.wadhams.travel.kms.service.TravelListService
+import com.wadhams.travel.kms.report.TripReportService
 import com.wadhams.travel.kms.service.FuelEconomyService
 import com.wadhams.travel.kms.service.FuelXMLService
 import com.wadhams.travel.kms.service.ServiceXMLService
+import com.wadhams.travel.kms.service.TravelListService
 import com.wadhams.travel.kms.service.TravelXMLService
+import com.wadhams.travel.kms.service.TripListService
+import com.wadhams.travel.kms.service.TripXMLService
 
 class TravelKilometresController {
 	
@@ -49,5 +51,14 @@ class TravelKilometresController {
 		FuelEconomyReportService ferService = new FuelEconomyReportService()
 		ferService.reportByDate(feList)
 		ferService.reportByPerformance(feList)
+		
+		TripXMLService tripXMLService = new TripXMLService()
+		List<TripDTO> tripList = tripXMLService.loadTripData()
+
+		TripListService tripListService = new TripListService()
+		tripListService.fixMissingEndOdometer(tripList, travelList)
+
+		TripReportService trService = new TripReportService()
+		trService.execute(tripList, fuelList, travelList)
 	}
 }

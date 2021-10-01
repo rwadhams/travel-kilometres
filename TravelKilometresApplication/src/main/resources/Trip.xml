@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trip>
+  <data>
+    <name>Pickup Caravan - Melbourne to Brisbane</name>
+    <odometer>
+      <start>97579</start>
+      <end>99206</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Shakedown Trip</name>
+    <odometer>
+      <start>101052</start>
+      <end>101761</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Brisbane SW Trip</name>
+    <odometer>
+      <start>102198</start>
+      <end>103088</end>
+    </odometer>
+  </data>
+  <data>
+    <name>SE QLD Loop</name>
+    <odometer>
+      <start>104084</start>
+      <end>108224</end>
+    </odometer>
+  </data>
+  <data>
+    <name>SE QLD - NE NSW Loop</name>
+    <odometer>
+      <start>109976</start>
+      <end>114275</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Brisbane to Tasmania Return Trip</name>
+    <odometer>
+      <start>115149</start>
+      <end>126743</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Central West and North QLD Trip</name>
+    <odometer>
+      <start>128425</start>
+      <end></end>
+    </odometer>
+  </data>
+  <!-- 
+  <data>
+    <name></name>
+    <odometer>
+      <start>123456</start>
+      <end>123457</end>
+    </odometer>
+  </data>
+   -->
+</trip>

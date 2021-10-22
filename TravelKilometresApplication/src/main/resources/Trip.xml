@@ -46,6 +46,13 @@
     <name>Central West and North QLD Trip</name>
     <odometer>
       <start>128425</start>
+      <end>137171</end>
+    </odometer>
+  </data>
+  <data>
+    <name>South Australia Summer Trip</name>
+    <odometer>
+      <start>137281</start>
       <end></end>
     </odometer>
   </data>

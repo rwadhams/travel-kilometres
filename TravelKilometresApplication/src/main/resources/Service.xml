@@ -12,6 +12,37 @@
     </data>
   </transmission>
   
+  <!-- Car Tyres -->
+  <carTyres>
+    <frequency></frequency>
+    <data>
+      <dt>19/03/2016</dt>
+      <location>Brisbane</location>
+      <cost>1959.00</cost>
+      <schedule></schedule>
+      <odometer>41921</odometer>
+    </data>
+    <data>
+      <dt>22/10/2021</dt>
+      <location>Adelaide</location>
+      <cost>1700.00</cost>
+      <schedule></schedule>
+      <odometer>141460</odometer>
+    </data>
+  </carTyres>
+  
+  <!-- Fuel Filter -->
+  <fuelFilter>
+    <frequency></frequency>
+    <data>
+      <dt>19/01/2021</dt>
+      <location>Smithton, Tasmania</location>
+      <cost>29.00</cost>
+      <schedule></schedule>
+      <odometer>118094</odometer>
+    </data>
+  </fuelFilter>
+  
   <!-- Caravan -->
   <caravan>
     <frequency>10000</frequency>
@@ -61,6 +92,13 @@
       <cost>366.44</cost>
       <schedule>130000</schedule>
       <odometer>132159</odometer>
+    </data>
+    <data>
+      <dt>19/10/2021</dt>
+      <location>Murray Bridge Toyota</location>
+      <cost>411.00</cost>
+      <schedule>140000</schedule>
+      <odometer>141133</odometer>
     </data>
   </car>
 </service>

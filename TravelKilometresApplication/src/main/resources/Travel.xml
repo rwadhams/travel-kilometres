@@ -1160,4 +1160,204 @@
     <arrivalOdometer>136172</arrivalOdometer>
     <arrivalCampsite>Blue Gem Caravan Park</arrivalCampsite>
   </data>
+  <data>
+    <dt>06/09/2021</dt>
+    <departureLocation>Sapphire</departureLocation>
+    <departureOdometer>136204</departureOdometer>
+    <arrivalLocation>Dululu</arrivalLocation>
+    <arrivalOdometer>136489</arrivalOdometer>
+    <arrivalCampsite>Dululu RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/09/2021</dt>
+    <departureLocation>Dululu</departureLocation>
+    <departureOdometer>136489</departureOdometer>
+    <arrivalLocation>Eidsvold</arrivalLocation>
+    <arrivalOdometer>136723</arrivalOdometer>
+    <arrivalCampsite>RM Williams RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/09/2021</dt>
+    <departureLocation>Eidsvold</departureLocation>
+    <departureOdometer>136735</departureOdometer>
+    <arrivalLocation>Nanango</arrivalLocation>
+    <arrivalOdometer>136968</arrivalOdometer>
+    <arrivalCampsite>Tipperary Flats RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/09/2021</dt>
+    <departureLocation>Nanango</departureLocation>
+    <departureOdometer>136968</departureOdometer>
+    <arrivalLocation>Cleveland</arrivalLocation>
+    <arrivalOdometer>137171</arrivalOdometer>
+    <arrivalCampsite>Cleveland Gardens</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/09/2021</dt>
+    <departureLocation>Cleveland</departureLocation>
+    <departureOdometer>137281</departureOdometer>
+    <arrivalLocation>Bowenville</arrivalLocation>
+    <arrivalOdometer>137480</arrivalOdometer>
+    <arrivalCampsite>Bowenville Pub</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/09/2021</dt>
+    <departureLocation>Bowenville</departureLocation>
+    <departureOdometer>137480</departureOdometer>
+    <arrivalLocation>St George</arrivalLocation>
+    <arrivalOdometer>137816</arrivalOdometer>
+    <arrivalCampsite>River Gum CP</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/09/2021</dt>
+    <departureLocation>St George</departureLocation>
+    <departureOdometer>137833</departureOdometer>
+    <arrivalLocation>Eulo</arrivalLocation>
+    <arrivalOdometer>138168</arrivalOdometer>
+    <arrivalCampsite>Paddabilla Bore Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/09/2021</dt>
+    <departureLocation>Eulo</departureLocation>
+    <departureOdometer>138168</departureOdometer>
+    <arrivalLocation>Yowah</arrivalLocation>
+    <arrivalOdometer>138272</arrivalOdometer>
+    <arrivalCampsite>Yowah Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/09/2021</dt>
+    <departureLocation>Yowah</departureLocation>
+    <departureOdometer>138296</departureOdometer>
+    <arrivalLocation>Noccundra</arrivalLocation>
+    <arrivalOdometer>138528</arrivalOdometer>
+    <arrivalCampsite>Noccundra Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/09/2021</dt>
+    <departureLocation>Noccundra</departureLocation>
+    <departureOdometer>138528</departureOdometer>
+    <arrivalLocation>Dig Tree</arrivalLocation>
+    <arrivalOdometer>138742</arrivalOdometer>
+    <arrivalCampsite>Dig Tree Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/09/2021</dt>
+    <departureLocation>Dig Tree</departureLocation>
+    <departureOdometer>138742</departureOdometer>
+    <arrivalLocation>Strzelecki Creek</arrivalLocation>
+    <arrivalOdometer>139005</arrivalOdometer>
+    <arrivalCampsite>Strzelecki Creek Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/09/2021</dt>
+    <departureLocation>Strzelecki Creek</departureLocation>
+    <departureOdometer>139005</departureOdometer>
+    <arrivalLocation>Copley</arrivalLocation>
+    <arrivalOdometer>139302</arrivalOdometer>
+    <arrivalCampsite>Copley Hotel Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/09/2021</dt>
+    <departureLocation>Copley</departureLocation>
+    <departureOdometer>139302</departureOdometer>
+    <arrivalLocation>Parachilna Gorge</arrivalLocation>
+    <arrivalOdometer>139386</arrivalOdometer>
+    <arrivalCampsite>Parachilna Gorge Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/09/2021</dt>
+    <departureLocation>Parachilna Gorge</departureLocation>
+    <departureOdometer>139502</departureOdometer>
+    <arrivalLocation>Wilpena Pound</arrivalLocation>
+    <arrivalOdometer>139584</arrivalOdometer>
+    <arrivalCampsite>Wilpena Pound Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/09/2021</dt>
+    <departureLocation>Wilpena Pound</departureLocation>
+    <departureOdometer>139738</departureOdometer>
+    <arrivalLocation>Port Augusta</arrivalLocation>
+    <arrivalOdometer>139900</arrivalOdometer>
+    <arrivalCampsite>Port Augusta Motorhome Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/10/2021</dt>
+    <departureLocation>Port Augusta</departureLocation>
+    <departureOdometer>139994</departureOdometer>
+    <arrivalLocation>Peterborough</arrivalLocation>
+    <arrivalOdometer>140119</arrivalOdometer>
+    <arrivalCampsite>Peterborough RV Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/10/2021</dt>
+    <departureLocation>Peterborough</departureLocation>
+    <departureOdometer>140119</departureOdometer>
+    <arrivalLocation>Waikerie</arrivalLocation>
+    <arrivalOdometer>140344</arrivalOdometer>
+    <arrivalCampsite>Maize Island Lagoon Conservation Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/10/2021</dt>
+    <departureLocation>Waikerie</departureLocation>
+    <departureOdometer>140344</departureOdometer>
+    <arrivalLocation>Waikerie</arrivalLocation>
+    <arrivalOdometer>140348</arrivalOdometer>
+    <arrivalCampsite>Holder Bend Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/10/2021</dt>
+    <departureLocation>Waikerie</departureLocation>
+    <departureOdometer>140402</departureOdometer>
+    <arrivalLocation>Berri</arrivalLocation>
+    <arrivalOdometer>140480</arrivalOdometer>
+    <arrivalCampsite>Martin Bend Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/10/2021</dt>
+    <departureLocation>Berri</departureLocation>
+    <departureOdometer>140771</departureOdometer>
+    <arrivalLocation>Loxton</arrivalLocation>
+    <arrivalOdometer>140801</arrivalOdometer>
+    <arrivalCampsite>Loxton Riverfront Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/10/2021</dt>
+    <departureLocation>Loxton</departureLocation>
+    <departureOdometer>140818</departureOdometer>
+    <arrivalLocation>Swan Reach</arrivalLocation>
+    <arrivalOdometer>140961</arrivalOdometer>
+    <arrivalCampsite>Tenbury Hunter Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/10/2021</dt>
+    <departureLocation>Swan Reach</departureLocation>
+    <departureOdometer>140961</departureOdometer>
+    <arrivalLocation>Walker Flat</arrivalLocation>
+    <arrivalOdometer>140993</arrivalOdometer>
+    <arrivalCampsite>Swamp Hen Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/10/2021</dt>
+    <departureLocation>Walker Flat</departureLocation>
+    <departureOdometer>140993</departureOdometer>
+    <arrivalLocation>Mannum</arrivalLocation>
+    <arrivalOdometer>141026</arrivalOdometer>
+    <arrivalCampsite>Haythorpe Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/10/2021</dt>
+    <departureLocation>Mannum</departureLocation>
+    <departureOdometer>141087</departureOdometer>
+    <arrivalLocation>Murray Bridge</arrivalLocation>
+    <arrivalOdometer>141115</arrivalOdometer>
+    <arrivalCampsite>Murray Bridge Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/10/2021</dt>
+    <departureLocation>Murray Bridge</departureLocation>
+    <departureOdometer>141316</departureOdometer>
+    <arrivalLocation>Largs Bay</arrivalLocation>
+    <arrivalOdometer>141425</arrivalOdometer>
+    <arrivalCampsite>Largs Bay House sit</arrivalCampsite>
+  </data>
 </travel>

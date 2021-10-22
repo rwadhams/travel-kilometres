@@ -11,4 +11,7 @@ class ServiceDTO {
 	List<ServiceEventDTO> transmissionList = []
 	List<ServiceEventDTO> caravanList = []
 	List<ServiceEventDTO> carList = []
+	
+	List<ServiceEventDTO> carTyresList = []
+	List<ServiceEventDTO> fuelFilterList = []
 }

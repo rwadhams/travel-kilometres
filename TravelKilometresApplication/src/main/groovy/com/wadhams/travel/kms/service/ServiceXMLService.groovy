@@ -30,6 +30,20 @@ class ServiceXMLService {
 			dto.transmissionList << build(txn)
 		}
 
+		//car tyres
+		def carTyres = service.carTyres
+		carTyres.data.each {txn ->
+			//println txn
+			dto.carTyresList << build(txn)
+		}
+
+		//fuel filter
+		def fuelFilter = service.fuelFilter
+		fuelFilter.data.each {txn ->
+			//println txn
+			dto.fuelFilterList << build(txn)
+		}
+
 		//caravan
 		def caravan = service.caravan
 		dto.caravanFrequency = new BigDecimal(caravan.frequency.text())
@@ -54,27 +68,30 @@ class ServiceXMLService {
 			
 		//serviceEventDate
 		Date d = sdf.parse(txn.dt.text())
-//		println d
+		//println d
 		dto.serviceEventDate = d
 		
 		//serviceEventLocation
 		String serviceEventLocation = txn.location.text()
-//		println serviceEventLocation
+		//println serviceEventLocation
 		dto.serviceEventLocation = serviceEventLocation
 		
 		//serviceEventCost
 		BigDecimal serviceEventCost = new BigDecimal(txn.cost.text())
-//		println serviceEventCost
+		//println serviceEventCost
 		dto.serviceEventCost = serviceEventCost
 		
 		//serviceEventSchedule
-		BigDecimal serviceEventSchedule = new BigDecimal(txn.schedule.text())
-//		println serviceEventSchedule
-		dto.serviceEventSchedule = serviceEventSchedule
+		String s1 = txn.schedule.text()
+		if (s1) {
+			BigDecimal serviceEventSchedule = new BigDecimal(s1)
+			//println serviceEventSchedule
+			dto.serviceEventSchedule = serviceEventSchedule
+		}
 		
 		//serviceEventOdometer
 		BigDecimal serviceEventOdometer = new BigDecimal(txn.odometer.text())
-//		println serviceEventOdometer
+		//println serviceEventOdometer
 		dto.serviceEventOdometer = serviceEventOdometer
 
 		return dto

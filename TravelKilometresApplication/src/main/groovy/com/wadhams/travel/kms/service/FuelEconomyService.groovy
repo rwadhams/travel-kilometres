@@ -33,9 +33,9 @@ class FuelEconomyService {
 		
 		feList.each {fe->
 			travelList.each {t ->
-				if (fe.fuelStart.odometer > t.departureOdometer && fe.fuelStart.odometer < t.arrivalOdometer ||
-					t.departureOdometer > fe.fuelStart.odometer && t.arrivalOdometer < fe.fuelEnd.odometer ||
-					fe.fuelEnd.odometer > t.departureOdometer && fe.fuelEnd.odometer < t.arrivalOdometer
+				if (fe.fuelStart.odometer >= t.departureOdometer && fe.fuelStart.odometer <= t.arrivalOdometer ||
+					t.departureOdometer >= fe.fuelStart.odometer && t.arrivalOdometer <= fe.fuelEnd.odometer ||
+					fe.fuelEnd.odometer >= t.departureOdometer && fe.fuelEnd.odometer <= t.arrivalOdometer
 					) {
 					fe.travelList << t
 				}

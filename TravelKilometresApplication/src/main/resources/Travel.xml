@@ -28,13 +28,13 @@
     <dt>31/03/2020</dt>
     <departureLocation>Goondiwindi</departureLocation>
     <departureOdometer>98862</departureOdometer>
-    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalLocation>Salisbury</arrivalLocation>
     <arrivalOdometer>99206</arrivalOdometer>
     <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>01/06/2020</dt>
-    <departureLocation>Brisbane</departureLocation>
+    <departureLocation>Salisbury</departureLocation>
     <departureOdometer>101052</departureOdometer>
     <arrivalLocation>Austinville</arrivalLocation>
     <arrivalOdometer>101135</arrivalOdometer>
@@ -52,13 +52,13 @@
     <dt>12/06/2020</dt>
     <departureLocation>Advancetown</departureLocation>
     <departureOdometer>101681</departureOdometer>
-    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalLocation>Salisbury</arrivalLocation>
     <arrivalOdometer>101761</arrivalOdometer>
     <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>17/06/2020</dt>
-    <departureLocation>Brisbane</departureLocation>
+    <departureLocation>Salisbury</departureLocation>
     <departureOdometer>102198</departureOdometer>
     <arrivalLocation>Rathdowney</arrivalLocation>
     <arrivalOdometer>102295</arrivalOdometer>
@@ -76,13 +76,13 @@
     <dt>26/06/2020</dt>
     <departureLocation>Moogerah</departureLocation>
     <departureOdometer>102957</departureOdometer>
-    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalLocation>Salisbury</arrivalLocation>
     <arrivalOdometer>103088</arrivalOdometer>
     <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>01/07/2020</dt>
-    <departureLocation>Brisbane</departureLocation>
+    <departureLocation>Salisbury</departureLocation>
     <departureOdometer>103088</departureOdometer>
     <arrivalLocation>Deception Bay</arrivalLocation>
     <arrivalOdometer>103108</arrivalOdometer>
@@ -228,13 +228,13 @@
     <dt>01/09/2020</dt>
     <departureLocation>Kenilworth</departureLocation>
     <departureOdometer>108053</departureOdometer>
-    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalLocation>Salisbury</arrivalLocation>
     <arrivalOdometer>108224</arrivalOdometer>
     <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>12/10/2020</dt>
-    <departureLocation>Brisbane</departureLocation>
+    <departureLocation>Salisbury</departureLocation>
     <departureOdometer>109976</departureOdometer>
     <arrivalLocation>Warwick</arrivalLocation>
     <arrivalOdometer>110125</arrivalOdometer>
@@ -286,7 +286,7 @@
     <departureOdometer>111590</departureOdometer>
     <arrivalLocation>Texas</arrivalLocation>
     <arrivalOdometer>111695</arrivalOdometer>
-    <arrivalCampsite>Texas Freecamp</arrivalCampsite>
+    <arrivalCampsite>Texas Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>05/11/2020</dt>
@@ -294,7 +294,7 @@
     <departureOdometer>111703</departureOdometer>
     <arrivalLocation>Bingara</arrivalLocation>
     <arrivalOdometer>111871</arrivalOdometer>
-    <arrivalCampsite>Bingara Freecamp</arrivalCampsite>
+    <arrivalCampsite>Bingara Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>13/11/2020</dt>
@@ -396,13 +396,13 @@
     <dt>13/12/2020</dt>
     <departureLocation>Mullumbimby</departureLocation>
     <departureOdometer>114128</departureOdometer>
-    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalLocation>Salisbury</arrivalLocation>
     <arrivalOdometer>114275</arrivalOdometer>
     <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>30/12/2020</dt>
-    <departureLocation>Brisbane</departureLocation>
+    <departureLocation>Salisbury</departureLocation>
     <departureOdometer>115149</departureOdometer>
     <arrivalLocation>Inglewood</arrivalLocation>
     <arrivalOdometer>115384</arrivalOdometer>
@@ -422,7 +422,7 @@
     <departureOdometer>115606</departureOdometer>
     <arrivalLocation>Strathmerton</arrivalLocation>
     <arrivalOdometer>116519</arrivalOdometer>
-    <arrivalCampsite>Strathmerton Freecamp</arrivalCampsite>
+    <arrivalCampsite>Strathmerton Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>02/01/2021</dt>
@@ -458,7 +458,7 @@
   </data>
   <data>
     <dt>13/01/2021</dt>
-    <departureLocation>RockyCape</departureLocation>
+    <departureLocation>Rocky Cape</departureLocation>
     <departureOdometer>117667</departureOdometer>
     <arrivalLocation>Stanley</arrivalLocation>
     <arrivalOdometer>117695</arrivalOdometer>
@@ -574,7 +574,7 @@
     <departureOdometer>120103</departureOdometer>
     <arrivalLocation>Cockle Creek</arrivalLocation>
     <arrivalOdometer>120195</arrivalOdometer>
-    <arrivalCampsite>Cockle Creek Freecamp</arrivalCampsite>
+    <arrivalCampsite>Cockle Creek Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>22/02/2021</dt>
@@ -852,13 +852,13 @@
     <dt>21/04/2021</dt>
     <departureLocation>Cleveland</departureLocation>
     <departureOdometer>126717</departureOdometer>
-    <arrivalLocation>Brisbane</arrivalLocation>
+    <arrivalLocation>Salisbury</arrivalLocation>
     <arrivalOdometer>126743</arrivalOdometer>
     <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
   </data>
   <data>
     <dt>18/05/2021</dt>
-    <departureLocation>Brisbane</departureLocation>
+    <departureLocation>Salisbury</departureLocation>
     <departureOdometer>127535</departureOdometer>
     <arrivalLocation>Redland Bay</arrivalLocation>
     <arrivalOdometer>127595</arrivalOdometer>
@@ -1214,7 +1214,7 @@
     <departureOdometer>137833</departureOdometer>
     <arrivalLocation>Eulo</arrivalLocation>
     <arrivalOdometer>138168</arrivalOdometer>
-    <arrivalCampsite>Paddabilla Bore Freecamp</arrivalCampsite>
+    <arrivalCampsite>Paddabilla Bore Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>16/09/2021</dt>
@@ -1222,7 +1222,7 @@
     <departureOdometer>138168</departureOdometer>
     <arrivalLocation>Yowah</arrivalLocation>
     <arrivalOdometer>138272</arrivalOdometer>
-    <arrivalCampsite>Yowah Freecamp</arrivalCampsite>
+    <arrivalCampsite>Yowah Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>18/09/2021</dt>
@@ -1230,7 +1230,7 @@
     <departureOdometer>138296</departureOdometer>
     <arrivalLocation>Noccundra</arrivalLocation>
     <arrivalOdometer>138528</arrivalOdometer>
-    <arrivalCampsite>Noccundra Freecamp</arrivalCampsite>
+    <arrivalCampsite>Noccundra Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>19/09/2021</dt>
@@ -1238,7 +1238,7 @@
     <departureOdometer>138528</departureOdometer>
     <arrivalLocation>Dig Tree</arrivalLocation>
     <arrivalOdometer>138742</arrivalOdometer>
-    <arrivalCampsite>Dig Tree Freecamp</arrivalCampsite>
+    <arrivalCampsite>Dig Tree Reserve</arrivalCampsite>
   </data>
   <data>
     <dt>20/09/2021</dt>
@@ -1254,7 +1254,7 @@
     <departureOdometer>139005</departureOdometer>
     <arrivalLocation>Copley</arrivalLocation>
     <arrivalOdometer>139302</arrivalOdometer>
-    <arrivalCampsite>Copley Hotel Freecamp</arrivalCampsite>
+    <arrivalCampsite>Copley Hotel Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>22/09/2021</dt>
@@ -1262,7 +1262,7 @@
     <departureOdometer>139302</departureOdometer>
     <arrivalLocation>Parachilna Gorge</arrivalLocation>
     <arrivalOdometer>139386</arrivalOdometer>
-    <arrivalCampsite>Parachilna Gorge Freecamp</arrivalCampsite>
+    <arrivalCampsite>Parachilna Gorge Free Camp</arrivalCampsite>
   </data>
   <data>
     <dt>25/09/2021</dt>
@@ -1358,6 +1358,542 @@
     <departureOdometer>141316</departureOdometer>
     <arrivalLocation>Largs Bay</arrivalLocation>
     <arrivalOdometer>141425</arrivalOdometer>
-    <arrivalCampsite>Largs Bay House sit</arrivalCampsite>
+    <arrivalCampsite>House sit in Largs Bay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/10/2021</dt>
+    <departureLocation>Largs Bay</departureLocation>
+    <departureOdometer>141610</departureOdometer>
+    <arrivalLocation>Lower Light</arrivalLocation>
+    <arrivalOdometer>141663</arrivalOdometer>
+    <arrivalCampsite>Lower Light Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/10/2021</dt>
+    <departureLocation>Lower Light</departureLocation>
+    <departureOdometer>141663</departureOdometer>
+    <arrivalLocation>Ardrossan</arrivalLocation>
+    <arrivalOdometer>141759</arrivalOdometer>
+    <arrivalCampsite>Ardrossan RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/10/2021</dt>
+    <departureLocation>Ardrossan</departureLocation>
+    <departureOdometer>141806</departureOdometer>
+    <arrivalLocation>Edithburgh</arrivalLocation>
+    <arrivalOdometer>141894</arrivalOdometer>
+    <arrivalCampsite>Edithburg Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/10/2021</dt>
+    <departureLocation>Edithburgh</departureLocation>
+    <departureOdometer>142029</departureOdometer>
+    <arrivalLocation>Stenhouse Bay</arrivalLocation>
+    <arrivalOdometer>142122</arrivalOdometer>
+    <arrivalCampsite>Stenhouse Bay NP Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/11/2021</dt>
+    <departureLocation>Stenhouse Bay</departureLocation>
+    <departureOdometer>142220</departureOdometer>
+    <arrivalLocation>Point Souttar</arrivalLocation>
+    <arrivalOdometer>142294</arrivalOdometer>
+    <arrivalCampsite>Len Barker Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/11/2021</dt>
+    <departureLocation>Point Souttar</departureLocation>
+    <departureOdometer>142315</departureOdometer>
+    <arrivalLocation>Minlaton</arrivalLocation>
+    <arrivalOdometer>142364</arrivalOdometer>
+    <arrivalCampsite>Minlaton Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/11/2021</dt>
+    <departureLocation>Minlaton</departureLocation>
+    <departureOdometer>142364</departureOdometer>
+    <arrivalLocation>Moonta Bay</arrivalLocation>
+    <arrivalOdometer>142465</arrivalOdometer>
+    <arrivalCampsite>Lindsay &amp; Marilyn's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/11/2021</dt>
+    <departureLocation>Moonta Bay</departureLocation>
+    <departureOdometer>142574</departureOdometer>
+    <arrivalLocation>Blyth</arrivalLocation>
+    <arrivalOdometer>142665</arrivalOdometer>
+    <arrivalCampsite>Blyth Sportsground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/11/2021</dt>
+    <departureLocation>Blyth</departureLocation>
+    <departureOdometer>142855</departureOdometer>
+    <arrivalLocation>Burra</arrivalLocation>
+    <arrivalOdometer>142907</arrivalOdometer>
+    <arrivalCampsite>Bon Accord Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/11/2021</dt>
+    <departureLocation>Burra</departureLocation>
+    <departureOdometer>143001</departureOdometer>
+    <arrivalLocation>Greenock</arrivalLocation>
+    <arrivalOdometer>143105</arrivalOdometer>
+    <arrivalCampsite>Greenock Centenary Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/11/2021</dt>
+    <departureLocation>Greenock</departureLocation>
+    <departureOdometer>143256</departureOdometer>
+    <arrivalLocation>Hahndorf</arrivalLocation>
+    <arrivalOdometer>143332</arrivalOdometer>
+    <arrivalCampsite>Hahndorf Discovery Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/11/2021</dt>
+    <departureLocation>Hahndorf</departureLocation>
+    <departureOdometer>143437</departureOdometer>
+    <arrivalLocation>Old Noarlunga</arrivalLocation>
+    <arrivalOdometer>143496</arrivalOdometer>
+    <arrivalCampsite>House sit in Old Noarlunga</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/11/2021</dt>
+    <departureLocation>Old Noarlunga</departureLocation>
+    <departureOdometer>143624</departureOdometer>
+    <arrivalLocation>McLaren Vale</arrivalLocation>
+    <arrivalOdometer>143631</arrivalOdometer>
+    <arrivalCampsite>McLaren Vale Lakeside CP</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/12/2021</dt>
+    <departureLocation>McLaren Vale</departureLocation>
+    <departureOdometer>143799</departureOdometer>
+    <arrivalLocation>Rapid Bay</arrivalLocation>
+    <arrivalOdometer>143865</arrivalOdometer>
+    <arrivalCampsite>Rapid Bay Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/12/2021</dt>
+    <departureLocation>Rapid Bay</departureLocation>
+    <departureOdometer>144018</departureOdometer>
+    <arrivalLocation>Port Elliot</arrivalLocation>
+    <arrivalOdometer>144080</arrivalOdometer>
+    <arrivalCampsite>Port Elliot Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/12/2021</dt>
+    <departureLocation>Port Elliot</departureLocation>
+    <departureOdometer>144248</departureOdometer>
+    <arrivalLocation>Strathalbyn</arrivalLocation>
+    <arrivalOdometer>144288</arrivalOdometer>
+    <arrivalCampsite>Strathalbyn Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/12/2021</dt>
+    <departureLocation>Strathalbyn</departureLocation>
+    <departureOdometer>144364</departureOdometer>
+    <arrivalLocation>Meningie</arrivalLocation>
+    <arrivalOdometer>144460</arrivalOdometer>
+    <arrivalCampsite>House sit in Meningie</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/01/2022</dt>
+    <departureLocation>Meningie</departureLocation>
+    <departureOdometer>144595</departureOdometer>
+    <arrivalLocation>Narrung</arrivalLocation>
+    <arrivalOdometer>144634</arrivalOdometer>
+    <arrivalCampsite>Narrung Ferry RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/01/2022</dt>
+    <departureLocation>Narrung</departureLocation>
+    <departureOdometer>144634</departureOdometer>
+    <arrivalLocation>Murray Bridge</arrivalLocation>
+    <arrivalOdometer>144702</arrivalOdometer>
+    <arrivalCampsite>Murray Bridge Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/01/2022</dt>
+    <departureLocation>Murray Bridge</departureLocation>
+    <departureOdometer>144897</departureOdometer>
+    <arrivalLocation>Port Elliot</arrivalLocation>
+    <arrivalOdometer>144993</arrivalOdometer>
+    <arrivalCampsite>Port Elliot Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/01/2022</dt>
+    <departureLocation>Port Elliot</departureLocation>
+    <departureOdometer>145027</departureOdometer>
+    <arrivalLocation>Cape Jervis</arrivalLocation>
+    <arrivalOdometer>145093</arrivalOdometer>
+    <arrivalCampsite>Cape Jervis Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/02/2022</dt>
+    <departureLocation>Cape Jervis / Kangaroo Island</departureLocation>
+    <departureOdometer>146547</departureOdometer>
+    <arrivalLocation>Port Augusta</arrivalLocation>
+    <arrivalOdometer>146941</arrivalOdometer>
+    <arrivalCampsite>Port Augusta Motorhome Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/02/2022</dt>
+    <departureLocation>Port Augusta</departureLocation>
+    <departureOdometer>146941</departureOdometer>
+    <arrivalLocation>Whyalla</arrivalLocation>
+    <arrivalOdometer>147022</arrivalOdometer>
+    <arrivalCampsite>Weeroona Bay Football Club</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/02/2022</dt>
+    <departureLocation>Whyalla</departureLocation>
+    <departureOdometer>147146</departureOdometer>
+    <arrivalLocation>Whyalla</arrivalLocation>
+    <arrivalOdometer>147154</arrivalOdometer>
+    <arrivalCampsite>Whyalla Discovery Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/02/2022</dt>
+    <departureLocation>Whyalla</departureLocation>
+    <departureOdometer>147190</departureOdometer>
+    <arrivalLocation>Port Gibbon</arrivalLocation>
+    <arrivalOdometer>147321</arrivalOdometer>
+    <arrivalCampsite>Port Gibbon Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/02/2022</dt>
+    <departureLocation>Port Gibbon</departureLocation>
+    <departureOdometer>147321</departureOdometer>
+    <arrivalLocation>Tumby Bay</arrivalLocation>
+    <arrivalOdometer>147431</arrivalOdometer>
+    <arrivalCampsite>Red Cliff Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/02/2022</dt>
+    <departureLocation>Tumby Bay</departureLocation>
+    <departureOdometer>147474</departureOdometer>
+    <arrivalLocation>Port Lincoln</arrivalLocation>
+    <arrivalOdometer>147529</arrivalOdometer>
+    <arrivalCampsite>John Martin Caravan Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/02/2022</dt>
+    <departureLocation>Port Lincoln</departureLocation>
+    <departureOdometer>147748</departureOdometer>
+    <arrivalLocation>Coffin Bay</arrivalLocation>
+    <arrivalOdometer>147790</arrivalOdometer>
+    <arrivalCampsite>Coffin Bay Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/02/2022</dt>
+    <departureLocation>Coffin Bay</departureLocation>
+    <departureOdometer>147853</departureOdometer>
+    <arrivalLocation>Elliston</arrivalLocation>
+    <arrivalOdometer>148001</arrivalOdometer>
+    <arrivalCampsite>Elliston Golf Club</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/02/2022</dt>
+    <departureLocation>Elliston</departureLocation>
+    <departureOdometer>148056</departureOdometer>
+    <arrivalLocation>Streaky Bay</arrivalLocation>
+    <arrivalOdometer>148216</arrivalOdometer>
+    <arrivalCampsite>Streaky Bay RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/02/2022</dt>
+    <departureLocation>Streaky Bay</departureLocation>
+    <departureOdometer>148329</departureOdometer>
+    <arrivalLocation>Perlubie Beach</arrivalLocation>
+    <arrivalOdometer>148353</arrivalOdometer>
+    <arrivalCampsite>Perlubie Beachside Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/02/2022</dt>
+    <departureLocation>Perlubie Beach</departureLocation>
+    <departureOdometer>148353</departureOdometer>
+    <arrivalLocation>Streaky Bay</arrivalLocation>
+    <arrivalOdometer>148377</arrivalOdometer>
+    <arrivalCampsite>Streaky Bay Discovery Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/02/2022</dt>
+    <departureLocation>Streaky Bay</departureLocation>
+    <departureOdometer>148386</departureOdometer>
+    <arrivalLocation>Minnipa</arrivalLocation>
+    <arrivalOdometer>148480</arrivalOdometer>
+    <arrivalCampsite>Minnipa Rest Area (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/02/2022</dt>
+    <departureLocation>Minnipa</departureLocation>
+    <departureOdometer>148522</departureOdometer>
+    <arrivalLocation>Wudinna</arrivalLocation>
+    <arrivalOdometer>148559</arrivalOdometer>
+    <arrivalCampsite>Wudinna Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/03/2022</dt>
+    <departureLocation>Wudinna</departureLocation>
+    <departureOdometer>148592</departureOdometer>
+    <arrivalLocation>Wilmington</arrivalLocation>
+    <arrivalOdometer>148894</arrivalOdometer>
+    <arrivalCampsite>Beautiful Valley Caravan Park, Wilmington</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/03/2022</dt>
+    <departureLocation>Wilmington</departureLocation>
+    <departureOdometer>148920</departureOdometer>
+    <arrivalLocation>Yunta</arrivalLocation>
+    <arrivalOdometer>149085</arrivalOdometer>
+    <arrivalCampsite>Yunta RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/03/2022</dt>
+    <departureLocation>Yunta</departureLocation>
+    <departureOdometer>149085</departureOdometer>
+    <arrivalLocation>Broken Hill</arrivalLocation>
+    <arrivalOdometer>149274</arrivalOdometer>
+    <arrivalCampsite>Broken Hill Tourist Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/03/2022</dt>
+    <departureLocation>Broken Hill</departureLocation>
+    <departureOdometer>149392</departureOdometer>
+    <arrivalLocation>Cubba</arrivalLocation>
+    <arrivalOdometer>149781</arrivalOdometer>
+    <arrivalCampsite>Meadow Glen Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/03/2022</dt>
+    <departureLocation>Cubba</departureLocation>
+    <departureOdometer>149781</departureOdometer>
+    <arrivalLocation>Bourke</arrivalLocation>
+    <arrivalOdometer>149998</arrivalOdometer>
+    <arrivalCampsite>Mitchell Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/03/2022</dt>
+    <departureLocation>Bourke</departureLocation>
+    <departureOdometer>150035</departureOdometer>
+    <arrivalLocation>Lightning Ridge</arrivalLocation>
+    <arrivalOdometer>150336</arrivalOdometer>
+    <arrivalCampsite>Opal Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/03/2022</dt>
+    <departureLocation>Lightning Ridge</departureLocation>
+    <departureOdometer>150392</departureOdometer>
+    <arrivalLocation>Moree</arrivalLocation>
+    <arrivalOdometer>150651</arrivalOdometer>
+    <arrivalCampsite>Gwydir Thermal Pool Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/03/2022</dt>
+    <departureLocation>Moree</departureLocation>
+    <departureOdometer>150651</departureOdometer>
+    <arrivalLocation>Bingara</arrivalLocation>
+    <arrivalOdometer>150752</arrivalOdometer>
+    <arrivalCampsite>Bingara Commons Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/03/2022</dt>
+    <departureLocation>Bingara</departureLocation>
+    <departureOdometer>150815</departureOdometer>
+    <arrivalLocation>Inverell</arrivalLocation>
+    <arrivalOdometer>150893</arrivalOdometer>
+    <arrivalCampsite>Sapphire Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/03/2022</dt>
+    <departureLocation>Inverell</departureLocation>
+    <departureOdometer>150908</departureOdometer>
+    <arrivalLocation>Deepwater</arrivalLocation>
+    <arrivalOdometer>151024</arrivalOdometer>
+    <arrivalCampsite>Kookaburra Camping &amp; Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/03/2022</dt>
+    <departureLocation>Deepwater</departureLocation>
+    <departureOdometer>151126</departureOdometer>
+    <arrivalLocation>Tenterfield</arrivalLocation>
+    <arrivalOdometer>151165</arrivalOdometer>
+    <arrivalCampsite>Tenterfield Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/03/2022</dt>
+    <departureLocation>Tenterfield</departureLocation>
+    <departureOdometer>151291</departureOdometer>
+    <arrivalLocation>Jennings</arrivalLocation>
+    <arrivalOdometer>151312</arrivalOdometer>
+    <arrivalCampsite>Jennings Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/03/2022</dt>
+    <departureLocation>Jennings</departureLocation>
+    <departureOdometer>151358</departureOdometer>
+    <arrivalLocation>Stanthorpe</arrivalLocation>
+    <arrivalOdometer>151419</arrivalOdometer>
+    <arrivalCampsite>Foxbar Falls Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/03/2022</dt>
+    <departureLocation>Stanthorpe</departureLocation>
+    <departureOdometer>151522</departureOdometer>
+    <arrivalLocation>Cleveland</arrivalLocation>
+    <arrivalOdometer>151772</arrivalOdometer>
+    <arrivalCampsite>Cleveland Gardens</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/04/2022</dt>
+    <departureLocation>Cleveland</departureLocation>
+    <departureOdometer>151980</departureOdometer>
+    <arrivalLocation>Salisbury</arrivalLocation>
+    <arrivalOdometer>152008</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/06/2022</dt>
+    <departureLocation>Salisbury</departureLocation>
+    <departureOdometer>152452</departureOdometer>
+    <arrivalLocation>Kerry</arrivalLocation>
+    <arrivalOdometer>152526</arrivalOdometer>
+    <arrivalCampsite>Stay at Kirro</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/06/2022</dt>
+    <departureLocation>Kerry</departureLocation>
+    <departureOdometer>152526</departureOdometer>
+    <arrivalLocation>Salisbury</arrivalLocation>
+    <arrivalOdometer>152657</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/06/2022</dt>
+    <departureLocation>Salisbury</departureLocation>
+    <departureOdometer>153137</departureOdometer>
+    <arrivalLocation>Bowenville</arrivalLocation>
+    <arrivalOdometer>153306</arrivalOdometer>
+    <arrivalCampsite>Bowenville Pub</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/06/2022</dt>
+    <departureLocation>Bowenville</departureLocation>
+    <departureOdometer>153306</departureOdometer>
+    <arrivalLocation>Chinchilla</arrivalLocation>
+    <arrivalOdometer>153422</arrivalOdometer>
+    <arrivalCampsite>Chinchilla Weir</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/06/2022</dt>
+    <departureLocation>Chinchilla</departureLocation>
+    <departureOdometer>153422</departureOdometer>
+    <arrivalLocation>Yuleba</arrivalLocation>
+    <arrivalOdometer>153559</arrivalOdometer>
+    <arrivalCampsite>Judds Lagoon</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/06/2022</dt>
+    <departureLocation>Yuleba</departureLocation>
+    <departureOdometer>153559</departureOdometer>
+    <arrivalLocation>Mitchell</arrivalLocation>
+    <arrivalOdometer>153712</arrivalOdometer>
+    <arrivalCampsite>Neal Turner Weir</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/06/2022</dt>
+    <departureLocation>Mitchell</departureLocation>
+    <departureOdometer>153712</departureOdometer>
+    <arrivalLocation>Charleville</arrivalLocation>
+    <arrivalOdometer>153889</arrivalOdometer>
+    <arrivalCampsite>Charleville CMCA</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/07/2022</dt>
+    <departureLocation>Charleville</departureLocation>
+    <departureOdometer>153914</departureOdometer>
+    <arrivalLocation>Quilpie</arrivalLocation>
+    <arrivalOdometer>154121</arrivalOdometer>
+    <arrivalCampsite>Bulloo River</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/07/2022</dt>
+    <departureLocation>Quilpie</departureLocation>
+    <departureOdometer>154162</departureOdometer>
+    <arrivalLocation>Eromanga</arrivalLocation>
+    <arrivalOdometer>154268</arrivalOdometer>
+    <arrivalCampsite>Eromanga Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/07/2022</dt>
+    <departureLocation>Eromanga</departureLocation>
+    <departureOdometer>154279</departureOdometer>
+    <arrivalLocation>Windorah</arrivalLocation>
+    <arrivalOdometer>154476</arrivalOdometer>
+    <arrivalCampsite>Cooper Creek Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/07/2022</dt>
+    <departureLocation>Windorah</departureLocation>
+    <departureOdometer>154529</departureOdometer>
+    <arrivalLocation>Farrars Creek</arrivalLocation>
+    <arrivalOdometer>154699</arrivalOdometer>
+    <arrivalCampsite>Farrars Creek Roadside Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/07/2022</dt>
+    <departureLocation>Farrars Creek</departureLocation>
+    <departureOdometer>154699</departureOdometer>
+    <arrivalLocation>Bedourie</arrivalLocation>
+    <arrivalOdometer>154920</arrivalOdometer>
+    <arrivalCampsite>Bedourie Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/07/2022</dt>
+    <departureLocation>Bedourie</departureLocation>
+    <departureOdometer>154928</departureOdometer>
+    <arrivalLocation>Bedourie</arrivalLocation>
+    <arrivalOdometer>154932</arrivalOdometer>
+    <arrivalCampsite>Bedourie Racecourse</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/07/2022</dt>
+    <departureLocation>Bedourie</departureLocation>
+    <departureOdometer>154932</departureOdometer>
+    <arrivalLocation>Georgina Crossing Sth</arrivalLocation>
+    <arrivalOdometer>155055</arrivalOdometer>
+    <arrivalCampsite>Georgina Crossing Sth Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/07/2022</dt>
+    <departureLocation>Georgina Crossing Sth</departureLocation>
+    <departureOdometer>155055</departureOdometer>
+    <arrivalLocation>Boulia</arrivalLocation>
+    <arrivalOdometer>155129</arrivalOdometer>
+    <arrivalCampsite>Boulia Racecourse</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/07/2022</dt>
+    <departureLocation>Boulia</departureLocation>
+    <departureOdometer>155159</departureOdometer>
+    <arrivalLocation>Tobermorey</arrivalLocation>
+    <arrivalOdometer>155406</arrivalOdometer>
+    <arrivalCampsite>Tobermorey Station</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/07/2022</dt>
+    <departureLocation>Tobermorey</departureLocation>
+    <departureOdometer>155406</departureOdometer>
+    <arrivalLocation>Jervois</arrivalLocation>
+    <arrivalOdometer>155620</arrivalOdometer>
+    <arrivalCampsite>Jervois Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/07/2022</dt>
+    <departureLocation>Jervois</departureLocation>
+    <departureOdometer>155620</departureOdometer>
+    <arrivalLocation>GemTree</arrivalLocation>
+    <arrivalOdometer>155822</arrivalOdometer>
+    <arrivalCampsite>GemTree Caravan Park</arrivalCampsite>
   </data>
 </travel>

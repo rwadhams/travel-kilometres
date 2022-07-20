@@ -53,6 +53,13 @@
     <name>South Australia Summer Trip</name>
     <odometer>
       <start>137281</start>
+      <end>151772</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Central / South / Tassie Trip</name>
+    <odometer>
+      <start>153137</start>
       <end></end>
     </odometer>
   </data>
@@ -61,7 +68,7 @@
     <name></name>
     <odometer>
       <start>123456</start>
-      <end>123457</end>
+      <end></end>
     </odometer>
   </data>
    -->

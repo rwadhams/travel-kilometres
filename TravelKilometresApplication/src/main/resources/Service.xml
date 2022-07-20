@@ -41,6 +41,13 @@
       <schedule></schedule>
       <odometer>118094</odometer>
     </data>
+    <data>
+      <dt>05/02/2022</dt>
+      <location>Aldinga, Adelaide SA</location>
+      <cost>29.00</cost>
+      <schedule></schedule>
+      <odometer>146616</odometer>
+    </data>
   </fuelFilter>
   
   <!-- Caravan -->
@@ -52,6 +59,13 @@
       <cost>407.00</cost>
       <schedule>10000</schedule>
       <odometer>11000</odometer>
+    </data>
+    <data>
+      <dt>01/12/2021</dt>
+      <location>Mark's Mobile Caravan Service, Adelaide</location>
+      <cost>460.00</cost>
+      <schedule>20000</schedule>
+      <odometer>22858</odometer>
     </data>
   </caravan>
   
@@ -95,10 +109,17 @@
     </data>
     <data>
       <dt>19/10/2021</dt>
-      <location>Murray Bridge Toyota</location>
+      <location>Northpoint Toyota, Murray Bridge</location>
       <cost>411.00</cost>
       <schedule>140000</schedule>
       <odometer>141133</odometer>
+    </data>
+    <data>
+      <dt>30/03/2022</dt>
+      <location>OldMac Toyota, Brisbane</location>
+      <cost>452.10</cost>
+      <schedule>150000</schedule>
+      <odometer>151787</odometer>
     </data>
   </car>
 </service>

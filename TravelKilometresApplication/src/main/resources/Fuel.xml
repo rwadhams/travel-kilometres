@@ -703,4 +703,46 @@
     <dollarsPerLitre>2.90</dollarsPerLitre>
     <litres>46.00</litres>
   </data>
+  <data>
+    <dt>26/07/2022</dt>
+    <odometer>156218</odometer>
+    <dollarsPerLitre>2.29</dollarsPerLitre>
+    <litres>138.50</litres>
+  </data>
+  <data>
+    <dt>01/08/2022</dt>
+    <odometer>156745</odometer>
+    <dollarsPerLitre>2.72</dollarsPerLitre>
+    <litres>96.75</litres>
+  </data>
+  <data>
+    <dt>05/08/2022</dt>
+    <odometer>157311</odometer>
+    <dollarsPerLitre>2.499</dollarsPerLitre>
+    <litres>97.50</litres>
+  </data>
+  <data>
+    <dt>07/08/2022</dt>
+    <odometer>157804</odometer>
+    <dollarsPerLitre>2.300</dollarsPerLitre>
+    <litres>107.00</litres>
+  </data>
+  <data>
+    <dt>09/08/2022</dt>
+    <odometer>158567</odometer>
+    <dollarsPerLitre>2.029</dollarsPerLitre>
+    <litres>159.36</litres>
+  </data>
+  <data>
+    <dt>11/08/2022</dt>
+    <odometer>159095</odometer>
+    <dollarsPerLitre>1.899</dollarsPerLitre>
+    <litres>105.70</litres>
+  </data>
+  <data>
+    <dt>14/08/2022</dt>
+    <odometer>159579</odometer>
+    <dollarsPerLitre>2.009</dollarsPerLitre>
+    <litres>111.76</litres>
+  </data>
 </fuel>

@@ -7,7 +7,7 @@
       <dt>06/05/2021</dt>
       <location>Deans Automatic Transmissions, Brisbane</location>
       <cost>566.50</cost>
-      <schedule>120000</schedule>
+      <serviceName>1st Service</serviceName>
       <odometer>127107</odometer>
     </data>
   </transmission>
@@ -30,6 +30,25 @@
       <odometer>141460</odometer>
     </data>
   </carTyres>
+  
+  <!-- Caravan Tyres -->
+  <caravanTyres>
+    <frequency></frequency>
+    <data>
+      <dt>28/03/2020</dt>
+      <location>Melbourne</location>
+      <cost>0.00</cost>
+      <schedule></schedule>
+      <odometer>0</odometer>
+    </data>
+    <data>
+      <dt>17/08/2022</dt>
+      <location>Melbourne</location>
+      <cost>900.00</cost>
+      <schedule></schedule>
+      <odometer>33240</odometer>
+    </data>
+  </caravanTyres>
   
   <!-- Fuel Filter -->
   <fuelFilter>
@@ -57,15 +76,22 @@
       <dt>13/04/2021</dt>
       <location>ARV Chassis, Melbourne</location>
       <cost>407.00</cost>
-      <schedule>10000</schedule>
+      <serviceName>1st Service</serviceName>
       <odometer>11000</odometer>
     </data>
     <data>
       <dt>01/12/2021</dt>
       <location>Mark's Mobile Caravan Service, Adelaide</location>
       <cost>460.00</cost>
-      <schedule>20000</schedule>
+      <serviceName>2nd Service</serviceName>
       <odometer>22858</odometer>
+    </data>
+    <data>
+      <dt>15/08/2022</dt>
+      <location>ARV Chassis, Melbourne</location>
+      <cost>440.00</cost>
+      <serviceName>3rd Service</serviceName>
+      <odometer>33089</odometer>
     </data>
   </caravan>
   

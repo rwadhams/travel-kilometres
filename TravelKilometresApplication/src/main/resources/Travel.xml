@@ -1896,4 +1896,172 @@
     <arrivalOdometer>155822</arrivalOdometer>
     <arrivalCampsite>GemTree Caravan Park</arrivalCampsite>
   </data>
+  <data>
+    <dt>22/07/2022</dt>
+    <departureLocation>GemTree</departureLocation>
+    <departureOdometer>155886</departureOdometer>
+    <arrivalLocation>Alice Springs</arrivalLocation>
+    <arrivalOdometer>156026</arrivalOdometer>
+    <arrivalCampsite>G'Day Mate Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/07/2022</dt>
+    <departureLocation>Alice Springs</departureLocation>
+    <departureOdometer>156225</departureOdometer>
+    <arrivalLocation>Hugh River</arrivalLocation>
+    <arrivalOdometer>156295</arrivalOdometer>
+    <arrivalCampsite>Hugh River Creekbed</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/07/2022</dt>
+    <departureLocation>Hugh River</departureLocation>
+    <departureOdometer>156346</departureOdometer>
+    <arrivalLocation>Neil Hargraves</arrivalLocation>
+    <arrivalOdometer>156401</arrivalOdometer>
+    <arrivalCampsite>Neil Hargraves Lookout</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/07/2022</dt>
+    <departureLocation>Neil Hargraves</departureLocation>
+    <departureOdometer>156468</departureOdometer>
+    <arrivalLocation>Gosse Bluff</arrivalLocation>
+    <arrivalOdometer>156564</arrivalOdometer>
+    <arrivalCampsite>Gosse Bluff Gravel Pit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/07/2022</dt>
+    <departureLocation>Gosse Bluff</departureLocation>
+    <departureOdometer>156564</departureOdometer>
+    <arrivalLocation>Ginty's Lookout</arrivalLocation>
+    <arrivalOdometer>156699</arrivalOdometer>
+    <arrivalCampsite>Ginty's Lookout</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/08/2022</dt>
+    <departureLocation>Ginty's Lookout</departureLocation>
+    <departureOdometer>156699</departureOdometer>
+    <arrivalLocation>Kings Canyon</arrivalLocation>
+    <arrivalOdometer>156746</arrivalOdometer>
+    <arrivalCampsite>Kings Canyon Resort</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/08/2022</dt>
+    <departureLocation>Kings Canyon</departureLocation>
+    <departureOdometer>156746</departureOdometer>
+    <arrivalLocation>Salt Creek</arrivalLocation>
+    <arrivalOdometer>156877</arrivalOdometer>
+    <arrivalCampsite>Salt Creek Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/08/2022</dt>
+    <departureLocation>Salt Creek</departureLocation>
+    <departureOdometer>156877</departureOdometer>
+    <arrivalLocation>Yularu</arrivalLocation>
+    <arrivalOdometer>157062</arrivalOdometer>
+    <arrivalCampsite>Ayers Rock Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/08/2022</dt>
+    <departureLocation>Yularu</departureLocation>
+    <departureOdometer>157318</departureOdometer>
+    <arrivalLocation>Kulgera</arrivalLocation>
+    <arrivalOdometer>157631</arrivalOdometer>
+    <arrivalCampsite>Kulgera Roadhouse</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/08/2022</dt>
+    <departureLocation>Kulgera</departureLocation>
+    <departureOdometer>157631</departureOdometer>
+    <arrivalLocation>Coober Pedy</arrivalLocation>
+    <arrivalOdometer>158036</arrivalOdometer>
+    <arrivalCampsite>Coober Pedy Town Common</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/08/2022</dt>
+    <departureLocation>Coober Pedy</departureLocation>
+    <departureOdometer>158036</departureOdometer>
+    <arrivalLocation>Lake Hart</arrivalLocation>
+    <arrivalOdometer>158357</arrivalOdometer>
+    <arrivalCampsite>Lake Hart Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/08/2022</dt>
+    <departureLocation>Lake Hart</departureLocation>
+    <departureOdometer>158357</departureOdometer>
+    <arrivalLocation>Crystal Brook</arrivalLocation>
+    <arrivalOdometer>158671</arrivalOdometer>
+    <arrivalCampsite>Crystal Brook Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/08/2022</dt>
+    <departureLocation>Crystal Brook</departureLocation>
+    <departureOdometer>158671</departureOdometer>
+    <arrivalLocation>Murray Bridge</arrivalLocation>
+    <arrivalOdometer>158947</arrivalOdometer>
+    <arrivalCampsite>Murray Bridge Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/08/2022</dt>
+    <departureLocation>Murray Bridge</departureLocation>
+    <departureOdometer>158947</departureOdometer>
+    <arrivalLocation>Bordertown</arrivalLocation>
+    <arrivalOdometer>159138</arrivalOdometer>
+    <arrivalCampsite>Bordertown Lake Recreation Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/08/2022</dt>
+    <departureLocation>Bordertown</departureLocation>
+    <departureOdometer>159138</departureOdometer>
+    <arrivalLocation>Ararat</arrivalLocation>
+    <arrivalOdometer>159391</arrivalOdometer>
+    <arrivalCampsite>Acacia Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/08/2022</dt>
+    <departureLocation>Ararat</departureLocation>
+    <departureOdometer>159394</departureOdometer>
+    <arrivalLocation>RockBank</arrivalLocation>
+    <arrivalOdometer>159568</arrivalOdometer>
+    <arrivalCampsite>Sundowner Rockbank Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/08/2022</dt>
+    <departureLocation>RockBank</departureLocation>
+    <departureOdometer>159595</departureOdometer>
+    <arrivalLocation>Campbellfield</arrivalLocation>
+    <arrivalOdometer>159641</arrivalOdometer>
+    <arrivalCampsite>ARV Chassis (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/08/2022</dt>
+    <departureLocation>Campbellfield</departureLocation>
+    <departureOdometer>159694</departureOdometer>
+    <arrivalLocation>Beverage</arrivalLocation>
+    <arrivalOdometer>159722</arrivalOdometer>
+    <arrivalCampsite>Beverage Truck Stop</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/08/2022</dt>
+    <departureLocation>Beverage</departureLocation>
+    <departureOdometer>159722</departureOdometer>
+    <arrivalLocation>Beverage</arrivalLocation>
+    <arrivalOdometer>159822</arrivalOdometer>
+    <arrivalCampsite>Beverage Truck Stop</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/08/2022</dt>
+    <departureLocation>Beverage</departureLocation>
+    <departureOdometer>159822</departureOdometer>
+    <arrivalLocation>Somerton</arrivalLocation>
+    <arrivalOdometer>159845</arrivalOdometer>
+    <arrivalCampsite>Melbourne City Caravan (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/08/2022</dt>
+    <departureLocation>Somerton</departureLocation>
+    <departureOdometer>159876</departureOdometer>
+    <arrivalLocation>Coburg</arrivalLocation>
+    <arrivalOdometer>159893</arrivalOdometer>
+    <arrivalCampsite>Big 4 Coburg Caravan Park</arrivalCampsite>
+  </data>
 </travel>

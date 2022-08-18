@@ -37,6 +37,13 @@ class ServiceXMLService {
 			dto.carTyresList << build(txn)
 		}
 
+		//caravan tyres
+		def caravanTyres = service.caravanTyres
+		caravanTyres.data.each {txn ->
+			//println txn
+			dto.caravanTyresList << build(txn)
+		}
+
 		//fuel filter
 		def fuelFilter = service.fuelFilter
 		fuelFilter.data.each {txn ->
@@ -87,6 +94,12 @@ class ServiceXMLService {
 			BigDecimal serviceEventSchedule = new BigDecimal(s1)
 			//println serviceEventSchedule
 			dto.serviceEventSchedule = serviceEventSchedule
+		}
+		
+		//serviceEventName
+		String s2 = txn.serviceName.text()
+		if (s2) {
+			dto.serviceEventName = s2
 		}
 		
 		//serviceEventOdometer

@@ -8,5 +8,6 @@ class ServiceEventDTO {
 	String serviceEventLocation
 	BigDecimal serviceEventCost
 	BigDecimal serviceEventSchedule
+	String serviceEventName
 	BigDecimal serviceEventOdometer
 }

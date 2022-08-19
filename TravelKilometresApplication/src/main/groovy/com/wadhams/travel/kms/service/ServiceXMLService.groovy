@@ -30,6 +30,14 @@ class ServiceXMLService {
 			dto.transmissionList << build(txn)
 		}
 
+		//caravan tyre rotation
+		def caravanTyreRotation = service.caravanTyreRotation
+		dto.caravanTyreRotationFrequency = new BigDecimal(caravanTyreRotation.frequency.text())
+		caravanTyreRotation.data.each {txn ->
+			//println txn
+			dto.caravanTyreRotationList << build(txn)
+		}
+
 		//car tyres
 		def carTyres = service.carTyres
 		carTyres.data.each {txn ->

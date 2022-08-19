@@ -35,6 +35,8 @@ class ServiceReportService {
 			
 			transmissionReport(serviceDTO, carOdometerKms, pw)
 			pw.println ''
+			caravanTyreRotationReport(serviceDTO, totalCaravanKms, pw)
+			pw.println ''
 			caravanReport(serviceDTO, totalCaravanKms, pw)
 			pw.println ''
 			carReport(serviceDTO, carOdometerKms, pw)
@@ -51,7 +53,7 @@ class ServiceReportService {
 		pw.println "Transmission Service - Frequency: ${nf.format(serviceDTO.transmissionFrequency)}"
 		
 		serviceDTO.transmissionList.each {se ->
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) ServiceName: ${se.serviceEventName} Car odometer: ${nf.format(se.serviceEventOdometer).padRight(7, ' ')} at ${se.serviceEventLocation}"
+			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) ServiceName: ${se.serviceEventName}, Car odometer: ${nf.format(se.serviceEventOdometer).padRight(7, ' ')} at ${se.serviceEventLocation}"
 		}
 		
 		ServiceEventDTO lastTransmission = serviceDTO.transmissionList[-1]
@@ -60,11 +62,24 @@ class ServiceReportService {
 		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} car Kms. At ${nf.format(nextServiceSchedule)}."
 	}
 
+	def caravanTyreRotationReport(ServiceDTO serviceDTO, BigDecimal totalCaravanKms, PrintWriter pw) {
+		pw.println "Caravan Tyre Rotation - Frequency: ${nf.format(serviceDTO.caravanTyreRotationFrequency)}"
+		
+		serviceDTO.caravanTyreRotationList.each {se ->
+			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) ServiceName: ${se.serviceEventName}, Caravan odometer: ${nf.format(se.serviceEventOdometer).padRight(7, ' ')} at ${se.serviceEventLocation}"
+		}
+		
+		ServiceEventDTO lastRotation = serviceDTO.caravanTyreRotationList[-1]
+		BigDecimal nextServiceSchedule = lastRotation.serviceEventOdometer.add(serviceDTO.caravanTyreRotationFrequency)
+		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(totalCaravanKms)
+		pw.println "\tNext rotation is due in: ${nf.format(nextServiceRemaining)} caravan Kms. At ${nf.format(nextServiceSchedule)}."
+	}
+
 	def caravanReport(ServiceDTO serviceDTO, BigDecimal totalCaravanKms, PrintWriter pw) {
 		pw.println "Caravan Service - Frequency: ${nf.format(serviceDTO.caravanFrequency)}"
 		
 		serviceDTO.caravanList.each {se ->
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) ServiceName: ${se.serviceEventName} Caravan odometer: ${nf.format(se.serviceEventOdometer).padRight(6, ' ')} at ${se.serviceEventLocation}"
+			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) ServiceName: ${se.serviceEventName}, Caravan odometer: ${nf.format(se.serviceEventOdometer).padRight(6, ' ')} at ${se.serviceEventLocation}"
 		}
 		
 		ServiceEventDTO lastCaravan = serviceDTO.caravanList[-1]

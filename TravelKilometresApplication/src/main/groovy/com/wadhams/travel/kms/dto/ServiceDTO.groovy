@@ -5,10 +5,12 @@ import groovy.transform.ToString
 @ToString(includeNames=true)
 class ServiceDTO {
 	BigDecimal transmissionFrequency
+	BigDecimal caravanTyreRotationFrequency
 	BigDecimal caravanFrequency
 	BigDecimal carFrequency
 	
 	List<ServiceEventDTO> transmissionList = []
+	List<ServiceEventDTO> caravanTyreRotationList = []
 	List<ServiceEventDTO> caravanList = []
 	List<ServiceEventDTO> carList = []
 	

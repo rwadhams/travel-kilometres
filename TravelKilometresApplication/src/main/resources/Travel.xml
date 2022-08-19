@@ -2049,7 +2049,7 @@
     <arrivalCampsite>Beverage Truck Stop</arrivalCampsite>
   </data>
   <data>
-    <dt>16/08/2022</dt>
+    <dt>17/08/2022</dt>
     <departureLocation>Beverage</departureLocation>
     <departureOdometer>159822</departureOdometer>
     <arrivalLocation>Somerton</arrivalLocation>
@@ -2057,11 +2057,27 @@
     <arrivalCampsite>Melbourne City Caravan (unhitch-only)</arrivalCampsite>
   </data>
   <data>
-    <dt>16/08/2022</dt>
+    <dt>17/08/2022</dt>
     <departureLocation>Somerton</departureLocation>
     <departureOdometer>159876</departureOdometer>
     <arrivalLocation>Coburg</arrivalLocation>
     <arrivalOdometer>159893</arrivalOdometer>
     <arrivalCampsite>Big 4 Coburg Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/08/2022</dt>
+    <departureLocation>Coburg</departureLocation>
+    <departureOdometer>159928</departureOdometer>
+    <arrivalLocation>Clayton</arrivalLocation>
+    <arrivalOdometer>159976</arrivalOdometer>
+    <arrivalCampsite>Dometic Service Centre, Clayton</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/08/2022</dt>
+    <departureLocation>Clayton</departureLocation>
+    <departureOdometer>159995</departureOdometer>
+    <arrivalLocation>Broadford</arrivalLocation>
+    <arrivalOdometer>160107</arrivalOdometer>
+    <arrivalCampsite>Broadford Bowling Club</arrivalCampsite>
   </data>
 </travel>

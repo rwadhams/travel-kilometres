@@ -12,6 +12,18 @@
     </data>
   </transmission>
   
+  <!-- Caravan Tyre Rotation -->
+  <caravanTyreRotation>
+    <frequency>5000</frequency>
+    <data>
+      <dt>17/08/2022</dt>
+      <location>Integrated OE, Melbourne</location>
+      <cost>0.00</cost>
+      <serviceName>Tyre Installation</serviceName>
+      <odometer>33240</odometer>
+    </data>
+  </caravanTyreRotation>
+  
   <!-- Car Tyres -->
   <carTyres>
     <frequency></frequency>
@@ -146,6 +158,13 @@
       <cost>452.10</cost>
       <schedule>150000</schedule>
       <odometer>151787</odometer>
+    </data>
+    <data>
+      <dt>18/08/2022</dt>
+      <location>Coburg Toyota, Melbourne</location>
+      <cost>883.00</cost>
+      <schedule>160000</schedule>
+      <odometer>159895</odometer>
     </data>
   </car>
 </service>

@@ -1,13 +1,14 @@
 package com.wadhams.travel.kms.dto
 
 import groovy.transform.ToString
+import java.time.LocalDate
 
 @ToString(includeNames=true)
 class ServiceEventDTO {
-	Date serviceEventDate
+	LocalDate serviceEventDate
 	String serviceEventLocation
 	BigDecimal serviceEventCost
-	BigDecimal serviceEventSchedule
-	String serviceEventName
 	BigDecimal serviceEventOdometer
+	BigDecimal serviceEventScheduled
+	String serviceEventName
 }

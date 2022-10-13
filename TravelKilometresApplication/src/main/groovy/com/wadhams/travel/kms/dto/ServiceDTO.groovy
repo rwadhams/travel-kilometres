@@ -1,20 +1,17 @@
 package com.wadhams.travel.kms.dto
 
+import com.wadhams.travel.kms.type.Reporting
+import com.wadhams.travel.kms.type.ServiceTiming
+import com.wadhams.travel.kms.type.Vehicle
 import groovy.transform.ToString
 
 @ToString(includeNames=true)
 class ServiceDTO {
-	BigDecimal transmissionFrequency
-	BigDecimal caravanTyreRotationFrequency
-	BigDecimal caravanFrequency
-	BigDecimal carFrequency
+	String name
+	BigDecimal frequency
+	Vehicle vehicle				//Car or Caravan
+	Reporting reporting			//Service or Consumable
+	ServiceTiming serviceTiming	//Scheduled or Unscheduled.
 	
-	List<ServiceEventDTO> transmissionList = []
-	List<ServiceEventDTO> caravanTyreRotationList = []
-	List<ServiceEventDTO> caravanList = []
-	List<ServiceEventDTO> carList = []
-	
-	List<ServiceEventDTO> carTyresList = []
-	List<ServiceEventDTO> caravanTyresList = []
-	List<ServiceEventDTO> fuelFilterList = []
+	List<ServiceEventDTO> serviceEventDTOList
 }

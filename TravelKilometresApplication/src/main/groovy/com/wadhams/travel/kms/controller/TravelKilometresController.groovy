@@ -2,6 +2,7 @@ package com.wadhams.travel.kms.controller
 
 import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.FuelEconomyDTO
+import com.wadhams.travel.kms.dto.ServiceContainerDTO
 import com.wadhams.travel.kms.dto.ServiceDTO
 import com.wadhams.travel.kms.dto.TravelDTO
 import com.wadhams.travel.kms.dto.TripDTO
@@ -38,10 +39,10 @@ class TravelKilometresController {
 		BigDecimal carOdometerKms = travelListService.carOdometerKms(travelList)
 		
 		ServiceXMLService serviceXMLService = new ServiceXMLService()
-		ServiceDTO serviceDTO = serviceXMLService.loadServiceData()
+		ServiceContainerDTO serviceContainer = serviceXMLService.loadServiceData()
 		
 		ServiceReportService service = new ServiceReportService()
-		service.execute(serviceDTO, totalCaravanKms, carOdometerKms)
+		service.execute(serviceContainer, totalCaravanKms, carOdometerKms)
 		
 		FuelEconomyService feService = new FuelEconomyService()
 		List<FuelEconomyDTO> feList = feService.buildFuelEconomyList(fuelList)

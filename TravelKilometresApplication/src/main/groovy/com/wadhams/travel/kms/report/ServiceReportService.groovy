@@ -5,17 +5,22 @@ import java.text.SimpleDateFormat
 import java.time.LocalDate
 import java.time.Period
 import java.time.ZoneId
+import java.time.format.DateTimeFormatter
 
+import com.wadhams.travel.kms.dto.ServiceContainerDTO
 import com.wadhams.travel.kms.dto.ServiceDTO
 import com.wadhams.travel.kms.dto.ServiceEventDTO
+import com.wadhams.travel.kms.type.Vehicle
+import com.wadhams.travel.kms.type.Reporting
+import com.wadhams.travel.kms.type.ServiceTiming
 
 class ServiceReportService {
-		SimpleDateFormat sdf
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
+	
 		NumberFormat nf
 		NumberFormat cf
 
 	def ServiceReportService() {
-		sdf = new SimpleDateFormat("dd/MM/yyyy")
 		nf = NumberFormat.getNumberInstance()
 		nf.setMaximumFractionDigits(0)
 		cf = NumberFormat.getCurrencyInstance()
@@ -23,7 +28,7 @@ class ServiceReportService {
 
 	}
 	
-	def execute(ServiceDTO serviceDTO, BigDecimal totalCaravanKms, BigDecimal carOdometerKms) {
+	def execute(ServiceContainerDTO serviceContainer, BigDecimal totalCaravanKms, BigDecimal carOdometerKms) {
 		File f = new File("out/service-report.txt")
 		
 		f.withPrintWriter {pw ->
@@ -33,152 +38,105 @@ class ServiceReportService {
 			pw.println "Total caravan Kms: ${nf.format(totalCaravanKms)}"
 			pw.println ''
 			
-			transmissionReport(serviceDTO, carOdometerKms, pw)
-			pw.println ''
-			caravanTyreRotationReport(serviceDTO, totalCaravanKms, pw)
-			pw.println ''
-			caravanReport(serviceDTO, totalCaravanKms, pw)
-			pw.println ''
-			carReport(serviceDTO, carOdometerKms, pw)
-			pw.println ''
-			carTyresReport(serviceDTO, carOdometerKms, pw)
-			pw.println ''
-			caravanTyresReport(serviceDTO, totalCaravanKms, pw)
-			pw.println ''
-			fuelFilterReport(serviceDTO, carOdometerKms, pw)
+			serviceContainer.serviceDTOList.each {s ->
+				if (s.reporting == Reporting.Service) {
+					if (s.vehicle == Vehicle.Car) {
+						reportService(s, carOdometerKms, pw)
+					}
+					else {
+						reportService(s, totalCaravanKms, pw)
+					}
+				}
+				else if (s.reporting == Reporting.Consumable) {
+					if (s.vehicle == Vehicle.Car) {
+						reportConsumable(s, carOdometerKms, pw)
+					}
+					else {
+						reportConsumable(s, totalCaravanKms, pw)
+					}
+				}
+				else {
+					pw.println "Unknown reporting: $s"
+				}
+			}
 		}
 	}
 	
-	def transmissionReport(ServiceDTO serviceDTO, BigDecimal carOdometerKms, PrintWriter pw) {
-		pw.println "Transmission Service - Frequency: ${nf.format(serviceDTO.transmissionFrequency)}"
-		
-		serviceDTO.transmissionList.each {se ->
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) ServiceName: ${se.serviceEventName}, Car odometer: ${nf.format(se.serviceEventOdometer).padRight(7, ' ')} at ${se.serviceEventLocation}"
-		}
-		
-		ServiceEventDTO lastTransmission = serviceDTO.transmissionList[-1]
-		BigDecimal nextServiceSchedule = lastTransmission.serviceEventOdometer.add(serviceDTO.transmissionFrequency)
-		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(carOdometerKms)
-		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} car Kms. At ${nf.format(nextServiceSchedule)}."
-	}
-
-	def caravanTyreRotationReport(ServiceDTO serviceDTO, BigDecimal totalCaravanKms, PrintWriter pw) {
-		pw.println "Caravan Tyre Rotation - Frequency: ${nf.format(serviceDTO.caravanTyreRotationFrequency)}"
-		
-		serviceDTO.caravanTyreRotationList.each {se ->
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) ServiceName: ${se.serviceEventName}, Caravan odometer: ${nf.format(se.serviceEventOdometer).padRight(7, ' ')} at ${se.serviceEventLocation}"
-		}
-		
-		ServiceEventDTO lastRotation = serviceDTO.caravanTyreRotationList[-1]
-		BigDecimal nextServiceSchedule = lastRotation.serviceEventOdometer.add(serviceDTO.caravanTyreRotationFrequency)
-		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(totalCaravanKms)
-		pw.println "\tNext rotation is due in: ${nf.format(nextServiceRemaining)} caravan Kms. At ${nf.format(nextServiceSchedule)}."
-	}
-
-	def caravanReport(ServiceDTO serviceDTO, BigDecimal totalCaravanKms, PrintWriter pw) {
-		pw.println "Caravan Service - Frequency: ${nf.format(serviceDTO.caravanFrequency)}"
-		
-		serviceDTO.caravanList.each {se ->
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) ServiceName: ${se.serviceEventName}, Caravan odometer: ${nf.format(se.serviceEventOdometer).padRight(6, ' ')} at ${se.serviceEventLocation}"
-		}
-		
-		ServiceEventDTO lastCaravan = serviceDTO.caravanList[-1]
-		BigDecimal nextServiceSchedule = lastCaravan.serviceEventOdometer.add(serviceDTO.caravanFrequency)
-		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(totalCaravanKms)
-		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} caravan Kms."
-	}
-
-	def carReport(ServiceDTO serviceDTO, BigDecimal carOdometerKms, PrintWriter pw) {
-		pw.println "Car Service - Frequency: ${nf.format(serviceDTO.carFrequency)}"
+	def reportService(ServiceDTO s, BigDecimal kilometres, PrintWriter pw) {
+		pw.println "${s.name} - Frequency: ${nf.format(s.frequency)}"
 		
 		ServiceEventDTO prev = null
-		serviceDTO.carList.each {se ->
-			//durations
-			if (prev) {
-				LocalDate start = prev.serviceEventDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
-				LocalDate end = se.serviceEventDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
+		s.serviceEventDTOList.each {se ->
+			//duration
+			if (prev && s.serviceTiming == ServiceTiming.Scheduled) {
+				LocalDate start = prev.serviceEventDate
+				LocalDate end = se.serviceEventDate
 				Period p = Period.between(start, end)
 				String dateDuration = formatPeriod(p)
 				BigDecimal odometerDuration = se.serviceEventOdometer.subtract(prev.serviceEventOdometer)
-				pw.println "\t\tDurations: $dateDuration; ${nf.format(odometerDuration)} Kms."
+				pw.println "\t\tDuration: $dateDuration; ${nf.format(odometerDuration)} Kms."
 			}
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) Scheduled: ${nf.format(se.serviceEventSchedule).padRight(7, ' ')} Car odometer: ${nf.format(se.serviceEventOdometer).padRight(7, ' ')} at ${se.serviceEventLocation}"
+			
+			String s1 = se.serviceEventDate.format(dtf)
+			String s2 = "(${cf.format(se.serviceEventCost)})"
+			String s3
+			if (s.serviceTiming == ServiceTiming.UnScheduled) {
+				s3 = "ServiceName: ${se.serviceEventName}"
+			}
+			else {
+				s3 = "Scheduled: ${nf.format(se.serviceEventScheduled).padRight(7, ' ')}"
+			}
+			String s4 = (s.vehicle == Vehicle.Car ) ? 'Car odometer: ' : 'Caravan odometer: '
+			String s5 = nf.format(se.serviceEventOdometer).padRight(7, ' ')
+			String s6 = se.serviceEventLocation
+			pw.println "\t$s1 $s2 $s3 $s4 $s5 at $s6."
 			prev = se
 		}
 		
-		ServiceEventDTO lastCar = serviceDTO.carList[-1]
-		BigDecimal nextServiceSchedule = lastCar.serviceEventSchedule.add(serviceDTO.carFrequency)
-		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(carOdometerKms)
-		pw.println "\tNext service is due in: ${nf.format(nextServiceRemaining)} car Kms. At ${nf.format(nextServiceSchedule)}."
+		ServiceEventDTO last = s.serviceEventDTOList[-1]
+		BigDecimal nextServiceSchedule
+		if (s.serviceTiming == ServiceTiming.UnScheduled) {
+			nextServiceSchedule = last.serviceEventOdometer.add(s.frequency)
+		}
+		else {
+			nextServiceSchedule = last.serviceEventScheduled.add(s.frequency)
+		}
+
+		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(kilometres)
+		String s1 = 'Next service is due in:'
+		String s2 = nf.format(nextServiceRemaining)
+		String s3 = (s.vehicle == Vehicle.Car) ? 'car ' : 'caravan '
+		String s4 = nf.format(nextServiceSchedule)
+		pw.println "\t$s1 $s2 $s3 Kms. At $s4."
+		pw.println ''
 	}
 
-	def carTyresReport(ServiceDTO serviceDTO, BigDecimal carOdometerKms, PrintWriter pw) {
-		pw.println 'Car Tyres'
+	def reportConsumable(ServiceDTO s, BigDecimal kilometres, PrintWriter pw) {
+		pw.println s.name
 		
 		ServiceEventDTO prev = null
-		serviceDTO.carTyresList.each {se ->
-			//durations
+		s.serviceEventDTOList.each {se ->
+			//duration
 			if (prev) {
-				LocalDate start = prev.serviceEventDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
-				LocalDate end = se.serviceEventDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
+				LocalDate start = prev.serviceEventDate
+				LocalDate end = se.serviceEventDate
 				Period p = Period.between(start, end)
 				String dateDuration = formatPeriod(p)
 				BigDecimal odometerDuration = se.serviceEventOdometer.subtract(prev.serviceEventOdometer)
-				pw.println "\t\tDurations: $dateDuration; ${nf.format(odometerDuration)} Kms."
+				pw.println "\t\tDuration: $dateDuration; ${nf.format(odometerDuration)} Kms."
 			}
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) Car odometer: ${nf.format(se.serviceEventOdometer)} at ${se.serviceEventLocation}"
+			String s1 = se.serviceEventDate.format(dtf)
+			String s2 = (s.vehicle == Vehicle.Car) ? 'Car odometer:' : 'Caravan odometer:'
+			String s3 = nf.format(se.serviceEventOdometer).padRight(7, ' ')
+			String s4 = se.serviceEventLocation
+			pw.println "\t$s1 $s2 $s3 at $s4"
 			prev = se
 		}
 		
-		ServiceEventDTO lastCarTyres = serviceDTO.carTyresList[-1]
-		BigDecimal travelDistance = carOdometerKms.subtract(lastCarTyres.serviceEventOdometer)
+		ServiceEventDTO last = s.serviceEventDTOList[-1]
+		BigDecimal travelDistance = kilometres.subtract(last.serviceEventOdometer)
 		pw.println "\tDistance travelled: ${nf.format(travelDistance)} Kms."
-	}
-
-	def caravanTyresReport(ServiceDTO serviceDTO, BigDecimal totalCaravanKms, PrintWriter pw) {
-		pw.println 'Caravan Tyres'
-		
-		ServiceEventDTO prev = null
-		serviceDTO.caravanTyresList.each {se ->
-			//durations
-			if (prev) {
-				LocalDate start = prev.serviceEventDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
-				LocalDate end = se.serviceEventDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
-				Period p = Period.between(start, end)
-				String dateDuration = formatPeriod(p)
-				BigDecimal odometerDuration = se.serviceEventOdometer.subtract(prev.serviceEventOdometer)
-				pw.println "\t\tDurations: $dateDuration; ${nf.format(odometerDuration)} Kms."
-			}
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) Caravan odometer: ${nf.format(se.serviceEventOdometer)} at ${se.serviceEventLocation}"
-			prev = se
-		}
-		
-		ServiceEventDTO lastCaravanTyres = serviceDTO.caravanTyresList[-1]
-		BigDecimal travelDistance = totalCaravanKms.subtract(lastCaravanTyres.serviceEventOdometer)
-		pw.println "\tDistance travelled: ${nf.format(travelDistance)} Kms."
-	}
-
-	def fuelFilterReport(ServiceDTO serviceDTO, BigDecimal carOdometerKms, PrintWriter pw) {
-		pw.println 'Fuel Filter'
-		
-		ServiceEventDTO prev = null
-		serviceDTO.fuelFilterList.each {se ->
-			//durations
-			if (prev) {
-				LocalDate start = prev.serviceEventDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
-				LocalDate end = se.serviceEventDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
-				Period p = Period.between(start, end)
-				String dateDuration = formatPeriod(p)
-				BigDecimal odometerDuration = se.serviceEventOdometer.subtract(prev.serviceEventOdometer)
-				pw.println "\t\tDurations: $dateDuration; ${nf.format(odometerDuration)} Kms."
-			}
-			pw.println "\t${sdf.format(se.serviceEventDate)} (${cf.format(se.serviceEventCost)}) Car odometer: ${nf.format(se.serviceEventOdometer).padRight(7, ' ')} at ${se.serviceEventLocation}"
-			prev = se
-		}
-		
-		ServiceEventDTO lastFuelFilter = serviceDTO.fuelFilterList[-1]
-		BigDecimal travelDistance = carOdometerKms.subtract(lastFuelFilter.serviceEventOdometer)
-		pw.println "\tDistance travelled: ${nf.format(travelDistance)} Kms."
+		pw.println ''
 	}
 
 	String formatPeriod(Period p) {

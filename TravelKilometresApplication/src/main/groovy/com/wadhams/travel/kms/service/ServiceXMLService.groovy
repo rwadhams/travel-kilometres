@@ -1,15 +1,20 @@
 package com.wadhams.travel.kms.service
 
 import java.text.SimpleDateFormat
-
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import com.wadhams.travel.kms.dto.ServiceContainerDTO
 import com.wadhams.travel.kms.dto.ServiceDTO
 import com.wadhams.travel.kms.dto.ServiceEventDTO
+import com.wadhams.travel.kms.type.Reporting
+import com.wadhams.travel.kms.type.Vehicle
+import com.wadhams.travel.kms.type.ServiceTiming
 
 class ServiceXMLService {
-	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
+	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 	
-	ServiceDTO loadServiceData() {
-		ServiceDTO dto = new ServiceDTO()
+	ServiceContainerDTO loadServiceData() {
+		ServiceContainerDTO sc = new ServiceContainerDTO()
 		
 		File serviceFile
 		URL resource = getClass().getClassLoader().getResource("Service.xml")
@@ -20,101 +25,105 @@ class ServiceXMLService {
 			serviceFile = new File(resource.toURI())
 		}
 		
-		def service = new XmlSlurper().parse(serviceFile)
+		def txn = new XmlSlurper().parse(serviceFile)
 		
-		//transmission
-		def transmission = service.transmission
-		dto.transmissionFrequency = new BigDecimal(transmission.frequency.text())
-		transmission.data.each {txn ->
-			//println txn
-			dto.transmissionList << build(txn)
+		def services = txn.service
+		services.each {sXML ->
+			ServiceDTO s = buildServiceDTO(sXML)
+			s.reporting = Reporting.Service
+			if (sXML.serviceTiming.text() == 'SCHEDULED') {
+				s.serviceTiming = ServiceTiming.Scheduled
+			}
+			else {
+				s.serviceTiming = ServiceTiming.UnScheduled
+			}
+			s.serviceEventDTOList = buildServiceEventDTOList(sXML.event) 
+			sc.serviceDTOList << s
 		}
-
-		//caravan tyre rotation
-		def caravanTyreRotation = service.caravanTyreRotation
-		dto.caravanTyreRotationFrequency = new BigDecimal(caravanTyreRotation.frequency.text())
-		caravanTyreRotation.data.each {txn ->
-			//println txn
-			dto.caravanTyreRotationList << build(txn)
+		
+		def consumables = txn.consumable
+		consumables.each {cXML ->
+			ServiceDTO s = buildServiceDTO(cXML)
+			s.reporting = Reporting.Consumable
+			s.serviceEventDTOList = buildServiceEventDTOList(cXML.event) 
+			sc.serviceDTOList << s
 		}
-
-		//car tyres
-		def carTyres = service.carTyres
-		carTyres.data.each {txn ->
-			//println txn
-			dto.carTyresList << build(txn)
-		}
-
-		//caravan tyres
-		def caravanTyres = service.caravanTyres
-		caravanTyres.data.each {txn ->
-			//println txn
-			dto.caravanTyresList << build(txn)
-		}
-
-		//fuel filter
-		def fuelFilter = service.fuelFilter
-		fuelFilter.data.each {txn ->
-			//println txn
-			dto.fuelFilterList << build(txn)
-		}
-
-		//caravan
-		def caravan = service.caravan
-		dto.caravanFrequency = new BigDecimal(caravan.frequency.text())
-		caravan.data.each {txn ->
-			//println txn
-			dto.caravanList << build(txn)
-		}
-
-		//car
-		def car = service.car
-		dto.carFrequency = new BigDecimal(car.frequency.text())
-		car.data.each {txn ->
-			//println txn
-			dto.carList << build(txn)
-		}
-
-		return dto
+		
+		return sc
 	}
 	
-	ServiceEventDTO build(txn) {
-		ServiceEventDTO dto = new ServiceEventDTO()
-			
-		//serviceEventDate
-		Date d = sdf.parse(txn.dt.text())
-		//println d
-		dto.serviceEventDate = d
+	ServiceDTO buildServiceDTO(txn) {
+		ServiceDTO s = new ServiceDTO()
+		//name
+		s.name = txn.name.text()
 		
-		//serviceEventLocation
-		String serviceEventLocation = txn.location.text()
-		//println serviceEventLocation
-		dto.serviceEventLocation = serviceEventLocation
-		
-		//serviceEventCost
-		BigDecimal serviceEventCost = new BigDecimal(txn.cost.text())
-		//println serviceEventCost
-		dto.serviceEventCost = serviceEventCost
-		
-		//serviceEventSchedule
-		String s1 = txn.schedule.text()
-		if (s1) {
-			BigDecimal serviceEventSchedule = new BigDecimal(s1)
-			//println serviceEventSchedule
-			dto.serviceEventSchedule = serviceEventSchedule
+		//frequency
+		String frequency = txn.frequency.text()
+		if (frequency) {
+			s.frequency = new BigDecimal(frequency)
 		}
 		
-		//serviceEventName
-		String s2 = txn.serviceName.text()
-		if (s2) {
-			dto.serviceEventName = s2
+		//vehicle
+		String vehicle = txn.vehicle.text()
+		if (vehicle.toUpperCase() == 'CAR') {
+			s.vehicle = Vehicle.Car
 		}
-		
-		//serviceEventOdometer
-		BigDecimal serviceEventOdometer = new BigDecimal(txn.odometer.text())
-		//println serviceEventOdometer
-		dto.serviceEventOdometer = serviceEventOdometer
+		else if (vehicle.toUpperCase() == 'CARAVAN') {
+			s.vehicle = Vehicle.Caravan
+		}
 
-		return dto
+		return s
+	}
+	
+	List<ServiceEventDTO> buildServiceEventDTOList(events) {
+		List<ServiceEventDTO> serviceEventDTOList = []
+		
+		events.each {e ->
+			ServiceEventDTO se = new ServiceEventDTO()
+			
+			//serviceEventDate
+			LocalDate ld = LocalDate.parse(e.dt.text(), dtf)
+			//println d
+			se.serviceEventDate = ld
+			
+			//serviceEventLocation
+			String serviceEventLocation = e.location.text()
+			//println serviceEventLocation
+			se.serviceEventLocation = serviceEventLocation
+			
+			//serviceEventCost
+			String cost = e.cost.text()
+			if (cost) {
+				BigDecimal serviceEventCost = new BigDecimal(cost)
+				//println serviceEventCost
+				se.serviceEventCost = serviceEventCost
+			}
+			
+			//serviceEventOdometer
+			String odometer = e.odometer.text()
+			if (odometer) {
+				BigDecimal serviceEventOdometer = new BigDecimal(odometer)
+				//println serviceEventOdometer
+				se.serviceEventOdometer = serviceEventOdometer
+			}
+
+			//serviceEventScheduled
+			String scheduled = e.scheduled.text()
+			if (scheduled) {
+				BigDecimal serviceEventScheduled = new BigDecimal(scheduled)
+				//println serviceEventSchedule
+				se.serviceEventScheduled = serviceEventScheduled
+			}
+			
+			//serviceEventName
+			String eventName = e.serviceName.text()
+			if (eventName) {
+				se.serviceEventName = eventName
+			}
+			
+			serviceEventDTOList << se
+		}
+		
+		return serviceEventDTOList
 	}
 }

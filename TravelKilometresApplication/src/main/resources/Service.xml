@@ -154,6 +154,17 @@
     </event>
   </consumable>
   
+  <!-- Car Brakes -->
+  <consumable>
+    <name>Car Brakes</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>29/09/2022</dt>
+      <location>CMI Toyota, Christies Beach</location>
+      <odometer>162305</odometer>
+    </event>
+  </consumable>
+  
   <!-- Fuel Filter -->
   <consumable>
     <name>Fuel Filter</name>
@@ -167,6 +178,91 @@
       <dt>05/02/2022</dt>
       <location>Aldinga, Adelaide SA</location>
       <odometer>146616</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Engine Air Filter -->
+  <consumable>
+    <name>Engine Air Filter</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>25/11/2019</dt>
+      <location>OldMac Toyota, Brisbane</location>
+      <odometer>89027</odometer>
+    </event>
+    <event>
+      <dt>18/03/2021</dt>
+      <location>Launceston Toyota</location>
+      <odometer>122397</odometer>
+    </event>
+    <event>
+      <dt>30/03/2022</dt>
+      <location>OldMac Toyota, Brisbane</location>
+      <odometer>151787</odometer>
+    </event>
+  </consumable>
+  
+  <!-- AC Cabin Filter -->
+  <consumable>
+    <name>AC Cabin Filter</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>25/11/2019</dt>
+      <location>OldMac Toyota, Brisbane</location>
+      <odometer>89027</odometer>
+    </event>
+    <event>
+      <dt>18/03/2021</dt>
+      <location>Launceston Toyota</location>
+      <odometer>122397</odometer>
+    </event>
+    <event>
+      <dt>30/03/2022</dt>
+      <location>OldMac Toyota, Brisbane</location>
+      <odometer>151787</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Front &amp; Rear Diff Oil -->
+  <consumable>
+    <name>Front &amp; Rear Diff Oil</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>18/03/2021</dt>
+      <location>Launceston Toyota</location>
+      <odometer>122397</odometer>
+    </event>
+    <event>
+      <dt>18/08/2022</dt>
+      <location>Coburg Toyota, Melbourne</location>
+      <odometer>159895</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Brake Fluid -->
+  <consumable>
+    <name>Brake Fluid</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>18/03/2021</dt>
+      <location>Launceston Toyota</location>
+      <odometer>122397</odometer>
+    </event>
+    <event>
+      <dt>18/08/2022</dt>
+      <location>Coburg Toyota, Melbourne</location>
+      <odometer>159895</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Engine Coolant -->
+  <consumable>
+    <name>Engine Coolant</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>18/08/2022</dt>
+      <location>Coburg Toyota, Melbourne</location>
+      <odometer>159895</odometer>
     </event>
   </consumable>
 </sc>

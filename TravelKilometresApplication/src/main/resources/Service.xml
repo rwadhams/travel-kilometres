@@ -1,170 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<service>
-  <!-- Transmission -->
-  <transmission>
+<sc>
+<!-- SERVICES --> 
+<!-- Transmission -->
+  <service>
+    <name>Transmission Service</name>
     <frequency>40000</frequency>
-    <data>
+    <vehicle>CAR</vehicle>
+    <event>
       <dt>06/05/2021</dt>
       <location>Deans Automatic Transmissions, Brisbane</location>
       <cost>566.50</cost>
       <serviceName>1st Service</serviceName>
       <odometer>127107</odometer>
-    </data>
-  </transmission>
+    </event>
+  </service>
   
-  <!-- Caravan Tyre Rotation -->
-  <caravanTyreRotation>
+<!-- Caravan Tyre Rotation -->
+  <service>
+    <name>Caravan Tyre Rotation</name>
     <frequency>5000</frequency>
-    <data>
+    <vehicle>CARAVAN</vehicle>
+    <event>
       <dt>17/08/2022</dt>
       <location>Integrated OE, Melbourne</location>
       <cost>0.00</cost>
       <serviceName>Tyre Installation</serviceName>
       <odometer>33240</odometer>
-    </data>
-  </caravanTyreRotation>
+    </event>
+  </service>
   
-  <!-- Car Tyres -->
-  <carTyres>
-    <frequency></frequency>
-    <data>
-      <dt>19/03/2016</dt>
-      <location>Brisbane</location>
-      <cost>1959.00</cost>
-      <schedule></schedule>
-      <odometer>41921</odometer>
-    </data>
-    <data>
-      <dt>22/10/2021</dt>
-      <location>Adelaide</location>
-      <cost>1700.00</cost>
-      <schedule></schedule>
-      <odometer>141460</odometer>
-    </data>
-  </carTyres>
-  
-  <!-- Caravan Tyres -->
-  <caravanTyres>
-    <frequency></frequency>
-    <data>
-      <dt>28/03/2020</dt>
-      <location>Melbourne</location>
-      <cost>0.00</cost>
-      <schedule></schedule>
-      <odometer>0</odometer>
-    </data>
-    <data>
-      <dt>17/08/2022</dt>
-      <location>Melbourne</location>
-      <cost>900.00</cost>
-      <schedule></schedule>
-      <odometer>33240</odometer>
-    </data>
-  </caravanTyres>
-  
-  <!-- Fuel Filter -->
-  <fuelFilter>
-    <frequency></frequency>
-    <data>
-      <dt>19/01/2021</dt>
-      <location>Smithton, Tasmania</location>
-      <cost>29.00</cost>
-      <schedule></schedule>
-      <odometer>118094</odometer>
-    </data>
-    <data>
-      <dt>05/02/2022</dt>
-      <location>Aldinga, Adelaide SA</location>
-      <cost>29.00</cost>
-      <schedule></schedule>
-      <odometer>146616</odometer>
-    </data>
-  </fuelFilter>
-  
-  <!-- Caravan -->
-  <caravan>
+  <!-- Caravan Service -->
+  <service>
+    <name>Caravan Service</name>
     <frequency>10000</frequency>
-    <data>
+    <vehicle>CARAVAN</vehicle>
+    <event>
       <dt>13/04/2021</dt>
       <location>ARV Chassis, Melbourne</location>
       <cost>407.00</cost>
       <serviceName>1st Service</serviceName>
       <odometer>11000</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>01/12/2021</dt>
       <location>Mark's Mobile Caravan Service, Adelaide</location>
       <cost>460.00</cost>
       <serviceName>2nd Service</serviceName>
       <odometer>22858</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>15/08/2022</dt>
       <location>ARV Chassis, Melbourne</location>
       <cost>440.00</cost>
       <serviceName>3rd Service</serviceName>
       <odometer>33089</odometer>
-    </data>
-  </caravan>
+    </event>
+  </service>
   
-  <!-- Car -->
-  <car>
+  <!-- Car Service -->
+  <service>
+    <name>Car Service</name>
     <frequency>10000</frequency>
-    <data>
+    <vehicle>CAR</vehicle>
+    <serviceTiming>SCHEDULED</serviceTiming>
+    <event>
       <dt>25/11/2019</dt>
       <location>OldMac Toyota, Brisbane</location>
       <cost>465.05</cost>
-      <schedule>90000</schedule>
+      <scheduled>90000</scheduled>
       <odometer>89027</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>08/05/2020</dt>
       <location>OldMac Toyota, Brisbane</location>
       <cost>479.60</cost>
-      <schedule>100000</schedule>
+      <scheduled>100000</scheduled>
       <odometer>100134</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>06/10/2020</dt>
       <location>OldMac Toyota, Brisbane</location>
       <cost>266.10</cost>
-      <schedule>110000</schedule>
+      <scheduled>110000</scheduled>
       <odometer>109827</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>18/03/2021</dt>
       <location>Launceston Toyota</location>
       <cost>887.33</cost>
-      <schedule>120000</schedule>
+      <scheduled>120000</scheduled>
       <odometer>122397</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>22/07/2021</dt>
       <location>Charters Towers Toyota</location>
       <cost>366.44</cost>
-      <schedule>130000</schedule>
+      <scheduled>130000</scheduled>
       <odometer>132159</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>19/10/2021</dt>
       <location>Northpoint Toyota, Murray Bridge</location>
       <cost>411.00</cost>
-      <schedule>140000</schedule>
+      <scheduled>140000</scheduled>
       <odometer>141133</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>30/03/2022</dt>
       <location>OldMac Toyota, Brisbane</location>
       <cost>452.10</cost>
-      <schedule>150000</schedule>
+      <scheduled>150000</scheduled>
       <odometer>151787</odometer>
-    </data>
-    <data>
+    </event>
+    <event>
       <dt>18/08/2022</dt>
       <location>Coburg Toyota, Melbourne</location>
       <cost>883.00</cost>
-      <schedule>160000</schedule>
+      <scheduled>160000</scheduled>
       <odometer>159895</odometer>
-    </data>
-  </car>
-</service>
+    </event>
+  </service>
+
+<!-- CONSUMABLES -->
+<!-- Car Tyres -->
+  <consumable>  
+    <name>Car Tyres</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>19/03/2016</dt>
+      <location>Brisbane</location>
+      <odometer>41921</odometer>
+    </event>
+    <event>
+      <dt>22/10/2021</dt>
+      <location>Adelaide</location>
+      <odometer>141460</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Caravan Tyres -->
+  <consumable>
+    <name>Caravan Tyres</name>
+    <vehicle>CARAVAN</vehicle>
+    <event>
+      <dt>28/03/2020</dt>
+      <location>Melbourne</location>
+      <odometer>0</odometer>
+    </event>
+    <event>
+      <dt>17/08/2022</dt>
+      <location>Melbourne</location>
+      <odometer>33240</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Fuel Filter -->
+  <consumable>
+    <name>Fuel Filter</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>19/01/2021</dt>
+      <location>Smithton, Tasmania</location>
+      <odometer>118094</odometer>
+    </event>
+    <event>
+      <dt>05/02/2022</dt>
+      <location>Aldinga, Adelaide SA</location>
+      <odometer>146616</odometer>
+    </event>
+  </consumable>
+</sc>

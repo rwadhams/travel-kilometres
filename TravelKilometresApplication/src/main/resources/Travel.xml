@@ -1502,7 +1502,7 @@
     <departureOdometer>144595</departureOdometer>
     <arrivalLocation>Narrung</arrivalLocation>
     <arrivalOdometer>144634</arrivalOdometer>
-    <arrivalCampsite>Narrung Ferry RV Area</arrivalCampsite>
+    <arrivalCampsite>Narrung Ferry Campground</arrivalCampsite>
   </data>
   <data>
     <dt>06/01/2022</dt>
@@ -2070,7 +2070,7 @@
     <departureOdometer>159928</departureOdometer>
     <arrivalLocation>Clayton</arrivalLocation>
     <arrivalOdometer>159976</arrivalOdometer>
-    <arrivalCampsite>Dometic Service Centre, Clayton</arrivalCampsite>
+    <arrivalCampsite>Dometic Service Centre, Clayton (unhitch-only)</arrivalCampsite>
   </data>
   <data>
     <dt>19/08/2022</dt>
@@ -2079,5 +2079,133 @@
     <arrivalLocation>Broadford</arrivalLocation>
     <arrivalOdometer>160107</arrivalOdometer>
     <arrivalCampsite>Broadford Bowling Club</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/08/2022</dt>
+    <departureLocation>Broadford</departureLocation>
+    <departureOdometer>160107</departureOdometer>
+    <arrivalLocation>Kilmore</arrivalLocation>
+    <arrivalOdometer>160127</arrivalOdometer>
+    <arrivalCampsite>Kilmore Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/08/2022</dt>
+    <departureLocation>Kilmore</departureLocation>
+    <departureOdometer>160141</departureOdometer>
+    <arrivalLocation>Glenlyon</arrivalLocation>
+    <arrivalOdometer>160219</arrivalOdometer>
+    <arrivalCampsite>Glenlyon Recreation Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/08/2022</dt>
+    <departureLocation>Glenlyon</departureLocation>
+    <departureOdometer>160219</departureOdometer>
+    <arrivalLocation>Ballarat</arrivalLocation>
+    <arrivalOdometer>160271</arrivalOdometer>
+    <arrivalCampsite>Eureka Stockade Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/08/2022</dt>
+    <departureLocation>Ballarat</departureLocation>
+    <departureOdometer>160321</departureOdometer>
+    <arrivalLocation>Halls Gap</arrivalLocation>
+    <arrivalOdometer>160457</arrivalOdometer>
+    <arrivalCampsite>Old Man Emu Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/09/2022</dt>
+    <departureLocation>Halls Gap</departureLocation>
+    <departureOdometer>160587</departureOdometer>
+    <arrivalLocation>Dunkeld</arrivalLocation>
+    <arrivalOdometer>160658</arrivalOdometer>
+    <arrivalCampsite>Dunkeld Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/09/2022</dt>
+    <departureLocation>Dunkeld</departureLocation>
+    <departureOdometer>160726</departureOdometer>
+    <arrivalLocation>Byaduk</arrivalLocation>
+    <arrivalOdometer>160831</arrivalOdometer>
+    <arrivalCampsite>Byaduk Recreation Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/09/2022</dt>
+    <departureLocation>Byaduk</departureLocation>
+    <departureOdometer>160865</departureOdometer>
+    <arrivalLocation>Port Fairy</arrivalLocation>
+    <arrivalOdometer>160923</arrivalOdometer>
+    <arrivalCampsite>Gardens Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/09/2022</dt>
+    <departureLocation>Port Fairy</departureLocation>
+    <departureOdometer>161093</departureOdometer>
+    <arrivalLocation>Portland</arrivalLocation>
+    <arrivalOdometer>161162</arrivalOdometer>
+    <arrivalCampsite>Portland Tourist Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/09/2022</dt>
+    <departureLocation>Portland</departureLocation>
+    <departureOdometer>161227</departureOdometer>
+    <arrivalLocation>Mount Gambier</arrivalLocation>
+    <arrivalOdometer>161324</arrivalOdometer>
+    <arrivalCampsite>Mount Gambier Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/09/2022</dt>
+    <departureLocation>Mount Gambier</departureLocation>
+    <departureOdometer>161540</departureOdometer>
+    <arrivalLocation>Penola</arrivalLocation>
+    <arrivalOdometer>161593</arrivalOdometer>
+    <arrivalCampsite>Penola CMCA</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/09/2022</dt>
+    <departureLocation>Penola</departureLocation>
+    <departureOdometer>161660</departureOdometer>
+    <arrivalLocation>Naracoorte</arrivalLocation>
+    <arrivalOdometer>161709</arrivalOdometer>
+    <arrivalCampsite>Naracoorte Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/09/2022</dt>
+    <departureLocation>Naracoorte</departureLocation>
+    <departureOdometer>161739</departureOdometer>
+    <arrivalLocation>Narrung</arrivalLocation>
+    <arrivalOdometer>161996</arrivalOdometer>
+    <arrivalCampsite>Narrung Ferry Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/09/2022</dt>
+    <departureLocation>Narrung</departureLocation>
+    <departureOdometer>162008</departureOdometer>
+    <arrivalLocation>Langhorne Creek</arrivalLocation>
+    <arrivalOdometer>162077</arrivalOdometer>
+    <arrivalCampsite>Frank Potts Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/09/2022</dt>
+    <departureLocation>Langhorne Creek</departureLocation>
+    <departureOdometer>162091</departureOdometer>
+    <arrivalLocation>Victor Harbor</arrivalLocation>
+    <arrivalOdometer>162158</arrivalOdometer>
+    <arrivalCampsite>Victor Harbor Holiday &amp; Cabin Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/09/2022</dt>
+    <departureLocation>Victor Harbor</departureLocation>
+    <departureOdometer>162184</departureOdometer>
+    <arrivalLocation>Mount Compass</arrivalLocation>
+    <arrivalOdometer>162211</arrivalOdometer>
+    <arrivalCampsite>Mount Compass Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/09/2022</dt>
+    <departureLocation>Mount Compass</departureLocation>
+    <departureOdometer>162219</departureOdometer>
+    <arrivalLocation>McLaren Vale</arrivalLocation>
+    <arrivalOdometer>162248</arrivalOdometer>
+    <arrivalCampsite>McLaren Vale Housesit</arrivalCampsite>
   </data>
 </travel>

@@ -1,8 +1,8 @@
 @echo off
 REM OneDriveBackup for TravelKilometre data files and reports
 
-REM data files
-copy *.xml %userprofile%\OneDrive\Documents\TravelKilometres
+if not exist "%userprofile%\OneDrive\Documents\App_Data_and_Reporting_Backups\TravelKilometres\" mkdir %userprofile%\OneDrive\Documents\App_Data_and_Reporting_Backups\TravelKilometres
 
-REM report files
-copy out\*.txt %userprofile%\OneDrive\Documents\TravelKilometres
+xcopy *.xml %userprofile%\OneDrive\Documents\App_Data_and_Reporting_Backups\TravelKilometres /Y
+
+xcopy out\*.* %userprofile%\OneDrive\Documents\App_Data_and_Reporting_Backups\TravelKilometres\out /I /Y

@@ -4,7 +4,7 @@
 <!-- Transmission -->
   <service>
     <name>Transmission Service</name>
-    <frequency>40000</frequency>
+    <frequency>50000</frequency>
     <vehicle>CAR</vehicle>
     <event>
       <dt>06/05/2021</dt>
@@ -13,12 +13,19 @@
       <serviceName>1st Service</serviceName>
       <odometer>127107</odometer>
     </event>
+    <event>
+      <dt>05/02/2024</dt>
+      <location>Deans Automatic Transmissions, Brisbane</location>
+      <cost>395.00</cost>
+      <serviceName>2nd Service</serviceName>
+      <odometer>183371</odometer>
+    </event>
   </service>
   
-<!-- Caravan Tyre Rotation -->
+  <!-- Caravan Tyre Rotation -->
   <service>
     <name>Caravan Tyre Rotation</name>
-    <frequency>5000</frequency>
+    <frequency>7500</frequency>
     <vehicle>CARAVAN</vehicle>
     <event>
       <dt>17/08/2022</dt>
@@ -54,6 +61,13 @@
       <cost>440.00</cost>
       <serviceName>3rd Service</serviceName>
       <odometer>33089</odometer>
+    </event>
+    <event>
+      <dt>24/05/2023</dt>
+      <location>Get Hitched Caravan Service, Tasmania</location>
+      <cost>526.00</cost>
+      <serviceName>4th Service</serviceName>
+      <odometer>39955</odometer>
     </event>
   </service>
   
@@ -119,6 +133,20 @@
       <scheduled>160000</scheduled>
       <odometer>159895</odometer>
     </event>
+    <event>
+      <dt>27/03/2023</dt>
+      <location>Launceston Toyota</location>
+      <cost>393.44</cost>
+      <scheduled>170000</scheduled>
+      <odometer>171136</odometer>
+    </event>
+    <event>
+      <dt>10/11/2023</dt>
+      <location>Launceston Toyota</location>
+      <cost>702.44</cost>
+      <scheduled>180000</scheduled>
+      <odometer>180793</odometer>
+    </event>
   </service>
 
 <!-- CONSUMABLES -->
@@ -179,6 +207,43 @@
       <location>Aldinga, Adelaide SA</location>
       <odometer>146616</odometer>
     </event>
+    <event>
+      <dt>17/03/2023</dt>
+      <location>Fingal, Tasmania</location>
+      <odometer>170862</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Battery One -->
+  <consumable>
+    <name>Battery 1</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>10/11/2017</dt>
+      <location>Brisbane</location>
+      <odometer>64665</odometer>
+    </event>
+    <event>
+      <dt>13/02/2024</dt>
+      <location>Brisbane</location>
+      <odometer>183580</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Battery Two -->
+  <consumable>
+    <name>Battery 2</name>
+    <vehicle>CAR</vehicle>
+    <event>
+      <dt>10/11/2017</dt>
+      <location>Brisbane</location>
+      <odometer>64665</odometer>
+    </event>
+    <event>
+      <dt>13/02/2024</dt>
+      <location>Brisbane</location>
+      <odometer>183580</odometer>
+    </event>
   </consumable>
   
   <!-- Engine Air Filter -->
@@ -200,6 +265,11 @@
       <location>OldMac Toyota, Brisbane</location>
       <odometer>151787</odometer>
     </event>
+    <event>
+      <dt>10/11/2023</dt>
+      <location>Launceston Toyota</location>
+      <odometer>180793</odometer>
+    </event>
   </consumable>
   
   <!-- AC Cabin Filter -->
@@ -220,6 +290,11 @@
       <dt>30/03/2022</dt>
       <location>OldMac Toyota, Brisbane</location>
       <odometer>151787</odometer>
+    </event>
+    <event>
+      <dt>10/11/2023</dt>
+      <location>Launceston Toyota</location>
+      <odometer>180793</odometer>
     </event>
   </consumable>
   

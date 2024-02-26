@@ -177,7 +177,7 @@
     <arrivalCampsite>NRMA Capricorn Yeppoon Holiday Park</arrivalCampsite>
   </data>
   <data>
-    <dt>16/08/2020</dt>
+    <dt>15/08/2020</dt>
     <departureLocation>Yeppoon</departureLocation>
     <departureOdometer>106807</departureOdometer>
     <arrivalLocation>Benaraby</arrivalLocation>
@@ -185,7 +185,7 @@
     <arrivalCampsite>Benaraby Public Campgrounds</arrivalCampsite>
   </data>
   <data>
-    <dt>17/08/2020</dt>
+    <dt>16/08/2020</dt>
     <departureLocation>Benaraby</departureLocation>
     <departureOdometer>106972</departureOdometer>
     <arrivalLocation>Town of 1770</arrivalLocation>
@@ -217,7 +217,7 @@
     <arrivalCampsite>Boat Harbour Caravan Park</arrivalCampsite>
   </data>
   <data>
-    <dt>25/08/2020</dt>
+    <dt>28/08/2020</dt>
     <departureLocation>Hervey Bay</departureLocation>
     <departureOdometer>107661</departureOdometer>
     <arrivalLocation>Kenilworth</arrivalLocation>
@@ -257,7 +257,7 @@
     <arrivalCampsite>Kyogle Showground</arrivalCampsite>
   </data>
   <data>
-    <dt>22/10/2020</dt>
+    <dt>21/10/2020</dt>
     <departureLocation>Kyogle</departureLocation>
     <departureOdometer>110734</departureOdometer>
     <arrivalLocation>Crooked Creek</arrivalLocation>
@@ -345,7 +345,7 @@
     <arrivalCampsite>Dorrigo Showgrounds</arrivalCampsite>
   </data>
   <data>
-    <dt>28/11/2020</dt>
+    <dt>27/11/2020</dt>
     <departureLocation>Dorrigo</departureLocation>
     <departureOdometer>113000</departureOdometer>
     <arrivalLocation>Bellingin</arrivalLocation>
@@ -353,7 +353,7 @@
     <arrivalCampsite>Bellingin Showgrounds</arrivalCampsite>
   </data>
   <data>
-    <dt>29/11/2020</dt>
+    <dt>28/11/2020</dt>
     <departureLocation>Bellingin</departureLocation>
     <departureOdometer>113030</departureOdometer>
     <arrivalLocation>Urunga</arrivalLocation>
@@ -505,7 +505,7 @@
     <arrivalCampsite>Zeehan Golf Course</arrivalCampsite>
   </data>
   <data>
-    <dt>24/01/2021</dt>
+    <dt>25/01/2021</dt>
     <departureLocation>Zeehan</departureLocation>
     <departureOdometer>118621</departureOdometer>
     <arrivalLocation>Strahan</arrivalLocation>
@@ -513,7 +513,7 @@
     <arrivalCampsite>Strahan Golf Course</arrivalCampsite>
   </data>
   <data>
-    <dt>24/01/2021</dt>
+    <dt>30/01/2021</dt>
     <departureLocation>Strahan</departureLocation>
     <departureOdometer>118758</departureOdometer>
     <arrivalLocation>Queenstown</arrivalLocation>
@@ -575,6 +575,14 @@
     <arrivalLocation>Cockle Creek</arrivalLocation>
     <arrivalOdometer>120195</arrivalOdometer>
     <arrivalCampsite>Cockle Creek Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/02/2021</dt>
+    <departureLocation>Cockle Creek</departureLocation>
+    <departureOdometer>120195</departureOdometer>
+    <arrivalLocation>Geevston</arrivalLocation>
+    <arrivalOdometer>120270</arrivalOdometer>
+    <arrivalCampsite>Geevston Ex-Servicemans Club</arrivalCampsite>
   </data>
   <data>
     <dt>22/02/2021</dt>
@@ -646,7 +654,7 @@
     <departureOdometer>121532</departureOdometer>
     <arrivalLocation>St Helens</arrivalLocation>
     <arrivalOdometer>121570</arrivalOdometer>
-    <arrivalCampsite>St Helens council camp area</arrivalCampsite>
+    <arrivalCampsite>St Helens RV Park</arrivalCampsite>
   </data>
   <data>
     <dt>11/03/2021</dt>
@@ -662,7 +670,7 @@
     <departureOdometer>121890</departureOdometer>
     <arrivalLocation>Gladstone</arrivalLocation>
     <arrivalOdometer>121946</arrivalOdometer>
-    <arrivalCampsite>Gradstone Memorial Hall Grounds</arrivalCampsite>
+    <arrivalCampsite>Gradstone Memorial Hall Grounds (unhitch-only)</arrivalCampsite>
   </data>
   <data>
     <dt>12/03/2021</dt>
@@ -689,7 +697,7 @@
     <arrivalCampsite>Old Macs Farm</arrivalCampsite>
   </data>
   <data>
-    <dt>16/03/2021</dt>
+    <dt>20/03/2021</dt>
     <departureLocation>Launceston</departureLocation>
     <departureOdometer>122439</departureOdometer>
     <arrivalLocation>Sorell</arrivalLocation>
@@ -729,7 +737,7 @@
     <arrivalCampsite>White Sands &amp; Ironhouse Brewery</arrivalCampsite>
   </data>
   <data>
-    <dt>29/03/2021</dt>
+    <dt>28/03/2021</dt>
     <departureLocation>Four Mile Creek</departureLocation>
     <departureOdometer>123466</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -806,7 +814,7 @@
     <departureOdometer>124880</departureOdometer>
     <arrivalLocation>Campbellfield</arrivalLocation>
     <arrivalOdometer>124931</arrivalOdometer>
-    <arrivalCampsite>ARV Service Centre</arrivalCampsite>
+    <arrivalCampsite>ARV Service Centre (unhitch-only)</arrivalCampsite>
   </data>
   <data>
     <dt>13/04/2021</dt>
@@ -1153,7 +1161,7 @@
     <arrivalCampsite>Clermont Caravan Park</arrivalCampsite>
   </data>
   <data>
-    <dt>01/09/2021</dt>
+    <dt>02/09/2021</dt>
     <departureLocation>Clermont</departureLocation>
     <departureOdometer>136051</departureOdometer>
     <arrivalLocation>Sapphire</arrivalLocation>
@@ -2208,4 +2216,798 @@
     <arrivalOdometer>162248</arrivalOdometer>
     <arrivalCampsite>McLaren Vale Housesit</arrivalCampsite>
   </data>
+  <data>
+    <dt>08/10/2022</dt>
+    <departureLocation>McLaren Vale</departureLocation>
+    <departureOdometer>162503</departureOdometer>
+    <arrivalLocation>Kingston SE</arrivalLocation>
+    <arrivalOdometer>162808</arrivalOdometer>
+    <arrivalCampsite>Kingston RV Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/10/2022</dt>
+    <departureLocation>Kingston SE</departureLocation>
+    <departureOdometer>162864</departureOdometer>
+    <arrivalLocation>Beachport</arrivalLocation>
+    <arrivalOdometer>162965</arrivalOdometer>
+    <arrivalCampsite>Beachport Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/10/2022</dt>
+    <departureLocation>Beachport</departureLocation>
+    <departureOdometer>162977</departureOdometer>
+    <arrivalLocation>Peterborough</arrivalLocation>
+    <arrivalOdometer>163295</arrivalOdometer>
+    <arrivalCampsite>Great Ocean Road Tourist Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/10/2022</dt>
+    <departureLocation>Peterborough</departureLocation>
+    <departureOdometer>163532</departureOdometer>
+    <arrivalLocation>Johanna Beach</arrivalLocation>
+    <arrivalOdometer>163606</arrivalOdometer>
+    <arrivalCampsite>Johanna Beach NP Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/10/2022</dt>
+    <departureLocation>Johanna Beach</departureLocation>
+    <departureOdometer>163772</departureOdometer>
+    <arrivalLocation>Apollo Bay</arrivalLocation>
+    <arrivalOdometer>163814</arrivalOdometer>
+    <arrivalCampsite>Apollo Bay Recreation Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/10/2022</dt>
+    <departureLocation>Apollo Bay</departureLocation>
+    <departureOdometer>163924</departureOdometer>
+    <arrivalLocation>Gherang</arrivalLocation>
+    <arrivalOdometer>164022</arrivalOdometer>
+    <arrivalCampsite>Gherang Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/10/2022</dt>
+    <departureLocation>Gherang</departureLocation>
+    <departureOdometer>164173</departureOdometer>
+    <arrivalLocation>Inverleigh</arrivalLocation>
+    <arrivalOdometer>164207</arrivalOdometer>
+    <arrivalCampsite>Inverleigh Road Side Stop</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/10/2022</dt>
+    <departureLocation>Inverleigh</departureLocation>
+    <departureOdometer>164207</departureOdometer>
+    <arrivalLocation>Rockbank</arrivalLocation>
+    <arrivalOdometer>164304</arrivalOdometer>
+    <arrivalCampsite>Sundowner Rockbank Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/11/2022</dt>
+    <departureLocation>Rockbank</departureLocation>
+    <departureOdometer>164426</departureOdometer>
+    <arrivalLocation>Geelong</arrivalLocation>
+    <arrivalOdometer>164495</arrivalOdometer>
+    <arrivalCampsite>Frank's Auto Electrics (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/11/2022</dt>
+    <departureLocation>Geelong</departureLocation>
+    <departureOdometer>164620</departureOdometer>
+    <arrivalLocation>Geelong</arrivalLocation>
+    <arrivalOdometer>164628</arrivalOdometer>
+    <arrivalCampsite>Geelong Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/11/2022</dt>
+    <departureLocation>Geelong</departureLocation>
+    <departureOdometer>164673</departureOdometer>
+    <arrivalLocation>Devonport</arrivalLocation>
+    <arrivalOdometer>164704</arrivalOdometer>
+    <arrivalCampsite>Horsehead Creek RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/11/2022</dt>
+    <departureLocation>Devonport</departureLocation>
+    <departureOdometer>164704</departureOdometer>
+    <arrivalLocation>Devonport</arrivalLocation>
+    <arrivalOdometer>164738</arrivalOdometer>
+    <arrivalCampsite>Horsehead Creek RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/11/2022</dt>
+    <departureLocation>Devonport</departureLocation>
+    <departureOdometer>164756</departureOdometer>
+    <arrivalLocation>Exeter</arrivalLocation>
+    <arrivalOdometer>164967</arrivalOdometer>
+    <arrivalCampsite>Exeter Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/11/2022</dt>
+    <departureLocation>Exeter</departureLocation>
+    <departureOdometer>165203</departureOdometer>
+    <arrivalLocation>Youngtown</arrivalLocation>
+    <arrivalOdometer>165236</arrivalOdometer>
+    <arrivalCampsite>Get Hitched Caravan Repair (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/11/2022</dt>
+    <departureLocation>Youngtown</departureLocation>
+    <departureOdometer>165255</departureOdometer>
+    <arrivalLocation>Hadspen</arrivalLocation>
+    <arrivalOdometer>165300</arrivalOdometer>
+    <arrivalCampsite>Hadspen Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/11/2022</dt>
+    <departureLocation>Hadspen</departureLocation>
+    <departureOdometer>165300</departureOdometer>
+    <arrivalLocation>Youngtown</arrivalLocation>
+    <arrivalOdometer>165353</arrivalOdometer>
+    <arrivalCampsite>Get Hitched Caravan Repair (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/11/2022</dt>
+    <departureLocation>Youngtown</departureLocation>
+    <departureOdometer>165372</departureOdometer>
+    <arrivalLocation>Hadspen</arrivalLocation>
+    <arrivalOdometer>165386</arrivalOdometer>
+    <arrivalCampsite>Hadspen Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/11/2022</dt>
+    <departureLocation>Hadspen</departureLocation>
+    <departureOdometer>165386</departureOdometer>
+    <arrivalLocation>Youngtown</arrivalLocation>
+    <arrivalOdometer>165400</arrivalOdometer>
+    <arrivalCampsite>Get Hitched Caravan Repair (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/11/2022</dt>
+    <departureLocation>Youngtown</departureLocation>
+    <departureOdometer>165435</departureOdometer>
+    <arrivalLocation>Evandale</arrivalLocation>
+    <arrivalOdometer>165457</arrivalOdometer>
+    <arrivalCampsite>Falls Park, Evandale</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/11/2022</dt>
+    <departureLocation>Evandale</departureLocation>
+    <departureOdometer>165457</departureOdometer>
+    <arrivalLocation>Perth</arrivalLocation>
+    <arrivalOdometer>165496</arrivalOdometer>
+    <arrivalCampsite>Perth housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/11/2022</dt>
+    <departureLocation>Perth</departureLocation>
+    <departureOdometer>165535</departureOdometer>
+    <arrivalLocation>Perth</arrivalLocation>
+    <arrivalOdometer>165564</arrivalOdometer>
+    <arrivalCampsite>Caravan Test Drive</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/11/2022</dt>
+    <departureLocation>Perth</departureLocation>
+    <departureOdometer>165623</departureOdometer>
+    <arrivalLocation>Evandale</arrivalLocation>
+    <arrivalOdometer>165633</arrivalOdometer>
+    <arrivalCampsite>Falls Park, Evandale</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/11/2022</dt>
+    <departureLocation>Evandale</departureLocation>
+    <departureOdometer>165633</departureOdometer>
+    <arrivalLocation>Scottsdale</arrivalLocation>
+    <arrivalOdometer>165729</arrivalOdometer>
+    <arrivalCampsite>Northeast Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/12/2022</dt>
+    <departureLocation>Scottsdale</departureLocation>
+    <departureOdometer>166162</departureOdometer>
+    <arrivalLocation>Evandale</arrivalLocation>
+    <arrivalOdometer>166247</arrivalOdometer>
+    <arrivalCampsite>Falls Park, Evandale</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/12/2022</dt>
+    <departureLocation>Evandale</departureLocation>
+    <departureOdometer>166362</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>166450</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/12/2022</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>166750</departureOdometer>
+    <arrivalLocation>Campbell Town</arrivalLocation>
+    <arrivalOdometer>166812</arrivalOdometer>
+    <arrivalCampsite>Campbell Town RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/12/2022</dt>
+    <departureLocation>Campbell Town</departureLocation>
+    <departureOdometer>166817</departureOdometer>
+    <arrivalLocation>Oatlands</arrivalLocation>
+    <arrivalOdometer>166863</arrivalOdometer>
+    <arrivalCampsite>Oatlands RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/12/2022</dt>
+    <departureLocation>Oatlands</departureLocation>
+    <departureOdometer>166896</departureOdometer>
+    <arrivalLocation>Kingston</arrivalLocation>
+    <arrivalOdometer>166993</arrivalOdometer>
+    <arrivalCampsite>Kingston Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/01/2023</dt>
+    <departureLocation>Kingston</departureLocation>
+    <departureOdometer>168006</departureOdometer>
+    <arrivalLocation>Mount Field NP</arrivalLocation>
+    <arrivalOdometer>168091</arrivalOdometer>
+    <arrivalCampsite>Mount Field NP Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/01/2023</dt>
+    <departureLocation>Mount Field NP</departureLocation>
+    <departureOdometer>168262</departureOdometer>
+    <arrivalLocation>Miena</arrivalLocation>
+    <arrivalOdometer>168391</arrivalOdometer>
+    <arrivalCampsite>Great Lake Hotel RV Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/01/2023</dt>
+    <departureLocation>Miena</departureLocation>
+    <departureOdometer>168456</departureOdometer>
+    <arrivalLocation>Deloraine</arrivalLocation>
+    <arrivalOdometer>168521</arrivalOdometer>
+    <arrivalCampsite>Deloraine RV Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/01/2023</dt>
+    <departureLocation>Deloraine</departureLocation>
+    <departureOdometer>168620</departureOdometer>
+    <arrivalLocation>Launceston</arrivalLocation>
+    <arrivalOdometer>168674</arrivalOdometer>
+    <arrivalCampsite>Old Macs Farm</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/02/2023</dt>
+    <departureLocation>Launceston</departureLocation>
+    <departureOdometer>169029</departureOdometer>
+    <arrivalLocation>Launceston</arrivalLocation>
+    <arrivalOdometer>169044</arrivalOdometer>
+    <arrivalCampsite>Launceston DriveParkFly</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/02/2023</dt>
+    <departureLocation>Launceston</departureLocation>
+    <departureOdometer>169045</departureOdometer>
+    <arrivalLocation>Evandale</arrivalLocation>
+    <arrivalOdometer>169049</arrivalOdometer>
+    <arrivalCampsite>Honeysuckle Banks Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/02/2023</dt>
+    <departureLocation>Evandale</departureLocation>
+    <departureOdometer>169102</departureOdometer>
+    <arrivalLocation>Four Mile Creek</arrivalLocation>
+    <arrivalOdometer>169230</arrivalOdometer>
+    <arrivalCampsite>White Sands &amp; Ironhouse Brewery</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/02/2023</dt>
+    <departureLocation>Four Mile Creek</departureLocation>
+    <departureOdometer>169285</departureOdometer>
+    <arrivalLocation>St Helens</arrivalLocation>
+    <arrivalOdometer>169323</arrivalOdometer>
+    <arrivalCampsite>St Helens RV Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/02/2023</dt>
+    <departureLocation>St Helens</departureLocation>
+    <departureOdometer>169395</departureOdometer>
+    <arrivalLocation>EvanDale</arrivalLocation>
+    <arrivalOdometer>169537</arrivalOdometer>
+    <arrivalCampsite>Honeysuckle Banks Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/02/2023</dt>
+    <departureLocation>EvanDale</departureLocation>
+    <departureOdometer>169655</departureOdometer>
+    <arrivalLocation>Turners Beach</arrivalLocation>
+    <arrivalOdometer>169770</arrivalOdometer>
+    <arrivalCampsite>Turners Beach Berry Patch</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/02/2023</dt>
+    <departureLocation>Turners Beach</departureLocation>
+    <departureOdometer>169821</departureOdometer>
+    <arrivalLocation>Ulverstone</arrivalLocation>
+    <arrivalOdometer>169826</arrivalOdometer>
+    <arrivalCampsite>Lifestyle Caravans (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/02/2023</dt>
+    <departureLocation>Ulverstone</departureLocation>
+    <departureOdometer>169853</departureOdometer>
+    <arrivalLocation>Myalla</arrivalLocation>
+    <arrivalOdometer>169917</arrivalOdometer>
+    <arrivalCampsite>Myalla Community Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/02/2023</dt>
+    <departureLocation>Myalla</departureLocation>
+    <departureOdometer>169917</departureOdometer>
+    <arrivalLocation>Turners Beach</arrivalLocation>
+    <arrivalOdometer>169991</arrivalOdometer>
+    <arrivalCampsite>Turners Beach Berry Patch</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/02/2023</dt>
+    <departureLocation>Turners Beach</departureLocation>
+    <departureOdometer>170092</departureOdometer>
+    <arrivalLocation>Launceston</arrivalLocation>
+    <arrivalOdometer>170206</arrivalOdometer>
+    <arrivalCampsite>Old Macs Farm</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/03/2023</dt>
+    <departureLocation>Launceston</departureLocation>
+    <departureOdometer>170622</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>170730</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/03/2023</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>170906</departureOdometer>
+    <arrivalLocation>Campbell Town</arrivalLocation>
+    <arrivalOdometer>170968</arrivalOdometer>
+    <arrivalCampsite>Campbell Town RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/03/2023</dt>
+    <departureLocation>Campbell Town</departureLocation>
+    <departureOdometer>170992</departureOdometer>
+    <arrivalLocation>Youngtown</arrivalLocation>
+    <arrivalOdometer>171054</arrivalOdometer>
+    <arrivalCampsite>Grocery shopping (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/03/2023</dt>
+    <departureLocation>Youngtown</departureLocation>
+    <departureOdometer>171061</departureOdometer>
+    <arrivalLocation>Hillwood</arrivalLocation>
+    <arrivalOdometer>171098</arrivalOdometer>
+    <arrivalCampsite>Hillwood housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/04/2023</dt>
+    <departureLocation>Hillwood</departureLocation>
+    <departureOdometer>171534</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>171670</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/04/2023</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>171799</departureOdometer>
+    <arrivalLocation>Four Mile Creek</arrivalLocation>
+    <arrivalOdometer>171840</arrivalOdometer>
+    <arrivalCampsite>White Sands &amp; Ironhouse Brewery</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/04/2023</dt>
+    <departureLocation>Four Mile Creek</departureLocation>
+    <departureOdometer>171840</departureOdometer>
+    <arrivalLocation>Freycinet</arrivalLocation>
+    <arrivalOdometer>171912</arrivalOdometer>
+    <arrivalCampsite>Freycinet Golf Club, Swanwick</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/04/2023</dt>
+    <departureLocation>Freycinet</departureLocation>
+    <departureOdometer>171980</departureOdometer>
+    <arrivalLocation>Rocky Hills</arrivalLocation>
+    <arrivalOdometer>172046</arrivalOdometer>
+    <arrivalCampsite>Mayfield Bay Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/04/2023</dt>
+    <departureLocation>Rocky Hills</departureLocation>
+    <departureOdometer>172120</departureOdometer>
+    <arrivalLocation>Triabunna</arrivalLocation>
+    <arrivalOdometer>172154</arrivalOdometer>
+    <arrivalCampsite>Spring Bay Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/04/2023</dt>
+    <departureLocation>Triabunna</departureLocation>
+    <departureOdometer>172282</departureOdometer>
+    <arrivalLocation>Nubeena</arrivalLocation>
+    <arrivalOdometer>172417</arrivalOdometer>
+    <arrivalCampsite>Nubeena Ex-Servicemans Club</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/04/2023</dt>
+    <departureLocation>Nubeena</departureLocation>
+    <departureOdometer>172567</departureOdometer>
+    <arrivalLocation>Sorell</arrivalLocation>
+    <arrivalOdometer>172653</arrivalOdometer>
+    <arrivalCampsite>Sorell Council Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/04/2023</dt>
+    <departureLocation>Sorell</departureLocation>
+    <departureOdometer>172661</departureOdometer>
+    <arrivalLocation>Geevston</arrivalLocation>
+    <arrivalOdometer>172745</arrivalOdometer>
+    <arrivalCampsite>Geevston Ex-Servicemans Club</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/04/2023</dt>
+    <departureLocation>Geevston</departureLocation>
+    <departureOdometer>172798</departureOdometer>
+    <arrivalLocation>Huonville</arrivalLocation>
+    <arrivalOdometer>172822</arrivalOdometer>
+    <arrivalCampsite>Huonville Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/04/2023</dt>
+    <departureLocation>Huonville</departureLocation>
+    <departureOdometer>172822</departureOdometer>
+    <arrivalLocation>Franklin</arrivalLocation>
+    <arrivalOdometer>172832</arrivalOdometer>
+    <arrivalCampsite>Franklin RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/04/2023</dt>
+    <departureLocation>Franklin</departureLocation>
+    <departureOdometer>172877</departureOdometer>
+    <arrivalLocation>Hobart</arrivalLocation>
+    <arrivalOdometer>172930</arrivalOdometer>
+    <arrivalCampsite>Hobart Showgrounds (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/04/2023</dt>
+    <departureLocation>Hobart</departureLocation>
+    <departureOdometer>172948</departureOdometer>
+    <arrivalLocation>National Park</arrivalLocation>
+    <arrivalOdometer>173012</arrivalOdometer>
+    <arrivalCampsite>National Park Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/05/2023</dt>
+    <departureLocation>National Park</departureLocation>
+    <departureOdometer>173044</departureOdometer>
+    <arrivalLocation>Campbell Town</arrivalLocation>
+    <arrivalOdometer>173200</arrivalOdometer>
+    <arrivalCampsite>Campbell Town RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/05/2023</dt>
+    <departureLocation>Campbell Town</departureLocation>
+    <departureOdometer>173326</departureOdometer>
+    <arrivalLocation>Hagley</arrivalLocation>
+    <arrivalOdometer>173407</arrivalOdometer>
+    <arrivalCampsite>Hagley RV Farm Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/05/2023</dt>
+    <departureLocation>Hagley</departureLocation>
+    <departureOdometer>173532</departureOdometer>
+    <arrivalLocation>Mole Creek</arrivalLocation>
+    <arrivalOdometer>173575</arrivalOdometer>
+    <arrivalCampsite>Mole Creek Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/05/2023</dt>
+    <departureLocation>Mole Creek</departureLocation>
+    <departureOdometer>173736</departureOdometer>
+    <arrivalLocation>Deloraine</arrivalLocation>
+    <arrivalOdometer>173761</arrivalOdometer>
+    <arrivalCampsite>Deloraine RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/05/2023</dt>
+    <departureLocation>Deloraine</departureLocation>
+    <departureOdometer>173920</departureOdometer>
+    <arrivalLocation>Moina</arrivalLocation>
+    <arrivalOdometer>173999</arrivalOdometer>
+    <arrivalCampsite>Lake Gairdner Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/05/2023</dt>
+    <departureLocation>Moina</departureLocation>
+    <departureOdometer>174058</departureOdometer>
+    <arrivalLocation>Waratah</arrivalLocation>
+    <arrivalOdometer>174136</arrivalOdometer>
+    <arrivalCampsite>Waratah Council Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/05/2023</dt>
+    <departureLocation>Waratah</departureLocation>
+    <departureOdometer>174160</departureOdometer>
+    <arrivalLocation>Burnie</arrivalLocation>
+    <arrivalOdometer>174223</arrivalOdometer>
+    <arrivalCampsite>Cooee Point RV Area (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/05/2023</dt>
+    <departureLocation>Burnie</departureLocation>
+    <departureOdometer>174234</departureOdometer>
+    <arrivalLocation>Stanley</arrivalLocation>
+    <arrivalOdometer>174307</arrivalOdometer>
+    <arrivalCampsite>Stanley Recreation Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/05/2023</dt>
+    <departureLocation>Stanley</departureLocation>
+    <departureOdometer>174325</departureOdometer>
+    <arrivalLocation>Arthur River</arrivalLocation>
+    <arrivalOdometer>174405</arrivalOdometer>
+    <arrivalCampsite>Manuka NP Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/05/2023</dt>
+    <departureLocation>Arthur River</departureLocation>
+    <departureOdometer>174451</departureOdometer>
+    <arrivalLocation>Smithtown</arrivalLocation>
+    <arrivalOdometer>174510</arrivalOdometer>
+    <arrivalCampsite>Tall Timbers Free RV Site</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/05/2023</dt>
+    <departureLocation>Smithtown</departureLocation>
+    <departureOdometer>174525</departureOdometer>
+    <arrivalLocation>Hagley</arrivalLocation>
+    <arrivalOdometer>174720</arrivalOdometer>
+    <arrivalCampsite>Hagley RV Farm Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/05/2023</dt>
+    <departureLocation>Hagley</departureLocation>
+    <departureOdometer>174720</departureOdometer>
+    <arrivalLocation>Youngtown</arrivalLocation>
+    <arrivalOdometer>174753</arrivalOdometer>
+    <arrivalCampsite>Get Hitched Caravan Repair (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/05/2023</dt>
+    <departureLocation>Youngtown</departureLocation>
+    <departureOdometer>174788</departureOdometer>
+    <arrivalLocation>EvanDale</arrivalLocation>
+    <arrivalOdometer>174800</arrivalOdometer>
+    <arrivalCampsite>Honeysuckle Banks Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/05/2023</dt>
+    <departureLocation>EvanDale</departureLocation>
+    <departureOdometer>174800</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>174887</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/05/2023</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>174898</departureOdometer>
+    <arrivalLocation>Upper Scamander</arrivalLocation>
+    <arrivalOdometer>174938</arrivalOdometer>
+    <arrivalCampsite>Upper Scamander Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/06/2023</dt>
+    <departureLocation>Upper Scamander</departureLocation>
+    <departureOdometer>175533</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>175573</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/06/2023</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>175627</departureOdometer>
+    <arrivalLocation>Launceston</arrivalLocation>
+    <arrivalOdometer>175727</arrivalOdometer>
+    <arrivalCampsite>Get Hitched Caravan Parking (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/06/2023</dt>
+    <departureLocation>Launceston</departureLocation>
+    <departureOdometer>175757</departureOdometer>
+    <arrivalLocation>Deloraine</arrivalLocation>
+    <arrivalOdometer>175808</arrivalOdometer>
+    <arrivalCampsite>Deloraine RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/06/2023</dt>
+    <departureLocation>Deloraine</departureLocation>
+    <departureOdometer>175808</departureOdometer>
+    <arrivalLocation>Sheffield</arrivalLocation>
+    <arrivalOdometer>175850</arrivalOdometer>
+    <arrivalCampsite>Sheffield RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/07/2023</dt>
+    <departureLocation>Sheffield</departureLocation>
+    <departureOdometer>175883</departureOdometer>
+    <arrivalLocation>Devonport</arrivalLocation>
+    <arrivalOdometer>175912</arrivalOdometer>
+    <arrivalCampsite>Mersey Bluff Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/07/2023</dt>
+    <departureLocation>Devonport</departureLocation>
+    <departureOdometer>176065</departureOdometer>
+    <arrivalLocation>North Motton</arrivalLocation>
+    <arrivalOdometer>176092</arrivalOdometer>
+    <arrivalCampsite>North Motton Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/09/2023</dt>
+    <departureLocation>North Motton</departureLocation>
+    <departureOdometer>176988</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>177194</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/09/2023</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>177343</departureOdometer>
+    <arrivalLocation>Bay of Fires</arrivalLocation>
+    <arrivalOdometer>177411</arrivalOdometer>
+    <arrivalCampsite>North Cosy Corner</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/09/2023</dt>
+    <departureLocation>Bay of Fires</departureLocation>
+    <departureOdometer>177488</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>177557</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/09/2023</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>178314</departureOdometer>
+    <arrivalLocation>Derby</arrivalLocation>
+    <arrivalOdometer>178433</arrivalOdometer>
+    <arrivalCampsite>Derby Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/10/2023</dt>
+    <departureLocation>Derby</departureLocation>
+    <departureOdometer>178543</departureOdometer>
+    <arrivalLocation>Pyengana</arrivalLocation>
+    <arrivalOdometer>178585</arrivalOdometer>
+    <arrivalCampsite>Pyengana Recreational Grounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/10/2023</dt>
+    <departureLocation>Pyengana</departureLocation>
+    <departureOdometer>178624</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>178706</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/10/2023</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>178772</departureOdometer>
+    <arrivalLocation>Deloraine</arrivalLocation>
+    <arrivalOdometer>178910</arrivalOdometer>
+    <arrivalCampsite>Deloraine RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/10/2023</dt>
+    <departureLocation>Deloraine</departureLocation>
+    <departureOdometer>178910</departureOdometer>
+    <arrivalLocation>Turners Beach</arrivalLocation>
+    <arrivalOdometer>178976</arrivalOdometer>
+    <arrivalCampsite>Turners Beach Berry Patch</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/10/2023</dt>
+    <departureLocation>Turners Beach</departureLocation>
+    <departureOdometer>179163</departureOdometer>
+    <arrivalLocation>Sorell</arrivalLocation>
+    <arrivalOdometer>179431</arrivalOdometer>
+    <arrivalCampsite>Sorell Council Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/10/2023</dt>
+    <departureLocation>Sorell</departureLocation>
+    <departureOdometer>179637</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>179812</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/10/2023</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>180442</departureOdometer>
+    <arrivalLocation>Launceston</arrivalLocation>
+    <arrivalOdometer>180549</arrivalOdometer>
+    <arrivalCampsite>Old Macs Farm</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/11/2023</dt>
+    <departureLocation>Launceston</departureLocation>
+    <departureOdometer>180813</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>180920</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/02/2024</dt>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>185726</departureOdometer>
+    <arrivalLocation>Turners Beach</arrivalLocation>
+    <arrivalOdometer>185921</arrivalOdometer>
+    <arrivalCampsite>Turners Beach Berry Patch</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/02/2024</dt>
+    <departureLocation>Turners Beach</departureLocation>
+    <departureOdometer>185982</departureOdometer>
+    <arrivalLocation>Currum Downs</arrivalLocation>
+    <arrivalOdometer>186135</arrivalOdometer>
+    <arrivalCampsite>Currum Downs Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/02/2024</dt>
+    <departureLocation>Currum Downs</departureLocation>
+    <departureOdometer>186135</departureOdometer>
+    <arrivalLocation>St Andrews Beach</arrivalLocation>
+    <arrivalOdometer>186201</arrivalOdometer>
+    <arrivalCampsite>St Andrews Beach Housesit</arrivalCampsite>
+  </data>
+  <!--
+  <data>
+    <dt>17/11/2023</dt>
+    <transitLocation>Devonport</transitLocation>
+    <transitOdometer>181202</transitOdometer>
+  </data>
+  <data>
+    <dt>18/11/2023</dt>
+    <transitLocation>Yass</transitLocation>
+    <transitOdometer>181868</transitOdometer>
+  </data>
+  <data>
+    <dt>19/11/2023</dt>
+    <transitLocation>Laurieton</transitLocation>
+    <transitOdometer>182506</transitOdometer>
+  </data>
+  <data>
+    <dt>20/11/2023</dt>
+    <transitLocation>Ormiston</transitLocation>
+    <transitOdometer>183070</transitOdometer>
+  </data>
+  <data>
+    <dt>13/02/2024</dt>
+    <transitLocation>Ormiston</transitLocation>
+    <transitOdometer>183585</transitOdometer>
+  </data>
+  <data>
+    <dt>14/02/2024</dt>
+    <transitLocation>Kew</transitLocation>
+    <transitOdometer>184126</transitOdometer>
+  </data>
+  <data>
+    <dt>15/02/2024</dt>
+    <transitLocation>Gundagai</transitLocation>
+    <transitOdometer>184823</transitOdometer>
+  </data>
+  <data>
+    <dt>16/02/2024</dt>
+    <transitLocation>Geelong</departureLocation>
+    <transitOdometer>185387</departureOdometer>
+  </data>
+  -->
 </travel>

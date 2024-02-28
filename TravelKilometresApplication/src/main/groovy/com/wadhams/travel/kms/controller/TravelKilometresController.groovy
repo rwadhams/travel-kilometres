@@ -60,6 +60,6 @@ class TravelKilometresController {
 		tripListService.fixMissingEndOdometer(tripList, travelList)
 
 		TripReportService trService = new TripReportService()
-		trService.execute(tripList, fuelList, travelList)
+		trService.execute(tripList, travelList)
 	}
 }

@@ -10,18 +10,18 @@ import com.wadhams.travel.kms.dto.TravelDTO
 import com.wadhams.travel.kms.dto.TripDTO
 
 class TripReportService {
-	def execute(List<TripDTO> tripList, List<FuelDTO> fuelList, List<TravelDTO> travelList) {
+	def execute(List<TripDTO> tripList, List<TravelDTO> travelList) {
 		File f = new File("out/trip-report.txt")
 		
 		f.withPrintWriter {pw ->
 			pw.println 'TRIP REPORT'
 			pw.println '-----------'
 	
-			report(tripList, fuelList, travelList, pw)
+			report(tripList, travelList, pw)
 		}
 	}
 	
-	def report(List<TripDTO> tripList, List<FuelDTO> fuelList, List<TravelDTO> travelList, PrintWriter pw) {
+	def report(List<TripDTO> tripList, List<TravelDTO> travelList, PrintWriter pw) {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
 		NumberFormat nf = NumberFormat.getNumberInstance()
 		nf.setMaximumFractionDigits(0)

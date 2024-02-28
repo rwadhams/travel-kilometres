@@ -1,7 +1,7 @@
 package com.wadhams.travel.kms.service
 
 import java.text.SimpleDateFormat
-
+import com.wadhams.travel.kms.dto.CarOnlyDTO
 import com.wadhams.travel.kms.dto.TravelDTO
 
 class TravelXMLService {
@@ -47,6 +47,24 @@ class TravelXMLService {
 			BigDecimal departureOdometer = new BigDecimal(txn.departureOdometer.text())
 //			println departureOdometer
 			dto.departureOdometer = departureOdometer
+			
+			//carOnly
+			def carOnlys = txn.carOnly
+			if (carOnlys) {
+				carOnlys.each {co ->
+					CarOnlyDTO coDTO = new CarOnlyDTO()
+					coDTO.location = co.@location.text()
+					String s1 = co.@dt.text()
+					if (s1) {
+						coDTO.date = sdf.parse(s1)
+					}
+					String s2 = co.@odometer.text()
+					if (s2) {
+						coDTO.odometer = new BigDecimal(s2)
+					}
+					dto.carOnlyList << coDTO
+				}
+			}
 			
 			//arrivalLocation
 			String arrivalLocation = txn.arrivalLocation.text()

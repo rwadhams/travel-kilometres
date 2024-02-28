@@ -44,13 +44,26 @@ class TravelReportService {
 		travelList.each {t ->
 			//vehicle kilometers when a previous TravelDTO exists
 			if (previous) {
+				//carOnlyList reporting
+				if (previous.carOnlyList.size() > 0) {
+					List<String> carOnlyLocationList = previous.carOnlyList.collect {it.location}
+					pw.print "Car Only locations.: ${carOnlyLocationList[0]}"
+					if (carOnlyLocationList.size() > 1) {
+						carOnlyLocationList[1..-1].each {location ->
+							pw.print ", $location"
+						}
+					}
+					pw.println ''
+				}
+				
 				BigDecimal vehicleOnlyKms = t.departureOdometer.subtract(previous.arrivalOdometer)
 				if (vehicleOnlyKms == 0) {
 					pw.println "Overnight in ${previous.arrivalLocation}"
 					pw.println ''
 				}
 				else {
-					pw.println "Vehicle kilometers around ${previous.arrivalLocation}: ${nf.format(vehicleOnlyKms)}"
+					//pw.println "Vehicle kilometers around ${previous.arrivalLocation}: ${nf.format(vehicleOnlyKms)}"
+					pw.println "Car Only kilometers: ${nf.format(vehicleOnlyKms)}"
 					pw.println ''
 					totalVehicleOnlyKms = totalVehicleOnlyKms.add(vehicleOnlyKms)
 				}

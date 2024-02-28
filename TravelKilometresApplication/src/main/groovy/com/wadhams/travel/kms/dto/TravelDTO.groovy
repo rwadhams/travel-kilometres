@@ -9,6 +9,8 @@ class TravelDTO {
 	String departureLocation
 	BigDecimal departureOdometer
 	
+	List<CarOnlyDTO> carOnlyList = []
+	
 	String arrivalLocation
 	BigDecimal arrivalOdometer
 	String arrivalCampsite

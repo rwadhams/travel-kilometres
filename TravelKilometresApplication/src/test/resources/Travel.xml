@@ -1535,6 +1535,7 @@
     <arrivalLocation>Cape Jervis</arrivalLocation>
     <arrivalOdometer>145093</arrivalOdometer>
     <arrivalCampsite>Cape Jervis Caravan Park</arrivalCampsite>
+    <carOnly location="Kangaroo Island" dt="13/01/2022" odometer="" />
   </data>
   <data>
     <dt>05/02/2022</dt>
@@ -2943,6 +2944,13 @@
     <arrivalLocation>Fingal</arrivalLocation>
     <arrivalOdometer>180920</arrivalOdometer>
     <arrivalCampsite>Fingal Park</arrivalCampsite>
+    <carOnly location="Devonport" dt="17/11/2023" odometer="181202" />
+    <carOnly location="Yass" dt="18/11/2023" odometer="181868" />
+    <carOnly location="Laurieton" dt="19/11/2023" odometer="182506" />
+    <carOnly location="Ormiston" dt="20/11/2023" odometer="183070" />
+    <carOnly location="Kew" dt="14/02/2024" odometer="184126" />
+    <carOnly location="Gundagai" dt="15/02/2024" odometer="184823" />
+    <carOnly location="Geelong" dt="16/02/2024" odometer="185387" />
   </data>
   <data>
     <dt>20/02/2024</dt>
@@ -2956,6 +2964,8 @@
     <dt>22/02/2024</dt>
     <departureLocation>Turners Beach</departureLocation>
     <departureOdometer>185982</departureOdometer>
+    <transit location="Spirit of Tasmania" odometer="186004" />
+    <transit location="Service Centre" />
     <arrivalLocation>Currum Downs</arrivalLocation>
     <arrivalOdometer>186135</arrivalOdometer>
     <arrivalCampsite>Currum Downs Caravan Park</arrivalCampsite>
@@ -2969,45 +2979,5 @@
     <arrivalCampsite>St Andrews Beach Housesit</arrivalCampsite>
   </data>
   <!--
-  <data>
-    <dt>17/11/2023</dt>
-    <transitLocation>Devonport</transitLocation>
-    <transitOdometer>181202</transitOdometer>
-  </data>
-  <data>
-    <dt>18/11/2023</dt>
-    <transitLocation>Yass</transitLocation>
-    <transitOdometer>181868</transitOdometer>
-  </data>
-  <data>
-    <dt>19/11/2023</dt>
-    <transitLocation>Laurieton</transitLocation>
-    <transitOdometer>182506</transitOdometer>
-  </data>
-  <data>
-    <dt>20/11/2023</dt>
-    <transitLocation>Ormiston</transitLocation>
-    <transitOdometer>183070</transitOdometer>
-  </data>
-  <data>
-    <dt>13/02/2024</dt>
-    <transitLocation>Ormiston</transitLocation>
-    <transitOdometer>183585</transitOdometer>
-  </data>
-  <data>
-    <dt>14/02/2024</dt>
-    <transitLocation>Kew</transitLocation>
-    <transitOdometer>184126</transitOdometer>
-  </data>
-  <data>
-    <dt>15/02/2024</dt>
-    <transitLocation>Gundagai</transitLocation>
-    <transitOdometer>184823</transitOdometer>
-  </data>
-  <data>
-    <dt>16/02/2024</dt>
-    <transitLocation>Geelong</departureLocation>
-    <transitOdometer>185387</departureOdometer>
-  </data>
   -->
 </travel>

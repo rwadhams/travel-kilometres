@@ -68,7 +68,7 @@ class ServiceReportService {
 		ServiceEventDTO prev = null
 		s.serviceEventDTOList.each {se ->
 			//duration
-			if (prev && s.serviceTiming == ServiceTiming.Scheduled) {
+			if (prev) {
 				LocalDate start = prev.serviceEventDate
 				LocalDate end = se.serviceEventDate
 				Period p = Period.between(start, end)

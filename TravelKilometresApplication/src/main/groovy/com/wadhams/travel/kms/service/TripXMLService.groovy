@@ -1,7 +1,5 @@
 package com.wadhams.travel.kms.service
 
-import java.text.SimpleDateFormat
-
 import com.wadhams.travel.kms.dto.TripDTO
 
 class TripXMLService {

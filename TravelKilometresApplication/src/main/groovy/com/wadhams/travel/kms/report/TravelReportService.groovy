@@ -2,7 +2,9 @@ package com.wadhams.travel.kms.report
 
 import java.math.MathContext
 import java.text.NumberFormat
-import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.temporal.ChronoUnit
 
 import com.wadhams.travel.kms.dto.TravelDTO
 
@@ -19,7 +21,7 @@ class TravelReportService {
 	}
 	
 	def report(List<TravelDTO> travelList, PrintWriter pw) {
-		Date startingDate = travelList[0].travelDate
+		LocalDate startingDate = travelList[0].travelDate
 		
 		int maxDepartureLocationSize = maxDepartureLocationSize(travelList)
 		//println "maxDepartureLocationSize...: $maxDepartureLocationSize"
@@ -29,8 +31,8 @@ class TravelReportService {
 		report(travelList, startingDate, maxDepartureLocationSize, maxArrivalLocationSize, pw)
 	}
 	
-	def report(List<TravelDTO> travelList, Date startingDate, int maxDepartureLocationSize, int maxArrivalLocationSize, PrintWriter pw) {
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
+	def report(List<TravelDTO> travelList, LocalDate startingDate, int maxDepartureLocationSize, int maxArrivalLocationSize, PrintWriter pw) {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 		NumberFormat nf = NumberFormat.getNumberInstance()
 		nf.setMaximumFractionDigits(0)
 		NumberFormat pf = NumberFormat.getPercentInstance()
@@ -56,6 +58,8 @@ class TravelReportService {
 					}
 					pw.println ''
 					pw.println "Car Only kilometers: ${nf.format(vehicleOnlyKms)}"
+					long duration = ChronoUnit.DAYS.between(previous.travelDate, t.travelDate)
+					pw.println "Duration...........: $duration days"
 					pw.println ''
 				}
 				else {
@@ -74,7 +78,7 @@ class TravelReportService {
 			BigDecimal caravanKms = t.arrivalOdometer.subtract(t.departureOdometer)
 			String departureLocation = t.departureLocation.padRight(maxDepartureLocationSize+2, ' ')
 			String arrivalLocation = t.arrivalLocation.padRight(maxArrivalLocationSize+2, ' ')
-			pw.println "${sdf.format(t.travelDate)}  $departureLocation$arrivalLocation  ${nf.format(t.departureOdometer).padLeft(9, ' ')}   ${nf.format(t.arrivalOdometer).padLeft(9, ' ')}   ${nf.format(caravanKms).padLeft(7, ' ')}   ${t.arrivalCampsite}"
+			pw.println "${t.travelDate.format(dtf)}  $departureLocation$arrivalLocation  ${nf.format(t.departureOdometer).padLeft(9, ' ')}   ${nf.format(t.arrivalOdometer).padLeft(9, ' ')}   ${nf.format(caravanKms).padLeft(7, ' ')}   ${t.arrivalCampsite}"
 			
 			totalCaravanKms = totalCaravanKms.add(caravanKms)
 			
@@ -90,7 +94,7 @@ class TravelReportService {
 		pw.println "Total vehicle-only kilometers...: ${nf.format(totalVehicleOnlyKms).padLeft(8, ' ')} (${pf.format(vehicleOnlyPercentage)})"
 		
 		pw.println ''
-		pw.println "${nf.format(combinedKilometers)} Kms (combined caravan and vehicle) since: ${sdf.format(startingDate)}  (i.e. Caravan pickup in Melbourne)"
+		pw.println "${nf.format(combinedKilometers)} Kms (combined caravan and vehicle) since: ${startingDate.format(dtf)}  (i.e. Caravan pickup in Melbourne)"
 	}
 
 	int maxDepartureLocationSize(List<TravelDTO> travelList) {

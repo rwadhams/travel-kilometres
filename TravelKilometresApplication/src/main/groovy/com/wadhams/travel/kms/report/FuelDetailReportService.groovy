@@ -2,8 +2,7 @@ package com.wadhams.travel.kms.report
 
 import java.math.MathContext
 import java.text.NumberFormat
-import java.text.SimpleDateFormat
-
+import java.time.format.DateTimeFormatter
 import com.wadhams.travel.kms.dto.FuelDTO
 
 class FuelDetailReportService {
@@ -23,7 +22,7 @@ class FuelDetailReportService {
 		BigDecimal totalLitres = new BigDecimal(0.0)
 		BigDecimal totalDollars = new BigDecimal(0.0)
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 		NumberFormat cf = NumberFormat.getCurrencyInstance()
 		NumberFormat nf = NumberFormat.getNumberInstance()
 		nf.setMaximumFractionDigits(0)
@@ -37,7 +36,7 @@ class FuelDetailReportService {
 		MathContext mc = new MathContext(8)
 		
 		FuelDTO previousDTO = fuelList[0]
-		pw.println "${sdf.format(previousDTO.fuelDate)}  Starting Odometer: ${nf.format(previousDTO.odometer)}"
+		pw.println "${previousDTO.fuelDate.format(dtf)}  Starting Odometer: ${nf.format(previousDTO.odometer)}"
 		pw.println ''
 		
 		pw.println "                       Dollars                         Litres"
@@ -50,7 +49,7 @@ class FuelDetailReportService {
 			totalKms = totalKms.add(kilometres)
 			totalLitres = totalLitres.add(dto.litres)
 			
-			String s1 = sdf.format(dto.fuelDate).padRight(13, ' ')
+			String s1 = dto.fuelDate.format(dtf).padRight(13, ' ')
 			
 			String s2 = nf.format(dto.odometer).padRight(10, ' ')
 			

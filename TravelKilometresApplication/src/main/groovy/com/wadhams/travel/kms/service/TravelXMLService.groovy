@@ -1,11 +1,13 @@
 package com.wadhams.travel.kms.service
 
-import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+
 import com.wadhams.travel.kms.dto.CarOnlyDTO
 import com.wadhams.travel.kms.dto.TravelDTO
 
 class TravelXMLService {
-	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
+	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 	
 	List<TravelDTO> loadTravelData() {
 		List<TravelDTO> travelList = []
@@ -34,9 +36,9 @@ class TravelXMLService {
 			TravelDTO dto = new TravelDTO()
 			
 			//activityDate
-			Date d = sdf.parse(txn.dt.text())
-//			println d
-			dto.travelDate = d
+			LocalDate ld = LocalDate.parse(txn.dt.text(), dtf)
+//			println ld
+			dto.travelDate = ld
 			
 			//departureLocation
 			String departureLocation = txn.departureLocation.text()
@@ -56,7 +58,7 @@ class TravelXMLService {
 					coDTO.location = co.@location.text()
 					String s1 = co.@dt.text()
 					if (s1) {
-						coDTO.date = sdf.parse(s1)
+						coDTO.date = LocalDate.parse(s1, dtf)
 					}
 					String s2 = co.@odometer.text()
 					if (s2) {

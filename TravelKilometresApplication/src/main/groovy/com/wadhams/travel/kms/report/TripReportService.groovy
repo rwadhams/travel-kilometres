@@ -1,11 +1,10 @@
 package com.wadhams.travel.kms.report
 
 import java.text.NumberFormat
-import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.temporal.ChronoUnit
 
-import javax.xml.stream.events.StartDocument
-
-import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.TravelDTO
 import com.wadhams.travel.kms.dto.TripDTO
 
@@ -22,11 +21,11 @@ class TripReportService {
 	}
 	
 	def report(List<TripDTO> tripList, List<TravelDTO> travelList, PrintWriter pw) {
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 		NumberFormat nf = NumberFormat.getNumberInstance()
 		nf.setMaximumFractionDigits(0)
 		
-		Date previousDate = null
+		LocalDate previousDate = null
 		
 		tripList.each {trip ->
 			TravelDTO startTravelDTO = findTravelDTO(trip.startOdometer, travelList)
@@ -35,24 +34,16 @@ class TripReportService {
 			//println endTravelDTO
 			
 			if (previousDate) {
-				int gap
-				use(groovy.time.TimeCategory) {
-					def duration = startTravelDTO.travelDate - previousDate
-					gap = duration.days
-				}
+				long gap = ChronoUnit.DAYS.between(previousDate, startTravelDTO.travelDate)
 				pw.println "Duration between trips: $gap days"
 				2.times {pw.println ''}
 			}
 			
 			String s1 = trip.tripName
-			String s2 = sdf.format(startTravelDTO.travelDate)
-			String s3 = sdf.format(endTravelDTO.travelDate)
+			String s2 = startTravelDTO.travelDate.format(dtf)
+			String s3 = endTravelDTO.travelDate.format(dtf)
 			
-			int days
-			use(groovy.time.TimeCategory) {
-				def duration = endTravelDTO.travelDate - startTravelDTO.travelDate
-				days = duration.days + 1
-			}
+			long days = ChronoUnit.DAYS.between(startTravelDTO.travelDate, endTravelDTO.travelDate)
 			
 			String s4 = days.toString().padRight(3, ' ')
 			

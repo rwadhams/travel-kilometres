@@ -1,14 +1,14 @@
 package com.wadhams.travel.kms.report
 
 import java.text.NumberFormat
-import java.text.SimpleDateFormat
+import java.time.format.DateTimeFormatter
 import com.wadhams.travel.kms.comparator.FuelEconomyDateComparator
 import com.wadhams.travel.kms.comparator.FuelEconomyPerformanceComparator
 import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.FuelEconomyDTO
 
 class FuelEconomyReportService {
-	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
+	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 
 	def reportByDate(List<FuelEconomyDTO> feList) {
 		File f = new File("out/fuel-economy-date-report.txt")
@@ -45,7 +45,7 @@ class FuelEconomyReportService {
 		nf2.setMinimumFractionDigits(2)
 		
 		feList.each {fe ->
-			String s1 = sdf.format(fe.fuelEnd.fuelDate)
+			String s1 = fe.fuelEnd.fuelDate.format(dtf)
 			String s2 = nf2.format(fe.fuelEnd.litres).padRight(6, ' ')
 			String s3 = nf.format(fe.caravanKilometres).padLeft(3, ' ')
 			String s4 = nf.format(fe.vehicleKilometres).padLeft(4, ' ')

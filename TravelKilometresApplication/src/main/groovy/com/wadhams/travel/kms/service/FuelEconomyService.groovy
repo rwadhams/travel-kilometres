@@ -2,7 +2,6 @@ package com.wadhams.travel.kms.service
 
 import java.math.MathContext
 import java.text.NumberFormat
-import java.text.SimpleDateFormat
 import com.wadhams.travel.kms.comparator.FuelEconomyDateComparator
 import com.wadhams.travel.kms.comparator.FuelEconomyPerformanceComparator
 import com.wadhams.travel.kms.dto.FuelDTO

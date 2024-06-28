@@ -1,11 +1,12 @@
 package com.wadhams.travel.kms.service
 
-import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 import com.wadhams.travel.kms.dto.FuelDTO
 
 class FuelXMLService {
-	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy")
+	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 	
 	List<FuelDTO> loadFuelData() {
 		List<FuelDTO> fuelList = []
@@ -34,9 +35,9 @@ class FuelXMLService {
 			FuelDTO dto = new FuelDTO()
 			
 			//activityDate
-			Date d = sdf.parse(txn.dt.text())
-//			println d
-			dto.fuelDate = d
+			LocalDate ld = LocalDate.parse(txn.dt.text(), dtf)
+//			println ld
+			dto.fuelDate = ld
 			
 			//odometer
 			BigDecimal odometer = new BigDecimal(txn.odometer.text())

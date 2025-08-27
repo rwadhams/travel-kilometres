@@ -3,8 +3,8 @@ package com.wadhams.travel.kms.service
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-import com.wadhams.travel.kms.dto.CarOnlyDTO
 import com.wadhams.travel.kms.dto.TravelDTO
+import com.wadhams.travel.kms.type.Vehicle
 
 class TravelXMLService {
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
@@ -40,6 +40,21 @@ class TravelXMLService {
 //			println ld
 			dto.travelDate = ld
 			
+			//vehicle
+			String vehicle = txn.vehicle.text()
+//			println vehicle
+			dto.vehicle = Vehicle.findByXMLName(vehicle)
+			
+			//trailer
+			String trailer = txn.trailer.text()
+//			println trailer
+			if (trailer) {
+				dto.trailer = Vehicle.findByXMLName(trailer)
+			}
+			else {
+				dto.trailer = Vehicle.NoTrailer
+			}
+			
 			//departureLocation
 			String departureLocation = txn.departureLocation.text()
 //			println departureLocation
@@ -49,24 +64,6 @@ class TravelXMLService {
 			BigDecimal departureOdometer = new BigDecimal(txn.departureOdometer.text())
 //			println departureOdometer
 			dto.departureOdometer = departureOdometer
-			
-			//carOnly
-			def carOnlys = txn.carOnly
-			if (carOnlys) {
-				carOnlys.each {co ->
-					CarOnlyDTO coDTO = new CarOnlyDTO()
-					coDTO.location = co.@location.text()
-					String s1 = co.@dt.text()
-					if (s1) {
-						coDTO.date = LocalDate.parse(s1, dtf)
-					}
-					String s2 = co.@odometer.text()
-					if (s2) {
-						coDTO.odometer = new BigDecimal(s2)
-					}
-					dto.carOnlyList << coDTO
-				}
-			}
 			
 			//arrivalLocation
 			String arrivalLocation = txn.arrivalLocation.text()

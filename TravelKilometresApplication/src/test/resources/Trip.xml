@@ -71,9 +71,86 @@
     </odometer>
   </data>
   <data>
-    <name>NT and WA 2024 Trip</name>
+    <name>Tasmania Brisbane Tasmania</name>
+    <odometer>
+      <start>181017</start>
+      <end>185600</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Victoria 2024 Trip 1</name>
     <odometer>
       <start>185726</start>
+      <end>190018</end>
+    </odometer>
+  </data>
+  <data>
+    <name>South Australia 2024 Trip 1</name>
+    <odometer>
+      <start>190018</start>
+      <end>193236</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Northern Territory 2024 Trip</name>
+    <odometer>
+      <start>193236</start>
+      <end>197800</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Western Australia 2024 Trip</name>
+    <odometer>
+      <start>197800</start>
+      <end>210426</end>
+    </odometer>
+  </data>
+  <data>
+    <name>South Australia 2024 Trip 2</name>
+    <odometer>
+      <start>210426</start>
+      <end>213191</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Victoria 2024 Trip 2</name>
+    <odometer>
+      <start>213191</start>
+      <end>213495</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Tasmania Summer (incl. Jane's Trip) 2024/2025</name>
+    <odometer>
+      <start>213495</start>
+      <end>216872</end>
+    </odometer>
+  </data>
+  <data>
+    <name>Tasmania Summer Getaway 2025</name>
+    <odometer>
+      <start>218424</start>
+      <end>219100</end>
+    </odometer>
+  </data>
+  <data>
+    <name>KK Victoria to Brisbane 2025</name>
+    <odometer>
+      <start>219544</start>
+      <end>223397</end>
+    </odometer>
+  </data>
+  <data>
+    <name>KK Kenilworth 2025</name>
+    <odometer>
+      <start>224821</start>
+      <end>225271</end>
+    </odometer>
+  </data>
+  <data>
+    <name>KK Queensland 2025</name>
+    <odometer>
+      <start>225329</start>
       <end></end>
     </odometer>
   </data>

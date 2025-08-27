@@ -2,6 +2,8 @@
 <travel>
   <data>
     <dt>28/03/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Melbourne</departureLocation>
     <departureOdometer>97579</departureOdometer>
     <arrivalLocation>Finley</arrivalLocation>
@@ -10,6 +12,8 @@
   </data>
   <data>
     <dt>29/03/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Finley</departureLocation>
     <departureOdometer>97835</departureOdometer>
     <arrivalLocation>Dubbo</arrivalLocation>
@@ -18,6 +22,8 @@
   </data>
   <data>
     <dt>30/03/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Dubbo</departureLocation>
     <departureOdometer>98377</departureOdometer>
     <arrivalLocation>Goondiwindi</arrivalLocation>
@@ -26,6 +32,8 @@
   </data>
   <data>
     <dt>31/03/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Goondiwindi</departureLocation>
     <departureOdometer>98862</departureOdometer>
     <arrivalLocation>Salisbury</arrivalLocation>
@@ -34,6 +42,8 @@
   </data>
   <data>
     <dt>01/06/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salisbury</departureLocation>
     <departureOdometer>101052</departureOdometer>
     <arrivalLocation>Austinville</arrivalLocation>
@@ -42,6 +52,8 @@
   </data>
   <data>
     <dt>05/06/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Austinville</departureLocation>
     <departureOdometer>101269</departureOdometer>
     <arrivalLocation>Advancetown</arrivalLocation>
@@ -50,6 +62,8 @@
   </data>
   <data>
     <dt>12/06/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Advancetown</departureLocation>
     <departureOdometer>101681</departureOdometer>
     <arrivalLocation>Salisbury</arrivalLocation>
@@ -58,6 +72,8 @@
   </data>
   <data>
     <dt>17/06/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salisbury</departureLocation>
     <departureOdometer>102198</departureOdometer>
     <arrivalLocation>Rathdowney</arrivalLocation>
@@ -66,6 +82,8 @@
   </data>
   <data>
     <dt>22/06/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Rathdowney</departureLocation>
     <departureOdometer>102583</departureOdometer>
     <arrivalLocation>Moogerah</arrivalLocation>
@@ -74,6 +92,8 @@
   </data>
   <data>
     <dt>26/06/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Moogerah</departureLocation>
     <departureOdometer>102957</departureOdometer>
     <arrivalLocation>Salisbury</arrivalLocation>
@@ -82,6 +102,8 @@
   </data>
   <data>
     <dt>01/07/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salisbury</departureLocation>
     <departureOdometer>103088</departureOdometer>
     <arrivalLocation>Deception Bay</arrivalLocation>
@@ -90,6 +112,8 @@
   </data>
   <data>
     <dt>13/07/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Deception Bay</departureLocation>
     <departureOdometer>104084</departureOdometer>
     <arrivalLocation>Nanango</arrivalLocation>
@@ -98,6 +122,8 @@
   </data>
   <data>
     <dt>17/07/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Nanango</departureLocation>
     <departureOdometer>104652</departureOdometer>
     <arrivalLocation>Maidenwell</arrivalLocation>
@@ -106,6 +132,8 @@
   </data>
   <data>
     <dt>21/07/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Maidenwell</departureLocation>
     <departureOdometer>104904</departureOdometer>
     <arrivalLocation>Chinchilla</arrivalLocation>
@@ -114,6 +142,8 @@
   </data>
   <data>
     <dt>22/07/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Chinchilla</departureLocation>
     <departureOdometer>105080</departureOdometer>
     <arrivalLocation>Miles</arrivalLocation>
@@ -122,6 +152,8 @@
   </data>
   <data>
     <dt>24/07/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Miles</departureLocation>
     <departureOdometer>105189</departureOdometer>
     <arrivalLocation>Roma</arrivalLocation>
@@ -130,6 +162,8 @@
   </data>
   <data>
     <dt>27/07/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Roma</departureLocation>
     <departureOdometer>105388</departureOdometer>
     <arrivalLocation>Carnavon Gorge</arrivalLocation>
@@ -138,6 +172,8 @@
   </data>
   <data>
     <dt>01/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Carnavon Gorge</departureLocation>
     <departureOdometer>105679</departureOdometer>
     <arrivalLocation>Springsure</arrivalLocation>
@@ -146,6 +182,8 @@
   </data>
   <data>
     <dt>02/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Carnavon Gorge</departureLocation>
     <departureOdometer>105851</departureOdometer>
     <arrivalLocation>Sapphire</arrivalLocation>
@@ -154,6 +192,8 @@
   </data>
   <data>
     <dt>08/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Sapphire</departureLocation>
     <departureOdometer>106132</departureOdometer>
     <arrivalLocation>Bluff</arrivalLocation>
@@ -162,6 +202,8 @@
   </data>
   <data>
     <dt>10/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bluff</departureLocation>
     <departureOdometer>106378</departureOdometer>
     <arrivalLocation>Rockhampton</arrivalLocation>
@@ -170,6 +212,8 @@
   </data>
   <data>
     <dt>12/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Rockhampton</departureLocation>
     <departureOdometer>106677</departureOdometer>
     <arrivalLocation>Yeppoon</arrivalLocation>
@@ -178,6 +222,8 @@
   </data>
   <data>
     <dt>15/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Yeppoon</departureLocation>
     <departureOdometer>106807</departureOdometer>
     <arrivalLocation>Benaraby</arrivalLocation>
@@ -186,6 +232,8 @@
   </data>
   <data>
     <dt>16/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Benaraby</departureLocation>
     <departureOdometer>106972</departureOdometer>
     <arrivalLocation>Town of 1770</arrivalLocation>
@@ -194,6 +242,8 @@
   </data>
   <data>
     <dt>20/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Town of 1770</departureLocation>
     <departureOdometer>107169</departureOdometer>
     <arrivalLocation>Bargara</arrivalLocation>
@@ -202,6 +252,8 @@
   </data>
   <data>
     <dt>23/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bargara</departureLocation>
     <departureOdometer>107380</departureOdometer>
     <arrivalLocation>WoodGate Beach</arrivalLocation>
@@ -210,6 +262,8 @@
   </data>
   <data>
     <dt>25/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>WoodGate Beach</departureLocation>
     <departureOdometer>107490</departureOdometer>
     <arrivalLocation>Hervey Bay</arrivalLocation>
@@ -218,6 +272,8 @@
   </data>
   <data>
     <dt>28/08/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hervey Bay</departureLocation>
     <departureOdometer>107661</departureOdometer>
     <arrivalLocation>Kenilworth</arrivalLocation>
@@ -226,6 +282,8 @@
   </data>
   <data>
     <dt>01/09/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Kenilworth</departureLocation>
     <departureOdometer>108053</departureOdometer>
     <arrivalLocation>Salisbury</arrivalLocation>
@@ -234,6 +292,8 @@
   </data>
   <data>
     <dt>12/10/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salisbury</departureLocation>
     <departureOdometer>109976</departureOdometer>
     <arrivalLocation>Warwick</arrivalLocation>
@@ -242,6 +302,8 @@
   </data>
   <data>
     <dt>14/10/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Warwick</departureLocation>
     <departureOdometer>110125</departureOdometer>
     <arrivalLocation>Woodenbong</arrivalLocation>
@@ -250,6 +312,8 @@
   </data>
   <data>
     <dt>19/10/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Woodenbong</departureLocation>
     <departureOdometer>110558</departureOdometer>
     <arrivalLocation>Kyogle</arrivalLocation>
@@ -258,6 +322,8 @@
   </data>
   <data>
     <dt>21/10/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Kyogle</departureLocation>
     <departureOdometer>110734</departureOdometer>
     <arrivalLocation>Crooked Creek</arrivalLocation>
@@ -266,6 +332,8 @@
   </data>
   <data>
     <dt>23/10/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Crooked Creek</departureLocation>
     <departureOdometer>110850</departureOdometer>
     <arrivalLocation>Tenterfield</arrivalLocation>
@@ -274,6 +342,8 @@
   </data>
   <data>
     <dt>29/10/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Tenterfield</departureLocation>
     <departureOdometer>111391</departureOdometer>
     <arrivalLocation>Stanthorpe</arrivalLocation>
@@ -282,6 +352,8 @@
   </data>
   <data>
     <dt>01/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Stanthorpe</departureLocation>
     <departureOdometer>111590</departureOdometer>
     <arrivalLocation>Texas</arrivalLocation>
@@ -290,6 +362,8 @@
   </data>
   <data>
     <dt>05/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Texas</departureLocation>
     <departureOdometer>111703</departureOdometer>
     <arrivalLocation>Bingara</arrivalLocation>
@@ -298,6 +372,8 @@
   </data>
   <data>
     <dt>13/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bingara</departureLocation>
     <departureOdometer>112274</departureOdometer>
     <arrivalLocation>Inverell</arrivalLocation>
@@ -306,6 +382,8 @@
   </data>
   <data>
     <dt>17/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Inverell</departureLocation>
     <departureOdometer>112432</departureOdometer>
     <arrivalLocation>Glen Innes</arrivalLocation>
@@ -314,6 +392,8 @@
   </data>
   <data>
     <dt>19/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Glen Innes</departureLocation>
     <departureOdometer>112521</departureOdometer>
     <arrivalLocation>Armidale</arrivalLocation>
@@ -322,6 +402,8 @@
   </data>
   <data>
     <dt>20/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Armidale</departureLocation>
     <departureOdometer>112655</departureOdometer>
     <arrivalLocation>Wollomombi</arrivalLocation>
@@ -330,6 +412,8 @@
   </data>
   <data>
     <dt>21/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Wollomombi</departureLocation>
     <departureOdometer>112706</departureOdometer>
     <arrivalLocation>Ebor</arrivalLocation>
@@ -338,6 +422,8 @@
   </data>
   <data>
     <dt>23/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ebor</departureLocation>
     <departureOdometer>112826</departureOdometer>
     <arrivalLocation>Dorrigo</arrivalLocation>
@@ -346,6 +432,8 @@
   </data>
   <data>
     <dt>27/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Dorrigo</departureLocation>
     <departureOdometer>113000</departureOdometer>
     <arrivalLocation>Bellingin</arrivalLocation>
@@ -354,6 +442,8 @@
   </data>
   <data>
     <dt>28/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bellingin</departureLocation>
     <departureOdometer>113030</departureOdometer>
     <arrivalLocation>Urunga</arrivalLocation>
@@ -362,6 +452,8 @@
   </data>
   <data>
     <dt>30/11/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Urunga</departureLocation>
     <departureOdometer>113122</departureOdometer>
     <arrivalLocation>Moonee Beach</arrivalLocation>
@@ -370,6 +462,8 @@
   </data>
   <data>
     <dt>05/12/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Moonee Beach</departureLocation>
     <departureOdometer>113282</departureOdometer>
     <arrivalLocation>Minnie Water</arrivalLocation>
@@ -378,6 +472,8 @@
   </data>
   <data>
     <dt>08/12/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Minnie Water</departureLocation>
     <departureOdometer>113455</departureOdometer>
     <arrivalLocation>Alstonville</arrivalLocation>
@@ -386,6 +482,8 @@
   </data>
   <data>
     <dt>11/12/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Alstonville</departureLocation>
     <departureOdometer>113844</departureOdometer>
     <arrivalLocation>Mullumbimby</arrivalLocation>
@@ -394,6 +492,8 @@
   </data>
   <data>
     <dt>13/12/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mullumbimby</departureLocation>
     <departureOdometer>114128</departureOdometer>
     <arrivalLocation>Salisbury</arrivalLocation>
@@ -402,6 +502,8 @@
   </data>
   <data>
     <dt>30/12/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salisbury</departureLocation>
     <departureOdometer>115149</departureOdometer>
     <arrivalLocation>Inglewood</arrivalLocation>
@@ -410,6 +512,8 @@
   </data>
   <data>
     <dt>31/12/2020</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Inglewood</departureLocation>
     <departureOdometer>115384</departureOdometer>
     <arrivalLocation>Moree</arrivalLocation>
@@ -418,6 +522,8 @@
   </data>
   <data>
     <dt>01/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Moree</departureLocation>
     <departureOdometer>115606</departureOdometer>
     <arrivalLocation>Strathmerton</arrivalLocation>
@@ -426,6 +532,8 @@
   </data>
   <data>
     <dt>02/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Strathmerton</departureLocation>
     <departureOdometer>116519</departureOdometer>
     <arrivalLocation>Melbourne</arrivalLocation>
@@ -434,6 +542,8 @@
   </data>
   <data>
     <dt>04/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Melbourne</departureLocation>
     <departureOdometer>116781</departureOdometer>
     <arrivalLocation>Devonport</arrivalLocation>
@@ -442,6 +552,8 @@
   </data>
   <data>
     <dt>06/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Devonport</departureLocation>
     <departureOdometer>116895</departureOdometer>
     <arrivalLocation>Ulverstone</arrivalLocation>
@@ -450,6 +562,8 @@
   </data>
   <data>
     <dt>11/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ulverstone</departureLocation>
     <departureOdometer>117404</departureOdometer>
     <arrivalLocation>Rocky Cape</arrivalLocation>
@@ -458,6 +572,8 @@
   </data>
   <data>
     <dt>13/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Rocky Cape</departureLocation>
     <departureOdometer>117667</departureOdometer>
     <arrivalLocation>Stanley</arrivalLocation>
@@ -466,6 +582,8 @@
   </data>
   <data>
     <dt>15/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Stanley</departureLocation>
     <departureOdometer>117728</departureOdometer>
     <arrivalLocation>Smithton</arrivalLocation>
@@ -474,6 +592,8 @@
   </data>
   <data>
     <dt>18/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Smithton</departureLocation>
     <departureOdometer>117955</departureOdometer>
     <arrivalLocation>Arthur River</arrivalLocation>
@@ -482,6 +602,8 @@
   </data>
   <data>
     <dt>21/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Arthur River</departureLocation>
     <departureOdometer>118255</departureOdometer>
     <arrivalLocation>Waratah</arrivalLocation>
@@ -490,6 +612,8 @@
   </data>
   <data>
     <dt>22/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Waratah</departureLocation>
     <departureOdometer>118443</departureOdometer>
     <arrivalLocation>Rosebery</arrivalLocation>
@@ -498,6 +622,8 @@
   </data>
   <data>
     <dt>24/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Rosebery</departureLocation>
     <departureOdometer>118539</departureOdometer>
     <arrivalLocation>Zeehan</arrivalLocation>
@@ -506,6 +632,8 @@
   </data>
   <data>
     <dt>25/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Zeehan</departureLocation>
     <departureOdometer>118621</departureOdometer>
     <arrivalLocation>Strahan</arrivalLocation>
@@ -514,6 +642,8 @@
   </data>
   <data>
     <dt>30/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Strahan</departureLocation>
     <departureOdometer>118758</departureOdometer>
     <arrivalLocation>Queenstown</arrivalLocation>
@@ -522,6 +652,8 @@
   </data>
   <data>
     <dt>31/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Queenstown</departureLocation>
     <departureOdometer>118837</departureOdometer>
     <arrivalLocation>Lake Burbury</arrivalLocation>
@@ -530,6 +662,8 @@
   </data>
   <data>
     <dt>31/01/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Lake Burbury</departureLocation>
     <departureOdometer>118873</departureOdometer>
     <arrivalLocation>Derwent Bridge</arrivalLocation>
@@ -538,6 +672,8 @@
   </data>
   <data>
     <dt>01/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Derwent Bridge</departureLocation>
     <departureOdometer>118967</departureOdometer>
     <arrivalLocation>Mount Field NP</arrivalLocation>
@@ -546,6 +682,8 @@
   </data>
   <data>
     <dt>04/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mount Field NP</departureLocation>
     <departureOdometer>119345</departureOdometer>
     <arrivalLocation>Hobart</arrivalLocation>
@@ -554,6 +692,8 @@
   </data>
   <data>
     <dt>08/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hobart</departureLocation>
     <departureOdometer>119641</departureOdometer>
     <arrivalLocation>Bruny Island</arrivalLocation>
@@ -562,6 +702,8 @@
   </data>
   <data>
     <dt>12/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bruny Island</departureLocation>
     <departureOdometer>120002</departureOdometer>
     <arrivalLocation>Huonville</arrivalLocation>
@@ -570,6 +712,8 @@
   </data>
   <data>
     <dt>14/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Huonville</departureLocation>
     <departureOdometer>120103</departureOdometer>
     <arrivalLocation>Cockle Creek</arrivalLocation>
@@ -578,6 +722,8 @@
   </data>
   <data>
     <dt>18/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Cockle Creek</departureLocation>
     <departureOdometer>120195</departureOdometer>
     <arrivalLocation>Geevston</arrivalLocation>
@@ -586,6 +732,8 @@
   </data>
   <data>
     <dt>22/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Geevston</departureLocation>
     <departureOdometer>120441</departureOdometer>
     <arrivalLocation>Hobart</arrivalLocation>
@@ -594,6 +742,8 @@
   </data>
   <data>
     <dt>23/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hobart</departureLocation>
     <departureOdometer>120539</departureOdometer>
     <arrivalLocation>Sorell</arrivalLocation>
@@ -602,6 +752,8 @@
   </data>
   <data>
     <dt>25/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Sorell</departureLocation>
     <departureOdometer>120655</departureOdometer>
     <arrivalLocation>Nubeena</arrivalLocation>
@@ -610,6 +762,8 @@
   </data>
   <data>
     <dt>28/02/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Nubeena</departureLocation>
     <departureOdometer>120925</departureOdometer>
     <arrivalLocation>Dunalley</arrivalLocation>
@@ -618,6 +772,8 @@
   </data>
   <data>
     <dt>01/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Dunalley</departureLocation>
     <departureOdometer>120977</departureOdometer>
     <arrivalLocation>Triabunna</arrivalLocation>
@@ -626,6 +782,8 @@
   </data>
   <data>
     <dt>03/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Triabunna</departureLocation>
     <departureOdometer>121145</departureOdometer>
     <arrivalLocation>Swansea</arrivalLocation>
@@ -634,6 +792,8 @@
   </data>
   <data>
     <dt>04/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Swansea</departureLocation>
     <departureOdometer>121214</departureOdometer>
     <arrivalLocation>Freycinet</arrivalLocation>
@@ -642,6 +802,8 @@
   </data>
   <data>
     <dt>06/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Freycinet</departureLocation>
     <departureOdometer>121407</departureOdometer>
     <arrivalLocation>Four Mile Creek</arrivalLocation>
@@ -650,6 +812,8 @@
   </data>
   <data>
     <dt>08/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Four Mile Creek</departureLocation>
     <departureOdometer>121532</departureOdometer>
     <arrivalLocation>St Helens</arrivalLocation>
@@ -658,6 +822,8 @@
   </data>
   <data>
     <dt>11/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>St Helens</departureLocation>
     <departureOdometer>121799</departureOdometer>
     <arrivalLocation>Pyengana</arrivalLocation>
@@ -666,6 +832,8 @@
   </data>
   <data>
     <dt>12/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Pyengana</departureLocation>
     <departureOdometer>121890</departureOdometer>
     <arrivalLocation>Gladstone</arrivalLocation>
@@ -674,6 +842,8 @@
   </data>
   <data>
     <dt>12/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Gladstone</departureLocation>
     <departureOdometer>122003</departureOdometer>
     <arrivalLocation>Bridport</arrivalLocation>
@@ -682,6 +852,8 @@
   </data>
   <data>
     <dt>14/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bridport</departureLocation>
     <departureOdometer>122106</departureOdometer>
     <arrivalLocation>Low Head</arrivalLocation>
@@ -690,6 +862,8 @@
   </data>
   <data>
     <dt>16/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Low Head</departureLocation>
     <departureOdometer>122278</departureOdometer>
     <arrivalLocation>Launceston</arrivalLocation>
@@ -698,6 +872,8 @@
   </data>
   <data>
     <dt>20/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Launceston</departureLocation>
     <departureOdometer>122439</departureOdometer>
     <arrivalLocation>Sorell</arrivalLocation>
@@ -706,6 +882,8 @@
   </data>
   <data>
     <dt>22/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Sorell</departureLocation>
     <departureOdometer>122782</departureOdometer>
     <arrivalLocation>Dunalley</arrivalLocation>
@@ -714,6 +892,8 @@
   </data>
   <data>
     <dt>24/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Dunalley</departureLocation>
     <departureOdometer>123032</departureOdometer>
     <arrivalLocation>Triabunna</arrivalLocation>
@@ -722,6 +902,8 @@
   </data>
   <data>
     <dt>26/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Triabunna</departureLocation>
     <departureOdometer>123121</departureOdometer>
     <arrivalLocation>Freycinet</arrivalLocation>
@@ -730,6 +912,8 @@
   </data>
   <data>
     <dt>27/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Freycinet</departureLocation>
     <departureOdometer>123286</departureOdometer>
     <arrivalLocation>Four Mile Creek</arrivalLocation>
@@ -738,6 +922,8 @@
   </data>
   <data>
     <dt>28/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Four Mile Creek</departureLocation>
     <departureOdometer>123466</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -746,6 +932,8 @@
   </data>
   <data>
     <dt>29/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>123591</departureOdometer>
     <arrivalLocation>Chudleigh</arrivalLocation>
@@ -754,6 +942,8 @@
   </data>
   <data>
     <dt>31/03/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Chudleigh</departureLocation>
     <departureOdometer>123784</departureOdometer>
     <arrivalLocation>Moina</arrivalLocation>
@@ -762,6 +952,8 @@
   </data>
   <data>
     <dt>02/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Moina</departureLocation>
     <departureOdometer>123930</departureOdometer>
     <arrivalLocation>Latrobe</arrivalLocation>
@@ -770,6 +962,8 @@
   </data>
   <data>
     <dt>03/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Latrobe</departureLocation>
     <departureOdometer>124075</departureOdometer>
     <arrivalLocation>Launceston</arrivalLocation>
@@ -778,6 +972,8 @@
   </data>
   <data>
     <dt>06/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Launceston</departureLocation>
     <departureOdometer>124396</departureOdometer>
     <arrivalLocation>Deloraine</arrivalLocation>
@@ -786,6 +982,8 @@
   </data>
   <data>
     <dt>08/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Deloraine</departureLocation>
     <departureOdometer>124530</departureOdometer>
     <arrivalLocation>Ulverstone</arrivalLocation>
@@ -794,6 +992,8 @@
   </data>
   <data>
     <dt>10/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ulverstone</departureLocation>
     <departureOdometer>124725</departureOdometer>
     <arrivalLocation>Melbourne</arrivalLocation>
@@ -802,6 +1002,8 @@
   </data>
   <data>
     <dt>12/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Melbourne</departureLocation>
     <departureOdometer>124769</departureOdometer>
     <arrivalLocation>Wallan</arrivalLocation>
@@ -810,6 +1012,8 @@
   </data>
   <data>
     <dt>13/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Wallan</departureLocation>
     <departureOdometer>124880</departureOdometer>
     <arrivalLocation>Campbellfield</arrivalLocation>
@@ -818,6 +1022,8 @@
   </data>
   <data>
     <dt>13/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Campbellfield</departureLocation>
     <departureOdometer>125014</departureOdometer>
     <arrivalLocation>Broadford</arrivalLocation>
@@ -826,6 +1032,8 @@
   </data>
   <data>
     <dt>14/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Broadford</departureLocation>
     <departureOdometer>125076</departureOdometer>
     <arrivalLocation>Gunning</arrivalLocation>
@@ -834,6 +1042,8 @@
   </data>
   <data>
     <dt>15/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Gunning</departureLocation>
     <departureOdometer>125609</departureOdometer>
     <arrivalLocation>Buheldelah</arrivalLocation>
@@ -842,6 +1052,8 @@
   </data>
   <data>
     <dt>16/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Buheldelah</departureLocation>
     <departureOdometer>126071</departureOdometer>
     <arrivalLocation>Tabbimoble</arrivalLocation>
@@ -850,6 +1062,8 @@
   </data>
   <data>
     <dt>17/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Tabbimoble</departureLocation>
     <departureOdometer>126497</departureOdometer>
     <arrivalLocation>Cleveland</arrivalLocation>
@@ -858,6 +1072,8 @@
   </data>
   <data>
     <dt>21/04/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Cleveland</departureLocation>
     <departureOdometer>126717</departureOdometer>
     <arrivalLocation>Salisbury</arrivalLocation>
@@ -866,6 +1082,8 @@
   </data>
   <data>
     <dt>18/05/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salisbury</departureLocation>
     <departureOdometer>127535</departureOdometer>
     <arrivalLocation>Redland Bay</arrivalLocation>
@@ -874,6 +1092,8 @@
   </data>
   <data>
     <dt>10/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Redland Bay</departureLocation>
     <departureOdometer>128425</departureOdometer>
     <arrivalLocation>Stanmore</arrivalLocation>
@@ -882,6 +1102,8 @@
   </data>
   <data>
     <dt>14/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Stanmore</departureLocation>
     <departureOdometer>128771</departureOdometer>
     <arrivalLocation>Caboolture</arrivalLocation>
@@ -890,6 +1112,8 @@
   </data>
   <data>
     <dt>15/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Caboolture</departureLocation>
     <departureOdometer>128809</departureOdometer>
     <arrivalLocation>Toowoomba</arrivalLocation>
@@ -898,6 +1122,8 @@
   </data>
   <data>
     <dt>17/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Toowoomba</departureLocation>
     <departureOdometer>129165</departureOdometer>
     <arrivalLocation>Chinchilla</arrivalLocation>
@@ -906,6 +1132,8 @@
   </data>
   <data>
     <dt>20/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Chinchilla</departureLocation>
     <departureOdometer>129362</departureOdometer>
     <arrivalLocation>Bungeworgorai</arrivalLocation>
@@ -914,6 +1142,8 @@
   </data>
   <data>
     <dt>21/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bungeworgorai</departureLocation>
     <departureOdometer>129567</departureOdometer>
     <arrivalLocation>Roma</arrivalLocation>
@@ -922,6 +1152,8 @@
   </data>
   <data>
     <dt>22/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Roma</departureLocation>
     <departureOdometer>129611</departureOdometer>
     <arrivalLocation>Mitchell</arrivalLocation>
@@ -930,6 +1162,8 @@
   </data>
   <data>
     <dt>25/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mitchell</departureLocation>
     <departureOdometer>129711</departureOdometer>
     <arrivalLocation>Charleville</arrivalLocation>
@@ -938,6 +1172,8 @@
   </data>
   <data>
     <dt>30/06/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Charleville</departureLocation>
     <departureOdometer>130035</departureOdometer>
     <arrivalLocation>Tambo</arrivalLocation>
@@ -946,6 +1182,8 @@
   </data>
   <data>
     <dt>02/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Tambo</departureLocation>
     <departureOdometer>130246</departureOdometer>
     <arrivalLocation>Longreach</arrivalLocation>
@@ -954,6 +1192,8 @@
   </data>
   <data>
     <dt>07/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Longreach</departureLocation>
     <departureOdometer>130726</departureOdometer>
     <arrivalLocation>Winton</arrivalLocation>
@@ -962,6 +1202,8 @@
   </data>
   <data>
     <dt>10/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Winton</departureLocation>
     <departureOdometer>130989</departureOdometer>
     <arrivalLocation>Opalton</arrivalLocation>
@@ -970,6 +1212,8 @@
   </data>
   <data>
     <dt>12/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Opalton</departureLocation>
     <departureOdometer>131213</departureOdometer>
     <arrivalLocation>Winton</arrivalLocation>
@@ -978,6 +1222,8 @@
   </data>
   <data>
     <dt>13/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Winton</departureLocation>
     <departureOdometer>131352</departureOdometer>
     <arrivalLocation>Richmond</arrivalLocation>
@@ -986,6 +1232,8 @@
   </data>
   <data>
     <dt>15/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Richmond</departureLocation>
     <departureOdometer>131611</departureOdometer>
     <arrivalLocation>Hughenden</arrivalLocation>
@@ -994,6 +1242,8 @@
   </data>
   <data>
     <dt>18/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hughenden</departureLocation>
     <departureOdometer>131755</departureOdometer>
     <arrivalLocation>Porcupine Gorge</arrivalLocation>
@@ -1002,6 +1252,8 @@
   </data>
   <data>
     <dt>20/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Porcupine Gorge</departureLocation>
     <departureOdometer>131830</departureOdometer>
     <arrivalLocation>Pentland</arrivalLocation>
@@ -1010,6 +1262,8 @@
   </data>
   <data>
     <dt>21/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Pentland</departureLocation>
     <departureOdometer>132038</departureOdometer>
     <arrivalLocation>Charters Towers</arrivalLocation>
@@ -1018,6 +1272,8 @@
   </data>
   <data>
     <dt>23/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Charters Towers</departureLocation>
     <departureOdometer>132174</departureOdometer>
     <arrivalLocation>Bluewater</arrivalLocation>
@@ -1026,6 +1282,8 @@
   </data>
   <data>
     <dt>25/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bluewater</departureLocation>
     <departureOdometer>132478</departureOdometer>
     <arrivalLocation>Lucinda</arrivalLocation>
@@ -1034,6 +1292,8 @@
   </data>
   <data>
     <dt>30/07/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Lucinda</departureLocation>
     <departureOdometer>132641</departureOdometer>
     <arrivalLocation>Ingham</arrivalLocation>
@@ -1042,6 +1302,8 @@
   </data>
   <data>
     <dt>01/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ingham</departureLocation>
     <departureOdometer>132782</departureOdometer>
     <arrivalLocation>Djiru NP, Mission Beach</arrivalLocation>
@@ -1050,6 +1312,8 @@
   </data>
   <data>
     <dt>04/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Djiru NP, Mission Beach</departureLocation>
     <departureOdometer>133148</departureOdometer>
     <arrivalLocation>Innisfail</arrivalLocation>
@@ -1058,6 +1322,8 @@
   </data>
   <data>
     <dt>06/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Innisfail</departureLocation>
     <departureOdometer>133289</departureOdometer>
     <arrivalLocation>Wooroonooran</arrivalLocation>
@@ -1066,6 +1332,8 @@
   </data>
   <data>
     <dt>08/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Wooroonooran</departureLocation>
     <departureOdometer>133454</departureOdometer>
     <arrivalLocation>Ravenshoe</arrivalLocation>
@@ -1074,6 +1342,8 @@
   </data>
   <data>
     <dt>12/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ravenshoe</departureLocation>
     <departureOdometer>133688</departureOdometer>
     <arrivalLocation>Yungaburra</arrivalLocation>
@@ -1082,6 +1352,8 @@
   </data>
   <data>
     <dt>16/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Yungaburra</departureLocation>
     <departureOdometer>133982</departureOdometer>
     <arrivalLocation>Chewko</arrivalLocation>
@@ -1090,6 +1362,8 @@
   </data>
   <data>
     <dt>17/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Chewko</departureLocation>
     <departureOdometer>134030</departureOdometer>
     <arrivalLocation>Mareeba</arrivalLocation>
@@ -1098,6 +1372,8 @@
   </data>
   <data>
     <dt>18/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mareeba</departureLocation>
     <departureOdometer>134078</departureOdometer>
     <arrivalLocation>Lakeland</arrivalLocation>
@@ -1106,6 +1382,8 @@
   </data>
   <data>
     <dt>19/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Lakeland</departureLocation>
     <departureOdometer>134267</departureOdometer>
     <arrivalLocation>Cooktown</arrivalLocation>
@@ -1114,6 +1392,8 @@
   </data>
   <data>
     <dt>21/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Cooktown</departureLocation>
     <departureOdometer>134463</departureOdometer>
     <arrivalLocation>Mount Molloy</arrivalLocation>
@@ -1122,6 +1402,8 @@
   </data>
   <data>
     <dt>23/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mount Molloy</departureLocation>
     <departureOdometer>134678</departureOdometer>
     <arrivalLocation>Wonga Beach</arrivalLocation>
@@ -1130,6 +1412,8 @@
   </data>
   <data>
     <dt>27/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Wonga Beach</departureLocation>
     <departureOdometer>134965</departureOdometer>
     <arrivalLocation>Cairns</arrivalLocation>
@@ -1138,6 +1422,8 @@
   </data>
   <data>
     <dt>29/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Cairns</departureLocation>
     <departureOdometer>135175</departureOdometer>
     <arrivalLocation>Ingham</arrivalLocation>
@@ -1146,6 +1432,8 @@
   </data>
   <data>
     <dt>30/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ingham</departureLocation>
     <departureOdometer>135418</departureOdometer>
     <arrivalLocation>Dotswoods</arrivalLocation>
@@ -1154,6 +1442,8 @@
   </data>
   <data>
     <dt>31/08/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Dotswoods</departureLocation>
     <departureOdometer>135634</departureOdometer>
     <arrivalLocation>Clermont</arrivalLocation>
@@ -1162,6 +1452,8 @@
   </data>
   <data>
     <dt>02/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Clermont</departureLocation>
     <departureOdometer>136051</departureOdometer>
     <arrivalLocation>Sapphire</arrivalLocation>
@@ -1170,6 +1462,8 @@
   </data>
   <data>
     <dt>06/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Sapphire</departureLocation>
     <departureOdometer>136204</departureOdometer>
     <arrivalLocation>Dululu</arrivalLocation>
@@ -1178,6 +1472,8 @@
   </data>
   <data>
     <dt>07/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Dululu</departureLocation>
     <departureOdometer>136489</departureOdometer>
     <arrivalLocation>Eidsvold</arrivalLocation>
@@ -1186,6 +1482,8 @@
   </data>
   <data>
     <dt>08/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Eidsvold</departureLocation>
     <departureOdometer>136735</departureOdometer>
     <arrivalLocation>Nanango</arrivalLocation>
@@ -1194,6 +1492,8 @@
   </data>
   <data>
     <dt>09/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Nanango</departureLocation>
     <departureOdometer>136968</departureOdometer>
     <arrivalLocation>Cleveland</arrivalLocation>
@@ -1202,6 +1502,8 @@
   </data>
   <data>
     <dt>13/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Cleveland</departureLocation>
     <departureOdometer>137281</departureOdometer>
     <arrivalLocation>Bowenville</arrivalLocation>
@@ -1210,6 +1512,8 @@
   </data>
   <data>
     <dt>14/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bowenville</departureLocation>
     <departureOdometer>137480</departureOdometer>
     <arrivalLocation>St George</arrivalLocation>
@@ -1218,6 +1522,8 @@
   </data>
   <data>
     <dt>15/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>St George</departureLocation>
     <departureOdometer>137833</departureOdometer>
     <arrivalLocation>Eulo</arrivalLocation>
@@ -1226,6 +1532,8 @@
   </data>
   <data>
     <dt>16/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Eulo</departureLocation>
     <departureOdometer>138168</departureOdometer>
     <arrivalLocation>Yowah</arrivalLocation>
@@ -1234,6 +1542,8 @@
   </data>
   <data>
     <dt>18/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Yowah</departureLocation>
     <departureOdometer>138296</departureOdometer>
     <arrivalLocation>Noccundra</arrivalLocation>
@@ -1242,6 +1552,8 @@
   </data>
   <data>
     <dt>19/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Noccundra</departureLocation>
     <departureOdometer>138528</departureOdometer>
     <arrivalLocation>Dig Tree</arrivalLocation>
@@ -1250,6 +1562,8 @@
   </data>
   <data>
     <dt>20/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Dig Tree</departureLocation>
     <departureOdometer>138742</departureOdometer>
     <arrivalLocation>Strzelecki Creek</arrivalLocation>
@@ -1258,6 +1572,8 @@
   </data>
   <data>
     <dt>21/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Strzelecki Creek</departureLocation>
     <departureOdometer>139005</departureOdometer>
     <arrivalLocation>Copley</arrivalLocation>
@@ -1266,6 +1582,8 @@
   </data>
   <data>
     <dt>22/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Copley</departureLocation>
     <departureOdometer>139302</departureOdometer>
     <arrivalLocation>Parachilna Gorge</arrivalLocation>
@@ -1274,6 +1592,8 @@
   </data>
   <data>
     <dt>25/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Parachilna Gorge</departureLocation>
     <departureOdometer>139502</departureOdometer>
     <arrivalLocation>Wilpena Pound</arrivalLocation>
@@ -1282,6 +1602,8 @@
   </data>
   <data>
     <dt>28/09/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Wilpena Pound</departureLocation>
     <departureOdometer>139738</departureOdometer>
     <arrivalLocation>Port Augusta</arrivalLocation>
@@ -1290,6 +1612,8 @@
   </data>
   <data>
     <dt>01/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Port Augusta</departureLocation>
     <departureOdometer>139994</departureOdometer>
     <arrivalLocation>Peterborough</arrivalLocation>
@@ -1298,6 +1622,8 @@
   </data>
   <data>
     <dt>02/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Peterborough</departureLocation>
     <departureOdometer>140119</departureOdometer>
     <arrivalLocation>Waikerie</arrivalLocation>
@@ -1306,6 +1632,8 @@
   </data>
   <data>
     <dt>05/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Waikerie</departureLocation>
     <departureOdometer>140344</departureOdometer>
     <arrivalLocation>Waikerie</arrivalLocation>
@@ -1314,6 +1642,8 @@
   </data>
   <data>
     <dt>07/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Waikerie</departureLocation>
     <departureOdometer>140402</departureOdometer>
     <arrivalLocation>Berri</arrivalLocation>
@@ -1322,6 +1652,8 @@
   </data>
   <data>
     <dt>12/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Berri</departureLocation>
     <departureOdometer>140771</departureOdometer>
     <arrivalLocation>Loxton</arrivalLocation>
@@ -1330,6 +1662,8 @@
   </data>
   <data>
     <dt>13/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Loxton</departureLocation>
     <departureOdometer>140818</departureOdometer>
     <arrivalLocation>Swan Reach</arrivalLocation>
@@ -1338,6 +1672,8 @@
   </data>
   <data>
     <dt>14/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Swan Reach</departureLocation>
     <departureOdometer>140961</departureOdometer>
     <arrivalLocation>Walker Flat</arrivalLocation>
@@ -1346,6 +1682,8 @@
   </data>
   <data>
     <dt>15/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Walker Flat</departureLocation>
     <departureOdometer>140993</departureOdometer>
     <arrivalLocation>Mannum</arrivalLocation>
@@ -1354,6 +1692,8 @@
   </data>
   <data>
     <dt>18/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mannum</departureLocation>
     <departureOdometer>141087</departureOdometer>
     <arrivalLocation>Murray Bridge</arrivalLocation>
@@ -1362,6 +1702,8 @@
   </data>
   <data>
     <dt>21/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Murray Bridge</departureLocation>
     <departureOdometer>141316</departureOdometer>
     <arrivalLocation>Largs Bay</arrivalLocation>
@@ -1370,6 +1712,8 @@
   </data>
   <data>
     <dt>25/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Largs Bay</departureLocation>
     <departureOdometer>141610</departureOdometer>
     <arrivalLocation>Lower Light</arrivalLocation>
@@ -1378,6 +1722,8 @@
   </data>
   <data>
     <dt>26/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Lower Light</departureLocation>
     <departureOdometer>141663</departureOdometer>
     <arrivalLocation>Ardrossan</arrivalLocation>
@@ -1386,6 +1732,8 @@
   </data>
   <data>
     <dt>28/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ardrossan</departureLocation>
     <departureOdometer>141806</departureOdometer>
     <arrivalLocation>Edithburgh</arrivalLocation>
@@ -1394,6 +1742,8 @@
   </data>
   <data>
     <dt>31/10/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Edithburgh</departureLocation>
     <departureOdometer>142029</departureOdometer>
     <arrivalLocation>Stenhouse Bay</arrivalLocation>
@@ -1402,6 +1752,8 @@
   </data>
   <data>
     <dt>03/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Stenhouse Bay</departureLocation>
     <departureOdometer>142220</departureOdometer>
     <arrivalLocation>Point Souttar</arrivalLocation>
@@ -1410,6 +1762,8 @@
   </data>
   <data>
     <dt>05/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Point Souttar</departureLocation>
     <departureOdometer>142315</departureOdometer>
     <arrivalLocation>Minlaton</arrivalLocation>
@@ -1418,6 +1772,8 @@
   </data>
   <data>
     <dt>06/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Minlaton</departureLocation>
     <departureOdometer>142364</departureOdometer>
     <arrivalLocation>Moonta Bay</arrivalLocation>
@@ -1426,6 +1782,8 @@
   </data>
   <data>
     <dt>13/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Moonta Bay</departureLocation>
     <departureOdometer>142574</departureOdometer>
     <arrivalLocation>Blyth</arrivalLocation>
@@ -1434,6 +1792,8 @@
   </data>
   <data>
     <dt>16/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Blyth</departureLocation>
     <departureOdometer>142855</departureOdometer>
     <arrivalLocation>Burra</arrivalLocation>
@@ -1442,6 +1802,8 @@
   </data>
   <data>
     <dt>18/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Burra</departureLocation>
     <departureOdometer>143001</departureOdometer>
     <arrivalLocation>Greenock</arrivalLocation>
@@ -1450,6 +1812,8 @@
   </data>
   <data>
     <dt>21/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Greenock</departureLocation>
     <departureOdometer>143256</departureOdometer>
     <arrivalLocation>Hahndorf</arrivalLocation>
@@ -1458,6 +1822,8 @@
   </data>
   <data>
     <dt>25/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hahndorf</departureLocation>
     <departureOdometer>143437</departureOdometer>
     <arrivalLocation>Old Noarlunga</arrivalLocation>
@@ -1466,6 +1832,8 @@
   </data>
   <data>
     <dt>29/11/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Old Noarlunga</departureLocation>
     <departureOdometer>143624</departureOdometer>
     <arrivalLocation>McLaren Vale</arrivalLocation>
@@ -1474,6 +1842,8 @@
   </data>
   <data>
     <dt>03/12/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>McLaren Vale</departureLocation>
     <departureOdometer>143799</departureOdometer>
     <arrivalLocation>Rapid Bay</arrivalLocation>
@@ -1482,6 +1852,8 @@
   </data>
   <data>
     <dt>10/12/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Rapid Bay</departureLocation>
     <departureOdometer>144018</departureOdometer>
     <arrivalLocation>Port Elliot</arrivalLocation>
@@ -1490,6 +1862,8 @@
   </data>
   <data>
     <dt>14/12/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Port Elliot</departureLocation>
     <departureOdometer>144248</departureOdometer>
     <arrivalLocation>Strathalbyn</arrivalLocation>
@@ -1498,6 +1872,8 @@
   </data>
   <data>
     <dt>16/12/2021</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Strathalbyn</departureLocation>
     <departureOdometer>144364</departureOdometer>
     <arrivalLocation>Meningie</arrivalLocation>
@@ -1506,6 +1882,8 @@
   </data>
   <data>
     <dt>05/01/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Meningie</departureLocation>
     <departureOdometer>144595</departureOdometer>
     <arrivalLocation>Narrung</arrivalLocation>
@@ -1514,6 +1892,8 @@
   </data>
   <data>
     <dt>06/01/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Narrung</departureLocation>
     <departureOdometer>144634</departureOdometer>
     <arrivalLocation>Murray Bridge</arrivalLocation>
@@ -1522,6 +1902,8 @@
   </data>
   <data>
     <dt>10/01/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Murray Bridge</departureLocation>
     <departureOdometer>144897</departureOdometer>
     <arrivalLocation>Port Elliot</arrivalLocation>
@@ -1530,15 +1912,36 @@
   </data>
   <data>
     <dt>12/01/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Port Elliot</departureLocation>
     <departureOdometer>145027</departureOdometer>
     <arrivalLocation>Cape Jervis</arrivalLocation>
     <arrivalOdometer>145093</arrivalOdometer>
     <arrivalCampsite>Cape Jervis Caravan Park</arrivalCampsite>
-    <carOnly location="Kangaroo Island" dt="13/01/2022" odometer="" />
+  </data>
+  <data>
+    <dt>13/01/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Cape Jervis</departureLocation>
+    <departureOdometer>145095</departureOdometer>
+    <arrivalLocation>Kingscote</arrivalLocation>
+    <arrivalOdometer>145175</arrivalOdometer>
+    <arrivalCampsite>Kangaroo Island Housesit</arrivalCampsite>
   </data>
   <data>
     <dt>05/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Kingscote</departureLocation>
+    <departureOdometer>146467</departureOdometer>
+    <arrivalLocation>Cape Jervis</arrivalLocation>
+    <arrivalOdometer>146547</arrivalOdometer>
+    <arrivalCampsite>Cape Jervis Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Cape Jervis</departureLocation>
     <departureOdometer>146547</departureOdometer>
     <arrivalLocation>Port Augusta</arrivalLocation>
@@ -1547,6 +1950,8 @@
   </data>
   <data>
     <dt>06/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Port Augusta</departureLocation>
     <departureOdometer>146941</departureOdometer>
     <arrivalLocation>Whyalla</arrivalLocation>
@@ -1555,6 +1960,8 @@
   </data>
   <data>
     <dt>07/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Whyalla</departureLocation>
     <departureOdometer>147146</departureOdometer>
     <arrivalLocation>Whyalla</arrivalLocation>
@@ -1563,6 +1970,8 @@
   </data>
   <data>
     <dt>09/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Whyalla</departureLocation>
     <departureOdometer>147190</departureOdometer>
     <arrivalLocation>Port Gibbon</arrivalLocation>
@@ -1571,6 +1980,8 @@
   </data>
   <data>
     <dt>10/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Port Gibbon</departureLocation>
     <departureOdometer>147321</departureOdometer>
     <arrivalLocation>Tumby Bay</arrivalLocation>
@@ -1579,6 +1990,8 @@
   </data>
   <data>
     <dt>14/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Tumby Bay</departureLocation>
     <departureOdometer>147474</departureOdometer>
     <arrivalLocation>Port Lincoln</arrivalLocation>
@@ -1587,6 +2000,8 @@
   </data>
   <data>
     <dt>18/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Port Lincoln</departureLocation>
     <departureOdometer>147748</departureOdometer>
     <arrivalLocation>Coffin Bay</arrivalLocation>
@@ -1595,6 +2010,8 @@
   </data>
   <data>
     <dt>20/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Coffin Bay</departureLocation>
     <departureOdometer>147853</departureOdometer>
     <arrivalLocation>Elliston</arrivalLocation>
@@ -1603,6 +2020,8 @@
   </data>
   <data>
     <dt>21/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Elliston</departureLocation>
     <departureOdometer>148056</departureOdometer>
     <arrivalLocation>Streaky Bay</arrivalLocation>
@@ -1611,6 +2030,8 @@
   </data>
   <data>
     <dt>23/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Streaky Bay</departureLocation>
     <departureOdometer>148329</departureOdometer>
     <arrivalLocation>Perlubie Beach</arrivalLocation>
@@ -1619,6 +2040,8 @@
   </data>
   <data>
     <dt>27/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Perlubie Beach</departureLocation>
     <departureOdometer>148353</departureOdometer>
     <arrivalLocation>Streaky Bay</arrivalLocation>
@@ -1627,6 +2050,8 @@
   </data>
   <data>
     <dt>28/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Streaky Bay</departureLocation>
     <departureOdometer>148386</departureOdometer>
     <arrivalLocation>Minnipa</arrivalLocation>
@@ -1635,6 +2060,8 @@
   </data>
   <data>
     <dt>28/02/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Minnipa</departureLocation>
     <departureOdometer>148522</departureOdometer>
     <arrivalLocation>Wudinna</arrivalLocation>
@@ -1643,6 +2070,8 @@
   </data>
   <data>
     <dt>01/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Wudinna</departureLocation>
     <departureOdometer>148592</departureOdometer>
     <arrivalLocation>Wilmington</arrivalLocation>
@@ -1651,6 +2080,8 @@
   </data>
   <data>
     <dt>02/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Wilmington</departureLocation>
     <departureOdometer>148920</departureOdometer>
     <arrivalLocation>Yunta</arrivalLocation>
@@ -1659,6 +2090,8 @@
   </data>
   <data>
     <dt>03/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Yunta</departureLocation>
     <departureOdometer>149085</departureOdometer>
     <arrivalLocation>Broken Hill</arrivalLocation>
@@ -1667,6 +2100,8 @@
   </data>
   <data>
     <dt>06/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Broken Hill</departureLocation>
     <departureOdometer>149392</departureOdometer>
     <arrivalLocation>Cubba</arrivalLocation>
@@ -1675,6 +2110,8 @@
   </data>
   <data>
     <dt>07/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Cubba</departureLocation>
     <departureOdometer>149781</departureOdometer>
     <arrivalLocation>Bourke</arrivalLocation>
@@ -1683,6 +2120,8 @@
   </data>
   <data>
     <dt>08/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bourke</departureLocation>
     <departureOdometer>150035</departureOdometer>
     <arrivalLocation>Lightning Ridge</arrivalLocation>
@@ -1691,6 +2130,8 @@
   </data>
   <data>
     <dt>11/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Lightning Ridge</departureLocation>
     <departureOdometer>150392</departureOdometer>
     <arrivalLocation>Moree</arrivalLocation>
@@ -1699,6 +2140,8 @@
   </data>
   <data>
     <dt>12/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Moree</departureLocation>
     <departureOdometer>150651</departureOdometer>
     <arrivalLocation>Bingara</arrivalLocation>
@@ -1707,6 +2150,8 @@
   </data>
   <data>
     <dt>17/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bingara</departureLocation>
     <departureOdometer>150815</departureOdometer>
     <arrivalLocation>Inverell</arrivalLocation>
@@ -1715,6 +2160,8 @@
   </data>
   <data>
     <dt>18/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Inverell</departureLocation>
     <departureOdometer>150908</departureOdometer>
     <arrivalLocation>Deepwater</arrivalLocation>
@@ -1723,6 +2170,8 @@
   </data>
   <data>
     <dt>20/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Deepwater</departureLocation>
     <departureOdometer>151126</departureOdometer>
     <arrivalLocation>Tenterfield</arrivalLocation>
@@ -1731,6 +2180,8 @@
   </data>
   <data>
     <dt>22/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Tenterfield</departureLocation>
     <departureOdometer>151291</departureOdometer>
     <arrivalLocation>Jennings</arrivalLocation>
@@ -1739,6 +2190,8 @@
   </data>
   <data>
     <dt>24/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Jennings</departureLocation>
     <departureOdometer>151358</departureOdometer>
     <arrivalLocation>Stanthorpe</arrivalLocation>
@@ -1747,6 +2200,8 @@
   </data>
   <data>
     <dt>27/03/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Stanthorpe</departureLocation>
     <departureOdometer>151522</departureOdometer>
     <arrivalLocation>Cleveland</arrivalLocation>
@@ -1755,6 +2210,8 @@
   </data>
   <data>
     <dt>03/04/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Cleveland</departureLocation>
     <departureOdometer>151980</departureOdometer>
     <arrivalLocation>Salisbury</arrivalLocation>
@@ -1763,6 +2220,8 @@
   </data>
   <data>
     <dt>09/06/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salisbury</departureLocation>
     <departureOdometer>152452</departureOdometer>
     <arrivalLocation>Kerry</arrivalLocation>
@@ -1771,6 +2230,8 @@
   </data>
   <data>
     <dt>12/06/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Kerry</departureLocation>
     <departureOdometer>152526</departureOdometer>
     <arrivalLocation>Salisbury</arrivalLocation>
@@ -1779,6 +2240,8 @@
   </data>
   <data>
     <dt>25/06/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salisbury</departureLocation>
     <departureOdometer>153137</departureOdometer>
     <arrivalLocation>Bowenville</arrivalLocation>
@@ -1787,6 +2250,8 @@
   </data>
   <data>
     <dt>26/06/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bowenville</departureLocation>
     <departureOdometer>153306</departureOdometer>
     <arrivalLocation>Chinchilla</arrivalLocation>
@@ -1795,6 +2260,8 @@
   </data>
   <data>
     <dt>27/06/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Chinchilla</departureLocation>
     <departureOdometer>153422</departureOdometer>
     <arrivalLocation>Yuleba</arrivalLocation>
@@ -1803,6 +2270,8 @@
   </data>
   <data>
     <dt>28/06/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Yuleba</departureLocation>
     <departureOdometer>153559</departureOdometer>
     <arrivalLocation>Mitchell</arrivalLocation>
@@ -1811,6 +2280,8 @@
   </data>
   <data>
     <dt>29/06/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mitchell</departureLocation>
     <departureOdometer>153712</departureOdometer>
     <arrivalLocation>Charleville</arrivalLocation>
@@ -1819,6 +2290,8 @@
   </data>
   <data>
     <dt>01/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Charleville</departureLocation>
     <departureOdometer>153914</departureOdometer>
     <arrivalLocation>Quilpie</arrivalLocation>
@@ -1827,6 +2300,8 @@
   </data>
   <data>
     <dt>03/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Quilpie</departureLocation>
     <departureOdometer>154162</departureOdometer>
     <arrivalLocation>Eromanga</arrivalLocation>
@@ -1835,6 +2310,8 @@
   </data>
   <data>
     <dt>04/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Eromanga</departureLocation>
     <departureOdometer>154279</departureOdometer>
     <arrivalLocation>Windorah</arrivalLocation>
@@ -1843,6 +2320,8 @@
   </data>
   <data>
     <dt>05/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Windorah</departureLocation>
     <departureOdometer>154529</departureOdometer>
     <arrivalLocation>Farrars Creek</arrivalLocation>
@@ -1851,6 +2330,8 @@
   </data>
   <data>
     <dt>06/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Farrars Creek</departureLocation>
     <departureOdometer>154699</departureOdometer>
     <arrivalLocation>Bedourie</arrivalLocation>
@@ -1859,6 +2340,8 @@
   </data>
   <data>
     <dt>08/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bedourie</departureLocation>
     <departureOdometer>154928</departureOdometer>
     <arrivalLocation>Bedourie</arrivalLocation>
@@ -1867,6 +2350,8 @@
   </data>
   <data>
     <dt>10/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bedourie</departureLocation>
     <departureOdometer>154932</departureOdometer>
     <arrivalLocation>Georgina Crossing Sth</arrivalLocation>
@@ -1875,6 +2360,8 @@
   </data>
   <data>
     <dt>12/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Georgina Crossing Sth</departureLocation>
     <departureOdometer>155055</departureOdometer>
     <arrivalLocation>Boulia</arrivalLocation>
@@ -1883,6 +2370,8 @@
   </data>
   <data>
     <dt>18/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Boulia</departureLocation>
     <departureOdometer>155159</departureOdometer>
     <arrivalLocation>Tobermorey</arrivalLocation>
@@ -1891,6 +2380,8 @@
   </data>
   <data>
     <dt>19/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Tobermorey</departureLocation>
     <departureOdometer>155406</departureOdometer>
     <arrivalLocation>Jervois</arrivalLocation>
@@ -1899,6 +2390,8 @@
   </data>
   <data>
     <dt>20/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Jervois</departureLocation>
     <departureOdometer>155620</departureOdometer>
     <arrivalLocation>GemTree</arrivalLocation>
@@ -1907,6 +2400,8 @@
   </data>
   <data>
     <dt>22/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>GemTree</departureLocation>
     <departureOdometer>155886</departureOdometer>
     <arrivalLocation>Alice Springs</arrivalLocation>
@@ -1915,6 +2410,8 @@
   </data>
   <data>
     <dt>27/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Alice Springs</departureLocation>
     <departureOdometer>156225</departureOdometer>
     <arrivalLocation>Hugh River</arrivalLocation>
@@ -1923,6 +2420,8 @@
   </data>
   <data>
     <dt>29/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hugh River</departureLocation>
     <departureOdometer>156346</departureOdometer>
     <arrivalLocation>Neil Hargraves</arrivalLocation>
@@ -1931,6 +2430,8 @@
   </data>
   <data>
     <dt>30/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Neil Hargraves</departureLocation>
     <departureOdometer>156468</departureOdometer>
     <arrivalLocation>Gosse Bluff</arrivalLocation>
@@ -1939,6 +2440,8 @@
   </data>
   <data>
     <dt>31/07/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Gosse Bluff</departureLocation>
     <departureOdometer>156564</departureOdometer>
     <arrivalLocation>Ginty's Lookout</arrivalLocation>
@@ -1947,6 +2450,8 @@
   </data>
   <data>
     <dt>01/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ginty's Lookout</departureLocation>
     <departureOdometer>156699</departureOdometer>
     <arrivalLocation>Kings Canyon</arrivalLocation>
@@ -1955,6 +2460,8 @@
   </data>
   <data>
     <dt>02/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Kings Canyon</departureLocation>
     <departureOdometer>156746</departureOdometer>
     <arrivalLocation>Salt Creek</arrivalLocation>
@@ -1963,6 +2470,8 @@
   </data>
   <data>
     <dt>03/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Salt Creek</departureLocation>
     <departureOdometer>156877</departureOdometer>
     <arrivalLocation>Yularu</arrivalLocation>
@@ -1971,6 +2480,8 @@
   </data>
   <data>
     <dt>06/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Yularu</departureLocation>
     <departureOdometer>157318</departureOdometer>
     <arrivalLocation>Kulgera</arrivalLocation>
@@ -1979,6 +2490,8 @@
   </data>
   <data>
     <dt>07/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Kulgera</departureLocation>
     <departureOdometer>157631</departureOdometer>
     <arrivalLocation>Coober Pedy</arrivalLocation>
@@ -1987,6 +2500,8 @@
   </data>
   <data>
     <dt>08/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Coober Pedy</departureLocation>
     <departureOdometer>158036</departureOdometer>
     <arrivalLocation>Lake Hart</arrivalLocation>
@@ -1995,6 +2510,8 @@
   </data>
   <data>
     <dt>09/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Lake Hart</departureLocation>
     <departureOdometer>158357</departureOdometer>
     <arrivalLocation>Crystal Brook</arrivalLocation>
@@ -2003,6 +2520,8 @@
   </data>
   <data>
     <dt>10/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Crystal Brook</departureLocation>
     <departureOdometer>158671</departureOdometer>
     <arrivalLocation>Murray Bridge</arrivalLocation>
@@ -2011,6 +2530,8 @@
   </data>
   <data>
     <dt>11/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Murray Bridge</departureLocation>
     <departureOdometer>158947</departureOdometer>
     <arrivalLocation>Bordertown</arrivalLocation>
@@ -2019,6 +2540,8 @@
   </data>
   <data>
     <dt>12/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bordertown</departureLocation>
     <departureOdometer>159138</departureOdometer>
     <arrivalLocation>Ararat</arrivalLocation>
@@ -2027,6 +2550,8 @@
   </data>
   <data>
     <dt>13/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ararat</departureLocation>
     <departureOdometer>159394</departureOdometer>
     <arrivalLocation>RockBank</arrivalLocation>
@@ -2035,6 +2560,8 @@
   </data>
   <data>
     <dt>15/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>RockBank</departureLocation>
     <departureOdometer>159595</departureOdometer>
     <arrivalLocation>Campbellfield</arrivalLocation>
@@ -2043,6 +2570,8 @@
   </data>
   <data>
     <dt>15/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Campbellfield</departureLocation>
     <departureOdometer>159694</departureOdometer>
     <arrivalLocation>Beverage</arrivalLocation>
@@ -2051,6 +2580,8 @@
   </data>
   <data>
     <dt>16/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Beverage</departureLocation>
     <departureOdometer>159722</departureOdometer>
     <arrivalLocation>Beverage</arrivalLocation>
@@ -2059,6 +2590,8 @@
   </data>
   <data>
     <dt>17/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Beverage</departureLocation>
     <departureOdometer>159822</departureOdometer>
     <arrivalLocation>Somerton</arrivalLocation>
@@ -2067,6 +2600,8 @@
   </data>
   <data>
     <dt>17/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Somerton</departureLocation>
     <departureOdometer>159876</departureOdometer>
     <arrivalLocation>Coburg</arrivalLocation>
@@ -2075,6 +2610,8 @@
   </data>
   <data>
     <dt>19/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Coburg</departureLocation>
     <departureOdometer>159928</departureOdometer>
     <arrivalLocation>Clayton</arrivalLocation>
@@ -2083,6 +2620,8 @@
   </data>
   <data>
     <dt>19/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Clayton</departureLocation>
     <departureOdometer>159995</departureOdometer>
     <arrivalLocation>Broadford</arrivalLocation>
@@ -2091,6 +2630,8 @@
   </data>
   <data>
     <dt>20/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Broadford</departureLocation>
     <departureOdometer>160107</departureOdometer>
     <arrivalLocation>Kilmore</arrivalLocation>
@@ -2099,6 +2640,8 @@
   </data>
   <data>
     <dt>26/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Kilmore</departureLocation>
     <departureOdometer>160141</departureOdometer>
     <arrivalLocation>Glenlyon</arrivalLocation>
@@ -2107,6 +2650,8 @@
   </data>
   <data>
     <dt>27/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Glenlyon</departureLocation>
     <departureOdometer>160219</departureOdometer>
     <arrivalLocation>Ballarat</arrivalLocation>
@@ -2115,6 +2660,8 @@
   </data>
   <data>
     <dt>30/08/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ballarat</departureLocation>
     <departureOdometer>160321</departureOdometer>
     <arrivalLocation>Halls Gap</arrivalLocation>
@@ -2123,6 +2670,8 @@
   </data>
   <data>
     <dt>02/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Halls Gap</departureLocation>
     <departureOdometer>160587</departureOdometer>
     <arrivalLocation>Dunkeld</arrivalLocation>
@@ -2131,6 +2680,8 @@
   </data>
   <data>
     <dt>04/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Dunkeld</departureLocation>
     <departureOdometer>160726</departureOdometer>
     <arrivalLocation>Byaduk</arrivalLocation>
@@ -2139,6 +2690,8 @@
   </data>
   <data>
     <dt>05/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Byaduk</departureLocation>
     <departureOdometer>160865</departureOdometer>
     <arrivalLocation>Port Fairy</arrivalLocation>
@@ -2147,6 +2700,8 @@
   </data>
   <data>
     <dt>08/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Port Fairy</departureLocation>
     <departureOdometer>161093</departureOdometer>
     <arrivalLocation>Portland</arrivalLocation>
@@ -2155,6 +2710,8 @@
   </data>
   <data>
     <dt>11/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Portland</departureLocation>
     <departureOdometer>161227</departureOdometer>
     <arrivalLocation>Mount Gambier</arrivalLocation>
@@ -2163,6 +2720,8 @@
   </data>
   <data>
     <dt>14/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mount Gambier</departureLocation>
     <departureOdometer>161540</departureOdometer>
     <arrivalLocation>Penola</arrivalLocation>
@@ -2171,6 +2730,8 @@
   </data>
   <data>
     <dt>16/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Penola</departureLocation>
     <departureOdometer>161660</departureOdometer>
     <arrivalLocation>Naracoorte</arrivalLocation>
@@ -2179,6 +2740,8 @@
   </data>
   <data>
     <dt>18/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Naracoorte</departureLocation>
     <departureOdometer>161739</departureOdometer>
     <arrivalLocation>Narrung</arrivalLocation>
@@ -2187,6 +2750,8 @@
   </data>
   <data>
     <dt>19/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Narrung</departureLocation>
     <departureOdometer>162008</departureOdometer>
     <arrivalLocation>Langhorne Creek</arrivalLocation>
@@ -2195,6 +2760,8 @@
   </data>
   <data>
     <dt>22/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Langhorne Creek</departureLocation>
     <departureOdometer>162091</departureOdometer>
     <arrivalLocation>Victor Harbor</arrivalLocation>
@@ -2203,6 +2770,8 @@
   </data>
   <data>
     <dt>25/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Victor Harbor</departureLocation>
     <departureOdometer>162184</departureOdometer>
     <arrivalLocation>Mount Compass</arrivalLocation>
@@ -2211,6 +2780,8 @@
   </data>
   <data>
     <dt>27/09/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mount Compass</departureLocation>
     <departureOdometer>162219</departureOdometer>
     <arrivalLocation>McLaren Vale</arrivalLocation>
@@ -2219,6 +2790,8 @@
   </data>
   <data>
     <dt>08/10/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>McLaren Vale</departureLocation>
     <departureOdometer>162503</departureOdometer>
     <arrivalLocation>Kingston SE</arrivalLocation>
@@ -2227,6 +2800,8 @@
   </data>
   <data>
     <dt>10/10/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Kingston SE</departureLocation>
     <departureOdometer>162864</departureOdometer>
     <arrivalLocation>Beachport</arrivalLocation>
@@ -2235,6 +2810,8 @@
   </data>
   <data>
     <dt>12/10/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Beachport</departureLocation>
     <departureOdometer>162977</departureOdometer>
     <arrivalLocation>Peterborough</arrivalLocation>
@@ -2243,6 +2820,8 @@
   </data>
   <data>
     <dt>16/10/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Peterborough</departureLocation>
     <departureOdometer>163532</departureOdometer>
     <arrivalLocation>Johanna Beach</arrivalLocation>
@@ -2251,6 +2830,8 @@
   </data>
   <data>
     <dt>18/10/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Johanna Beach</departureLocation>
     <departureOdometer>163772</departureOdometer>
     <arrivalLocation>Apollo Bay</arrivalLocation>
@@ -2259,6 +2840,8 @@
   </data>
   <data>
     <dt>20/10/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Apollo Bay</departureLocation>
     <departureOdometer>163924</departureOdometer>
     <arrivalLocation>Gherang</arrivalLocation>
@@ -2267,6 +2850,8 @@
   </data>
   <data>
     <dt>29/10/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Gherang</departureLocation>
     <departureOdometer>164173</departureOdometer>
     <arrivalLocation>Inverleigh</arrivalLocation>
@@ -2275,6 +2860,8 @@
   </data>
   <data>
     <dt>31/10/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Inverleigh</departureLocation>
     <departureOdometer>164207</departureOdometer>
     <arrivalLocation>Rockbank</arrivalLocation>
@@ -2283,6 +2870,8 @@
   </data>
   <data>
     <dt>09/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Rockbank</departureLocation>
     <departureOdometer>164426</departureOdometer>
     <arrivalLocation>Geelong</arrivalLocation>
@@ -2291,6 +2880,8 @@
   </data>
   <data>
     <dt>09/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Geelong</departureLocation>
     <departureOdometer>164620</departureOdometer>
     <arrivalLocation>Geelong</arrivalLocation>
@@ -2299,6 +2890,8 @@
   </data>
   <data>
     <dt>12/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Geelong</departureLocation>
     <departureOdometer>164673</departureOdometer>
     <arrivalLocation>Devonport</arrivalLocation>
@@ -2307,6 +2900,8 @@
   </data>
   <data>
     <dt>14/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Devonport</departureLocation>
     <departureOdometer>164704</departureOdometer>
     <arrivalLocation>Devonport</arrivalLocation>
@@ -2315,6 +2910,8 @@
   </data>
   <data>
     <dt>16/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Devonport</departureLocation>
     <departureOdometer>164756</departureOdometer>
     <arrivalLocation>Exeter</arrivalLocation>
@@ -2323,6 +2920,8 @@
   </data>
   <data>
     <dt>21/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Exeter</departureLocation>
     <departureOdometer>165203</departureOdometer>
     <arrivalLocation>Youngtown</arrivalLocation>
@@ -2331,6 +2930,8 @@
   </data>
   <data>
     <dt>21/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Youngtown</departureLocation>
     <departureOdometer>165255</departureOdometer>
     <arrivalLocation>Hadspen</arrivalLocation>
@@ -2339,6 +2940,8 @@
   </data>
   <data>
     <dt>22/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hadspen</departureLocation>
     <departureOdometer>165300</departureOdometer>
     <arrivalLocation>Youngtown</arrivalLocation>
@@ -2347,6 +2950,8 @@
   </data>
   <data>
     <dt>22/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Youngtown</departureLocation>
     <departureOdometer>165372</departureOdometer>
     <arrivalLocation>Hadspen</arrivalLocation>
@@ -2355,6 +2960,8 @@
   </data>
   <data>
     <dt>23/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hadspen</departureLocation>
     <departureOdometer>165386</departureOdometer>
     <arrivalLocation>Youngtown</arrivalLocation>
@@ -2363,6 +2970,8 @@
   </data>
   <data>
     <dt>23/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Youngtown</departureLocation>
     <departureOdometer>165435</departureOdometer>
     <arrivalLocation>Evandale</arrivalLocation>
@@ -2371,6 +2980,8 @@
   </data>
   <data>
     <dt>25/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Evandale</departureLocation>
     <departureOdometer>165457</departureOdometer>
     <arrivalLocation>Perth</arrivalLocation>
@@ -2379,6 +2990,8 @@
   </data>
   <data>
     <dt>26/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Perth</departureLocation>
     <departureOdometer>165535</departureOdometer>
     <arrivalLocation>Perth</arrivalLocation>
@@ -2387,6 +3000,8 @@
   </data>
   <data>
     <dt>28/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Perth</departureLocation>
     <departureOdometer>165623</departureOdometer>
     <arrivalLocation>Evandale</arrivalLocation>
@@ -2395,6 +3010,8 @@
   </data>
   <data>
     <dt>29/11/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Evandale</departureLocation>
     <departureOdometer>165633</departureOdometer>
     <arrivalLocation>Scottsdale</arrivalLocation>
@@ -2403,6 +3020,8 @@
   </data>
   <data>
     <dt>05/12/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Scottsdale</departureLocation>
     <departureOdometer>166162</departureOdometer>
     <arrivalLocation>Evandale</arrivalLocation>
@@ -2411,6 +3030,8 @@
   </data>
   <data>
     <dt>08/12/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Evandale</departureLocation>
     <departureOdometer>166362</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2419,6 +3040,8 @@
   </data>
   <data>
     <dt>13/12/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>166750</departureOdometer>
     <arrivalLocation>Campbell Town</arrivalLocation>
@@ -2427,6 +3050,8 @@
   </data>
   <data>
     <dt>14/12/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Campbell Town</departureLocation>
     <departureOdometer>166817</departureOdometer>
     <arrivalLocation>Oatlands</arrivalLocation>
@@ -2435,6 +3060,8 @@
   </data>
   <data>
     <dt>17/12/2022</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Oatlands</departureLocation>
     <departureOdometer>166896</departureOdometer>
     <arrivalLocation>Kingston</arrivalLocation>
@@ -2443,6 +3070,8 @@
   </data>
   <data>
     <dt>10/01/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Kingston</departureLocation>
     <departureOdometer>168006</departureOdometer>
     <arrivalLocation>Mount Field NP</arrivalLocation>
@@ -2451,6 +3080,8 @@
   </data>
   <data>
     <dt>16/01/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mount Field NP</departureLocation>
     <departureOdometer>168262</departureOdometer>
     <arrivalLocation>Miena</arrivalLocation>
@@ -2459,6 +3090,8 @@
   </data>
   <data>
     <dt>18/01/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Miena</departureLocation>
     <departureOdometer>168456</departureOdometer>
     <arrivalLocation>Deloraine</arrivalLocation>
@@ -2467,6 +3100,8 @@
   </data>
   <data>
     <dt>22/01/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Deloraine</departureLocation>
     <departureOdometer>168620</departureOdometer>
     <arrivalLocation>Launceston</arrivalLocation>
@@ -2475,6 +3110,8 @@
   </data>
   <data>
     <dt>01/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Launceston</departureLocation>
     <departureOdometer>169029</departureOdometer>
     <arrivalLocation>Launceston</arrivalLocation>
@@ -2483,6 +3120,8 @@
   </data>
   <data>
     <dt>14/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Launceston</departureLocation>
     <departureOdometer>169045</departureOdometer>
     <arrivalLocation>Evandale</arrivalLocation>
@@ -2491,6 +3130,8 @@
   </data>
   <data>
     <dt>16/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Evandale</departureLocation>
     <departureOdometer>169102</departureOdometer>
     <arrivalLocation>Four Mile Creek</arrivalLocation>
@@ -2499,6 +3140,8 @@
   </data>
   <data>
     <dt>19/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Four Mile Creek</departureLocation>
     <departureOdometer>169285</departureOdometer>
     <arrivalLocation>St Helens</arrivalLocation>
@@ -2507,6 +3150,8 @@
   </data>
   <data>
     <dt>21/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>St Helens</departureLocation>
     <departureOdometer>169395</departureOdometer>
     <arrivalLocation>EvanDale</arrivalLocation>
@@ -2515,6 +3160,8 @@
   </data>
   <data>
     <dt>23/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>EvanDale</departureLocation>
     <departureOdometer>169655</departureOdometer>
     <arrivalLocation>Turners Beach</arrivalLocation>
@@ -2523,6 +3170,8 @@
   </data>
   <data>
     <dt>24/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Turners Beach</departureLocation>
     <departureOdometer>169821</departureOdometer>
     <arrivalLocation>Ulverstone</arrivalLocation>
@@ -2531,6 +3180,8 @@
   </data>
   <data>
     <dt>24/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Ulverstone</departureLocation>
     <departureOdometer>169853</departureOdometer>
     <arrivalLocation>Myalla</arrivalLocation>
@@ -2539,6 +3190,8 @@
   </data>
   <data>
     <dt>25/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Myalla</departureLocation>
     <departureOdometer>169917</departureOdometer>
     <arrivalLocation>Turners Beach</arrivalLocation>
@@ -2547,6 +3200,8 @@
   </data>
   <data>
     <dt>28/02/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Turners Beach</departureLocation>
     <departureOdometer>170092</departureOdometer>
     <arrivalLocation>Launceston</arrivalLocation>
@@ -2555,6 +3210,8 @@
   </data>
   <data>
     <dt>07/03/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Launceston</departureLocation>
     <departureOdometer>170622</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2563,6 +3220,8 @@
   </data>
   <data>
     <dt>20/03/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>170906</departureOdometer>
     <arrivalLocation>Campbell Town</arrivalLocation>
@@ -2571,6 +3230,8 @@
   </data>
   <data>
     <dt>21/03/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Campbell Town</departureLocation>
     <departureOdometer>170992</departureOdometer>
     <arrivalLocation>Youngtown</arrivalLocation>
@@ -2579,6 +3240,8 @@
   </data>
   <data>
     <dt>21/03/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Youngtown</departureLocation>
     <departureOdometer>171061</departureOdometer>
     <arrivalLocation>Hillwood</arrivalLocation>
@@ -2587,6 +3250,8 @@
   </data>
   <data>
     <dt>05/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hillwood</departureLocation>
     <departureOdometer>171534</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2595,6 +3260,8 @@
   </data>
   <data>
     <dt>13/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>171799</departureOdometer>
     <arrivalLocation>Four Mile Creek</arrivalLocation>
@@ -2603,6 +3270,8 @@
   </data>
   <data>
     <dt>14/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Four Mile Creek</departureLocation>
     <departureOdometer>171840</departureOdometer>
     <arrivalLocation>Freycinet</arrivalLocation>
@@ -2611,6 +3280,8 @@
   </data>
   <data>
     <dt>17/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Freycinet</departureLocation>
     <departureOdometer>171980</departureOdometer>
     <arrivalLocation>Rocky Hills</arrivalLocation>
@@ -2619,6 +3290,8 @@
   </data>
   <data>
     <dt>19/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Rocky Hills</departureLocation>
     <departureOdometer>172120</departureOdometer>
     <arrivalLocation>Triabunna</arrivalLocation>
@@ -2627,6 +3300,8 @@
   </data>
   <data>
     <dt>20/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Triabunna</departureLocation>
     <departureOdometer>172282</departureOdometer>
     <arrivalLocation>Nubeena</arrivalLocation>
@@ -2635,6 +3310,8 @@
   </data>
   <data>
     <dt>24/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Nubeena</departureLocation>
     <departureOdometer>172567</departureOdometer>
     <arrivalLocation>Sorell</arrivalLocation>
@@ -2643,6 +3320,8 @@
   </data>
   <data>
     <dt>25/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Sorell</departureLocation>
     <departureOdometer>172661</departureOdometer>
     <arrivalLocation>Geevston</arrivalLocation>
@@ -2651,6 +3330,8 @@
   </data>
   <data>
     <dt>27/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Geevston</departureLocation>
     <departureOdometer>172798</departureOdometer>
     <arrivalLocation>Huonville</arrivalLocation>
@@ -2659,6 +3340,8 @@
   </data>
   <data>
     <dt>28/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Huonville</departureLocation>
     <departureOdometer>172822</departureOdometer>
     <arrivalLocation>Franklin</arrivalLocation>
@@ -2667,6 +3350,8 @@
   </data>
   <data>
     <dt>29/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Franklin</departureLocation>
     <departureOdometer>172877</departureOdometer>
     <arrivalLocation>Hobart</arrivalLocation>
@@ -2675,6 +3360,8 @@
   </data>
   <data>
     <dt>29/04/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hobart</departureLocation>
     <departureOdometer>172948</departureOdometer>
     <arrivalLocation>National Park</arrivalLocation>
@@ -2683,6 +3370,8 @@
   </data>
   <data>
     <dt>02/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>National Park</departureLocation>
     <departureOdometer>173044</departureOdometer>
     <arrivalLocation>Campbell Town</arrivalLocation>
@@ -2691,6 +3380,8 @@
   </data>
   <data>
     <dt>03/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Campbell Town</departureLocation>
     <departureOdometer>173326</departureOdometer>
     <arrivalLocation>Hagley</arrivalLocation>
@@ -2699,6 +3390,8 @@
   </data>
   <data>
     <dt>08/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hagley</departureLocation>
     <departureOdometer>173532</departureOdometer>
     <arrivalLocation>Mole Creek</arrivalLocation>
@@ -2707,6 +3400,8 @@
   </data>
   <data>
     <dt>11/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Mole Creek</departureLocation>
     <departureOdometer>173736</departureOdometer>
     <arrivalLocation>Deloraine</arrivalLocation>
@@ -2715,6 +3410,8 @@
   </data>
   <data>
     <dt>13/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Deloraine</departureLocation>
     <departureOdometer>173920</departureOdometer>
     <arrivalLocation>Moina</arrivalLocation>
@@ -2723,6 +3420,8 @@
   </data>
   <data>
     <dt>15/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Moina</departureLocation>
     <departureOdometer>174058</departureOdometer>
     <arrivalLocation>Waratah</arrivalLocation>
@@ -2731,6 +3430,8 @@
   </data>
   <data>
     <dt>17/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Waratah</departureLocation>
     <departureOdometer>174160</departureOdometer>
     <arrivalLocation>Burnie</arrivalLocation>
@@ -2739,6 +3440,8 @@
   </data>
   <data>
     <dt>17/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Burnie</departureLocation>
     <departureOdometer>174234</departureOdometer>
     <arrivalLocation>Stanley</arrivalLocation>
@@ -2747,6 +3450,8 @@
   </data>
   <data>
     <dt>19/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Stanley</departureLocation>
     <departureOdometer>174325</departureOdometer>
     <arrivalLocation>Arthur River</arrivalLocation>
@@ -2755,6 +3460,8 @@
   </data>
   <data>
     <dt>21/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Arthur River</departureLocation>
     <departureOdometer>174451</departureOdometer>
     <arrivalLocation>Smithtown</arrivalLocation>
@@ -2763,6 +3470,8 @@
   </data>
   <data>
     <dt>22/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Smithtown</departureLocation>
     <departureOdometer>174525</departureOdometer>
     <arrivalLocation>Hagley</arrivalLocation>
@@ -2771,6 +3480,8 @@
   </data>
   <data>
     <dt>24/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Hagley</departureLocation>
     <departureOdometer>174720</departureOdometer>
     <arrivalLocation>Youngtown</arrivalLocation>
@@ -2779,6 +3490,8 @@
   </data>
   <data>
     <dt>24/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Youngtown</departureLocation>
     <departureOdometer>174788</departureOdometer>
     <arrivalLocation>EvanDale</arrivalLocation>
@@ -2787,6 +3500,8 @@
   </data>
   <data>
     <dt>25/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>EvanDale</departureLocation>
     <departureOdometer>174800</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2795,6 +3510,8 @@
   </data>
   <data>
     <dt>27/05/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>174898</departureOdometer>
     <arrivalLocation>Upper Scamander</arrivalLocation>
@@ -2803,6 +3520,8 @@
   </data>
   <data>
     <dt>26/06/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Upper Scamander</departureLocation>
     <departureOdometer>175533</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2811,6 +3530,8 @@
   </data>
   <data>
     <dt>29/06/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>175627</departureOdometer>
     <arrivalLocation>Launceston</arrivalLocation>
@@ -2819,6 +3540,8 @@
   </data>
   <data>
     <dt>29/06/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Launceston</departureLocation>
     <departureOdometer>175757</departureOdometer>
     <arrivalLocation>Deloraine</arrivalLocation>
@@ -2827,6 +3550,8 @@
   </data>
   <data>
     <dt>30/06/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Deloraine</departureLocation>
     <departureOdometer>175808</departureOdometer>
     <arrivalLocation>Sheffield</arrivalLocation>
@@ -2835,6 +3560,8 @@
   </data>
   <data>
     <dt>02/07/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Sheffield</departureLocation>
     <departureOdometer>175883</departureOdometer>
     <arrivalLocation>Devonport</arrivalLocation>
@@ -2843,6 +3570,8 @@
   </data>
   <data>
     <dt>06/07/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Devonport</departureLocation>
     <departureOdometer>176065</departureOdometer>
     <arrivalLocation>North Motton</arrivalLocation>
@@ -2851,6 +3580,8 @@
   </data>
   <data>
     <dt>04/09/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>North Motton</departureLocation>
     <departureOdometer>176988</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2859,6 +3590,8 @@
   </data>
   <data>
     <dt>08/09/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>177343</departureOdometer>
     <arrivalLocation>Bay of Fires</arrivalLocation>
@@ -2867,6 +3600,8 @@
   </data>
   <data>
     <dt>12/09/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Bay of Fires</departureLocation>
     <departureOdometer>177488</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2875,6 +3610,8 @@
   </data>
   <data>
     <dt>27/09/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>178314</departureOdometer>
     <arrivalLocation>Derby</arrivalLocation>
@@ -2883,6 +3620,8 @@
   </data>
   <data>
     <dt>01/10/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Derby</departureLocation>
     <departureOdometer>178543</departureOdometer>
     <arrivalLocation>Pyengana</arrivalLocation>
@@ -2891,6 +3630,8 @@
   </data>
   <data>
     <dt>02/10/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Pyengana</departureLocation>
     <departureOdometer>178624</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2899,6 +3640,8 @@
   </data>
   <data>
     <dt>06/10/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>178772</departureOdometer>
     <arrivalLocation>Deloraine</arrivalLocation>
@@ -2907,6 +3650,8 @@
   </data>
   <data>
     <dt>07/10/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Deloraine</departureLocation>
     <departureOdometer>178910</departureOdometer>
     <arrivalLocation>Turners Beach</arrivalLocation>
@@ -2915,6 +3660,8 @@
   </data>
   <data>
     <dt>10/10/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Turners Beach</departureLocation>
     <departureOdometer>179163</departureOdometer>
     <arrivalLocation>Sorell</arrivalLocation>
@@ -2923,6 +3670,8 @@
   </data>
   <data>
     <dt>16/10/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Sorell</departureLocation>
     <departureOdometer>179637</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
@@ -2931,6 +3680,8 @@
   </data>
   <data>
     <dt>31/10/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>180442</departureOdometer>
     <arrivalLocation>Launceston</arrivalLocation>
@@ -2939,21 +3690,90 @@
   </data>
   <data>
     <dt>11/11/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Launceston</departureLocation>
     <departureOdometer>180813</departureOdometer>
     <arrivalLocation>Fingal</arrivalLocation>
     <arrivalOdometer>180920</arrivalOdometer>
     <arrivalCampsite>Fingal Park</arrivalCampsite>
-    <carOnly location="Devonport" dt="17/11/2023" odometer="181202" />
-    <carOnly location="Yass" dt="18/11/2023" odometer="181868" />
-    <carOnly location="Laurieton" dt="19/11/2023" odometer="182506" />
-    <carOnly location="Ormiston" dt="20/11/2023" odometer="183070" />
-    <carOnly location="Kew" dt="14/02/2024" odometer="184126" />
-    <carOnly location="Gundagai" dt="15/02/2024" odometer="184823" />
-    <carOnly location="Geelong" dt="16/02/2024" odometer="185387" />
+  </data>
+  <data>
+    <dt>17/11/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>181017</departureOdometer>
+    <arrivalLocation>Devonport</arrivalLocation>
+    <arrivalOdometer>181202</arrivalOdometer>
+    <arrivalCampsite>Mersey Bluff Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/11/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Devonport</departureLocation>
+    <departureOdometer>181202</departureOdometer>
+    <arrivalLocation>Yass</arrivalLocation>
+    <arrivalOdometer>181868</arrivalOdometer>
+    <arrivalCampsite>Australian Hotel Motel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/11/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Yass</departureLocation>
+    <departureOdometer>181868</departureOdometer>
+    <arrivalLocation>Laurieton</arrivalLocation>
+    <arrivalOdometer>182506</arrivalOdometer>
+    <arrivalCampsite>Laurieton Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/11/2023</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Laurieton</departureLocation>
+    <departureOdometer>182531</departureOdometer>
+    <arrivalLocation>Salisbury</arrivalLocation>
+    <arrivalOdometer>183070</arrivalOdometer>
+    <arrivalCampsite>Car &amp; Caravan Storage</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/02/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Salisbury</departureLocation>
+    <departureOdometer>183531</departureOdometer>
+    <arrivalLocation>Kew</arrivalLocation>
+    <arrivalOdometer>184126</arrivalOdometer>
+    <arrivalCampsite>Peter &amp; Elizabeth's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/02/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Kew</departureLocation>
+    <departureOdometer>184126</departureOdometer>
+    <arrivalLocation>Gundagai</arrivalLocation>
+    <arrivalOdometer>184823</arrivalOdometer>
+    <arrivalCampsite>Criterion Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/02/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Gundagai</departureLocation>
+    <departureOdometer>184823</departureOdometer>
+    <arrivalLocation>Geelong</arrivalLocation>
+    <arrivalOdometer>185387</arrivalOdometer>
+    <arrivalCampsite>Geelong Surfcoast Hwy Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/02/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Geelong</departureLocation>
+    <departureOdometer>185397</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>185600</arrivalOdometer>
+    <arrivalCampsite>Fingal Park</arrivalCampsite>
   </data>
   <data>
     <dt>20/02/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Fingal</departureLocation>
     <departureOdometer>185726</departureOdometer>
     <arrivalLocation>Turners Beach</arrivalLocation>
@@ -2962,6 +3782,8 @@
   </data>
   <data>
     <dt>22/02/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Turners Beach</departureLocation>
     <departureOdometer>185982</departureOdometer>
     <transit location="Spirit of Tasmania" odometer="186004" />
@@ -2972,12 +3794,2032 @@
   </data>
   <data>
     <dt>23/02/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
     <departureLocation>Currum Downs</departureLocation>
     <departureOdometer>186135</departureOdometer>
     <arrivalLocation>St Andrews Beach</arrivalLocation>
     <arrivalOdometer>186201</arrivalOdometer>
     <arrivalCampsite>St Andrews Beach Housesit</arrivalCampsite>
   </data>
+  <data>
+    <dt>29/02/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>St Andrews Beach</departureLocation>
+    <departureOdometer>186454</departureOdometer>
+    <arrivalLocation>Cowes</arrivalLocation>
+    <arrivalOdometer>186590</arrivalOdometer>
+    <arrivalCampsite>Beach Park Tourist Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Cowes</departureLocation>
+    <departureOdometer>186678</departureOdometer>
+    <arrivalLocation>Venus Bay</arrivalLocation>
+    <arrivalOdometer>186755</arrivalOdometer>
+    <arrivalCampsite>Venus Bay Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Venus Bay</departureLocation>
+    <departureOdometer>186755</departureOdometer>
+    <arrivalLocation>Tidal River</arrivalLocation>
+    <arrivalOdometer>186837</arrivalOdometer>
+    <arrivalCampsite>Tidal River Campground (Wilsons Prom.)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Tidal River</departureLocation>
+    <departureOdometer>186903</departureOdometer>
+    <arrivalLocation>Port Albert</arrivalLocation>
+    <arrivalOdometer>187011</arrivalOdometer>
+    <arrivalCampsite>Port Albert RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Port Albert</departureLocation>
+    <departureOdometer>187011</departureOdometer>
+    <arrivalLocation>Sale</arrivalLocation>
+    <arrivalOdometer>187096</arrivalOdometer>
+    <arrivalCampsite>Sale Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Sale</departureLocation>
+    <departureOdometer>187245</departureOdometer>
+    <arrivalLocation>Lakes Entrance</arrivalLocation>
+    <arrivalOdometer>187345</arrivalOdometer>
+    <arrivalCampsite>Lakes Entrance Recreation &amp; Camping Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lakes Entrance</departureLocation>
+    <departureOdometer>187366</departureOdometer>
+    <arrivalLocation>Omeo</arrivalLocation>
+    <arrivalOdometer>187490</arrivalOdometer>
+    <arrivalCampsite>Hilltop Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Omeo</departureLocation>
+    <departureOdometer>187610</departureOdometer>
+    <arrivalLocation>Bright</arrivalLocation>
+    <arrivalOdometer>187710</arrivalOdometer>
+    <arrivalCampsite>Freeburgh Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Bright</departureLocation>
+    <departureOdometer>188014</departureOdometer>
+    <arrivalLocation>Beechworth</arrivalLocation>
+    <arrivalOdometer>188086</arrivalOdometer>
+    <arrivalCampsite>Lake Sambell Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Beechworth</departureLocation>
+    <departureOdometer>188166</departureOdometer>
+    <arrivalLocation>Lake Hume</arrivalLocation>
+    <arrivalOdometer>188218</arrivalOdometer>
+    <arrivalCampsite>Ludlows Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lake Hume</departureLocation>
+    <departureOdometer>188413</departureOdometer>
+    <arrivalLocation>Corowa/Wahgunyah</arrivalLocation>
+    <arrivalOdometer>188495</arrivalOdometer>
+    <arrivalCampsite>The Willows Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/03/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Corowa/Wahgunyah</departureLocation>
+    <departureOdometer>188553</departureOdometer>
+    <arrivalLocation>Yarroweyah</arrivalLocation>
+    <arrivalOdometer>188636</arrivalOdometer>
+    <arrivalCampsite>Yarroweyah Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Yarroweyah</departureLocation>
+    <departureOdometer>189029</departureOdometer>
+    <arrivalLocation>Echuca</arrivalLocation>
+    <arrivalOdometer>189132</arrivalOdometer>
+    <arrivalCampsite>Rotary Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Echuca</departureLocation>
+    <departureOdometer>189167</departureOdometer>
+    <arrivalLocation>Lake Boga</arrivalLocation>
+    <arrivalOdometer>189309</arrivalOdometer>
+    <arrivalCampsite>Lake Boga Area 5 Unpowered</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lake Boga</departureLocation>
+    <departureOdometer>189417</departureOdometer>
+    <arrivalLocation>Midura</arrivalLocation>
+    <arrivalOdometer>189657</arrivalOdometer>
+    <arrivalCampsite>Bruces Bend Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Midura</departureLocation>
+    <departureOdometer>189816</departureOdometer>
+    <arrivalLocation>Murhto</arrivalLocation>
+    <arrivalOdometer>189977</arrivalOdometer>
+    <arrivalCampsite>Murhto Forest Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Murhto</departureLocation>
+    <departureOdometer>190018</departureOdometer>
+    <arrivalLocation>Lake Bonney, Barmera</arrivalLocation>
+    <arrivalOdometer>190071</arrivalOdometer>
+    <arrivalCampsite>Lake Vista Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lake Bonney, Barmera</departureLocation>
+    <departureOdometer>190297</departureOdometer>
+    <arrivalLocation>Burra</arrivalLocation>
+    <arrivalOdometer>190469</arrivalOdometer>
+    <arrivalCampsite>Bon Acord Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Burra</departureLocation>
+    <departureOdometer>190469</departureOdometer>
+    <arrivalLocation>Murray Town</arrivalLocation>
+    <arrivalOdometer>190602</arrivalOdometer>
+    <arrivalCampsite>Doughboy Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Murray Town</departureLocation>
+    <departureOdometer>190602</departureOdometer>
+    <arrivalLocation>Port Augusta</arrivalLocation>
+    <arrivalOdometer>190673</arrivalOdometer>
+    <arrivalCampsite>Augusta Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/04/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Port Augusta</departureLocation>
+    <departureOdometer>190692</departureOdometer>
+    <arrivalLocation>Rawnsley Park</arrivalLocation>
+    <arrivalOdometer>190827</arrivalOdometer>
+    <arrivalCampsite>Rawnsley Park Station</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Rawnsley Park</departureLocation>
+    <departureOdometer>191024</departureOdometer>
+    <arrivalLocation>Trezona</arrivalLocation>
+    <arrivalOdometer>191083</arrivalOdometer>
+    <arrivalCampsite>Trezona campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Trezona</departureLocation>
+    <departureOdometer>191209</departureOdometer>
+    <arrivalLocation>Parachilna Gorge</arrivalLocation>
+    <arrivalOdometer>191261</arrivalOdometer>
+    <arrivalCampsite>Parachilna Gorge Free Camp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Parachilna Gorge</departureLocation>
+    <departureOdometer>191320</departureOdometer>
+    <arrivalLocation>Copley</arrivalLocation>
+    <arrivalOdometer>191405</arrivalOdometer>
+    <arrivalCampsite>Copley Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Copley</departureLocation>
+    <departureOdometer>191417</departureOdometer>
+    <arrivalLocation>Arkaroola</arrivalLocation>
+    <arrivalOdometer>191543</arrivalOdometer>
+    <arrivalCampsite>Arkaroola Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Arkaroola</departureLocation>
+    <departureOdometer>191552</departureOdometer>
+    <arrivalLocation>Copley</arrivalLocation>
+    <arrivalOdometer>191678</arrivalOdometer>
+    <arrivalCampsite>Copley Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Copley</departureLocation>
+    <departureOdometer>191939</departureOdometer>
+    <arrivalLocation>Port Augusta</arrivalLocation>
+    <arrivalOdometer>192224</arrivalOdometer>
+    <arrivalCampsite>Augusta Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Port Augusta</departureLocation>
+    <departureOdometer>192245</departureOdometer>
+    <arrivalLocation>Glendambo</arrivalLocation>
+    <arrivalOdometer>192559</arrivalOdometer>
+    <arrivalCampsite>Mulga Wells Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Glendambo</departureLocation>
+    <departureOdometer>192559</departureOdometer>
+    <arrivalLocation>Coober Pedy</arrivalLocation>
+    <arrivalOdometer>192780</arrivalOdometer>
+    <arrivalCampsite>Old Timers Mine Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Coober Pedy</departureLocation>
+    <departureOdometer>192831</departureOdometer>
+    <arrivalLocation>Marla</arrivalLocation>
+    <arrivalOdometer>193060</arrivalOdometer>
+    <arrivalCampsite>Marla Travellers Rest</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Marla</departureLocation>
+    <departureOdometer>193060</departureOdometer>
+    <arrivalLocation>Ghan</arrivalLocation>
+    <arrivalOdometer>193236</arrivalOdometer>
+    <arrivalCampsite>Kulgera Roadhouse</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Ghan</departureLocation>
+    <departureOdometer>193236</departureOdometer>
+    <arrivalLocation>Alice Springs</arrivalLocation>
+    <arrivalOdometer>193497</arrivalOdometer>
+    <arrivalCampsite>G'Day Mate Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Alice Springs</departureLocation>
+    <departureOdometer>193550</departureOdometer>
+    <arrivalLocation>Trephina Gorge</arrivalLocation>
+    <arrivalOdometer>193622</arrivalOdometer>
+    <arrivalCampsite>Trephina Gorge Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Trephina Gorge</departureLocation>
+    <departureOdometer>193785</departureOdometer>
+    <arrivalLocation>Alice Springs</arrivalLocation>
+    <arrivalOdometer>193856</arrivalOdometer>
+    <arrivalCampsite>G'Day Mate Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Alice Springs</departureLocation>
+    <departureOdometer>193944</departureOdometer>
+    <arrivalLocation>Ti Tree</arrivalLocation>
+    <arrivalOdometer>194162</arrivalOdometer>
+    <arrivalCampsite>John McDouall Stuart Memorial Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/05/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Ti Tree</departureLocation>
+    <departureOdometer>194162</departureOdometer>
+    <arrivalLocation>Bonney Creek</arrivalLocation>
+    <arrivalOdometer>194361</arrivalOdometer>
+    <arrivalCampsite>Bonney Well Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Bonney Creek</departureLocation>
+    <departureOdometer>194361</departureOdometer>
+    <arrivalLocation>Newcastle Waters</arrivalLocation>
+    <arrivalOdometer>194714</arrivalOdometer>
+    <arrivalCampsite>Newcastle Waters North Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Newcastle Waters</departureLocation>
+    <departureOdometer>194714</departureOdometer>
+    <arrivalLocation>Daly Waters</arrivalLocation>
+    <arrivalOdometer>194841</arrivalOdometer>
+    <arrivalCampsite>Daly Waters Pub Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Daly Waters</departureLocation>
+    <departureOdometer>194841</departureOdometer>
+    <arrivalLocation>Mataranka</arrivalLocation>
+    <arrivalOdometer>195006</arrivalOdometer>
+    <arrivalCampsite>Bitter Springs Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Mataranka</departureLocation>
+    <departureOdometer>195129</departureOdometer>
+    <arrivalLocation>Katherine</arrivalLocation>
+    <arrivalOdometer>195240</arrivalOdometer>
+    <arrivalCampsite>Katherine Discovery Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Katherine</departureLocation>
+    <departureOdometer>195379</departureOdometer>
+    <arrivalLocation>Pine Creek</arrivalLocation>
+    <arrivalOdometer>195514</arrivalOdometer>
+    <arrivalCampsite>Pussy Cat Flats Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Pine Creek</departureLocation>
+    <departureOdometer>195514</departureOdometer>
+    <arrivalLocation>Kakudu</arrivalLocation>
+    <arrivalOdometer>195666</arrivalOdometer>
+    <arrivalCampsite>Mardukal Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Kakudu</departureLocation>
+    <departureOdometer>195698</departureOdometer>
+    <arrivalLocation>Jabiru</arrivalLocation>
+    <arrivalOdometer>195775</arrivalOdometer>
+    <arrivalCampsite>Kakudu Lodge Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Jabiru</departureLocation>
+    <departureOdometer>195864</departureOdometer>
+    <arrivalLocation>Marrakai</arrivalLocation>
+    <arrivalOdometer>196031</arrivalOdometer>
+    <arrivalCampsite>Purple Mango Brewery &amp; Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Marrakai</departureLocation>
+    <departureOdometer>196119</departureOdometer>
+    <arrivalLocation>Lee Point, Darwin</arrivalLocation>
+    <arrivalOdometer>196210</arrivalOdometer>
+    <arrivalCampsite>Lee Point Village Resort</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lee Point, Darwin</departureLocation>
+    <departureOdometer>196641</departureOdometer>
+    <arrivalLocation>Berry Springs</arrivalLocation>
+    <arrivalOdometer>196695</arrivalOdometer>
+    <arrivalCampsite>AAOK Lakes Resort &amp; Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/06/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Berry Springs</departureLocation>
+    <departureOdometer>196718</departureOdometer>
+    <arrivalLocation>Florence Falls</arrivalLocation>
+    <arrivalOdometer>196828</arrivalOdometer>
+    <arrivalCampsite>Florence Falls Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Florence Falls</departureLocation>
+    <departureOdometer>196904</departureOdometer>
+    <arrivalLocation>Batchelor</arrivalLocation>
+    <arrivalOdometer>196951</arrivalOdometer>
+    <arrivalCampsite>Batchelor Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Batchelor</departureLocation>
+    <departureOdometer>196955</departureOdometer>
+    <arrivalLocation>Adelaide River</arrivalLocation>
+    <arrivalOdometer>196988</arrivalOdometer>
+    <arrivalCampsite>Adelaide River Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Adelaide River</departureLocation>
+    <departureOdometer>196994</departureOdometer>
+    <arrivalLocation>Katherine</arrivalLocation>
+    <arrivalOdometer>197194</arrivalOdometer>
+    <arrivalCampsite>Boab Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Katherine</departureLocation>
+    <departureOdometer>197222</departureOdometer>
+    <arrivalLocation>Gregory</arrivalLocation>
+    <arrivalOdometer>197409</arrivalOdometer>
+    <arrivalCampsite>Victoria River Roadhouse</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Gregory</departureLocation>
+    <departureOdometer>197409</departureOdometer>
+    <arrivalLocation>Timber Creek</arrivalLocation>
+    <arrivalOdometer>197498</arrivalOdometer>
+    <arrivalCampsite>Timber Creek Travellers Rest</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Timber Creek</departureLocation>
+    <departureOdometer>197547</departureOdometer>
+    <arrivalLocation>Baines</arrivalLocation>
+    <arrivalOdometer>197661</arrivalOdometer>
+    <arrivalCampsite>Saddle Creek Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Baines</departureLocation>
+    <departureOdometer>197661</departureOdometer>
+    <arrivalLocation>Lake Argyle</arrivalLocation>
+    <arrivalOdometer>197768</arrivalOdometer>
+    <arrivalCampsite>Lake Argyle Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lake Argyle</departureLocation>
+    <departureOdometer>197800</departureOdometer>
+    <arrivalLocation>Kununurra</arrivalLocation>
+    <arrivalOdometer>197870</arrivalOdometer>
+    <arrivalCampsite>Hidden Valley Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Kununurra</departureLocation>
+    <departureOdometer>197974</departureOdometer>
+    <arrivalLocation>Wyndham</arrivalLocation>
+    <arrivalOdometer>198075</arrivalOdometer>
+    <arrivalCampsite>Wyndham Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Wyndham</departureLocation>
+    <departureOdometer>198107</departureOdometer>
+    <arrivalLocation>Spring Creek</arrivalLocation>
+    <arrivalOdometer>198362</arrivalOdometer>
+    <arrivalCampsite>Spring Creek Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Spring Creek</departureLocation>
+    <departureOdometer>198552</departureOdometer>
+    <arrivalLocation>Mueller Ranges</arrivalLocation>
+    <arrivalOdometer>198764</arrivalOdometer>
+    <arrivalCampsite>Mary Pool Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Mueller Ranges</departureLocation>
+    <departureOdometer>198764</departureOdometer>
+    <arrivalLocation>Ellendale Station Lagoon</arrivalLocation>
+    <arrivalOdometer>199031</arrivalOdometer>
+    <arrivalCampsite>Ellendale Station Lagoon</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Ellendale Station Lagoon</departureLocation>
+    <departureOdometer>199031</departureOdometer>
+    <arrivalLocation>Derby</arrivalLocation>
+    <arrivalOdometer>199189</arrivalOdometer>
+    <arrivalCampsite>Dumbara Burru Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Derby</departureLocation>
+    <departureOdometer>199243</departureOdometer>
+    <arrivalLocation>Lennard River</arrivalLocation>
+    <arrivalOdometer>199363</arrivalOdometer>
+    <arrivalCampsite>Lennard River Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lennard River</departureLocation>
+    <departureOdometer>199477</departureOdometer>
+    <arrivalLocation>Broome</arrivalLocation>
+    <arrivalOdometer>199776</arrivalOdometer>
+    <arrivalCampsite>Broome's Gateway Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/07/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Broome</departureLocation>
+    <departureOdometer>199868</departureOdometer>
+    <arrivalLocation>Broome</arrivalLocation>
+    <arrivalOdometer>199901</arrivalOdometer>
+    <arrivalCampsite>Seven Day Adventist Overflow Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Broome</departureLocation>
+    <departureOdometer>200072</departureOdometer>
+    <arrivalLocation>Pardoo</arrivalLocation>
+    <arrivalOdometer>200535</arrivalOdometer>
+    <arrivalCampsite>Cape Keraudren Nature Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Pardoo</departureLocation>
+    <departureOdometer>200535</departureOdometer>
+    <arrivalLocation>Port Hedland</arrivalLocation>
+    <arrivalOdometer>200695</arrivalOdometer>
+    <arrivalCampsite>Port Hedland 72hr Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Port Hedland</departureLocation>
+    <departureOdometer>200758</departureOdometer>
+    <arrivalLocation>Juna Downs</arrivalLocation>
+    <arrivalOdometer>201028</arrivalOdometer>
+    <arrivalCampsite>Albert Tognolini Lookout</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Juna Downs</departureLocation>
+    <departureOdometer>201028</departureOdometer>
+    <arrivalLocation>Karijini East</arrivalLocation>
+    <arrivalOdometer>201099</arrivalOdometer>
+    <arrivalCampsite>Dales Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Karijini East</departureLocation>
+    <departureOdometer>201170</departureOdometer>
+    <arrivalLocation>Karijini West</arrivalLocation>
+    <arrivalOdometer>201228</arrivalOdometer>
+    <arrivalCampsite>Mt Bruce Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Karijini West</departureLocation>
+    <departureOdometer>201596</departureOdometer>
+    <arrivalLocation>130km S of Port Hedland</arrivalLocation>
+    <arrivalOdometer>201825</arrivalOdometer>
+    <arrivalCampsite>"In The Rocks" Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>130km S of Port Hedland</departureLocation>
+    <departureOdometer>201825</departureOdometer>
+    <arrivalLocation>Port Hedland</arrivalLocation>
+    <arrivalOdometer>201947</arrivalOdometer>
+    <arrivalCampsite>BlackRock Tourist Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Port Hedland</departureLocation>
+    <departureOdometer>201988</departureOdometer>
+    <arrivalLocation>Port Hedland</arrivalLocation>
+    <arrivalOdometer>202000</arrivalOdometer>
+    <arrivalCampsite>Port Hedland 72hr Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Port Hedland</departureLocation>
+    <departureOdometer>202000</departureOdometer>
+    <arrivalLocation>Dampier</arrivalLocation>
+    <arrivalOdometer>202255</arrivalOdometer>
+    <arrivalCampsite>Dampier Transit Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Dampier</departureLocation>
+    <departureOdometer>202427</departureOdometer>
+    <arrivalLocation>Yannarie</arrivalLocation>
+    <arrivalOdometer>202769</arrivalOdometer>
+    <arrivalCampsite>Yannarie Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Yannarie</departureLocation>
+    <departureOdometer>202769</departureOdometer>
+    <arrivalLocation>Yardie</arrivalLocation>
+    <arrivalOdometer>203002</arrivalOdometer>
+    <arrivalCampsite>Yardie Homestead</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Yardie</departureLocation>
+    <departureOdometer>203181</departureOdometer>
+    <arrivalLocation>Exmouth</arrivalLocation>
+    <arrivalOdometer>203220</arrivalOdometer>
+    <arrivalCampsite>Exmouth RAC Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Exmouth</departureLocation>
+    <departureOdometer>203378</departureOdometer>
+    <arrivalLocation>Lyndon</arrivalLocation>
+    <arrivalOdometer>203505</arrivalOdometer>
+    <arrivalCampsite>Fubby's Rest Area (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/08/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lyndon</departureLocation>
+    <departureOdometer>203552</departureOdometer>
+    <arrivalLocation>MacLeod</arrivalLocation>
+    <arrivalOdometer>203742</arrivalOdometer>
+    <arrivalCampsite>MacLeod Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>MacLeod</departureLocation>
+    <departureOdometer>203742</departureOdometer>
+    <arrivalLocation>Point Quobba</arrivalLocation>
+    <arrivalOdometer>203803</arrivalOdometer>
+    <arrivalCampsite>Point Quobba Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Point Quobba</departureLocation>
+    <departureOdometer>203817</departureOdometer>
+    <arrivalLocation>Carnarvon</arrivalLocation>
+    <arrivalOdometer>203890</arrivalOdometer>
+    <arrivalCampsite>Outback Oasis Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Carnarvon</departureLocation>
+    <departureOdometer>203961</departureOdometer>
+    <arrivalLocation>Nanga</arrivalLocation>
+    <arrivalOdometer>204192</arrivalOdometer>
+    <arrivalCampsite>Lizzies Gravel Pit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Nanga</departureLocation>
+    <departureOdometer>204192</departureOdometer>
+    <arrivalLocation>Denham</arrivalLocation>
+    <arrivalOdometer>204280</arrivalOdometer>
+    <arrivalCampsite>Blue Dolphin Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Denham</departureLocation>
+    <departureOdometer>204480</departureOdometer>
+    <arrivalLocation>Ajana</arrivalLocation>
+    <arrivalOdometer>204775</arrivalOdometer>
+    <arrivalCampsite>Galena Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Ajana</departureLocation>
+    <departureOdometer>204775</departureOdometer>
+    <arrivalLocation>Kalbarri</arrivalLocation>
+    <arrivalOdometer>204859</arrivalOdometer>
+    <arrivalCampsite>Big Ranch Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Kalbarri</departureLocation>
+    <departureOdometer>205028</departureOdometer>
+    <arrivalLocation>Geraldton</arrivalLocation>
+    <arrivalOdometer>205192</arrivalOdometer>
+    <arrivalCampsite>Geraldton Foreshore 24hr Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Geraldton</departureLocation>
+    <departureOdometer>205213</departureOdometer>
+    <arrivalLocation>Mullewa</arrivalLocation>
+    <arrivalOdometer>205312</arrivalOdometer>
+    <arrivalCampsite>Mullewa Overflow</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Mullewa</departureLocation>
+    <departureOdometer>205532</departureOdometer>
+    <arrivalLocation>Three Springs</arrivalLocation>
+    <arrivalOdometer>205666</arrivalOdometer>
+    <arrivalCampsite>Three Springs Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Three Springs</departureLocation>
+    <departureOdometer>205747</departureOdometer>
+    <arrivalLocation>Sandy Cape</arrivalLocation>
+    <arrivalOdometer>205886</arrivalOdometer>
+    <arrivalCampsite>Sandy Cape Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Sandy Cape</departureLocation>
+    <departureOdometer>205936</departureOdometer>
+    <arrivalLocation>Cervantes</arrivalLocation>
+    <arrivalOdometer>205979</arrivalOdometer>
+    <arrivalCampsite>Cervantes Overflow</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/09/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Cervantes</departureLocation>
+    <departureOdometer>206045</departureOdometer>
+    <arrivalLocation>Joondalup</arrivalLocation>
+    <arrivalOdometer>206225</arrivalOdometer>
+    <arrivalCampsite>Joondalup Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Joondalup</departureLocation>
+    <departureOdometer>206384</departureOdometer>
+    <arrivalLocation>Swan Valley Area</arrivalLocation>
+    <arrivalOdometer>206429</arrivalOdometer>
+    <arrivalCampsite>Banksia Tourist Park, Hazelmere</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Swan Valley Area</departureLocation>
+    <departureOdometer>206598</departureOdometer>
+    <arrivalLocation>South of Fremantle</arrivalLocation>
+    <arrivalOdometer>206639</arrivalOdometer>
+    <arrivalCampsite>Woodman Point Caravan Park, Coogee</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>South of Fremantle</departureLocation>
+    <departureOdometer>206770</departureOdometer>
+    <arrivalLocation>Bunbury</arrivalLocation>
+    <arrivalOdometer>206923</arrivalOdometer>
+    <arrivalCampsite>Bunbury 48hr Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Bunbury</departureLocation>
+    <departureOdometer>206955</departureOdometer>
+    <arrivalLocation>Busselton</arrivalLocation>
+    <arrivalOdometer>207010</arrivalOdometer>
+    <arrivalCampsite>Busselton Tourist Park #3</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Busselton</departureLocation>
+    <departureOdometer>207015</departureOdometer>
+    <arrivalLocation>Margaret River</arrivalLocation>
+    <arrivalOdometer>207073</arrivalOdometer>
+    <arrivalCampsite>Glenbrook Margaret River Eco Retreat</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Margaret River</departureLocation>
+    <departureOdometer>207465</departureOdometer>
+    <arrivalLocation>Northcliffe</arrivalLocation>
+    <arrivalOdometer>207631</arrivalOdometer>
+    <arrivalCampsite>Northcliffe Nature Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Northcliffe</departureLocation>
+    <departureOdometer>207709</departureOdometer>
+    <arrivalLocation>Walpole</arrivalLocation>
+    <arrivalOdometer>207807</arrivalOdometer>
+    <arrivalCampsite>Rest Point Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Walpole</departureLocation>
+    <departureOdometer>207904</departureOdometer>
+    <arrivalLocation>Albany</arrivalLocation>
+    <arrivalOdometer>208032</arrivalOdometer>
+    <arrivalCampsite>Albany Tasman Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Albany</departureLocation>
+    <departureOdometer>208131</departureOdometer>
+    <arrivalLocation>Borden</arrivalLocation>
+    <arrivalOdometer>208254</arrivalOdometer>
+    <arrivalCampsite>Borden Oval</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Borden</departureLocation>
+    <departureOdometer>208254</departureOdometer>
+    <arrivalLocation>Hopetoun</arrivalLocation>
+    <arrivalOdometer>208481</arrivalOdometer>
+    <arrivalCampsite>Hopetoun 48hr Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Hopetoun</departureLocation>
+    <departureOdometer>208557</departureOdometer>
+    <arrivalLocation>Esperance</arrivalLocation>
+    <arrivalOdometer>208746</arrivalOdometer>
+    <arrivalCampsite>RAC Esperance Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Esperance</departureLocation>
+    <departureOdometer>208843</departureOdometer>
+    <arrivalLocation>Le Grand Beach</arrivalLocation>
+    <arrivalOdometer>208897</arrivalOdometer>
+    <arrivalCampsite>Le Grand Beach Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/10/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Le Grand Beach</departureLocation>
+    <departureOdometer>208897</departureOdometer>
+    <arrivalLocation>Lucky Bay</arrivalLocation>
+    <arrivalOdometer>208910</arrivalOdometer>
+    <arrivalCampsite>Lucky Bay Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lucky Bay</departureLocation>
+    <departureOdometer>208943</departureOdometer>
+    <arrivalLocation>Norseman</arrivalLocation>
+    <arrivalOdometer>209201</arrivalOdometer>
+    <arrivalCampsite>Norseman 72hr Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Norseman</departureLocation>
+    <departureOdometer>209201</departureOdometer>
+    <arrivalLocation>Kalgoorlie</arrivalLocation>
+    <arrivalOdometer>209388</arrivalOdometer>
+    <arrivalCampsite>Kalgoorlie 72hr Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Kalgoorlie</departureLocation>
+    <departureOdometer>209475</departureOdometer>
+    <arrivalLocation>Balladonia</arrivalLocation>
+    <arrivalOdometer>209896</arrivalOdometer>
+    <arrivalCampsite>BallaGNOMEia Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Balladonia</departureLocation>
+    <departureOdometer>209896</departureOdometer>
+    <arrivalLocation>Madura</arrivalLocation>
+    <arrivalOdometer>210175</arrivalOdometer>
+    <arrivalCampsite>Madura Pass Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Madura</departureLocation>
+    <departureOdometer>210175</departureOdometer>
+    <arrivalLocation>64Km E of Eucla</arrivalLocation>
+    <arrivalOdometer>210426</arrivalOdometer>
+    <arrivalCampsite>Peg 52 Rest Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>64Km E of Eucla</departureLocation>
+    <departureOdometer>210426</departureOdometer>
+    <arrivalLocation>60Km W of Penong</arrivalLocation>
+    <arrivalOdometer>210717</arrivalOdometer>
+    <arrivalCampsite>Raffy's Balcony Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>60Km W of Penong</departureLocation>
+    <departureOdometer>210717</departureOdometer>
+    <arrivalLocation>Ceduna</arrivalLocation>
+    <arrivalOdometer>210875</arrivalOdometer>
+    <arrivalCampsite>Ceduna Foreshore Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Ceduna</departureLocation>
+    <departureOdometer>210909</departureOdometer>
+    <arrivalLocation>Streaky Bay</arrivalLocation>
+    <arrivalOdometer>211027</arrivalOdometer>
+    <arrivalCampsite>Streaky Bay RV Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Streaky Bay</departureLocation>
+    <departureOdometer>211080</departureOdometer>
+    <arrivalLocation>Lincoln Gap</arrivalLocation>
+    <arrivalOdometer>211448</arrivalOdometer>
+    <arrivalCampsite>Question Mark Hill Freecamp</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Lincoln Gap</departureLocation>
+    <departureOdometer>211448</departureOdometer>
+    <arrivalLocation>Clare</arrivalLocation>
+    <arrivalOdometer>211662</arrivalOdometer>
+    <arrivalCampsite>Clare Discovery Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Clare</departureLocation>
+    <departureOdometer>211731</departureOdometer>
+    <arrivalLocation>Greenock</arrivalLocation>
+    <arrivalOdometer>211833</arrivalOdometer>
+    <arrivalCampsite>Greenock Centenary Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Greenock</departureLocation>
+    <departureOdometer>211991</departureOdometer>
+    <arrivalLocation>Adelaide</arrivalLocation>
+    <arrivalOdometer>212075</arrivalOdometer>
+    <arrivalCampsite>Levi Adelaide Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Adelaide</departureLocation>
+    <departureOdometer>212289</departureOdometer>
+    <arrivalLocation>Salt Creek, Coorong</arrivalLocation>
+    <arrivalOdometer>212504</arrivalOdometer>
+    <arrivalCampsite>'Tis a Gravel Pit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Salt Creek, Coorong</departureLocation>
+    <departureOdometer>212504</departureOdometer>
+    <arrivalLocation>Robe</arrivalLocation>
+    <arrivalOdometer>212624</arrivalOdometer>
+    <arrivalCampsite>Sea Vu Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Robe</departureLocation>
+    <departureOdometer>212637</departureOdometer>
+    <arrivalLocation>Southend</arrivalLocation>
+    <arrivalOdometer>212702</arrivalOdometer>
+    <arrivalCampsite>Bush Camp - Southend Tourist Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/11/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Southend</departureLocation>
+    <departureOdometer>212759</departureOdometer>
+    <arrivalLocation>Mt Gambier</arrivalLocation>
+    <arrivalOdometer>212835</arrivalOdometer>
+    <arrivalCampsite>Mt Gambier Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Mt Gambier</departureLocation>
+    <departureOdometer>212841</departureOdometer>
+    <arrivalLocation>Inverleigh</arrivalLocation>
+    <arrivalOdometer>213158</arrivalOdometer>
+    <arrivalCampsite>Inverleigh Road Side Stop</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Inverleigh</departureLocation>
+    <departureOdometer>213191</departureOdometer>
+    <arrivalLocation>Geelong</arrivalLocation>
+    <arrivalOdometer>213217</arrivalOdometer>
+    <arrivalCampsite>Eldorado Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Geelong</departureLocation>
+    <departureOdometer>213470</departureOdometer>
+    <arrivalLocation>Devonport</arrivalLocation>
+    <arrivalOdometer>213483</arrivalOdometer>
+    <arrivalCampsite>Horsehead Creek RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Devonport</departureLocation>
+    <departureOdometer>213495</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>213679</arrivalOdometer>
+    <arrivalCampsite>Fingal block</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>213706</departureOdometer>
+    <arrivalLocation>Launceston</arrivalLocation>
+    <arrivalOdometer>213814</arrivalOdometer>
+    <arrivalCampsite>Old Macs Farm</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Launceston</departureLocation>
+    <departureOdometer>214042</departureOdometer>
+    <arrivalLocation>Turners Beach</arrivalLocation>
+    <arrivalOdometer>214171</arrivalOdometer>
+    <arrivalCampsite>Turners Beach Berry Patch</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Turners Beach</departureLocation>
+    <departureOdometer>214234</departureOdometer>
+    <arrivalLocation>Stanley</arrivalLocation>
+    <arrivalOdometer>214350</arrivalOdometer>
+    <arrivalCampsite>Stanley Recreation Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Stanley</departureLocation>
+    <departureOdometer>214364</departureOdometer>
+    <arrivalLocation>Waratah</arrivalLocation>
+    <arrivalOdometer>214504</arrivalOdometer>
+    <arrivalCampsite>Waratah Council Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Waratah</departureLocation>
+    <departureOdometer>214504</departureOdometer>
+    <arrivalLocation>Gowrie Park</arrivalLocation>
+    <arrivalOdometer>214594</arrivalOdometer>
+    <arrivalCampsite>O'Neils Creek Picnic Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Gowrie Park</departureLocation>
+    <departureOdometer>214594</departureOdometer>
+    <arrivalLocation>Mole Creek</arrivalLocation>
+    <arrivalOdometer>214637</arrivalOdometer>
+    <arrivalCampsite>Mole Creek Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Mole Creek</departureLocation>
+    <departureOdometer>214741</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>214901</arrivalOdometer>
+    <arrivalCampsite>Fingal block</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>214927</departureOdometer>
+    <arrivalLocation>Four Mile Creek</arrivalLocation>
+    <arrivalOdometer>214967</arrivalOdometer>
+    <arrivalCampsite>White Sands &amp; Ironhouse Brewery</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Four Mile Creek</departureLocation>
+    <departureOdometer>215078</departureOdometer>
+    <arrivalLocation>Freycinet</arrivalLocation>
+    <arrivalOdometer>215131</arrivalOdometer>
+    <arrivalCampsite>Pondering Frog (unhitch-only)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Freycinet</departureLocation>
+    <departureOdometer>215202</departureOdometer>
+    <arrivalLocation>Rocky Hills</arrivalLocation>
+    <arrivalOdometer>215248</arrivalOdometer>
+    <arrivalCampsite>Mayfield Bay Roadside</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Rocky Hills</departureLocation>
+    <departureOdometer>215248</departureOdometer>
+    <arrivalLocation>Sorell</arrivalLocation>
+    <arrivalOdometer>215339</arrivalOdometer>
+    <arrivalCampsite>Sorell Council Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Sorell</departureLocation>
+    <departureOdometer>215627</departureOdometer>
+    <arrivalLocation>Mount Field</arrivalLocation>
+    <arrivalOdometer>215720</arrivalOdometer>
+    <arrivalCampsite>Mount Field NP Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>30/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Mount Field</departureLocation>
+    <departureOdometer>215943</departureOdometer>
+    <arrivalLocation>Hobart</arrivalLocation>
+    <arrivalOdometer>216009</arrivalOdometer>
+    <arrivalCampsite>Hobart Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>31/12/2024</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Hobart</departureLocation>
+    <departureOdometer>216096</departureOdometer>
+    <arrivalLocation>Bruny Island</arrivalLocation>
+    <arrivalOdometer>216152</arrivalOdometer>
+    <arrivalCampsite>Bruny Island Landscape Supplies</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/01/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Bruny Island</departureLocation>
+    <departureOdometer>216366</departureOdometer>
+    <arrivalLocation>Sorell</arrivalLocation>
+    <arrivalOdometer>216438</arrivalOdometer>
+    <arrivalCampsite>Sorell Council Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/01/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Sorell</departureLocation>
+    <departureOdometer>216695</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>216872</arrivalOdometer>
+    <arrivalCampsite>Fingal block</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/03/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>218424</departureOdometer>
+    <arrivalLocation>Hagley</arrivalLocation>
+    <arrivalOdometer>218554</arrivalOdometer>
+    <arrivalCampsite>Hagley RV Farm Stay</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/03/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Hagley</departureLocation>
+    <departureOdometer>218554</departureOdometer>
+    <arrivalLocation>Deloraine</arrivalLocation>
+    <arrivalOdometer>218581</arrivalOdometer>
+    <arrivalCampsite>Deloraine RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/03/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Deloraine</departureLocation>
+    <departureOdometer>218590</departureOdometer>
+    <arrivalLocation>Miena</arrivalLocation>
+    <arrivalOdometer>218658</arrivalOdometer>
+    <arrivalCampsite>Great Lake Hotel RV Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/03/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Miena</departureLocation>
+    <departureOdometer>218658</departureOdometer>
+    <arrivalLocation>Kempton</arrivalLocation>
+    <arrivalOdometer>218743</arrivalOdometer>
+    <arrivalCampsite>Kempton Overnight Stop</arrivalCampsite>
+  </data>
+  <data>
+    <dt>18/03/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Kempton</departureLocation>
+    <departureOdometer>218743</departureOdometer>
+    <arrivalLocation>Oatlands</arrivalLocation>
+    <arrivalOdometer>218778</arrivalOdometer>
+    <arrivalCampsite>Oatlands RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/03/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Oatlands</departureLocation>
+    <departureOdometer>218778</departureOdometer>
+    <arrivalLocation>Campbell Town</arrivalLocation>
+    <arrivalOdometer>218825</arrivalOdometer>
+    <arrivalCampsite>Campbell Town RV Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/03/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>SALUTE_CARAVAN</trailer>
+    <departureLocation>Campbell Town</departureLocation>
+    <departureOdometer>219037</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>219100</arrivalOdometer>
+    <arrivalCampsite>Fingal block</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>219324</departureOdometer>
+    <arrivalLocation>Devonport</arrivalLocation>
+    <arrivalOdometer>219514</arrivalOdometer>
+    <arrivalCampsite>Formby Hotel</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Devonport</departureLocation>
+    <departureOdometer>219514</departureOdometer>
+    <arrivalLocation>Barwon Heads</arrivalLocation>
+    <arrivalOdometer>219544</arrivalOdometer>
+    <arrivalCampsite>Kimberley Kamper storage area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Barwon Heads</departureLocation>
+    <departureOdometer>219544</departureOdometer>
+    <arrivalLocation>Batesford</arrivalLocation>
+    <arrivalOdometer>219580</arrivalOdometer>
+    <arrivalCampsite>Eldorado Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Batesford</departureLocation>
+    <departureOdometer>219715</departureOdometer>
+    <arrivalLocation>Gembrook</arrivalLocation>
+    <arrivalOdometer>219890</arrivalOdometer>
+    <arrivalCampsite>Magazine Track camp area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>10/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Gembrook</departureLocation>
+    <departureOdometer>219961</departureOdometer>
+    <arrivalLocation>Mansfield</arrivalLocation>
+    <arrivalOdometer>220189</arrivalOdometer>
+    <arrivalCampsite>High Country Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Mansfield</departureLocation>
+    <departureOdometer>220326</departureOdometer>
+    <arrivalLocation>Lake Hume</arrivalLocation>
+    <arrivalOdometer>220509</arrivalOdometer>
+    <arrivalCampsite>Ludlows Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Lake Hume</departureLocation>
+    <departureOdometer>220595</departureOdometer>
+    <arrivalLocation>Neils Bend</arrivalLocation>
+    <arrivalOdometer>220713</arrivalOdometer>
+    <arrivalCampsite>Neils Bend Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Neils Bend</departureLocation>
+    <departureOdometer>220778</departureOdometer>
+    <arrivalLocation>Corryong</arrivalLocation>
+    <arrivalOdometer>220828</arrivalOdometer>
+    <arrivalCampsite>Corryong Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Corryong</departureLocation>
+    <departureOdometer>220858</departureOdometer>
+    <arrivalLocation>Tom Groggin</arrivalLocation>
+    <arrivalOdometer>220946</arrivalOdometer>
+    <arrivalCampsite>Tom Groggin Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>23/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Tom Groggin</departureLocation>
+    <departureOdometer>220957</departureOdometer>
+    <arrivalLocation>Tumut</arrivalLocation>
+    <arrivalOdometer>221253</arrivalOdometer>
+    <arrivalCampsite>Reflections Tumut River Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Tumut</departureLocation>
+    <departureOdometer>221262</departureOdometer>
+    <arrivalLocation>Wombeyan Caves</arrivalLocation>
+    <arrivalOdometer>221537</arrivalOdometer>
+    <arrivalCampsite>Wombeyan Caves Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Wombeyan Caves</departureLocation>
+    <departureOdometer>221537</departureOdometer>
+    <arrivalLocation>Blackheath</arrivalLocation>
+    <arrivalOdometer>221711</arrivalOdometer>
+    <arrivalCampsite>Blackheath Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/04/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Blackheath</departureLocation>
+    <departureOdometer>221743</departureOdometer>
+    <arrivalLocation>Cessnock</arrivalLocation>
+    <arrivalOdometer>221993</arrivalOdometer>
+    <arrivalCampsite>Cessnock Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Cessnock</departureLocation>
+    <departureOdometer>222169</departureOdometer>
+    <arrivalLocation>Laurieton</arrivalLocation>
+    <arrivalOdometer>222415</arrivalOdometer>
+    <arrivalCampsite>Peter &amp; Elizabeth's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Laurieton</departureLocation>
+    <departureOdometer>222440</departureOdometer>
+    <arrivalLocation>Wollomombi</arrivalLocation>
+    <arrivalOdometer>222719</arrivalOdometer>
+    <arrivalCampsite>Wollomombi Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>07/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Wollomombi</departureLocation>
+    <departureOdometer>222719</departureOdometer>
+    <arrivalLocation>Jennings</arrivalLocation>
+    <arrivalOdometer>222964</arrivalOdometer>
+    <arrivalCampsite>Jennings Camp Area</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Jennings</departureLocation>
+    <departureOdometer>222964</departureOdometer>
+    <arrivalLocation>Toowoomba</arrivalLocation>
+    <arrivalOdometer>223151</arrivalOdometer>
+    <arrivalCampsite>Toowoomba Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Toowoomba</departureLocation>
+    <departureOdometer>223270</departureOdometer>
+    <arrivalLocation>Holland Park</arrivalLocation>
+    <arrivalOdometer>223397</arrivalOdometer>
+    <arrivalCampsite>Jo &amp; Peter's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Holland Park</departureLocation>
+    <departureOdometer>223486</departureOdometer>
+    <arrivalLocation>Wynnum</arrivalLocation>
+    <arrivalOdometer>223504</arrivalOdometer>
+    <arrivalCampsite>Wynnum Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>15/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Wynnum</departureLocation>
+    <departureOdometer>223582</departureOdometer>
+    <arrivalLocation>Wynnum</arrivalLocation>
+    <arrivalOdometer>223625</arrivalOdometer>
+    <arrivalCampsite>Wynnum Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Wynnum</departureLocation>
+    <departureOdometer>223658</departureOdometer>
+    <arrivalLocation>Wynnum</arrivalLocation>
+    <arrivalOdometer>223780</arrivalOdometer>
+    <arrivalCampsite>Wynnum Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Wynnum</departureLocation>
+    <departureOdometer>224022</departureOdometer>
+    <arrivalLocation>Wynnum</arrivalLocation>
+    <arrivalOdometer>224138</arrivalOdometer>
+    <arrivalCampsite>Wynnum Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>25/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Wynnum</departureLocation>
+    <departureOdometer>224250</departureOdometer>
+    <arrivalLocation>Wynnum</arrivalLocation>
+    <arrivalOdometer>224316</arrivalOdometer>
+    <arrivalCampsite>Wynnum Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/05/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Wynnum</departureLocation>
+    <departureOdometer>224543</departureOdometer>
+    <arrivalLocation>Holland Park</arrivalLocation>
+    <arrivalOdometer>224561</arrivalOdometer>
+    <arrivalCampsite>Jo &amp; Peter's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Holland Park</departureLocation>
+    <departureOdometer>224821</departureOdometer>
+    <arrivalLocation>The Gap</arrivalLocation>
+    <arrivalOdometer>224840</arrivalOdometer>
+    <arrivalCampsite>Sue &amp; Iain's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>The Gap</departureLocation>
+    <departureOdometer>224840</departureOdometer>
+    <arrivalLocation>Kenilworth</arrivalLocation>
+    <arrivalOdometer>224987</arrivalOdometer>
+    <arrivalCampsite>Kenilworth Showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Kenilworth</departureLocation>
+    <departureOdometer>225097</departureOdometer>
+    <arrivalLocation>Holland Park</arrivalLocation>
+    <arrivalOdometer>225271</arrivalOdometer>
+    <arrivalCampsite>Jo &amp; Peter's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>12/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Holland Park</departureLocation>
+    <departureOdometer>225329</departureOdometer>
+    <arrivalLocation>Woodgate Beach</arrivalLocation>
+    <arrivalOdometer>225685</arrivalOdometer>
+    <arrivalCampsite>Woodgate Beach Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>14/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Woodgate Beach</departureLocation>
+    <departureOdometer>225695</departureOdometer>
+    <arrivalLocation>Bargara</arrivalLocation>
+    <arrivalOdometer>225765</arrivalOdometer>
+    <arrivalCampsite>Bargara Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Bargara</departureLocation>
+    <departureOdometer>225816</departureOdometer>
+    <arrivalLocation>Mulambin</arrivalLocation>
+    <arrivalOdometer>226232</arrivalOdometer>
+    <arrivalCampsite>NRMA Capricorn Yeppoon Holiday Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Mulambin</departureLocation>
+    <departureOdometer>226318</departureOdometer>
+    <arrivalLocation>Cape Hillsborough</arrivalLocation>
+    <arrivalOdometer>226734</arrivalOdometer>
+    <arrivalCampsite>Smalleys Beach NP Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Cape Hillsborough</departureLocation>
+    <departureOdometer>226758</departureOdometer>
+    <arrivalLocation>Airlie Beach</arrivalLocation>
+    <arrivalOdometer>226892</arrivalOdometer>
+    <arrivalCampsite>Discovery Parks, Airlie Beach</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Airlie Beach</departureLocation>
+    <departureOdometer>226915</departureOdometer>
+    <arrivalLocation>Bluewater</arrivalLocation>
+    <arrivalOdometer>227230</arrivalOdometer>
+    <arrivalCampsite>Bluewater Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Bluewater</departureLocation>
+    <departureOdometer>227296</departureOdometer>
+    <arrivalLocation>Etty Bay</arrivalLocation>
+    <arrivalOdometer>227519</arrivalOdometer>
+    <arrivalCampsite>Etty Bay Beach CP</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Etty Bay</departureLocation>
+    <departureOdometer>227519</departureOdometer>
+    <arrivalLocation>Innot Hot Springs</arrivalLocation>
+    <arrivalOdometer>227673</arrivalOdometer>
+    <arrivalCampsite>Innot Hot Springs Caravan and Leisure Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>29/06/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Innot Hot Springs</departureLocation>
+    <departureOdometer>227673</departureOdometer>
+    <arrivalLocation>Cairns</arrivalLocation>
+    <arrivalOdometer>227834</arrivalOdometer>
+    <arrivalCampsite>Lake Placid Rainforest Retreat</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Cairns</departureLocation>
+    <departureOdometer>227945</departureOdometer>
+    <arrivalLocation>Mena Creek</arrivalLocation>
+    <arrivalOdometer>228064</arrivalOdometer>
+    <arrivalCampsite>Paronella Park (The Paddock)</arrivalCampsite>
+  </data>
+  <data>
+    <dt>04/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Mena Creek</departureLocation>
+    <departureOdometer>228064</departureOdometer>
+    <arrivalLocation>Undara, Mt Surprise</arrivalLocation>
+    <arrivalOdometer>228296</arrivalOdometer>
+    <arrivalCampsite>Undara Discovery Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>06/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Undara</departureLocation>
+    <departureOdometer>228326</departureOdometer>
+    <arrivalLocation>Kurumba</arrivalLocation>
+    <arrivalOdometer>228836</arrivalOdometer>
+    <arrivalCampsite>Karumba Point Holiday &amp; Tourist Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Kurumba</departureLocation>
+    <departureOdometer>228877</departureOdometer>
+    <arrivalLocation>Four Ways</arrivalLocation>
+    <arrivalOdometer>229137</arrivalOdometer>
+    <arrivalCampsite>Burke &amp; Wills Roadhouse</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Four Ways</departureLocation>
+    <departureOdometer>229137</departureOdometer>
+    <arrivalLocation>Adels Grove</arrivalLocation>
+    <arrivalOdometer>229367</arrivalOdometer>
+    <arrivalCampsite>Adels Grove Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Adels Grove</departureLocation>
+    <departureOdometer>229387</departureOdometer>
+    <arrivalLocation>Camooweal</arrivalLocation>
+    <arrivalOdometer>229622</arrivalOdometer>
+    <arrivalCampsite>Camooweal Billabong</arrivalCampsite>
+  </data>
+  <data>
+    <dt>13/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Camooweal</departureLocation>
+    <departureOdometer>229670</departureOdometer>
+    <arrivalLocation>Mount Isa</arrivalLocation>
+    <arrivalOdometer>229859</arrivalOdometer>
+    <arrivalCampsite>Discovery Parks - Argylla</arrivalCampsite>
+  </data>
+  <data>
+    <dt>17/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Mount Isa</departureLocation>
+    <departureOdometer>229905</departureOdometer>
+    <arrivalLocation>Boulia</arrivalLocation>
+    <arrivalOdometer>230206</arrivalOdometer>
+    <arrivalCampsite>Boulia Racecourse Reserve</arrivalCampsite>
+  </data>
+  <data>
+    <dt>21/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Boulia</departureLocation>
+    <departureOdometer>230227</departureOdometer>
+    <arrivalLocation>Bedourie</arrivalLocation>
+    <arrivalOdometer>230425</arrivalOdometer>
+    <arrivalCampsite>Bedourie Tourist Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Bedourie</departureLocation>
+    <departureOdometer>230425</departureOdometer>
+    <arrivalLocation>Birdsville</arrivalLocation>
+    <arrivalOdometer>230615</arrivalOdometer>
+    <arrivalCampsite>Birdsville Common</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Birdsville</departureLocation>
+    <departureOdometer>230722</departureOdometer>
+    <arrivalLocation>Windorah</arrivalLocation>
+    <arrivalOdometer>231137</arrivalOdometer>
+    <arrivalCampsite>Cooper Creek Bridge</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Windorah</departureLocation>
+    <departureOdometer>231163</departureOdometer>
+    <arrivalLocation>Ilfracombe</arrivalLocation>
+    <arrivalOdometer>231502</arrivalOdometer>
+    <arrivalCampsite>Ilfracombe Van Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>28/07/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Ilfracombe</departureLocation>
+    <departureOdometer>231515</departureOdometer>
+    <arrivalLocation>Sapphire</arrivalLocation>
+    <arrivalOdometer>231862</arrivalOdometer>
+    <arrivalCampsite>Blue Gem Caravan Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>01/08/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Sapphire</departureLocation>
+    <departureOdometer>231929</departureOdometer>
+    <arrivalLocation>Mt Hay</arrivalLocation>
+    <arrivalOdometer>232210</arrivalOdometer>
+    <arrivalCampsite>Mt Hay Fossicking Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>03/08/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Mt Hay</departureLocation>
+    <departureOdometer>232210</departureOdometer>
+    <arrivalLocation>Isla Gorge</arrivalLocation>
+    <arrivalOdometer>232426</arrivalOdometer>
+    <arrivalCampsite>Isla Gorge NP Campground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>05/08/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Isla Gorge</departureLocation>
+    <departureOdometer>232426</departureOdometer>
+    <arrivalLocation>Maidenwell</arrivalLocation>
+    <arrivalOdometer>232865</arrivalOdometer>
+    <arrivalCampsite>Maidenwell Showground</arrivalCampsite>
+  </data>
+  <data>
+    <dt>08/08/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Maidenwell</departureLocation>
+    <departureOdometer>233000</departureOdometer>
+    <arrivalLocation>Holland Park</arrivalLocation>
+    <arrivalOdometer>233214</arrivalOdometer>
+    <arrivalCampsite>Jo &amp; Peter's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/08/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Holland Park</departureLocation>
+    <departureOdometer>233498</departureOdometer>
+    <arrivalLocation>Samford</arrivalLocation>
+    <arrivalOdometer>233532</arrivalOdometer>
+    <arrivalCampsite>Samford Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/08/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Samford</departureLocation>
+    <departureOdometer>233605</departureOdometer>
+    <arrivalLocation>Holland Park</arrivalLocation>
+    <arrivalOdometer>233638</arrivalOdometer>
+    <arrivalCampsite>Jo &amp; Peter's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>22/08/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Holland Park</departureLocation>
+    <departureOdometer>233696</departureOdometer>
+    <arrivalLocation>Wavell Heights</arrivalLocation>
+    <arrivalOdometer>233718</arrivalOdometer>
+    <arrivalCampsite>Wavell Heights Housesit</arrivalCampsite>
+  </data>
+  <data>
+    <dt>20/08/2025</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Holland Park</departureLocation>
+    <departureOdometer>234072</departureOdometer>
+    <arrivalLocation>Thornlands</arrivalLocation>
+    <arrivalOdometer>234094</arrivalOdometer>
+    <arrivalCampsite>Thornlands Camper Storage</arrivalCampsite>
+  </data>
   <!--
+  comments
   -->
 </travel>

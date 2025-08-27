@@ -9,7 +9,7 @@ import groovy.transform.ToString
 class ServiceDTO {
 	String name
 	BigDecimal frequency
-	Vehicle vehicle				//Car or Caravan
+	Vehicle vehicle				//See Vehicle Enum
 	Reporting reporting			//Service or Consumable
 	ServiceTiming serviceTiming	//Scheduled or Unscheduled.
 	

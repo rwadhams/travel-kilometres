@@ -2,18 +2,20 @@ package com.wadhams.travel.kms.service
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
-import com.wadhams.travel.kms.dto.ServiceContainerDTO
+
 import com.wadhams.travel.kms.dto.ServiceDTO
 import com.wadhams.travel.kms.dto.ServiceEventDTO
 import com.wadhams.travel.kms.type.Reporting
-import com.wadhams.travel.kms.type.Vehicle
 import com.wadhams.travel.kms.type.ServiceTiming
+import com.wadhams.travel.kms.type.Vehicle
 
 class ServiceXMLService {
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 	
-	ServiceContainerDTO loadServiceData() {
-		ServiceContainerDTO sc = new ServiceContainerDTO()
+	List<ServiceDTO> loadServiceData() {
+		//TODO collapse this container
+		//ServiceContainerDTO sc = new ServiceContainerDTO()
+		List<ServiceDTO> serviceDTOList = []
 		
 		File serviceFile
 		URL resource = getClass().getClassLoader().getResource("Service.xml")
@@ -26,29 +28,34 @@ class ServiceXMLService {
 		
 		def txn = new XmlSlurper().parse(serviceFile)
 		
-		def services = txn.service
-		services.each {sXML ->
-			ServiceDTO s = buildServiceDTO(sXML)
+		def nonScheduledService = txn.nonScheduledService
+		nonScheduledService.each {nssXML ->
+			ServiceDTO s = buildServiceDTO(nssXML)
 			s.reporting = Reporting.Service
-			if (sXML.serviceTiming.text() == 'SCHEDULED') {
-				s.serviceTiming = ServiceTiming.Scheduled
-			}
-			else {
-				s.serviceTiming = ServiceTiming.UnScheduled
-			}
-			s.serviceEventDTOList = buildServiceEventDTOList(sXML.event) 
-			sc.serviceDTOList << s
+			s.serviceTiming = ServiceTiming.UnScheduled
+			s.serviceEventDTOList = buildServiceEventDTOList(nssXML.event) 
+			serviceDTOList << s
+		}
+		
+		def scheduledService = txn.scheduledService
+		scheduledService.each {ssXML ->
+			ServiceDTO s = buildServiceDTO(ssXML)
+			s.reporting = Reporting.Service
+			s.serviceTiming = ServiceTiming.Scheduled
+			s.serviceEventDTOList = buildServiceEventDTOList(ssXML.event) 
+			serviceDTOList << s
 		}
 		
 		def consumables = txn.consumable
 		consumables.each {cXML ->
 			ServiceDTO s = buildServiceDTO(cXML)
 			s.reporting = Reporting.Consumable
+			s.serviceTiming = ServiceTiming.Unknown
 			s.serviceEventDTOList = buildServiceEventDTOList(cXML.event) 
-			sc.serviceDTOList << s
+			serviceDTOList << s
 		}
 		
-		return sc
+		return serviceDTOList
 	}
 	
 	ServiceDTO buildServiceDTO(txn) {
@@ -64,12 +71,7 @@ class ServiceXMLService {
 		
 		//vehicle
 		String vehicle = txn.vehicle.text()
-		if (vehicle.toUpperCase() == 'CAR') {
-			s.vehicle = Vehicle.Car
-		}
-		else if (vehicle.toUpperCase() == 'CARAVAN') {
-			s.vehicle = Vehicle.Caravan
-		}
+		s.vehicle = Vehicle.findByXMLName(vehicle)
 
 		return s
 	}

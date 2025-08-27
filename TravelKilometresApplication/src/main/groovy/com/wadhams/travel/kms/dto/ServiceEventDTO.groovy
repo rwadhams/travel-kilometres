@@ -7,8 +7,9 @@ import java.time.LocalDate
 class ServiceEventDTO {
 	LocalDate serviceEventDate
 	String serviceEventLocation
-	BigDecimal serviceEventCost
 	BigDecimal serviceEventOdometer
-	BigDecimal serviceEventScheduled
+	
+	BigDecimal serviceEventCost
 	String serviceEventName
+	BigDecimal serviceEventScheduled
 }

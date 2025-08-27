@@ -1,9 +1,10 @@
 package com.wadhams.travel.kms.service
 
+import com.wadhams.travel.kms.dto.TravelDTO
 import com.wadhams.travel.kms.dto.TripDTO
 
 class TripXMLService {
-	List<TripDTO> loadTripData() {
+	List<TripDTO> loadTripData(List<TravelDTO> travelList) {
 		List<TripDTO> tripList = []
 		
 		File tripFile
@@ -21,6 +22,13 @@ class TripXMLService {
 		transactions.each {txn ->
 			//println txn
 			tripList << build(txn)
+		}
+
+		//fix missing endOdometer in the last entry
+		TripDTO tripDTO = tripList[-1]	//last entry
+		if (tripDTO.endOdometer == null) {
+			TravelDTO travelDTO = travelList[-1]	//last entry
+			tripDTO.endOdometer = new BigDecimal(travelDTO.arrivalOdometer)
 		}
 
 		return tripList

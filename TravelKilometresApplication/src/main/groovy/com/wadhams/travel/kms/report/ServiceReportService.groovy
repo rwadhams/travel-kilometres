@@ -3,15 +3,14 @@ package com.wadhams.travel.kms.report
 import java.text.NumberFormat
 import java.time.LocalDate
 import java.time.Period
-import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 
-import com.wadhams.travel.kms.dto.ServiceContainerDTO
+import com.wadhams.travel.kms.biz.OdometerContainer
 import com.wadhams.travel.kms.dto.ServiceDTO
 import com.wadhams.travel.kms.dto.ServiceEventDTO
-import com.wadhams.travel.kms.type.Vehicle
 import com.wadhams.travel.kms.type.Reporting
 import com.wadhams.travel.kms.type.ServiceTiming
+import com.wadhams.travel.kms.type.Vehicle
 
 class ServiceReportService {
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
@@ -27,32 +26,23 @@ class ServiceReportService {
 
 	}
 	
-	def execute(ServiceContainerDTO serviceContainer, BigDecimal totalCaravanKms, BigDecimal carOdometerKms) {
+	def execute(List<ServiceDTO> serviceList, OdometerContainer odometerContainer) {
 		File f = new File("out/service-report.txt")
 		
 		f.withPrintWriter {pw ->
 			pw.println 'SERVICE REPORT'
 			pw.println '-------------'
-			pw.println "Total car Kms....: ${nf.format(carOdometerKms)}"
-			pw.println "Total caravan Kms: ${nf.format(totalCaravanKms)}"
+			pw.println "Toyota LandCruiser Kms....: ${nf.format(odometerContainer.getOdometer(Vehicle.ToyotaLandCruiser))}"
+			pw.println "Salute Caravan Kms........: ${nf.format(odometerContainer.getOdometer(Vehicle.SaluteCaravan))}"
+			pw.println "Kimberley Kamper Kms......: ${nf.format(odometerContainer.getOdometer(Vehicle.KimberleyKamper))}"
 			pw.println ''
 			
-			serviceContainer.serviceDTOList.each {s ->
+			serviceList.each {s ->
 				if (s.reporting == Reporting.Service) {
-					if (s.vehicle == Vehicle.Car) {
-						reportService(s, carOdometerKms, pw)
-					}
-					else {
-						reportService(s, totalCaravanKms, pw)
-					}
+					reportService(s, odometerContainer, pw)
 				}
 				else if (s.reporting == Reporting.Consumable) {
-					if (s.vehicle == Vehicle.Car) {
-						reportConsumable(s, carOdometerKms, pw)
-					}
-					else {
-						reportConsumable(s, totalCaravanKms, pw)
-					}
+					reportConsumable(s, odometerContainer, pw)
 				}
 				else {
 					pw.println "Unknown reporting: $s"
@@ -61,7 +51,7 @@ class ServiceReportService {
 		}
 	}
 	
-	def reportService(ServiceDTO s, BigDecimal kilometres, PrintWriter pw) {
+	def reportService(ServiceDTO s, OdometerContainer odometerContainer, PrintWriter pw) {
 		pw.println "${s.name} - Frequency: ${nf.format(s.frequency)}"
 		
 		ServiceEventDTO prev = null
@@ -85,10 +75,10 @@ class ServiceReportService {
 			else {
 				s3 = "Scheduled: ${nf.format(se.serviceEventScheduled).padRight(7, ' ')}"
 			}
-			String s4 = (s.vehicle == Vehicle.Car ) ? 'Car odometer: ' : 'Caravan odometer: '
+			String s4 = "${s.vehicle.getReportName()} Odometer:"
 			String s5 = nf.format(se.serviceEventOdometer).padRight(7, ' ')
 			String s6 = se.serviceEventLocation
-			pw.println "\t$s1 $s2 $s3 $s4 $s5 at $s6."
+			pw.println "\t$s1 $s2 $s3. $s4 $s5 at $s6."
 			prev = se
 		}
 		
@@ -101,16 +91,16 @@ class ServiceReportService {
 			nextServiceSchedule = last.serviceEventScheduled.add(s.frequency)
 		}
 
-		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(kilometres)
+		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(odometerContainer.getOdometer(s.vehicle))
 		String s1 = 'Next service is due in:'
 		String s2 = nf.format(nextServiceRemaining)
-		String s3 = (s.vehicle == Vehicle.Car) ? 'car ' : 'caravan '
-		String s4 = nf.format(nextServiceSchedule)
-		pw.println "\t$s1 $s2 $s3 Kms. At $s4."
+		String s3 = nf.format(nextServiceSchedule)
+		String s4= "${s.vehicle.getReportName()}" 
+		pw.println "\t$s1 $s2. At $s3 $s4 Kms."
 		pw.println ''
 	}
 
-	def reportConsumable(ServiceDTO s, BigDecimal kilometres, PrintWriter pw) {
+	def reportConsumable(ServiceDTO s, OdometerContainer odometerContainer, PrintWriter pw) {
 		pw.println s.name
 		
 		ServiceEventDTO prev = null
@@ -125,7 +115,7 @@ class ServiceReportService {
 				pw.println "\t\tDuration: $dateDuration; ${nf.format(odometerDuration)} Kms."
 			}
 			String s1 = se.serviceEventDate.format(dtf)
-			String s2 = (s.vehicle == Vehicle.Car) ? 'Car odometer:' : 'Caravan odometer:'
+			String s2 = "${s.vehicle.getReportName()} Odometer:"
 			String s3 = nf.format(se.serviceEventOdometer).padRight(7, ' ')
 			String s4 = se.serviceEventLocation
 			pw.println "\t$s1 $s2 $s3 at $s4"
@@ -133,7 +123,7 @@ class ServiceReportService {
 		}
 		
 		ServiceEventDTO last = s.serviceEventDTOList[-1]
-		BigDecimal travelDistance = kilometres.subtract(last.serviceEventOdometer)
+		BigDecimal travelDistance = odometerContainer.getOdometer(s.vehicle).subtract(last.serviceEventOdometer)
 		pw.println "\tDistance travelled: ${nf.format(travelDistance)} Kms."
 		pw.println ''
 	}

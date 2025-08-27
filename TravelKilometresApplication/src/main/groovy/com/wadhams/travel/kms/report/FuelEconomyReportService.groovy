@@ -47,13 +47,13 @@ class FuelEconomyReportService {
 		feList.each {fe ->
 			String s1 = fe.fuelEnd.fuelDate.format(dtf)
 			String s2 = nf2.format(fe.fuelEnd.litres).padRight(6, ' ')
-			String s3 = nf.format(fe.caravanKilometres).padLeft(3, ' ')
+			String s3 = nf.format(fe.trailerKilometres).padLeft(3, ' ')
 			String s4 = nf.format(fe.vehicleKilometres).padLeft(4, ' ')
 			String s5 = nf.format(fe.totalKilometres).padLeft(4, ' ')
 			String s6 = nf2.format(fe.fuelEconomy)
 
 			
-			pw.println "$s1 $s2 litres, Caravan: ${s3}kms, Vehicle: ${s4}kms, Total: ${s5}kms = $s6 litres/100km"
+			pw.println "$s1 $s2 litres, Trailer: ${s3}kms, Vehicle: ${s4}kms, Total: ${s5}kms = $s6 litres/100km"
 		}
 	}
 }

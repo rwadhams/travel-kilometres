@@ -2,10 +2,10 @@
 <sc>
 <!-- SERVICES --> 
 <!-- Transmission -->
-  <service>
-    <name>Transmission Service</name>
-    <frequency>50000</frequency>
-    <vehicle>CAR</vehicle>
+  <nonScheduledService>
+    <name>Toyota LandCruiser Transmission Service</name>
+    <frequency>60000</frequency>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>06/05/2021</dt>
       <location>Deans Automatic Transmissions, Brisbane</location>
@@ -20,13 +20,13 @@
       <serviceName>2nd Service</serviceName>
       <odometer>183371</odometer>
     </event>
-  </service>
+  </nonScheduledService>
   
-  <!-- Caravan Tyre Rotation -->
-  <service>
-    <name>Caravan Tyre Rotation</name>
-    <frequency>7500</frequency>
-    <vehicle>CARAVAN</vehicle>
+  <!-- Salute Caravan Tyre Rotation -->
+  <nonScheduledService>
+    <name>Salute Caravan Tyre Rotation</name>
+    <frequency>10000</frequency>
+    <vehicle>SALUTE_CARAVAN</vehicle>
     <event>
       <dt>17/08/2022</dt>
       <location>Integrated OE, Melbourne</location>
@@ -34,13 +34,27 @@
       <serviceName>Tyre Installation</serviceName>
       <odometer>33240</odometer>
     </event>
-  </service>
+    <event>
+      <dt>04/04/2024</dt>
+      <location>Yarroweyah</location>
+      <cost>0.00</cost>
+      <serviceName>1st Rotation</serviceName>
+      <odometer>43345</odometer>
+    </event>
+    <event>
+      <dt>12/10/2024</dt>
+      <location>Bunbury</location>
+      <cost>0.00</cost>
+      <serviceName>2nd Rotation</serviceName>
+      <odometer>55284</odometer>
+    </event>
+  </nonScheduledService>
   
-  <!-- Caravan Service -->
-  <service>
-    <name>Caravan Service</name>
+  <!-- Salute Caravan Service -->
+  <nonScheduledService>
+    <name>Salute Caravan Service</name>
     <frequency>10000</frequency>
-    <vehicle>CARAVAN</vehicle>
+    <vehicle>SALUTE_CARAVAN</vehicle>
     <event>
       <dt>13/04/2021</dt>
       <location>ARV Chassis, Melbourne</location>
@@ -69,18 +83,39 @@
       <serviceName>4th Service</serviceName>
       <odometer>39955</odometer>
     </event>
-  </service>
+    <event>
+      <dt>06/12/2024</dt>
+      <location>Bannockburn Caravan &amp; Trailer Service, Geelong</location>
+      <cost>484.88</cost>
+      <serviceName>5th Service</serviceName>
+      <odometer>59945</odometer>
+    </event>
+  </nonScheduledService>
   
-  <!-- Car Service -->
-  <service>
-    <name>Car Service</name>
+  <!-- Kimberley Kamper Service -->
+  <nonScheduledService>
+    <name>Kimberley Kamper Service</name>
     <frequency>10000</frequency>
-    <vehicle>CAR</vehicle>
-    <serviceTiming>SCHEDULED</serviceTiming>
+    <vehicle>KIMBERLEY_KAMPER</vehicle>
+    <event>
+      <dt>07/04/2025</dt>
+      <location>Bannockburn Caravan &amp; Trailer Service, Geelong</location>
+      <cost>331.41</cost>
+      <serviceName>1st Service</serviceName>
+      <odometer>20</odometer>
+    </event>
+  </nonScheduledService>
+  
+  <!-- Toyota LandCruiser Car Service -->
+  <scheduledService>
+    <name>Toyota LandCruiser Car Service</name>
+    <frequency>10000</frequency>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>25/11/2019</dt>
       <location>OldMac Toyota, Brisbane</location>
       <cost>465.05</cost>
+      <serviceName>90000 Kms</serviceName>
       <scheduled>90000</scheduled>
       <odometer>89027</odometer>
     </event>
@@ -88,6 +123,7 @@
       <dt>08/05/2020</dt>
       <location>OldMac Toyota, Brisbane</location>
       <cost>479.60</cost>
+      <serviceName>100000 Kms</serviceName>
       <scheduled>100000</scheduled>
       <odometer>100134</odometer>
     </event>
@@ -95,6 +131,7 @@
       <dt>06/10/2020</dt>
       <location>OldMac Toyota, Brisbane</location>
       <cost>266.10</cost>
+      <serviceName>110000 Kms</serviceName>
       <scheduled>110000</scheduled>
       <odometer>109827</odometer>
     </event>
@@ -102,6 +139,7 @@
       <dt>18/03/2021</dt>
       <location>Launceston Toyota</location>
       <cost>887.33</cost>
+      <serviceName>120000 Kms</serviceName>
       <scheduled>120000</scheduled>
       <odometer>122397</odometer>
     </event>
@@ -109,6 +147,7 @@
       <dt>22/07/2021</dt>
       <location>Charters Towers Toyota</location>
       <cost>366.44</cost>
+      <serviceName>130000 Kms</serviceName>
       <scheduled>130000</scheduled>
       <odometer>132159</odometer>
     </event>
@@ -116,6 +155,7 @@
       <dt>19/10/2021</dt>
       <location>Northpoint Toyota, Murray Bridge</location>
       <cost>411.00</cost>
+      <serviceName>140000 Kms</serviceName>
       <scheduled>140000</scheduled>
       <odometer>141133</odometer>
     </event>
@@ -123,6 +163,7 @@
       <dt>30/03/2022</dt>
       <location>OldMac Toyota, Brisbane</location>
       <cost>452.10</cost>
+      <serviceName>150000 Kms</serviceName>
       <scheduled>150000</scheduled>
       <odometer>151787</odometer>
     </event>
@@ -130,6 +171,7 @@
       <dt>18/08/2022</dt>
       <location>Coburg Toyota, Melbourne</location>
       <cost>883.00</cost>
+      <serviceName>160000 Kms</serviceName>
       <scheduled>160000</scheduled>
       <odometer>159895</odometer>
     </event>
@@ -137,6 +179,7 @@
       <dt>27/03/2023</dt>
       <location>Launceston Toyota</location>
       <cost>393.44</cost>
+      <serviceName>170000 Kms</serviceName>
       <scheduled>170000</scheduled>
       <odometer>171136</odometer>
     </event>
@@ -144,16 +187,57 @@
       <dt>10/11/2023</dt>
       <location>Launceston Toyota</location>
       <cost>702.44</cost>
+      <serviceName>180000 Kms</serviceName>
       <scheduled>180000</scheduled>
       <odometer>180793</odometer>
     </event>
-  </service>
+    <event>
+      <dt>29/04/2024</dt>
+      <location>Northpoint Toyota, Port Augusta</location>
+      <cost>321.22</cost>
+      <serviceName>190000 Kms</serviceName>
+      <scheduled>190000</scheduled>
+      <odometer>190683</odometer>
+    </event>
+    <event>
+      <dt>07/08/2024</dt>
+      <location>Pilbara Motor Group, Port Hedland</location>
+      <cost>1801.16</cost>
+      <serviceName>200000 Kms</serviceName>
+      <scheduled>200000</scheduled>
+      <odometer>200750</odometer>
+    </event>
+    <event>
+      <dt>12/11/2024</dt>
+      <location>Ceduna Toyota</location>
+      <cost>321.00</cost>
+      <serviceName>210000 Kms</serviceName>
+      <scheduled>210000</scheduled>
+      <odometer>210897</odometer>
+    </event>
+    <event>
+      <dt>15/04/2025</dt>
+      <location>Wodonga Toyota</location>
+      <cost>777.00</cost>
+      <serviceName>220000 Kms</serviceName>
+      <scheduled>220000</scheduled>
+      <odometer>220568</odometer>
+    </event>
+    <event>
+      <dt>14/07/2025</dt>
+      <location>Mount Isa Toyota</location>
+      <cost>335.00</cost>
+      <serviceName>230000 Kms</serviceName>
+      <scheduled>230000</scheduled>
+      <odometer>229863</odometer>
+    </event>
+  </scheduledService>
 
 <!-- CONSUMABLES -->
-<!-- Car Tyres -->
+<!-- Toyota LandCruiser Car Tyres -->
   <consumable>  
-    <name>Car Tyres</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser Car Tyres</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>19/03/2016</dt>
       <location>Brisbane</location>
@@ -166,10 +250,10 @@
     </event>
   </consumable>
   
-  <!-- Caravan Tyres -->
+  <!-- Salute Caravan Tyres -->
   <consumable>
-    <name>Caravan Tyres</name>
-    <vehicle>CARAVAN</vehicle>
+    <name>Salute Caravan Tyres</name>
+    <vehicle>SALUTE_CARAVAN</vehicle>
     <event>
       <dt>28/03/2020</dt>
       <location>Melbourne</location>
@@ -182,10 +266,10 @@
     </event>
   </consumable>
   
-  <!-- Car Brakes -->
+  <!-- Toyota LandCruiser Car Brakes -->
   <consumable>
-    <name>Car Brakes</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser Car Brakes</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>29/09/2022</dt>
       <location>CMI Toyota, Christies Beach</location>
@@ -193,10 +277,10 @@
     </event>
   </consumable>
   
-  <!-- Fuel Filter -->
+  <!-- Toyota LandCruiser Fuel Filter -->
   <consumable>
-    <name>Fuel Filter</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser Fuel Filter</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>19/01/2021</dt>
       <location>Smithton, Tasmania</location>
@@ -212,12 +296,27 @@
       <location>Fingal, Tasmania</location>
       <odometer>170862</odometer>
     </event>
+    <event>
+      <dt>28/04/2024</dt>
+      <location>Port Augusta, SA</location>
+      <odometer>190674</odometer>
+    </event>
+    <event>
+      <dt>25/10/2024</dt>
+      <location>Hopetoun, WA</location>
+      <odometer>208481</odometer>
+    </event>
+    <event>
+      <dt>01/07/2025</dt>
+      <location>Cairns, QLD</location>
+      <odometer>227897</odometer>
+    </event>
   </consumable>
   
-  <!-- Battery One -->
+  <!-- Toyota LandCruiser Battery One -->
   <consumable>
-    <name>Battery 1</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser Battery 1</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>10/11/2017</dt>
       <location>Brisbane</location>
@@ -230,10 +329,10 @@
     </event>
   </consumable>
   
-  <!-- Battery Two -->
+  <!-- Toyota LandCruiser Battery Two -->
   <consumable>
-    <name>Battery 2</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser Battery 2</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>10/11/2017</dt>
       <location>Brisbane</location>
@@ -246,10 +345,26 @@
     </event>
   </consumable>
   
-  <!-- Engine Air Filter -->
+  <!-- Salute Caravan Battery -->
   <consumable>
-    <name>Engine Air Filter</name>
-    <vehicle>CAR</vehicle>
+    <name>Salute Caravan Battery</name>
+    <vehicle>SALUTE_CARAVAN</vehicle>
+    <event>
+      <dt>28/03/2020</dt>
+      <location>Melbourne</location>
+      <odometer>0</odometer>
+    </event>
+    <event>
+      <dt>15/05/2024</dt>
+      <location>Port Augusta</location>
+      <odometer>45288</odometer>
+    </event>
+  </consumable>
+  
+  <!-- Toyota LandCruiser Engine Air Filter -->
+  <consumable>
+    <name>Toyota LandCruiser Engine Air Filter</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>25/11/2019</dt>
       <location>OldMac Toyota, Brisbane</location>
@@ -270,12 +385,17 @@
       <location>Launceston Toyota</location>
       <odometer>180793</odometer>
     </event>
+    <event>
+      <dt>15/04/2025</dt>
+      <location>Wodonga Toyota</location>
+      <odometer>220568</odometer>
+    </event>
   </consumable>
   
-  <!-- AC Cabin Filter -->
+  <!-- Toyota LandCruiser AC Cabin Filter -->
   <consumable>
-    <name>AC Cabin Filter</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser AC Cabin Filter</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>25/11/2019</dt>
       <location>OldMac Toyota, Brisbane</location>
@@ -296,12 +416,17 @@
       <location>Launceston Toyota</location>
       <odometer>180793</odometer>
     </event>
+    <event>
+      <dt>15/04/2025</dt>
+      <location>Wodonga Toyota</location>
+      <odometer>220568</odometer>
+    </event>
   </consumable>
   
-  <!-- Front &amp; Rear Diff Oil -->
+  <!-- Toyota LandCruiser Front &amp; Rear Diff Oil -->
   <consumable>
-    <name>Front &amp; Rear Diff Oil</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser Front &amp; Rear Diff Oil</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>18/03/2021</dt>
       <location>Launceston Toyota</location>
@@ -312,12 +437,17 @@
       <location>Coburg Toyota, Melbourne</location>
       <odometer>159895</odometer>
     </event>
+    <event>
+      <dt>07/08/2024</dt>
+      <location>Pilbara Motor Group, Port Hedland</location>
+      <odometer>200750</odometer>
+    </event>
   </consumable>
   
-  <!-- Brake Fluid -->
+  <!-- Toyota LandCruiser Brake Fluid -->
   <consumable>
-    <name>Brake Fluid</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser Brake Fluid</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>18/03/2021</dt>
       <location>Launceston Toyota</location>
@@ -328,12 +458,17 @@
       <location>Coburg Toyota, Melbourne</location>
       <odometer>159895</odometer>
     </event>
+    <event>
+      <dt>07/08/2024</dt>
+      <location>Pilbara Motor Group, Port Hedland</location>
+      <odometer>200750</odometer>
+    </event>
   </consumable>
   
-  <!-- Engine Coolant -->
+  <!-- Toyota LandCruiser Engine Coolant -->
   <consumable>
-    <name>Engine Coolant</name>
-    <vehicle>CAR</vehicle>
+    <name>Toyota LandCruiser Engine Coolant</name>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <event>
       <dt>18/08/2022</dt>
       <location>Coburg Toyota, Melbourne</location>

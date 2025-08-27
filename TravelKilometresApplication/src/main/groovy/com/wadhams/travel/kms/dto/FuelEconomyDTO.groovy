@@ -8,7 +8,7 @@ class FuelEconomyDTO {
 
 	List<TravelDTO> travelList = []
 	
-	BigDecimal caravanKilometres = new BigDecimal(0)
+	BigDecimal trailerKilometres = new BigDecimal(0)
 	BigDecimal vehicleKilometres = new BigDecimal(0)
 	BigDecimal totalKilometres = new BigDecimal(0)
 	
@@ -25,12 +25,12 @@ class FuelEconomyDTO {
 		
 		sb.append("Travel List:\n")
 		travelList.each {t ->
-			sb.append("\tTravel Date: ${t.travelDate.format(dtf)}\n")
+			sb.append("\tTravel Date: ${t.travelDate.format(dtf)} with ${t.trailer}\n")
 			sb.append("\tDeparture: ${t.departureOdometer} ${t.departureLocation}\n")
 			sb.append("\tArrival..: ${t.arrivalOdometer} ${t.arrivalLocation}\n")
 		}
 		
-		sb.append("caravanKilometres..: ${caravanKilometres}\n")
+		sb.append("trailerKilometres..: ${trailerKilometres}\n")
 		sb.append("vehicleKilometres..: ${vehicleKilometres}\n")
 		
 		return sb.toString()

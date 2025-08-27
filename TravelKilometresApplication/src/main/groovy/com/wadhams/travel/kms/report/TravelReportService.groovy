@@ -7,6 +7,8 @@ import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
 
 import com.wadhams.travel.kms.dto.TravelDTO
+import com.wadhams.travel.kms.dto.TravelReportingDTO
+import com.wadhams.travel.kms.type.Vehicle
 
 class TravelReportService {
 	def execute(List<TravelDTO> travelList) {
@@ -27,76 +29,102 @@ class TravelReportService {
 		//println "maxDepartureLocationSize...: $maxDepartureLocationSize"
 		int maxArrivalLocationSize = maxArrivalLocationSize(travelList)
 		//println "maxArrivalLocationSize.....: $maxArrivalLocationSize"
+		
+		List<TravelReportingDTO> travelReportingList = buildTravelReportingDTOList(travelList)
+//		travelReportingList.each {tr ->
+//			println tr
+//		}
 
-		report(travelList, startingDate, maxDepartureLocationSize, maxArrivalLocationSize, pw)
+		report(travelReportingList, startingDate, maxDepartureLocationSize, maxArrivalLocationSize, pw)
 	}
 	
-	def report(List<TravelDTO> travelList, LocalDate startingDate, int maxDepartureLocationSize, int maxArrivalLocationSize, PrintWriter pw) {
+	def report(List<TravelReportingDTO> travelReportingList, LocalDate startingDate, int maxDepartureLocationSize, int maxArrivalLocationSize, PrintWriter pw) {
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 		NumberFormat nf = NumberFormat.getNumberInstance()
 		nf.setMaximumFractionDigits(0)
 		NumberFormat pf = NumberFormat.getPercentInstance()
 		pf.setMaximumFractionDigits(2)
 
-		BigDecimal totalCaravanKms = new BigDecimal(0.0)
-		BigDecimal totalVehicleOnlyKms = new BigDecimal(0.0)
+		Map<Vehicle, BigDecimal> kmsVehicleMap = [:]
+		kmsVehicleMap[Vehicle.KimberleyKamper] = new BigDecimal(0.0)
+		kmsVehicleMap[Vehicle.SaluteCaravan] = new BigDecimal(0.0)
+		kmsVehicleMap[Vehicle.ToyotaLandCruiser] = new BigDecimal(0.0)
+		kmsVehicleMap[Vehicle.NoTrailer] = new BigDecimal(0.0)	//represents location to location travel without a trailer (e.g. Kingscote)
+		BigDecimal totalLocationToLocationKms = new BigDecimal(0.0)	//not used in reporting
+		BigDecimal totalKmsAroundLocation = new BigDecimal(0.0)		//not used in reporting
 		
-		TravelDTO previous = null
-
-		travelList.each {t ->
-			//vehicle kilometers when a previous TravelDTO exists
-			if (previous) {
-				BigDecimal vehicleOnlyKms = t.departureOdometer.subtract(previous.arrivalOdometer)
-				//carOnlyList reporting
-				if (previous.carOnlyList.size() > 0) {
-					List<String> carOnlyLocationList = previous.carOnlyList.collect {it.location}
-					pw.print "Car Only locations.: ${carOnlyLocationList[0]}"
-					if (carOnlyLocationList.size() > 1) {
-						carOnlyLocationList[1..-1].each {location ->
-							pw.print ", $location"
-						}
-					}
-					pw.println ''
-					pw.println "Car Only kilometers: ${nf.format(vehicleOnlyKms)}"
-					long duration = ChronoUnit.DAYS.between(previous.travelDate, t.travelDate)
-					pw.println "Duration...........: $duration days"
-					pw.println ''
-				}
-				else {
-					if (vehicleOnlyKms == 0) {
-						pw.println "Overnight in ${previous.arrivalLocation}"
-						pw.println ''
-					}
-					else {
-						pw.println "Vehicle kilometers around ${previous.arrivalLocation}: ${nf.format(vehicleOnlyKms)}"
-						pw.println ''
-						totalVehicleOnlyKms = totalVehicleOnlyKms.add(vehicleOnlyKms)
-					}
-				}
-			}
+		travelReportingList.each {tr ->
+			TravelDTO t = tr.travelDTO
 			
-			BigDecimal caravanKms = t.arrivalOdometer.subtract(t.departureOdometer)
+			BigDecimal vehicleKms = kmsVehicleMap[t.vehicle].add(tr.locationToLocationKms)
+			totalLocationToLocationKms = totalLocationToLocationKms.add(tr.locationToLocationKms)
+			if (tr.kmsAroundLocation != null) {
+				vehicleKms = vehicleKms.add(tr.kmsAroundLocation)
+				totalKmsAroundLocation = totalKmsAroundLocation.add(tr.kmsAroundLocation)
+			}
+			kmsVehicleMap[t.vehicle] = vehicleKms
+			kmsVehicleMap[t.trailer] = kmsVehicleMap[t.trailer].add(tr.locationToLocationKms)
+
 			String departureLocation = t.departureLocation.padRight(maxDepartureLocationSize+2, ' ')
 			String arrivalLocation = t.arrivalLocation.padRight(maxArrivalLocationSize+2, ' ')
-			pw.println "${t.travelDate.format(dtf)}  $departureLocation$arrivalLocation  ${nf.format(t.departureOdometer).padLeft(9, ' ')}   ${nf.format(t.arrivalOdometer).padLeft(9, ' ')}   ${nf.format(caravanKms).padLeft(7, ' ')}   ${t.arrivalCampsite}"
-			
-			totalCaravanKms = totalCaravanKms.add(caravanKms)
-			
-			previous = t
+			pw.println "${t.travelDate.format(dtf)}  ${t.vehicle.getReportName()} with ${t.trailer.getReportName()}"
+			pw.println "$departureLocation$arrivalLocation  ${nf.format(t.departureOdometer).padLeft(9, ' ')}   ${nf.format(t.arrivalOdometer).padLeft(9, ' ')}   ${nf.format(tr.locationToLocationKms).padLeft(7, ' ')}   ${t.arrivalCampsite}"
+			if (tr.kmsAroundLocation != null) {
+				if (tr.kmsAroundLocation == 0) {
+					pw.println "Overnight in ${t.arrivalLocation}"
+				}
+				else {
+					pw.println "${t.vehicle.getReportName()} kilometers around ${t.arrivalLocation}: ${nf.format(tr.kmsAroundLocation)}"
+				}
+			}
+			pw.println ''
 		}
+
+//		println "ToyotaLandCruiser\t\t${kmsVehicleMap[Vehicle.ToyotaLandCruiser]}"
+//		println "SaluteCaravan\t\t\t${kmsVehicleMap[Vehicle.SaluteCaravan]}"
+//		println "KimberleyKamper\t\t\t${kmsVehicleMap[Vehicle.KimberleyKamper]}"
+//		println "NoTrailer\t\t\t${kmsVehicleMap[Vehicle.NoTrailer]}"
+//		println ''
+//		println "totalLocationToLocationKms\t\t$totalLocationToLocationKms"
+//		println "totalKmsAroundLocation\t\t$totalKmsAroundLocation"
+//		println ''
 		
-		BigDecimal combinedKilometers = totalCaravanKms.add(totalVehicleOnlyKms)
-		BigDecimal caravanPercentage = totalCaravanKms.divide(combinedKilometers, MathContext.DECIMAL64)
-		BigDecimal vehicleOnlyPercentage = totalVehicleOnlyKms.divide(combinedKilometers, MathContext.DECIMAL64)
+		BigDecimal trailerKms = kmsVehicleMap[Vehicle.SaluteCaravan].add(kmsVehicleMap[Vehicle.KimberleyKamper])
+		BigDecimal toyotaLandCruiserOnlyKms = kmsVehicleMap[Vehicle.ToyotaLandCruiser].subtract(trailerKms)
+//		println "trailerKms\t\t\t$trailerKms"
+//		println "toyotaLandCruiserOnlyKms\t$toyotaLandCruiserOnlyKms"
+		
+		BigDecimal combinedKilometers = trailerKms.add(toyotaLandCruiserOnlyKms)
+		BigDecimal trailerPercentage = trailerKms.divide(combinedKilometers, MathContext.DECIMAL64)
+		BigDecimal toyotaLandCruiserOnlyPercentage = toyotaLandCruiserOnlyKms.divide(combinedKilometers, MathContext.DECIMAL64)
 		
 		pw.println ''
-		pw.println "Total caravan kilometers........: ${nf.format(totalCaravanKms).padLeft(8, ' ')} (${pf.format(caravanPercentage)})"
-		pw.println "Total vehicle-only kilometers...: ${nf.format(totalVehicleOnlyKms).padLeft(8, ' ')} (${pf.format(vehicleOnlyPercentage)})"
+		pw.println "Total trailer kilometers........: ${nf.format(trailerKms).padLeft(8, ' ')} (${pf.format(trailerPercentage)})"
+		pw.println "Total vehicle-only kilometers...: ${nf.format(toyotaLandCruiserOnlyKms).padLeft(8, ' ')} (${pf.format(toyotaLandCruiserOnlyPercentage)})"
 		
 		pw.println ''
 		pw.println "${nf.format(combinedKilometers)} Kms (combined caravan and vehicle) since: ${startingDate.format(dtf)}  (i.e. Caravan pickup in Melbourne)"
 	}
 
+	List<TravelReportingDTO> buildTravelReportingDTOList(List<TravelDTO> travelList) {
+		List<TravelReportingDTO> travelReportingList = []
+		
+		travelList.each {t ->
+			TravelReportingDTO tr = new TravelReportingDTO()
+			tr.travelDTO = t
+			tr.locationToLocationKms = new BigDecimal(t.arrivalOdometer).subtract(t.departureOdometer)
+			travelReportingList << tr
+		}
+		
+		TravelReportingDTO previous = travelReportingList[0]
+		travelReportingList[1..-1].each {tr ->
+			previous.kmsAroundLocation =  tr.travelDTO.departureOdometer.subtract(previous.travelDTO.arrivalOdometer)
+			previous = tr
+		}
+		
+		return travelReportingList
+	}
+	
 	int maxDepartureLocationSize(List<TravelDTO> travelList) {
 		int maxLocationSize = 0
 		travelList.each {t ->

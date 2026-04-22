@@ -1,6 +1,6 @@
 package com.wadhams.travel.kms.controller
 
-import com.wadhams.travel.kms.biz.OdometerContainer
+import com.wadhams.travel.kms.biz.OdometerMap
 import com.wadhams.travel.kms.dto.FuelDTO
 import com.wadhams.travel.kms.dto.FuelEconomyDTO
 import com.wadhams.travel.kms.dto.ServiceDTO
@@ -34,7 +34,7 @@ class TravelKilometresController {
 		List<TripDTO> tripList = tripXMLService.loadTripData(travelList)
 
 		OdometerService odometerService = new OdometerService()
-		OdometerContainer odometerContainer = odometerService.buildOdometers(travelList)
+		OdometerMap odometerMap = odometerService.buildOdometers(travelList)
 		
 		FuelEconomyService fuelEconomyService = new FuelEconomyService()
 		List<FuelEconomyDTO> feList = fuelEconomyService.buildFuelEconomyList(fuelList)
@@ -50,7 +50,7 @@ class TravelKilometresController {
 		travelReportService.execute(travelList)
 
 		ServiceReportService serviceReportService = new ServiceReportService()
-		serviceReportService.execute(serviceList, odometerContainer)
+		serviceReportService.execute(serviceList, odometerMap)
 
 		FuelEconomyReportService fuelEconomyReportService = new FuelEconomyReportService()
 		fuelEconomyReportService.reportByDate(feList)

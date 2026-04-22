@@ -2,7 +2,7 @@ package com.wadhams.travel.kms.biz
 
 import com.wadhams.travel.kms.type.Vehicle
 
-class OdometerContainer {
+class OdometerMap {
 	Map<Vehicle, BigDecimal> odometerVehicleMap = [:]
 	
 	def addOdometer(Vehicle vehicle, BigDecimal odometer) {

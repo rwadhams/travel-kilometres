@@ -5,7 +5,7 @@ import java.time.LocalDate
 import java.time.Period
 import java.time.format.DateTimeFormatter
 
-import com.wadhams.travel.kms.biz.OdometerContainer
+import com.wadhams.travel.kms.biz.OdometerMap
 import com.wadhams.travel.kms.dto.ServiceDTO
 import com.wadhams.travel.kms.dto.ServiceEventDTO
 import com.wadhams.travel.kms.type.Reporting
@@ -26,23 +26,23 @@ class ServiceReportService {
 
 	}
 	
-	def execute(List<ServiceDTO> serviceList, OdometerContainer odometerContainer) {
+	def execute(List<ServiceDTO> serviceList, OdometerMap odometerMap) {
 		File f = new File("out/service-report.txt")
 		
 		f.withPrintWriter {pw ->
 			pw.println 'SERVICE REPORT'
 			pw.println '-------------'
-			pw.println "Toyota LandCruiser Kms....: ${nf.format(odometerContainer.getOdometer(Vehicle.ToyotaLandCruiser))}"
-			pw.println "Salute Caravan Kms........: ${nf.format(odometerContainer.getOdometer(Vehicle.SaluteCaravan))}"
-			pw.println "Kimberley Kamper Kms......: ${nf.format(odometerContainer.getOdometer(Vehicle.KimberleyKamper))}"
+			pw.println "Toyota LandCruiser Kms....: ${nf.format(odometerMap.getOdometer(Vehicle.ToyotaLandCruiser))}"
+			pw.println "Salute Caravan Kms........: ${nf.format(odometerMap.getOdometer(Vehicle.SaluteCaravan))}"
+			pw.println "Kimberley Kamper Kms......: ${nf.format(odometerMap.getOdometer(Vehicle.KimberleyKamper))}"
 			pw.println ''
 			
 			serviceList.each {s ->
 				if (s.reporting == Reporting.Service) {
-					reportService(s, odometerContainer, pw)
+					reportService(s, odometerMap, pw)
 				}
 				else if (s.reporting == Reporting.Consumable) {
-					reportConsumable(s, odometerContainer, pw)
+					reportConsumable(s, odometerMap, pw)
 				}
 				else {
 					pw.println "Unknown reporting: $s"
@@ -51,7 +51,7 @@ class ServiceReportService {
 		}
 	}
 	
-	def reportService(ServiceDTO s, OdometerContainer odometerContainer, PrintWriter pw) {
+	def reportService(ServiceDTO s, OdometerMap odometerMap, PrintWriter pw) {
 		pw.println "${s.name} - Frequency: ${nf.format(s.frequency)}"
 		
 		ServiceEventDTO prev = null
@@ -91,7 +91,7 @@ class ServiceReportService {
 			nextServiceSchedule = last.serviceEventScheduled.add(s.frequency)
 		}
 
-		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(odometerContainer.getOdometer(s.vehicle))
+		BigDecimal nextServiceRemaining = nextServiceSchedule.subtract(odometerMap.getOdometer(s.vehicle))
 		String s1 = 'Next service is due in:'
 		String s2 = nf.format(nextServiceRemaining)
 		String s3 = nf.format(nextServiceSchedule)
@@ -100,7 +100,7 @@ class ServiceReportService {
 		pw.println ''
 	}
 
-	def reportConsumable(ServiceDTO s, OdometerContainer odometerContainer, PrintWriter pw) {
+	def reportConsumable(ServiceDTO s, OdometerMap odometerMap, PrintWriter pw) {
 		pw.println s.name
 		
 		ServiceEventDTO prev = null
@@ -123,7 +123,7 @@ class ServiceReportService {
 		}
 		
 		ServiceEventDTO last = s.serviceEventDTOList[-1]
-		BigDecimal travelDistance = odometerContainer.getOdometer(s.vehicle).subtract(last.serviceEventOdometer)
+		BigDecimal travelDistance = odometerMap.getOdometer(s.vehicle).subtract(last.serviceEventOdometer)
 		pw.println "\tDistance travelled: ${nf.format(travelDistance)} Kms."
 		pw.println ''
 	}

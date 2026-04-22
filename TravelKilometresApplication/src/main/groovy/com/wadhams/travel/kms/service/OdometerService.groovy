@@ -4,12 +4,12 @@ import static com.wadhams.travel.kms.type.Vehicle.KimberleyKamper
 import static com.wadhams.travel.kms.type.Vehicle.SaluteCaravan
 import static com.wadhams.travel.kms.type.Vehicle.ToyotaLandCruiser
 
-import com.wadhams.travel.kms.biz.OdometerContainer
+import com.wadhams.travel.kms.biz.OdometerMap
 import com.wadhams.travel.kms.dto.TravelDTO
 
 class OdometerService {
-	OdometerContainer buildOdometers(List<TravelDTO> travelList) {
-		OdometerContainer odometerContainer = new OdometerContainer()
+	OdometerMap buildOdometers(List<TravelDTO> travelList) {
+		OdometerMap odometerMap = new OdometerMap()
 		
 		BigDecimal odometerReading
 		
@@ -20,7 +20,7 @@ class OdometerService {
 				odometerReading = t.arrivalOdometer
 			}
 		}
-		odometerContainer.addOdometer(ToyotaLandCruiser, odometerReading)
+		odometerMap.addOdometer(ToyotaLandCruiser, odometerReading)
 		
 		//SaluteCaravan
 		odometerReading = new BigDecimal(0.0)
@@ -30,7 +30,7 @@ class OdometerService {
 				odometerReading = odometerReading.add(trailerKms)
 			}
 		}
-		odometerContainer.addOdometer(SaluteCaravan, odometerReading)
+		odometerMap.addOdometer(SaluteCaravan, odometerReading)
 
 		//KimberleyKamper
 		odometerReading = new BigDecimal(0.0)
@@ -40,8 +40,8 @@ class OdometerService {
 				odometerReading = odometerReading.add(trailerKms)
 			}
 		}
-		odometerContainer.addOdometer(KimberleyKamper, odometerReading)
+		odometerMap.addOdometer(KimberleyKamper, odometerReading)
 		
-		return odometerContainer
+		return odometerMap
 	}
 }

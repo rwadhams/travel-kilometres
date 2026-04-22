@@ -8,6 +8,6 @@ import groovy.transform.ToString
 class TravelReportingDTO {
 	TravelDTO travelDTO
 	
-	BigDecimal locationToLocationKms
-	BigDecimal kmsAroundLocation
+	BigDecimal locationToLocationKms = BigDecimal.ZERO
+	BigDecimal kmsAroundLocation = BigDecimal.ZERO
 }

@@ -5000,7 +5000,7 @@
     <departureOdometer>213191</departureOdometer>
     <arrivalLocation>Geelong</arrivalLocation>
     <arrivalOdometer>213217</arrivalOdometer>
-    <arrivalCampsite>Eldorado Caravan Park</arrivalCampsite>
+    <arrivalCampsite>Eldorado Tourist Park</arrivalCampsite>
   </data>
   <data>
     <dt>08/12/2024</dt>
@@ -5278,7 +5278,7 @@
     <departureOdometer>219544</departureOdometer>
     <arrivalLocation>Batesford</arrivalLocation>
     <arrivalOdometer>219580</arrivalOdometer>
-    <arrivalCampsite>Eldorado Caravan Park</arrivalCampsite>
+    <arrivalCampsite>Eldorado Tourist Park</arrivalCampsite>
   </data>
   <data>
     <dt>08/04/2025</dt>
@@ -5810,7 +5810,7 @@
     <arrivalCampsite>Wavell Heights Housesit</arrivalCampsite>
   </data>
   <data>
-    <dt>20/08/2025</dt>
+    <dt>26/08/2025</dt>
     <vehicle>TOYOTA_LANDCRUISER</vehicle>
     <trailer>KIMBERLEY_KAMPER</trailer>
     <departureLocation>Holland Park</departureLocation>
@@ -5818,6 +5818,83 @@
     <arrivalLocation>Thornlands</arrivalLocation>
     <arrivalOdometer>234094</arrivalOdometer>
     <arrivalCampsite>Thornlands Camper Storage</arrivalCampsite>
+  </data>
+  <data>
+    <dt>09/02/2026</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Thornlands</departureLocation>
+    <departureOdometer>234094</departureOdometer>
+    <arrivalLocation>Holland Park</arrivalLocation>
+    <arrivalOdometer>234116</arrivalOdometer>
+    <arrivalCampsite>Jo &amp; Peter's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>11/02/2026</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Holland Park</departureLocation>
+    <departureOdometer>234500</departureOdometer>
+    <arrivalLocation>Holland Park</arrivalLocation>
+    <arrivalOdometer>234745</arrivalOdometer>
+    <arrivalCampsite>Jo &amp; Peter's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>19/02/2026</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Holland Park</departureLocation>
+    <departureOdometer>234985</departureOdometer>
+    <arrivalLocation>Alstonville</arrivalLocation>
+    <arrivalOdometer>235168</arrivalOdometer>
+    <arrivalCampsite>Alstonville showgrounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>24/02/2026</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Alstonville</departureLocation>
+    <departureOdometer>235258</departureOdometer>
+    <arrivalLocation>Laurieton</arrivalLocation>
+    <arrivalOdometer>235634</arrivalOdometer>
+    <arrivalCampsite>Peter &amp; Elizabeth's House</arrivalCampsite>
+  </data>
+  <data>
+    <dt>26/02/2026</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Laurieton</departureLocation>
+    <departureOdometer>235634</departureOdometer>
+    <arrivalLocation>Jugiong</arrivalLocation>
+    <arrivalOdometer>236309</arrivalOdometer>
+    <arrivalCampsite>Jugiong Recreation Grounds</arrivalCampsite>
+  </data>
+  <data>
+    <dt>27/02/2026</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <trailer>KIMBERLEY_KAMPER</trailer>
+    <departureLocation>Jugiong</departureLocation>
+    <departureOdometer>236309</departureOdometer>
+    <arrivalLocation>Geelong</arrivalLocation>
+    <arrivalOdometer>236903</arrivalOdometer>
+    <arrivalCampsite>Eldorado Tourist Park</arrivalCampsite>
+  </data>
+  <data>
+    <dt>02/03/2026</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Geelong</departureLocation>
+    <departureOdometer>236950</departureOdometer>
+    <arrivalLocation>Fingal</arrivalLocation>
+    <arrivalOdometer>237145</arrivalOdometer>
+    <arrivalCampsite>Fingal block</arrivalCampsite>
+  </data>
+  <data>
+    <dt>16/04/2026</dt>
+    <vehicle>TOYOTA_LANDCRUISER</vehicle>
+    <departureLocation>Fingal</departureLocation>
+    <departureOdometer>239602</departureOdometer>
+    <arrivalLocation>Howrah</arrivalLocation>
+    <arrivalOdometer>239800</arrivalOdometer>
+    <arrivalCampsite>Howrah Housesit</arrivalCampsite>
   </data>
   <!--
   comments

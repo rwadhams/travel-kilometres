@@ -1412,7 +1412,13 @@
     <litres>61.00</litres>
   </data>
   <data>
-    <dt>24/07/2025</dt>
+    <dt>24/07/2025</dt>  <data>
+    <dt>29/08/2025</dt>
+    <odometer>234230</odometer>
+    <dollarsPerLitre>1.799</dollarsPerLitre>
+    <litres>106.28</litres>
+  </data>
+
     <odometer>230726</odometer>
     <dollarsPerLitre>2.520</dollarsPerLitre>
     <litres>82.30</litres>
@@ -1440,5 +1446,47 @@
     <odometer>233438</odometer>
     <dollarsPerLitre>1.759</dollarsPerLitre>
     <litres>126.40</litres>
+  </data>
+  <data>
+    <dt>29/08/2025</dt>
+    <odometer>234230</odometer>
+    <dollarsPerLitre>1.799</dollarsPerLitre>
+    <litres>106.28</litres>
+  </data>
+  <data>
+    <dt>19/02/2026</dt>
+    <odometer>234975</odometer>
+    <dollarsPerLitre>1.735</dollarsPerLitre>
+    <litres>111.15</litres>
+  </data>
+  <data>
+    <dt>26/02/2026</dt>
+    <odometer>235640</odometer>
+    <dollarsPerLitre>1.719</dollarsPerLitre>
+    <litres>95.73</litres>
+  </data>
+  <data>
+    <dt>27/02/2026</dt>
+    <odometer>236311</odometer>
+    <dollarsPerLitre>1.685</dollarsPerLitre>
+    <litres>101.37</litres>
+  </data>
+  <data>
+    <dt>01/03/2026</dt>
+    <odometer>236952</odometer>
+    <dollarsPerLitre>1.687</dollarsPerLitre>
+    <litres>94.85</litres>
+  </data>
+  <data>
+    <dt>05/04/2026</dt>
+    <odometer>238565</odometer>
+    <dollarsPerLitre>2.999</dollarsPerLitre>
+    <litres>215.99</litres>
+  </data>
+  <data>
+    <dt>12/04/2026</dt>
+    <odometer>239347</odometer>
+    <dollarsPerLitre>3.157</dollarsPerLitre>
+    <litres>107.62</litres>
   </data>
 </fuel>
